@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Universal Viewer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/uv.css"
+    />
+    <script
+      type="application/javascript"
+      src="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/umd/UV.js"
+    ></script>
+    <style>
+      #uv {
+        width: 924px;
+        height: 668px;
+      }
+    </style>
+  </head>
+  <body>
+	<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access?hl=fr">
+		Doc File API
+	</a>
+	-->
+    <div class="uv" id="uv"></div>
+
+	<button id="butOpenFile">Click me</button>
+
+	<textarea rows="10" cols="60" id="texte">Val</textarea>
+	
+    <script>
+		if ('showOpenFilePicker' in self) {
+		  // The `showOpenFilePicker()` method of the File System Access API is supported.
+		}
+		
+		let fileHandle;
+		
+		butOpenFile = document.getElementById("butOpenFile")
+		textarea = document.getElementById("texte")
+
+				butOpenFile.addEventListener('click', async () => {
+		  [fileHandle] = await window.showOpenFilePicker();
+		  const file = await fileHandle.getFile();
+		  const contents = await file.text();
+
+		 textarea.value = contents;
+			  const data = {
+			    manifest: "http://localhost:8081/manifest.json",
+			    embedded: true // needed for codesandbox frame
+			  };
+		       uv = UV.init("uv", data);
+		});
+		
+   </script>
+	
+  </body>
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Les interfaces collaboratives | Documentation du projet CollabScore</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Documentation du projet CollabScore</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="https://collabscore.cnam.fr" target="_blank" rel="noopener">Site collaboratif</a></li>
+                
+                
+                
+                <li><a href="https://github.com/collabscore" target="_blank" rel="noopener">GitHub CollabScore</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Liens<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://neuma.huma-num.fr" target="_blank" rel="noopener">Neuma</a></li>
+                        
+                        
+                        
+                        <li><a href="https://idratherbewriting.com/documentation-theme-jekyll/" target="_blank" rel="noopener">Documentation Github</a></li>
+                        
+                        
+                        
+                        <li><a href="https://doc.callico.eu/" target="_blank" rel="noopener">Documentation Callico</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:philippe.rigaux@cnam.fr?subject=Documentation CollabScore feedback&body=I have some feedback about the Les interfaces collaboratives page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Contact</a>
+
+</li>
+
+
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Les interfaces collaboratives">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">CollabScore 0.1</li>
+  
+  
+  
+  <li>
+      <a title="Accueil" href="#">Accueil</a>
+      <ul>
+          
+          
+          
+          <li><a title="Introduction" href="index.html">Introduction</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Objectifs du projet CollabScore" href="collabscore.html">Objectifs du projet CollabScore</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="La bibliothèque numérique Neuma" href="neuma.html">La bibliothèque numérique Neuma</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Le système OMR DMOS" href="omr.html">Le système OMR DMOS</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a title="Callico, notre plate-forme collaborative" href="callico.html">Callico, notre plate-forme collaborative</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Administrateurs" href="#">Administrateurs</a>
+      <ul>
+          
+          
+          
+          <li><a title="Vue d'ensemble" href="admin.html">Vue d'ensemble</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Annotations" href="annotations.html">Annotations</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Projets" href="projects.html">Projets</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Users" href="users.html">Users</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Annotateurs" href="#">Annotateurs</a>
+      <ul>
+          
+          
+          
+          <li><a title="Présentation générale" href="annotateur.html">Présentation générale</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Phase 1, instrumentation" href="phase1.html">Phase 1, instrumentation</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Phase 2, contexte de lecture" href="phase2.html">Phase 2, contexte de lecture</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Phase 3, objets musicaux" href="phase3.html">Phase 3, objets musicaux</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <h1 id="callico-notre-plate-forme-collaborative">Callico, notre plate-forme collaborative</h1>
+
+<p>CollabScore a développé des interfaces qui soumettent 
+les résultats “bruts” du système d’OMR, contenant les 
+indications des zones à contrôler, à une communauté 
+d’utilisateurs pour les valider et les corriger très 
+rapidement. En effet, au lieu que l’utilisateur relise 
+l’ensemble de la partition produite pour y rechercher 
+des erreurs, ce qui est particulièrement<br />
+long et fastidieux, grâce aux interfaces de CollabScore 
+et aux erreurs signalées par l’OMR, 
+les utilisateurs se focalisent directement et uniquement 
+sur ces erreurs signalées.</p>
+
+<p>Les campagnes collaboratives sont organisées en 
+trois phases consacrées respectivement à 
+<em>l’instrumentation</em>, à la vérification des 
+<em>contextes de lecture</em> et enfin à la vérification
+des <em>objets musicaux</em>. Chaque phase permet de corriger
+des éléments dont la validité conditionne celle des éléments
+à vérifier dans la phase suivante. Par exemple, en phase 2,
+l’utilisateur doit vérifier les armures reconnues
+par le système OMR. Ce n’est que quand ces armures
+sont validées qu’il est possible de regarder les notes et 
+accords pour vérifier leurs altérations.</p>
+
+<h2 id="linstrumentation">L’instrumentation</h2>
+
+<p>Une partition est écrite pour une ou plusieurs parties 
+instrumentales ou vocales. La reconnaissance optique 
+a tenté de les déterminer mais cette phase 
+permet à l’utilisateur de vérifier
+l’affectation d’un instrument à chaque partie, son 
+intitulé (s’il existe) et son abréviation éventuelle.
+L’image ci-dessous montre l’interface proposée.</p>
+
+<figure><img class="docimage" src="images/collab-phase1.png" alt="Interface de la phase 1" /></figure>
+
+<h2 id="le-contexte-de-lecture">Le contexte de lecture</h2>
+
+<p>Les clefs, armures et métriques constituent le <em>contexte 
+de lecture et d’interprétation</em> des objets musicaux 
+(notes, silences et accords). Il sont initialisés 
+sur la première mesure, et peuvent changer en 
+cours de partition. L’interface surligne tous ces changements, 
+en jaune si l’OMR estime  que la reconnaissance est correcte, 
+en rouge sinon. L’utilisateur peut vérifier la
+reconnaissance grâce à l’interface ci-dessous, et corriger
+si nécessaire.</p>
+
+<figure><img class="docimage" src="images/collab-phase2.png" alt="Interface de la phase 2" /></figure>
+
+<h2 id="les-objets-musicaux">Les objets musicaux</h2>
+
+<p>En phase 3 nous considérons les objets musicaux suivants: 
+notes, silences et accords. Comme dans la phase 2, 
+les éléments en rouge sont considérés comme suspects et 
+doivent être édités et validés avec “OK”. Les autres éléments 
+peuvent être édités, 
+même s’ils ne sont pas surlignés. L’édition consiste 
+à apporter des corrections à la durée (notes et silences), 
+à la hauteur ou aux altérations (notes).</p>
+
+<figure><img class="docimage" src="images/collab-phase3.png" alt="Interface de la phase 3" /></figure>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Annotateurs | Documentation du projet CollabScore</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Documentation du projet CollabScore</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="https://collabscore.cnam.fr" target="_blank" rel="noopener">Site collaboratif</a></li>
+                
+                
+                
+                <li><a href="https://github.com/collabscore" target="_blank" rel="noopener">GitHub CollabScore</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Liens<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://neuma.huma-num.fr" target="_blank" rel="noopener">Neuma</a></li>
+                        
+                        
+                        
+                        <li><a href="https://idratherbewriting.com/documentation-theme-jekyll/" target="_blank" rel="noopener">Documentation Github</a></li>
+                        
+                        
+                        
+                        <li><a href="https://doc.callico.eu/" target="_blank" rel="noopener">Documentation Callico</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:philippe.rigaux@cnam.fr?subject=Documentation CollabScore feedback&body=I have some feedback about the Annotateurs page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Contact</a>
+
+</li>
+
+
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Annotateurs">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">CollabScore 0.1</li>
+  
+  
+  
+  <li>
+      <a title="Accueil" href="#">Accueil</a>
+      <ul>
+          
+          
+          
+          <li><a title="Introduction" href="index.html">Introduction</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Objectifs du projet CollabScore" href="collabscore.html">Objectifs du projet CollabScore</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="La bibliothèque numérique Neuma" href="neuma.html">La bibliothèque numérique Neuma</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Le système OMR DMOS" href="omr.html">Le système OMR DMOS</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Callico, notre plate-forme collaborative" href="callico.html">Callico, notre plate-forme collaborative</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Administrateurs" href="#">Administrateurs</a>
+      <ul>
+          
+          
+          
+          <li><a title="Vue d'ensemble" href="admin.html">Vue d'ensemble</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Annotations" href="annotations.html">Annotations</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Projets" href="projects.html">Projets</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Users" href="users.html">Users</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Annotateurs" href="#">Annotateurs</a>
+      <ul>
+          
+          
+          
+          <li class="active"><a title="Présentation générale" href="annotateur.html">Présentation générale</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Phase 1, instrumentation" href="phase1.html">Phase 1, instrumentation</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Phase 2, contexte de lecture" href="phase2.html">Phase 2, contexte de lecture</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Phase 3, objets musicaux" href="phase3.html">Phase 3, objets musicaux</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <h1 id="présentation-générale-des-tâches-dannotation">Présentation générale des tâches d’annotation</h1>
+
+<p>Chaque annotateur se voit attribuer des <em>tâches</em> 
+à effectuer via des interfaces qui ont
+en commun de présenter l’interprétation
+de l’OMR et de permettre aux utilisateur d’effectuer
+certaines corrections. Ces tâches s’effectuent
+dans le cadre de <em>campagnes</em> déclenchées par les
+administrateurs de CollabScore, et chaque campagne a lieu
+dans le contexte d’un projet qui rassemble l’ensemble des documents
+à annoter.</p>
+
+<h2 id="projets-campagnes-et-tâches">Projets, campagnes et tâches</h2>
+
+<p>Commençons par la notion de ¨<em>projet</em>. Un projet est un ensemble de
+documents à annoter. Les administrateurs peuvent par exemple placer
+dans un projet une partie des œuvres de Saint-Saëns (disons, les mélodies),
+dans un autre projet une autre partie (disons, les œuvres pour piano), dans
+un troisième des œuvres de Debussy ou de tout autre compositeur, etc.</p>
+
+<p>Un annotateur est inscrit dans un ou plusieurs projets et la
+liste des projets est la première page affichée après connexion,
+comme le montre l’exemple de la figure ci-dessous.</p>
+
+<figure><img class="docimage" src="images/liste-projets.png" alt="La page montrant les projets auxquels vous participez" /></figure>
+
+<p>Pour chaque projet, les administrateurs créent des <em>campagnes d’annotation</em> 
+qui rassemblent des tâches distribuées aux annotateurs. Les tâches
+au sein d’une même campagne sont homogènes, mais chaque campagne
+correspond à un certain type d’annotation, par exemple la correction
+des parties, des clés, ou des notes. Les types de campagnes 
+de CollabScore sont détaillées ci-dessous.</p>
+
+<p>En général, une campagne d’un certain type
+produira une tâche par œuvre, chaque tâche étant
+affectée à un seul annotateur.  Il existe cependant
+d’autres possibilités: un administrateur peut créer
+plusieuts tâches pour une même œuvre, de manière à 
+pouvoir synthétiser les corrections faites 
+par chaque annotateur. 
+La figure suivante 
+mmontre, pour un projet donné, les campagnes et le bouton
+d’accès à la liste des tâches.</p>
+
+<figure><img class="docimage" src="images/liste-campagnes.png" alt="La page montrant les campagnes" /></figure>
+
+<p>Enfin, la liste des tâches montre les documents à annoter. En cliquant sur
+le bouton “Annoter” d’une tâche on accède à l’interface spcéifique
+à la campagne en cours.</p>
+
+<figure><img class="docimage" src="images/liste-taches.png" alt="La page la liste de tâches" /></figure>
+
+<h2 id="les-campagnes-dannotation">Les campagnes d’annotation</h2>
+
+<p>Il existe essentiellement trois types de campagnes, correspondant
+à des tâches qui sont conçues pour se succéder
+dans un ordre strict. Chaque tâche s’effectue à une 
+certaine granularité (tout le document, ou seulement une
+page, etc.), et concerne une partie des éléments
+de la notation musicale.</p>
+
+<h2 id="la-campagne-dinstrumentation">La campagne d’instrumentation</h2>
+
+<p>La première est intitulée <strong>“Instrumentation”</strong>. Elle permet 
+de vérifier que les parties instrumentales ont bien été identifiées,
+et de s’assurer que chaque portée est bien affectée à la
+bonne partie. Il s’agit d’une condition préalable à la
+bonne interprétation du contenu musical. 
+<strong><a href="/phase1.html">Cette campagne est décrite en détail ici</a></strong>.</p>
+
+<h2 id="la-campagne-des-contextes-de-lecture">La campagne des contextes de lecture</h2>
+
+<p>La seconde campagne porte sur le <strong>contexte de lecture</strong>. le but
+est de vérifier la bonne reconnaissance des clés, armures et métriques.
+Toute erreur sur l’un de ces éléments a en effet un impact
+sur l’interprétation des symboles musicaux (notes, silences, etc.).
+ <strong><a href="/phase2.html">Cette campagne est décrite en détail ici</a></strong>.</p>
+
+<h2 id="la-campagne-des-objets-musicaux">La campagne des objets musicaux</h2>
+
+<p>Enfin, en supposant les parties bien identifiées et localisées sur les portées (phase 1), et 
+les éléments d’interprétation corrects (phase 2), 
+la campagne de phase 3, intitulée <strong>Objets musicaux</strong>
+propose  à l’utilisateur de corriger 
+les éléments locaux.</p>
+
+<ul>
+  <li>Durée, hauteur, altération des notes</li>
+  <li>Durée des silences</li>
+  <li>Eventuellement ajout ou suppression d’éléments</li>
+</ul>
+
+<p><strong><a href="/phase3.html">Cette campagne est décrite en détail ici</a></strong>.</p>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+

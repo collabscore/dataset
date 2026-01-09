@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+CMN">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <unpub>This MEI file was created by converter21's MEI writer. When
+                   published, this unpub element should be removed, and the
+                   enclosing pubStmt element should be properly filled out.</unpub>
+         </pubStmt>
+         <sourceDesc>
+            <source type="digital">
+               <bibl>
+                  <title />
+                  <composer>
+                     <persName />
+                  </composer>
+                  <availability>
+                     <useRestrict type="copyright" analog="humdrum:YEC">CollabScore project</useRestrict>
+                  </availability>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="3.5.0">
+               <name>converter21</name>
+            </application>
+            <application>
+               <name>music21 v.9.9.1</name>
+            </application>
+            <application>
+               <name>DMOS/Collabscore OMR</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <workList>
+         <work xml:id="work0_encoded" type="encoded">
+            <title type="uniform">
+               <titlePart type="main" analog="humdrum:OTL" />
+            </title>
+            <composer>
+               <persName analog="humdrum:COM" />
+            </composer>
+         </work>
+      </workList>
+   </meiHead>
+   <music decls="#work0_encoded">
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <staffGrp>
+                     <staffDef n="1" lines="5">
+                        <clef xml:id="clef_908_1156" shape="G" line="2" />
+                        <keySig xml:id="ks_963_1154" sig="1s" />
+                        <meterSig xml:id="ts_1000_1185" count="3" unit="4" />
+                     </staffDef>
+                     <staffGrp label="PIANO" bar.thru="true" symbol="brace">
+                        <staffDef n="2" lines="5">
+                           <clef xml:id="clef_909_1442" shape="G" line="2" />
+                           <keySig xml:id="ks_966_1440--ks_967_1653" sig="1s" />
+                           <meterSig xml:id="ts_1001_1471--ts_1002_1668" count="3" unit="4" />
+                        </staffDef>
+                        <staffDef n="3" lines="5">
+                           <clef xml:id="clef_911_1664" shape="F" line="4" />
+                           <keySig xml:id="ks_967_1653" sig="1s" />
+                           <meterSig xml:id="ts_1002_1668" count="3" unit="4" />
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <measure n="1">
+                     <staff n="1">
+                        <layer xml:id="1" n="1" label="1">
+                           <note xml:id="v1_nh_1062_1105" dots="1" dur="2" pname="g" oct="6" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>Dieu</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>God</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i">Mo</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="2" n="2" label="2">
+                           <note xml:id="v2_nh_1087_1228" dur="4" pname="g" oct="4" stem.dir="up" color="#a637b0">
+                              <verse n="1">
+                                 <syl>!</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>!</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>de</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v2_nh_1186_1228" dur="4" pname="g" oct="4" stem.dir="up" color="#a637b0">
+                              <verse n="1">
+                                 <syl>sois</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>save</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ra</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v2_nh_1281_1219" dur="4" pname="a" oct="4" stem.dir="up" color="#a637b0">
+                              <verse n="1">
+                                 <syl wordpos="i">pro</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>our</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>to</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m1-part1-0">
+                           <chord xml:id="chord_v1_nh_1088_1562" dur="4">
+                              <note xml:id="v1_nh_1088_1514" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1088_1562" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1189_1543" dur="4">
+                              <note xml:id="v1_nh_1188_1514" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1189_1543" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1283_1533" dur="4">
+                              <note xml:id="v1_nh_1283_1505" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1283_1533" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m1-part1-1">
+                           <chord xml:id="chord_v2_nh_1091_1791" dur="4">
+                              <note xml:id="v2_nh_1089_1727" pname="g" oct="2" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1091_1791" pname="g" oct="1" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1190_1773" dur="4">
+                              <note xml:id="v2_nh_1189_1709" pname="b" oct="2" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1190_1773" pname="b" oct="1" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1284_1765" dur="4">
+                              <note xml:id="v2_nh_1284_1700" pname="c" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1284_1765" pname="c" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="2">
+                     <staff n="1">
+                        <layer xml:id="m2-part2">
+                           <note xml:id="v1_nh_1428_1237" dots="1" dur="4" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s">
+                              <verse n="1">
+                                 <syl wordpos="i">pi</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">no</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1553_1229" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="m" />
+                              </verse>
+                              <verse n="2">
+                                 <syl>ble</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1620_1219" dur="4" pname="a" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>ce</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>Kingl</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m2-part1-0">
+                           <chord xml:id="chord_v1_nh_1428_1543" dots="1" dur="4">
+                              <note xml:id="v1_nh_1428_1523" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                              <note xml:id="v1_nh_1428_1543" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1553_1542" dur="8">
+                              <note xml:id="v1_nh_1555_1515" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1553_1542" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1620_1544" dur="4">
+                              <note xml:id="v1_nh_1619_1506" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1620_1544" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m2-part1-1">
+                           <chord xml:id="chord_v2_nh_1431_1756" dots="1" dur="4">
+                              <note xml:id="v2_nh_1429_1691" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1431_1756" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1557_1748" dur="8">
+                              <note xml:id="v2_nh_1554_1682" pname="e" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1557_1748" pname="e" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1621_1737" dur="4">
+                              <note xml:id="v2_nh_1621_1673" pname="f" oct="3" stem.dir="up" color="#a637b0" accid.ges="s" />
+                              <note xml:id="v2_nh_1621_1737" pname="f" oct="2" stem.dir="up" color="#a637b0" accid.ges="s" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="3">
+                     <staff n="1">
+                        <layer xml:id="m3-part2">
+                           <note xml:id="v1_nh_1765_1211" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>Dans</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>God!</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1862_1211" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>ta</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>save</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1958_1203" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">jus</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>our</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m3-part1-0">
+                           <chord xml:id="chord_v1_nh_1766_1543" dur="4">
+                              <note xml:id="v1_nh_1766_1496" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1766_1516" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1766_1543" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1864_1535" dur="4">
+                              <note xml:id="v1_nh_1864_1496" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1865_1516" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1864_1535" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1960_1534" dur="4">
+                              <note xml:id="v1_nh_1960_1488" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1959_1515" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1960_1534" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m3-part1-1">
+                           <chord xml:id="chord_v2_nh_1768_1727" dur="4">
+                              <note xml:id="v2_nh_1767_1665" pname="g" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1768_1727" pname="g" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1866_1747" dur="4">
+                              <note xml:id="v2_nh_1864_1681" pname="e" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1866_1747" pname="e" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1962_1766" dur="4">
+                              <note xml:id="v2_nh_1962_1700" pname="c" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1962_1766" pname="c" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="4">
+                     <staff n="1">
+                        <layer xml:id="m4-part2">
+                           <note xml:id="v1_nh_2096_1212" dots="1" dur="4" pname="b" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">ti</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">gra</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2220_1221" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="m" />
+                              </verse>
+                              <verse n="2">
+                                 <syl>cious</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2296_1230" dur="4" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>ce</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>King!</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m4-part1-0">
+                           <chord xml:id="chord_v1_nh_2099_1544" dots="1" dur="4">
+                              <note xml:id="v1_nh_2099_1497" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2099_1518" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2099_1544" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2224_1544" dur="8">
+                              <note xml:id="v1_nh_2224_1506" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2224_1524" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                              <note xml:id="v1_nh_2224_1544" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2300_1566" dur="4">
+                              <note xml:id="v1_nh_2299_1515" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2299_1534" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2300_1566" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m4-part1-1">
+                           <chord xml:id="chord_v2_nh_2102_1756" dots="1" dur="4">
+                              <note xml:id="v2_nh_2101_1692" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_2102_1756" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_2227_1758" dur="8">
+                              <note xml:id="v2_nh_2226_1692" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_2227_1758" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_2301_1748" dur="4">
+                              <note xml:id="v2_nh_2300_1683" pname="e" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_2301_1748" pname="e" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb />
+                  <measure n="5">
+                     <staff n="1">
+                        <layer xml:id="m5-part2">
+                           <note xml:id="v1_nh_814_1998" dur="4" pname="a" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>A</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>God!</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_929_2007" dur="4" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">no</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>save</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1044_2016" dur="4" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s">
+                              <verse n="1">
+                                 <syl>tre</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>the</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m5-part1-0">
+                           <chord xml:id="chord_v1_nh_815_2331" dur="4">
+                              <note xml:id="v1_nh_814_2284" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_814_2312" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_815_2331" pname="c" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_930_2345" dur="4">
+                              <note xml:id="v1_nh_931_2294" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_930_2322" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_930_2345" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1043_2352" dur="4">
+                              <note xml:id="v1_nh_1042_2304" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                              <note xml:id="v1_nh_1043_2323" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1043_2352" pname="a" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m5-part1-1">
+                           <chord xml:id="chord_v2_nh_817_2557" dur="4">
+                              <note xml:id="v2_nh_815_2491" pname="c" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_817_2557" pname="c" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_933_2548" dur="4">
+                              <note xml:id="v2_nh_932_2483" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_933_2548" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1046_2549" dur="4">
+                              <note xml:id="v2_nh_1045_2483" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1046_2549" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="6">
+                     <staff n="1">
+                        <layer xml:id="m6-part2">
+                           <note xml:id="v1_nh_1207_2007" dur="2" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>Roi!</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>King!</syl>
+                              </verse>
+                           </note>
+                           <rest xml:id="rest_1470_1970" dur="4" color="#13819E" />
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m6-part1-0">
+                           <chord xml:id="chord_v1_nh_1208_2347" dur="4">
+                              <note xml:id="v1_nh_1207_2295" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1207_2322" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1208_2347" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <beam xml:id="beam-rqasjzs">
+                              <note xml:id="v1_nh_1325_2295" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1396_2286" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1467_2278" dur="8" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1539_2268" dur="8" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m6-part1-1">
+                           <chord xml:id="chord_v2_nh_1210_2457" dur="4">
+                              <note xml:id="v2_nh_1211_2520" pname="g" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1210_2457" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <rest xml:id="rest_1329_2466" dur="4" color="#a637b0" />
+                           <rest xml:id="rest_1471_2466" dur="4" color="#a637b0" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="7">
+                     <staff n="1">
+                        <layer xml:id="m7-part2">
+                           <note xml:id="v1_nh_1664_1971" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>Grand</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>Send</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1780_1971" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>pour</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>him</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1890_1971" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">l'His</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">vic</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <chord xml:id="chord_v1_nh_1665_2278" dur="4">
+                              <note xml:id="v1_nh_1665_2259" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1665_2278" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1780_2277" dur="4">
+                              <note xml:id="v1_nh_1779_2258" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1780_2277" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1892_2258" dur="4">
+                              <note xml:id="v1_nh_1891_2277" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1892_2258" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_1665_2324" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_1780_2323" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_1892_2323" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m7-part1-1">
+                           <chord xml:id="chord_v2_nh_1669_2587" dur="4">
+                              <note xml:id="v2_nh_1668_2520" pname="g" oct="2" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1669_2587" pname="g" oct="1" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1783_2567" dur="4">
+                              <note xml:id="v2_nh_1781_2502" pname="b" oct="2" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1783_2567" pname="b" oct="1" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1895_2549" dur="4">
+                              <note xml:id="v2_nh_1894_2483" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1895_2549" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="8">
+                     <staff n="1">
+                        <layer xml:id="m8-part2">
+                           <note xml:id="v1_nh_2061_1971" dots="1" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">toi</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">to</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2214_1980" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="m" />
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">ri</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2288_1989" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>re,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>ous,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <chord xml:id="chord_v1_nh_2061_2278" dots="1" dur="4">
+                              <note xml:id="v1_nh_2061_2259" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2061_2278" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2217_2286" dur="8">
+                              <note xml:id="v1_nh_2216_2267" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2217_2286" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2290_2296" dur="4">
+                              <note xml:id="v1_nh_2289_2276" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2290_2296" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_2063_2323" dots="1" dur="2" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m8-part1-1">
+                           <chord xml:id="chord_v2_nh_2063_2456" dots="1" dur="2">
+                              <note xml:id="v2_nh_2065_2519" pname="g" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_2063_2456" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb />
+                  <measure n="9">
+                     <staff n="1">
+                        <layer xml:id="m9-part2">
+                           <note xml:id="v1_nh_817_2774" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>Qu'il</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">Hap</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_939_2774" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>vive</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>py</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1052_2775" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>en</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>and</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <chord xml:id="chord_v1_nh_819_3081" dur="4">
+                              <note xml:id="v1_nh_818_3063" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_819_3081" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_939_3081" dur="4">
+                              <note xml:id="v1_nh_939_3063" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_939_3081" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1053_3082" dur="4">
+                              <note xml:id="v1_nh_1052_3064" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1053_3082" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_818_3117" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_939_3119" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_1053_3118" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m9-part1-1">
+                           <chord xml:id="chord_v2_nh_819_3341" dur="4">
+                              <note xml:id="v2_nh_820_3276" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_819_3341" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_941_3258" dur="4">
+                              <note xml:id="v2_nh_943_3321" pname="f" oct="2" stem.dir="down" color="#a637b0" accid.ges="s" />
+                              <note xml:id="v2_nh_941_3258" pname="f" oct="3" stem.dir="down" color="#a637b0" accid.ges="s" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1054_3240" dur="4">
+                              <note xml:id="v2_nh_1056_3305" pname="a" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1054_3240" pname="a" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="10">
+                     <staff n="1">
+                        <layer xml:id="m10-part2">
+                           <note xml:id="v1_nh_1210_2775" dots="1" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">gloi</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">glo</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1371_2784" dur="8" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="m" />
+                              </verse>
+                              <verse n="2">
+                                 <syl>ri�</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1444_2793" dur="4" pname="a" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>re;</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>ous;</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <chord xml:id="chord_v1_nh_1216_3083" dots="1" dur="4">
+                              <note xml:id="v1_nh_1215_3063" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1216_3083" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1375_3093" dur="8">
+                              <note xml:id="v1_nh_1375_3073" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1375_3093" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1445_3101" dur="4">
+                              <note xml:id="v1_nh_1444_3082" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1445_3101" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_1215_3118" dots="1" dur="2" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m10-part1-1">
+                           <note xml:id="v2_nh_1215_3278" dots="1" dur="2" pname="d" oct="3" stem.dir="down" color="#a637b0" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="11">
+                     <staff n="1">
+                        <layer xml:id="1" n="1" label="1">
+                           <note xml:id="v1_nh_1607_2782" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">Don</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>Long—</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1721_2774" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">ne</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1791_2783" dur="8" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>lui</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>to</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1865_2793" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           <note xml:id="v1_nh_1939_2802" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                        </layer>
+                        <layer xml:id="2" n="2" label="2">
+                           <beam xml:id="beam-rqarwhk">
+                              <note xml:id="v2_nh_1865_2793" dur="8" pname="a" oct="4" stem.dir="down" color="#a637b0">
+                                 <verse n="1">
+                                    <syl>la</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl wordpos="i">rei</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="v2_nh_1939_2802" dur="8" pname="g" oct="4" stem.dir="down" color="#a637b0">
+                                 <verse n="1">
+                                    <syl wordpos="i">vic</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl>gn</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <note xml:id="v1_nh_1606_3073" dur="4" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           <beam xml:id="beam-rqasccu">
+                              <note xml:id="v1_nh_1723_3063" dur="8" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1795_3073" dur="8" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1865_3082" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1939_3091" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </beam>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_1606_3092" dur="4" pname="g" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_1723_3092" dur="4" pname="g" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_1865_3118" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m11-part1-1">
+                           <note xml:id="v2_nh_1608_3251" dur="4" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                           <beam xml:id="beam-rqasdau">
+                              <note xml:id="v2_nh_1724_3268" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1796_3277" dur="8" pname="d" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1867_3286" dur="8" pname="c" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1939_3295" dur="8" pname="b" oct="2" stem.dir="down" color="#a637b0" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="12">
+                     <staff n="1">
+                        <layer xml:id="m12-part2">
+                           <note xml:id="v1_nh_2063_2782" dots="1" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">toi</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">0-</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2220_2771" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="m" />
+                              </verse>
+                              <verse n="2">
+                                 <syl>ver</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2291_2763" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>re</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>us,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m12-part1-0">
+                           <chord xml:id="chord_v1_nh_2064_3117" dots="1" dur="4">
+                              <note xml:id="v1_nh_2064_3071" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2064_3091" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2064_3117" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2222_3090" dur="8">
+                              <note xml:id="v1_nh_2221_3062" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2222_3090" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2292_3090" dur="4">
+                              <note xml:id="v1_nh_2292_3053" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2292_3090" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m12-part1-1">
+                           <chord xml:id="chord_v2_nh_2064_3250" dots="1" dur="4">
+                              <note xml:id="v2_nh_2066_3312" pname="g" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_2064_3250" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_2222_3239" dur="8">
+                              <note xml:id="v2_nh_2223_3304" pname="a" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_2222_3239" pname="a" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_2294_3229" dur="4">
+                              <note xml:id="v2_nh_2296_3295" pname="b" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_2294_3229" pname="b" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <pb />
+                  <measure n="13">
+                     <staff n="1">
+                        <layer xml:id="m13-part2">
+                           <tuplet xml:id="tuplet-rqarqgm" num="3" numbase="2" bracket.visible="true" num.format="count" bracket.place="above" num.place="above">
+                              <beam xml:id="beam-rqaskvw">
+                                 <note xml:id="v1_nh_818_614" dur="8" pname="e" oct="5" stem.dir="down" color="#13819E">
+                                    <verse n="1">
+                                       <syl>Sau</syl>
+                                    </verse>
+                                    <verse n="2">
+                                       <syl>God!</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="v1_nh_873_623" dur="8" pname="d" oct="5" stem.dir="down" color="#13819E">
+                                    <verse n="1">
+                                       <syl wordpos="m" />
+                                    </verse>
+                                 </note>
+                                 <note xml:id="v1_nh_930_632" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E" />
+                              </beam>
+                           </tuplet>
+                           <note xml:id="v1_nh_988_641" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>ve</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>save</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1109_651" dur="4" pname="a" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>le</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>the</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m13-part1-0">
+                           <tuplet xml:id="tuplet-rqaseaq" num="3" numbase="2" bracket.visible="true" num.format="count" bracket.place="above" num.place="above">
+                              <beam xml:id="beam-rqasbeu">
+                                 <chord xml:id="chord_v1_nh_818_875" dur="8">
+                                    <note xml:id="v1_nh_818_894" pname="c" oct="5" stem.dir="down" color="#13819E" />
+                                    <note xml:id="v1_nh_818_875" pname="e" oct="5" stem.dir="down" color="#13819E" />
+                                 </chord>
+                                 <chord xml:id="chord_v1_nh_873_883" dur="8">
+                                    <note xml:id="v1_nh_873_902" pname="b" oct="4" stem.dir="down" color="#13819E" />
+                                    <note xml:id="v1_nh_873_883" pname="d" oct="5" stem.dir="down" color="#13819E" />
+                                 </chord>
+                                 <chord xml:id="chord_v1_nh_930_892" dur="8">
+                                    <note xml:id="v1_nh_930_912" pname="a" oct="4" stem.dir="down" color="#13819E" />
+                                    <note xml:id="v1_nh_930_892" pname="c" oct="5" stem.dir="down" color="#13819E" />
+                                 </chord>
+                              </beam>
+                           </tuplet>
+                           <chord xml:id="chord_v1_nh_989_921" dur="4">
+                              <note xml:id="v1_nh_989_901" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_989_921" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1107_947" dur="4">
+                              <note xml:id="v1_nh_1106_911" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1107_929" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                              <note xml:id="v1_nh_1107_947" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m13-part1-1">
+                           <chord xml:id="chord_v2_nh_819_1027" dur="4">
+                              <note xml:id="v2_nh_820_1092" pname="c" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_819_1027" pname="c" oct="4" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_990_1015" dur="4">
+                              <note xml:id="v2_nh_991_1081" pname="d" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_990_1015" pname="d" oct="4" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1108_1146" dur="4">
+                              <note xml:id="v2_nh_1107_1081" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1108_1146" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="14">
+                     <staff n="1">
+                        <layer xml:id="m14-part2">
+                           <note xml:id="v1_nh_1281_661" dur="2" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>Roi!</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>King!</syl>
+                              </verse>
+                           </note>
+                           <rest xml:id="rest_1478_627" dur="4" color="#13819E" />
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m14-part1-0">
+                           <chord xml:id="chord_v1_nh_1281_969" dur="2">
+                              <note xml:id="v1_nh_1281_920" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1280_948" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1281_969" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <rest xml:id="rest_1478_887" dur="4" color="#13819E" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m14-part1-1">
+                           <chord xml:id="chord_v2_nh_1281_1081" dur="2">
+                              <note xml:id="v2_nh_1282_1118" pname="g" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1280_1054" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1281_1081" pname="d" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <rest xml:id="rest_1481_1065" dur="4" color="#a637b0" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="15">
+                     <staff n="1">
+                        <layer xml:id="m15-part2">
+                           <note xml:id="v1_nh_1653_662" dur="4" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>Que</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>O</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1770_662" dur="4" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">l'ad</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>Lord</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1889_652" dur="4" pname="a" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">ver</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>our</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <chord xml:id="chord_v1_nh_1654_970" dur="4">
+                              <note xml:id="v1_nh_1654_923" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1654_970" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1771_951" dur="4">
+                              <note xml:id="v1_nh_1770_923" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1771_951" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1889_941" dur="4">
+                              <note xml:id="v1_nh_1889_913" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1889_941" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_1654_970" dur="4" pname="b" oct="3" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m15-part1-1">
+                           <chord xml:id="chord_v2_nh_1654_1184" dur="4">
+                              <note xml:id="v2_nh_1654_1120" pname="g" oct="2" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1654_1184" pname="g" oct="1" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1771_1167" dur="4">
+                              <note xml:id="v2_nh_1770_1103" pname="b" oct="2" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1771_1167" pname="b" oct="1" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1889_1159" dur="4">
+                              <note xml:id="v2_nh_1889_1093" pname="c" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1889_1159" pname="c" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="16">
+                     <staff n="1">
+                        <layer xml:id="m16-part2">
+                           <note xml:id="v1_nh_2053_669" dots="1" dur="4" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s">
+                              <verse n="1">
+                                 <syl wordpos="i">sai</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>God,</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2213_660" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="m" />
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">a</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2290_650" dur="4" pname="a" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>re</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>rise,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m16-part1-0">
+                           <chord xml:id="chord_v1_nh_2053_950" dots="1" dur="4">
+                              <note xml:id="v1_nh_2054_931" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                              <note xml:id="v1_nh_2053_950" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2213_948" dur="8">
+                              <note xml:id="v1_nh_2214_920" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2213_948" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2291_947" dur="4">
+                              <note xml:id="v1_nh_2290_911" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2291_947" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m16-part1-1">
+                           <chord xml:id="chord_v2_nh_2056_1150" dots="1" dur="4">
+                              <note xml:id="v2_nh_2054_1084" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_2056_1150" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_2215_1140" dur="8">
+                              <note xml:id="v2_nh_2216_1073" pname="e" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_2215_1140" pname="e" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_2293_1129" dur="4">
+                              <note xml:id="v2_nh_2292_1065" pname="f" oct="3" stem.dir="up" color="#a637b0" accid.ges="s" />
+                              <note xml:id="v2_nh_2293_1129" pname="f" oct="2" stem.dir="up" color="#a637b0" accid.ges="s" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb />
+                  <measure n="17">
+                     <staff n="1">
+                        <layer xml:id="m17-part2">
+                           <note xml:id="v1_nh_819_1367" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>Sous</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">Scat</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_938_1366" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>ta</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>ter</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1053_1356" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">co</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>his</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m17-part1-0">
+                           <chord xml:id="chord_v1_nh_823_1672" dur="4">
+                              <note xml:id="v1_nh_822_1625" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_821_1645" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_823_1672" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_939_1662" dur="4">
+                              <note xml:id="v1_nh_938_1624" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_938_1643" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_939_1662" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1055_1662" dur="4">
+                              <note xml:id="v1_nh_1056_1616" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1055_1642" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1055_1662" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m17-part1-1">
+                           <chord xml:id="chord_v2_nh_823_1844" dur="4">
+                              <note xml:id="v2_nh_823_1779" pname="g" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_823_1844" pname="g" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_941_1864" dur="4">
+                              <note xml:id="v2_nh_940_1798" pname="e" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_941_1864" pname="e" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1058_1881" dur="4">
+                              <note xml:id="v2_nh_1057_1816" pname="c" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1058_1881" pname="c" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="18">
+                     <staff n="1">
+                        <layer xml:id="m18-part2">
+                           <note xml:id="v1_nh_1214_1365" dots="1" dur="4" pname="b" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">lè</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">e</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1371_1375" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="m" />
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">ne</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1447_1383" dur="4" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>re</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>mies,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m18-part1-0">
+                           <chord xml:id="chord_v1_nh_1216_1671" dots="1" dur="4">
+                              <note xml:id="v1_nh_1215_1624" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1216_1643" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1216_1671" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1374_1632" dur="8">
+                              <note xml:id="v1_nh_1374_1672" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1374_1652" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                              <note xml:id="v1_nh_1374_1632" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1448_1692" dur="4">
+                              <note xml:id="v1_nh_1449_1643" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1449_1663" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1448_1692" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m18-part1-1">
+                           <chord xml:id="chord_v2_nh_1219_1872" dots="1" dur="4">
+                              <note xml:id="v2_nh_1218_1806" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1219_1872" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1375_1871" dur="8">
+                              <note xml:id="v2_nh_1375_1807" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1375_1871" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1450_1864" dur="4">
+                              <note xml:id="v2_nh_1450_1797" pname="e" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1450_1864" pname="e" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="19">
+                     <staff n="1">
+                        <layer xml:id="m19-part2">
+                           <note xml:id="v1_nh_1607_1374" dur="4" pname="a" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">Trem</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>And</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1724_1383" dur="4" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>ble</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>make</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1837_1392" dur="4" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s">
+                              <verse n="1">
+                                 <syl wordpos="i">d’ef</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>them</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m19-part1-0">
+                           <chord xml:id="chord_v1_nh_1610_1682" dur="4">
+                              <note xml:id="v1_nh_1610_1635" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1609_1662" pname="e" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1610_1682" pname="c" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1727_1694" dur="4">
+                              <note xml:id="v1_nh_1727_1643" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1727_1671" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1727_1694" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1838_1700" dur="4">
+                              <note xml:id="v1_nh_1840_1653" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                              <note xml:id="v1_nh_1839_1672" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1838_1700" pname="a" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m19-part1-1">
+                           <chord xml:id="chord_v2_nh_1611_1881" dur="4">
+                              <note xml:id="v2_nh_1612_1817" pname="c" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1611_1881" pname="c" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1729_1871" dur="4">
+                              <note xml:id="v2_nh_1727_1807" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1729_1871" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1841_1873" dur="4">
+                              <note xml:id="v2_nh_1840_1807" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1841_1873" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="20">
+                     <staff n="1">
+                        <layer xml:id="m20-part2">
+                           <note xml:id="v1_nh_2003_1384" dur="2" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>froi.</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>fall.</syl>
+                              </verse>
+                           </note>
+                           <rest xml:id="rest_2270_1351" dur="4" color="#13819E" />
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m20-part1-0">
+                           <chord xml:id="chord_v1_nh_2005_1696" dur="4">
+                              <note xml:id="v1_nh_2005_1643" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2004_1671" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2005_1696" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <beam xml:id="beam-rqaryqi">
+                              <note xml:id="v1_nh_2122_1644" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2194_1634" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2271_1625" dur="8" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2342_1616" dur="8" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m20-part1-1">
+                           <chord xml:id="chord_v2_nh_2005_1778" dur="4">
+                              <note xml:id="v2_nh_2006_1843" pname="g" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_2005_1778" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <rest xml:id="rest_2124_1789" dur="4" color="#a637b0" />
+                           <rest xml:id="rest_2274_1789" dur="4" color="#a637b0" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb />
+                  <measure n="21">
+                     <staff n="1">
+                        <layer xml:id="m21-part2">
+                           <note xml:id="v1_nh_826_2074" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">Mon</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">Con</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_944_2073" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>tre</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>found</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1065_2072" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>ta</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>their</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <chord xml:id="chord_v1_nh_826_2361" dur="4">
+                              <note xml:id="v1_nh_827_2342" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_826_2361" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_944_2361" dur="4">
+                              <note xml:id="v1_nh_944_2341" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_944_2361" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1065_2361" dur="4">
+                              <note xml:id="v1_nh_1064_2341" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1065_2361" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_827_2407" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_946_2405" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_1065_2405" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m21-part1-1">
+                           <chord xml:id="chord_v2_nh_828_2664" dur="4">
+                              <note xml:id="v2_nh_827_2598" pname="g" oct="2" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_828_2664" pname="g" oct="1" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_946_2643" dur="4">
+                              <note xml:id="v2_nh_946_2579" pname="b" oct="2" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_946_2643" pname="b" oct="1" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1066_2625" dur="4">
+                              <note xml:id="v2_nh_1066_2560" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1066_2625" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="22">
+                     <staff n="1">
+                        <layer xml:id="m22-part2">
+                           <note xml:id="v1_nh_1237_2072" dots="1" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">fa</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">po</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1404_2082" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="m" />
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">li</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1477_2090" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>ce!</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>tics,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <chord xml:id="chord_v1_nh_1239_2360" dots="1" dur="4">
+                              <note xml:id="v1_nh_1238_2340" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1239_2360" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1403_2369" dur="8">
+                              <note xml:id="v1_nh_1404_2351" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1403_2369" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1478_2378" dur="4">
+                              <note xml:id="v1_nh_1478_2358" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1478_2378" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_1239_2403" dots="1" dur="2" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m22-part1-1">
+                           <chord xml:id="chord_v2_nh_1239_2532" dots="1" dur="2">
+                              <note xml:id="v2_nh_1240_2595" pname="g" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1239_2532" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="23">
+                     <staff n="1">
+                        <layer xml:id="m23-part2">
+                           <note xml:id="v1_nh_1649_2081" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">Dé</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">Frus</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1768_2083" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>truis</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>trate</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1887_2083" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>leur</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>their</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <chord xml:id="chord_v1_nh_1650_2369" dur="4">
+                              <note xml:id="v1_nh_1650_2351" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1650_2369" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1767_2369" dur="4">
+                              <note xml:id="v1_nh_1767_2349" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1767_2369" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1886_2370" dur="4">
+                              <note xml:id="v1_nh_1886_2351" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1886_2370" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_1651_2406" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_1768_2405" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_1887_2406" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m23-part1-1">
+                           <chord xml:id="chord_v2_nh_1651_2624" dur="4">
+                              <note xml:id="v2_nh_1651_2559" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1651_2624" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1768_2606" dur="4">
+                              <note xml:id="v2_nh_1767_2541" pname="f" oct="3" stem.dir="up" color="#a637b0" accid.ges="s" />
+                              <note xml:id="v2_nh_1768_2606" pname="f" oct="2" stem.dir="up" color="#a637b0" accid.ges="s" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1886_2523" dur="4">
+                              <note xml:id="v2_nh_1887_2587" pname="a" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1886_2523" pname="a" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="24">
+                     <staff n="1">
+                        <layer xml:id="m24-part2">
+                           <note xml:id="v1_nh_2061_2082" dots="1" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">ra</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i">Kna</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2215_2090" dur="8" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>—</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>vish</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2301_2099" dur="4" pname="a" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>ce!</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>tricks,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <chord xml:id="chord_v1_nh_2061_2369" dots="1" dur="4">
+                              <note xml:id="v1_nh_2061_2351" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2061_2369" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2214_2380" dur="8">
+                              <note xml:id="v1_nh_2214_2360" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2214_2380" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2300_2389" dur="4">
+                              <note xml:id="v1_nh_2300_2370" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2300_2389" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_2061_2405" dots="1" dur="2" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m24-part1-1">
+                           <note xml:id="v2_nh_2061_2560" dots="1" dur="2" pname="d" oct="3" stem.dir="down" color="#a637b0" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb />
+                  <measure n="25">
+                     <staff n="1">
+                        <layer xml:id="1" n="1" label="1">
+                           <note xml:id="v1_nh_827_2850" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">Ef</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>On</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_946_2840" dur="8" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                           <note xml:id="v1_nh_1015_2848" dur="8" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           <note xml:id="v1_nh_1089_2857" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                           <note xml:id="v1_nh_1157_2866" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                        </layer>
+                        <layer xml:id="2" n="2" label="2">
+                           <beam xml:id="beam-rqarzmm">
+                              <note xml:id="v2_nh_946_2840" dur="8" pname="c" oct="5" stem.dir="down" color="#a637b0">
+                                 <verse n="1">
+                                    <syl wordpos="i">fa</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl>Thee</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="v2_nh_1015_2848" dur="8" pname="b" oct="4" stem.dir="down" color="#a637b0">
+                                 <verse n="1">
+                                    <syl wordpos="i">ces</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                           <beam xml:id="beam-rqascke">
+                              <note xml:id="v2_nh_1089_2857" dur="8" pname="a" oct="4" stem.dir="down" color="#a637b0">
+                                 <verse n="1">
+                                    <syl>en</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl>our</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="v2_nh_1157_2866" dur="8" pname="g" oct="4" stem.dir="down" color="#a637b0">
+                                 <verse n="1">
+                                    <syl>la</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="1" n="1" label="1">
+                           <note xml:id="v1_nh_828_3122" dur="4" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                           <beam xml:id="beam-rqarqtk">
+                              <note xml:id="v1_nh_946_3113" dur="8" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1018_3122" dur="8" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1088_3130" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1159_3140" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </beam>
+                        </layer>
+                        <layer xml:id="3" n="2" label="3">
+                           <note xml:id="v3_nh_829_3142" dur="4" pname="g" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_945_3141" dur="4" pname="g" oct="4" stem.dir="down" color="#5034D4" />
+                           <note xml:id="v3_nh_1088_3168" dur="4" pname="d" oct="4" stem.dir="down" color="#5034D4" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m25-part1-1">
+                           <note xml:id="v2_nh_829_3285" dur="4" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                           <beam xml:id="beam-rqarxzs">
+                              <note xml:id="v2_nh_947_3302" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1018_3310" dur="8" pname="d" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1089_3320" dur="8" pname="c" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1159_3328" dur="8" pname="b" oct="2" stem.dir="down" color="#a637b0" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="26">
+                     <staff n="1">
+                        <layer xml:id="m26-part2">
+                           <note xml:id="v1_nh_1283_2848" dots="1" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="i">tra</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>hopes</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1431_2839" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl wordpos="m" />
+                              </verse>
+                              <verse n="2">
+                                 <syl>we</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1504_2830" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>ce!</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>fix.</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m26-part1-0">
+                           <chord xml:id="chord_v1_nh_1281_3167" dots="1" dur="4">
+                              <note xml:id="v1_nh_1280_3121" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1281_3140" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1281_3167" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1432_3140" dur="8">
+                              <note xml:id="v1_nh_1433_3112" pname="c" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1432_3140" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1504_3140" dur="4">
+                              <note xml:id="v1_nh_1504_3104" pname="d" oct="5" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1504_3140" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m26-part1-1">
+                           <chord xml:id="chord_v2_nh_1282_3283" dots="1" dur="4">
+                              <note xml:id="v2_nh_1283_3347" pname="g" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1282_3283" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1431_3273" dur="8">
+                              <note xml:id="v2_nh_1432_3338" pname="a" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1431_3273" pname="a" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1504_3264" dur="4">
+                              <note xml:id="v2_nh_1505_3328" pname="b" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1504_3264" pname="b" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="27">
+                     <staff n="1">
+                        <layer xml:id="m27-part2">
+                           <tuplet xml:id="tuplet-rqarxdo" num="3" numbase="2" bracket.visible="true" num.format="count" bracket.place="above" num.place="above">
+                              <beam xml:id="beam-rqasgai">
+                                 <note xml:id="v1_nh_1660_2819" dur="8" pname="e" oct="5" stem.dir="down" color="#13819E">
+                                    <verse n="1">
+                                       <syl>Sau</syl>
+                                    </verse>
+                                    <verse n="2">
+                                       <syl>God</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="v1_nh_1713_2829" dur="8" pname="d" oct="5" stem.dir="down" color="#13819E">
+                                    <verse n="1">
+                                       <syl wordpos="m" />
+                                    </verse>
+                                    <verse n="2">
+                                       <syl>!</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="v1_nh_1766_2838" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E" />
+                              </beam>
+                           </tuplet>
+                           <note xml:id="v1_nh_1821_2848" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>ve</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>save</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1935_2857" dur="4" pname="a" oct="4" stem.dir="down" color="#13819E">
+                              <verse n="1">
+                                 <syl>le</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>the</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m27-part1-0">
+                           <tuplet xml:id="tuplet-rqarogu" num="3" numbase="2" bracket.visible="true" num.format="count" bracket.place="above" num.place="above">
+                              <beam xml:id="beam-rqartnk">
+                                 <chord xml:id="chord_v1_nh_1660_3095" dur="8">
+                                    <note xml:id="v1_nh_1662_3114" pname="c" oct="5" stem.dir="down" color="#13819E" />
+                                    <note xml:id="v1_nh_1660_3095" pname="e" oct="5" stem.dir="down" color="#13819E" />
+                                 </chord>
+                                 <chord xml:id="chord_v1_nh_1714_3103" dur="8">
+                                    <note xml:id="v1_nh_1714_3123" pname="b" oct="4" stem.dir="down" color="#13819E" />
+                                    <note xml:id="v1_nh_1714_3103" pname="d" oct="5" stem.dir="down" color="#13819E" />
+                                 </chord>
+                                 <chord xml:id="chord_v1_nh_1767_3113" dur="8">
+                                    <note xml:id="v1_nh_1767_3132" pname="a" oct="4" stem.dir="down" color="#13819E" />
+                                    <note xml:id="v1_nh_1767_3113" pname="c" oct="5" stem.dir="down" color="#13819E" />
+                                 </chord>
+                              </beam>
+                           </tuplet>
+                           <chord xml:id="chord_v1_nh_1824_3141" dur="4">
+                              <note xml:id="v1_nh_1823_3122" pname="b" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1824_3141" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <chord xml:id="chord_v1_nh_1934_3168" dur="4">
+                              <note xml:id="v1_nh_1935_3130" pname="a" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_1934_3149" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s" />
+                              <note xml:id="v1_nh_1934_3168" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m27-part1-1">
+                           <chord xml:id="chord_v2_nh_1660_3254" dur="4">
+                              <note xml:id="v2_nh_1661_3320" pname="c" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1660_3254" pname="c" oct="4" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1822_3246" dur="4">
+                              <note xml:id="v2_nh_1823_3311" pname="d" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_1822_3246" pname="d" oct="4" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <chord xml:id="chord_v2_nh_1936_3377" dur="4">
+                              <note xml:id="v2_nh_1935_3312" pname="d" oct="3" stem.dir="up" color="#a637b0" />
+                              <note xml:id="v2_nh_1936_3377" pname="d" oct="2" stem.dir="up" color="#a637b0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="28">
+                     <staff n="1">
+                        <layer xml:id="m28-part2">
+                           <note xml:id="v1_nh_2102_2867" dur="2" pname="g" oct="4" stem.dir="up" color="#13819E">
+                              <verse n="1">
+                                 <syl>Roi!</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>King!</syl>
+                              </verse>
+                           </note>
+                           <rest xml:id="rest_2293_2832" dur="4" color="#13819E" />
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer xml:id="m28-part1-0">
+                           <chord xml:id="chord_v1_nh_2103_3191" dur="2">
+                              <note xml:id="v1_nh_2101_3141" pname="g" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2101_3168" pname="d" oct="4" stem.dir="up" color="#13819E" />
+                              <note xml:id="v1_nh_2103_3191" pname="b" oct="3" stem.dir="up" color="#13819E" />
+                           </chord>
+                           <rest xml:id="rest_2291_3108" dur="4" color="#13819E" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer xml:id="m28-part1-1">
+                           <chord xml:id="chord_v2_nh_2103_3312" dur="2">
+                              <note xml:id="v2_nh_2103_3349" pname="g" oct="2" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_2102_3284" pname="g" oct="3" stem.dir="down" color="#a637b0" />
+                              <note xml:id="v2_nh_2103_3312" pname="d" oct="3" stem.dir="down" color="#a637b0" />
+                           </chord>
+                           <rest xml:id="rest_2296_3297" dur="4" color="#a637b0" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

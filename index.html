@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mirador Viewer</title>
+ </head>
+<!-- Include the CJS version from a CDN or from a local web server -->
+<script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+<!--
+  N.B.: The above line will always use the latest version. If a new major version is released,
+  your Mirador instance might break. Consider pinning it to a specific major version:
+  <script src="https://unpkg.com/mirador@^3/dist/mirador.min.js"></script>
+-->
+<!-- By default uses Roboto font. Be sure to load this or change the font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+
+
+<!-- Container element of Mirador whose id should be passed to the instantiating call as "id" -->
+<div id="my-mirador"/> 
+
+<script type="text/javascript">
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+  "windows": [
+    {
+      "loadedManifest": "http://localhost:8081/manifest.json",
+      "thumbnailNavigationPosition": 'far-bottom'
+    }
+  ]
+});   </script>
+	
+  </body>
+</html>

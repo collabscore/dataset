@@ -1,0 +1,22 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Site collaboratif
+      external_url: https://collabscore.cnam.fr
+    - title: GitHub CollabScore
+      external_url: https://github.com/collabscore
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Liens
+      folderitems:
+        - title: Neuma
+          external_url: https://neuma.huma-num.fr
+        - title:  Documentation Github
+          external_url: https://idratherbewriting.com/documentation-theme-jekyll/
+        - title: Documentation Callico
+          external_url: https://doc.callico.eu/

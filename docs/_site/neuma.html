@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Neuma | Documentation du projet CollabScore</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Documentation du projet CollabScore</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="https://collabscore.cnam.fr" target="_blank" rel="noopener">Site collaboratif</a></li>
+                
+                
+                
+                <li><a href="https://github.com/collabscore" target="_blank" rel="noopener">GitHub CollabScore</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Liens<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://neuma.huma-num.fr" target="_blank" rel="noopener">Neuma</a></li>
+                        
+                        
+                        
+                        <li><a href="https://idratherbewriting.com/documentation-theme-jekyll/" target="_blank" rel="noopener">Documentation Github</a></li>
+                        
+                        
+                        
+                        <li><a href="https://doc.callico.eu/" target="_blank" rel="noopener">Documentation Callico</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:philippe.rigaux@cnam.fr?subject=Documentation CollabScore feedback&body=I have some feedback about the Neuma page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Contact</a>
+
+</li>
+
+
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Neuma">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">CollabScore 0.1</li>
+  
+  
+  
+  <li>
+      <a title="Accueil" href="#">Accueil</a>
+      <ul>
+          
+          
+          
+          <li><a title="Introduction" href="index.html">Introduction</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Objectifs du projet CollabScore" href="collabscore.html">Objectifs du projet CollabScore</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a title="La bibliothèque numérique Neuma" href="neuma.html">La bibliothèque numérique Neuma</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Le système OMR DMOS" href="omr.html">Le système OMR DMOS</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Callico, notre plate-forme collaborative" href="callico.html">Callico, notre plate-forme collaborative</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Administrateurs" href="#">Administrateurs</a>
+      <ul>
+          
+          
+          
+          <li><a title="Vue d'ensemble" href="admin.html">Vue d'ensemble</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Annotations" href="annotations.html">Annotations</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Projets" href="projects.html">Projets</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Users" href="users.html">Users</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Annotateurs" href="#">Annotateurs</a>
+      <ul>
+          
+          
+          
+          <li><a title="Présentation générale" href="annotateur.html">Présentation générale</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Phase 1, instrumentation" href="phase1.html">Phase 1, instrumentation</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Phase 2, contexte de lecture" href="phase2.html">Phase 2, contexte de lecture</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Phase 3, objets musicaux" href="phase3.html">Phase 3, objets musicaux</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <h1 id="neuma">Neuma</h1>
+
+<h2 id="data-organization-the-hierarchy-of-corpuses-and-opuses">Data organization: The hierarchy of corpuses and opuses</h2>
+
+<p>The main objects managed in Neuma are <em>corpus(es)</em> and <em>opus(es)</em>. They 
+implement a data organization comparable to the classical
+concepts of <em>directories</em> and <em>files</em> in a computer. A <em>corpus</em>
+is a container. Its content consists of either 
+opuses or (sub)corpuses. 
+An <em>opus</em> is a musical work, such as, e.g., The Goldberg variations
+or The New World Symphony. Thus, data in Neuma is essentially
+a hierarchy,  rooted at as pseudo-corpus named <em>all</em>, where internal nodes
+are corpuses, and leaves are opuses. :numref:<code class="language-plaintext highlighter-rouge">dataorg</code> illustrates the structure.</p>
+
+<figure><img class="docimage" src="images/neuma_dataorg.png" alt="Data organization in Neuma" /></figure>
+
+<p>Both corpuses and opuses are described by textual meta-data, along
+with several other data items, e.g. typically files.
+In the following, for the sake of clarity, we will use 
+the following terminology:</p>
+
+<ul>
+  <li>a <em>container</em> is a corpus that contains sub-corpuses</li>
+  <li>an <em>folder</em> is a corpus that contains opuses</li>
+</ul>
+
+<p>A third, important type of object is called <em>Source</em>. A source is
+any digital document that represents an information about an opus. 
+A source is typically a file that encodes the music in a format such as
+MusicXML or MEI. A source can also be an audio file, an image, a
+textbook, an external document that refers to the opus, etc.</p>
+
+<p>Finally, an opus can be annotated. Annotations express a statement
+(the <em>body</em>) about an opus or one of its sources (the <em>target</em>).</p>
+
+<figure><img class="docimage" src="images/opus_org.png" alt="Opus and sources" /></figure>
+
+<p>In Neuma, Corpus and Opus objects
+receive a unique and immutable reference when they are
+created. Since this reference is essential for further data 
+management tasks, this is the first aspect to address.</p>
+
+<h2 id="understanding-references">Understanding references</h2>
+
+<p>Each object, whether <em>corpus</em> or <em>opus</em>, is identified by a unique Neuma <em>reference</em>.</p>
+
+<ul>
+  <li>The <em>local reference</em> uniquely identifies an object in the context of
+its corpus. For instance, in the context of the <code class="language-plaintext highlighter-rouge">goldberg</code> corpus,
+<code class="language-plaintext highlighter-rouge">var1</code> and <code class="language-plaintext highlighter-rouge">var12</code> are local references uniquely identify opuses.</li>
+  <li>the <em>global</em> reference uniquely identifies an object in Neuma. It 
+takes the form of a path from the top-level corpus to the object, 
+represented as follows <code class="language-plaintext highlighter-rouge">all:ref2:...:refN</code>,  where each <em>refi</em> is a 
+<em>local</em>    reference.</li>
+</ul>
+
+<p>The top-level corpus
+reference is <em>all</em>, hence all paths begin with <code class="language-plaintext highlighter-rouge">all:</code>.
+The first <em>n-1</em> references are local <em>corpus</em> references (since
+internal nodes of the hierarchy consist of corpuses). 
+The last reference is either a corpus local
+reference of an opus local reference, depending of the 
+object referred to.</p>
+
+<p>Let’s take some examples:</p>
+
+<ul>
+  <li>the corpus <em>Composers</em>, with local reference <code class="language-plaintext highlighter-rouge">composers</code>, located
+below the top-level corpus, has <code class="language-plaintext highlighter-rouge">all:composers</code> as its global reference;</li>
+  <li>the corpus <em>Monteverdi</em>, with local reference <code class="language-plaintext highlighter-rouge">monteverdi</code>, located
+below the <em>Composers</em> corpus, has <code class="language-plaintext highlighter-rouge">all:composers:monteverdi</code> as its global reference;</li>
+  <li>the opus <em>Madrigal XII</em>,  with local reference <code class="language-plaintext highlighter-rouge">madrigal12</code>, located
+below the <em>Monteverdi</em> corpus, has <code class="language-plaintext highlighter-rouge">all:composers:monteverdi:madrigal12</code> as 
+its global reference.</li>
+</ul>
+
+<p>Global reference are therefore quite similar to  absolute paths in a file system. 
+*In Neuma, references are the primary mean to refer to an object (corpus or opus)
+and they are immutable.</p>
+
+<h2 id="the-corpus-object">The Corpus object</h2>
+
+<p>Initially, Neuma proposes the root corpus, and a few pre-defined corpuses 
+(children of the root) for generic 
+categories of musical works. They are shown on the welcome 
+page of Neuma.</p>
+
+<figure><img class="docimage" src="images/initialCorpus.png" alt="Page d'accueil Neuma" /></figure>
+
+<p>By clicking on a corpus’s icon, one obtain a page that 
+details the corpus content. 
+New corpus can be inserted in the hierarchy by authorized users. 
+The complete list of corpuses, along with some stats of their opuses,
+is shown at http://neuma.huma-num.fr/home/collections</p>
+
+<p>Let’s examine first the case
+of a <em>container</em>, e.g., a corpus that contains
+sub-corpus. Examine :numref:<code class="language-plaintext highlighter-rouge">exploringCorpus</code> below,
+showing the page dedicated to corpus <code class="language-plaintext highlighter-rouge">all:composers</code>.</p>
+
+<figure><img class="docimage" src="images/exploringCorpus.png" alt="Exploring corpuses" /></figure>
+
+<p>Each corpus consists first of some general informations:</p>
+
+<ul>
+  <li>a title, in short and detailed form. The short form is 
+used for navigation purposes: see the breadcrumb at the top of the page</li>
+  <li>a description, also in short and detailed forms.</li>
+  <li>a licence, that applies to all the corpuses contents</li>
+  <li>a cover image, used as an icon in lists</li>
+  <li>and finally, the list of sub-corpuses or opuses.</li>
+</ul>
+
+<p>Note also that each corpus has a unique parent. By clicking
+on the parent’s icon, one can move up one level in the hierarchy.</p>
+
+<p>It turns out that <code class="language-plaintext highlighter-rouge">all:composers</code> consists only of sub-corpuses,
+one for each composer. For a <em>folder</em>, a corpus consisting of opuses, the page 
+presents a list with a music score incipit (:numref:<code class="language-plaintext highlighter-rouge">exploringCorpus</code>, showing
+the first opuses of corpus <code class="language-plaintext highlighter-rouge">all:airs:cdc</code>).</p>
+
+<figure><img class="docimage" src="images/exploringCorpus2.png" alt="Exploring corpuses" /></figure>
+
+<p>Each opus in the list is shown with a title, the composer (if known)
+and the corpus it belongs to. By clicking of the title, one can access
+to the page that details the opus.</p>
+
+<h2 id="opus">Opus</h2>
+
+<p>An Opus gathers a set of information related to a musical work,
+including  <em>digital score</em> in XML format (MusicXML or MEI). 
+:numref:<code class="language-plaintext highlighter-rouge">opus_page</code> shows how this information is displayed in the
+web page dedicated to an opus.</p>
+
+<figure><img class="docimage" src="images/opus_page.png" alt="Page of an Opus" /></figure>
+
+<h3 id="metadata">Metadata</h3>
+
+<p>Each opus is described by a short list of pre-defined attributes:</p>
+
+<ul>
+  <li>a title, in short and detailed form. The short form is 
+used for navigation purposes: see the breadcrumb at the top of the page</li>
+  <li>a description, also in short and detailed forms.</li>
+  <li>a composer (optional)</li>
+</ul>
+
+<p>Additionally, a list of free metadata can be added, as a list of key-value pairs.</p>
+
+<h3 id="score">Score</h3>
+
+<p>The default display of an Opus in Neuma is taken from a MEI or MusicXML file. They
+must be provided at the Opus creation.</p>
+
+<h2 id="sources">Sources</h2>
+
+<p>A list of <em>sources</em> can be associated to an Opus. Whereas an opus gathers
+information about a musical work, a <em>source</em> provide an actual
+digital representation of this work.  A source is essentially a digital document
+which can be</p>
+
+<ul>
+  <li>a file associated to the source, locally stored in Neuma, or</li>
+  <li>an external document referred to by it URL.</li>
+</ul>
+
+<p>Both the MEI and MusicXML files used for displaying an Opus in Neuma are alos stored
+as sources. In addition, here is a non limitative list of source examples:</p>
+
+<ul>
+  <li>an image of a legacy score, stored in a digital library (e.g., Gallica), and referred to by it URL;</li>
+  <li>an audio file, stored locally</li>
+  <li>a video, stored in an external media server (e.g., YouTube)</li>
+  <li>any encoding of a score, in any format</li>
+  <li>a textbook</li>
+</ul>
+
+<p>Each source is described by a short list of pre-defined attributes:</p>
+
+<ul>
+  <li>a code that serves as a unique identifier to refer to a source in the context of its opus</li>
+  <li>a description</li>
+  <li>a type (image, audio, XML, etc.)</li>
+  <li>a URL, or</li>
+  <li>a file content</li>
+</ul>
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+
