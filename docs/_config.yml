@@ -3,10 +3,10 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Documentation du projet CollabScore
+topnav_title: The CollabScore dataset
 # this appears on the top navigation bar next to the home button
 
-site_title: Documentation du projet CollabScore
+site_title: The CollabScore dataset - Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Conservatoire national des arts et métiers
@@ -36,7 +36,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Documentation CollabScore
+feedback_subject_line: The CollabScore dataset
 
 feedback_email: philippe.rigaux@cnam.fr
 # used as a contact email for the Feedback link in the top navigation bar

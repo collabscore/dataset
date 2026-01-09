@@ -1,11 +1,11 @@
 ---
-title: "Accueil"
-keywords: Page accueil
+title: "Home"
+keywords: Home page
 permalink: index.html
 summary: 
 ---
 
-# Introduction au système collaboratif CollabScore
+# Introducing the CollabScore dataset
 
 Ce site est un guide d'utilisation du [système collaboratif
 associé au projet CollabScore](https://collabscore.cnam.fr). 
