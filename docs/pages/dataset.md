@@ -1,8 +1,8 @@
 ---
-title: Neuma
+title: The dataset
 layout: home
-nav_order: 3
-permalink: neuma.html
+nav_order: 2
+permalink: dataset.html
 ---
 
 # Neuma

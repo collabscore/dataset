@@ -2,75 +2,13 @@
 
 entries:
 - title: sidebar
-  product: CollabScore
-  version: 0.1
+  product: CollabScore dataset
+  version: 0.9
   folders:
-
-  - title: Accueil
+  - title: Home
+    url: /index.html
     output: web
-    folderitems:
-
-    - title: Introduction
-      url: /index.html
-      output: web
-      type: homepage
-    - title: Objectifs du projet CollabScore
-      url: /collabscore.html
-      output: web
-      type: homepage
-    - title: La bibliothèque numérique Neuma
-      url: /neuma.html
-      output: web
-      type: homepage
-    - title: Le système OMR DMOS
-      url: /omr.html
-      output: web
-      type: homepage
-    - title: Callico, notre plate-forme collaborative
-      url: /callico.html
-      output: web
-      type: homepage
-
-  - title: Administrateurs
+    type: homepage
+  - title: The dataset
     output: web
-    folderitems:
-
-    - title: Vue d'ensemble
-      url: /admin.html
-      output: web
-      type: homepage
-    - title: Annotations
-      url: /annotations.html
-      output: web
-      type: homepage
-    - title: Projets
-      url: /projects.html
-      output: web
-      type: homepage
-    - title: Users
-      url: /users.html
-      output: web
-      type: homepage
-      
-  - title: Annotateurs
-    output: web
-    folderitems:
-
-    - title: Présentation générale
-      url: /annotateur.html
-      output: web
-      type: homepage
-    - title: Phase 1, instrumentation
-      url: /phase1.html
-      output: web
-      type: homepage
-    - title: Phase 2, contexte de lecture
-      url: /phase2.html
-      output: web
-      type: homepage
-    - title: Phase 3, objets musicaux
-      url: /phase3.html
-      output: web
-      type: homepage
-
-# Copyright 2021 Google LLC
+    url: /dataset.html

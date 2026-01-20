@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="keywords" content=" Page accueil">
-<title>Accueil | Documentation du projet CollabScore</title>
+<meta name="keywords" content=" Home page">
+<title>Home | The CollabScore dataset - Documentation</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -107,7 +107,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Documentation du projet CollabScore</span></a>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> The CollabScore dataset</span></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -158,7 +158,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:philippe.rigaux@cnam.fr?subject=Documentation CollabScore feedback&body=I have some feedback about the Accueil page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Contact</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:philippe.rigaux@cnam.fr?subject=The CollabScore dataset feedback&body=I have some feedback about the Home page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Contact</a>
 
 </li>
 
@@ -178,7 +178,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Accueil">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Home">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -206,48 +206,13 @@
                 
 
 <ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">CollabScore 0.1</li>
+  <li class="sidebarTitle">CollabScore dataset 0.9</li>
   
   
   
   <li>
-      <a title="Accueil" href="#">Accueil</a>
+      <a title="Home" href="#">Home</a>
       <ul>
-          
-          
-          
-          <li class="active"><a title="Introduction" href="index.html">Introduction</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Objectifs du projet CollabScore" href="collabscore.html">Objectifs du projet CollabScore</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="La bibliothèque numérique Neuma" href="neuma.html">La bibliothèque numérique Neuma</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Le système OMR DMOS" href="omr.html">Le système OMR DMOS</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Callico, notre plate-forme collaborative" href="callico.html">Callico, notre plate-forme collaborative</a></li>
-          
-          
-          
           
       </ul>
    </li>
@@ -255,73 +220,8 @@
       
   
   <li>
-      <a title="Administrateurs" href="#">Administrateurs</a>
+      <a title="The dataset" href="#">The dataset</a>
       <ul>
-          
-          
-          
-          <li><a title="Vue d'ensemble" href="admin.html">Vue d'ensemble</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Annotations" href="annotations.html">Annotations</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Projets" href="projects.html">Projets</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Users" href="users.html">Users</a></li>
-          
-          
-          
-          
-      </ul>
-   </li>
-     
-      
-  
-  <li>
-      <a title="Annotateurs" href="#">Annotateurs</a>
-      <ul>
-          
-          
-          
-          <li><a title="Présentation générale" href="annotateur.html">Présentation générale</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Phase 1, instrumentation" href="phase1.html">Phase 1, instrumentation</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Phase 2, contexte de lecture" href="phase2.html">Phase 2, contexte de lecture</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Phase 3, objets musicaux" href="phase3.html">Phase 3, objets musicaux</a></li>
-          
-          
-          
           
       </ul>
    </li>
@@ -347,7 +247,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Accueil</h1>
+   <h1 class="post-title-main">Home</h1>
 </div>
 
 
@@ -386,126 +286,7 @@ $('#toc').on('click', 'a', function() {
 
     
 
-   <h1 id="introduction-au-système-collaboratif-collabscore">Introduction au système collaboratif CollabScore</h1>
-
-<p>Ce site est un guide d’utilisation du <a href="https://collabscore.cnam.fr">système collaboratif
-associé au projet CollabScore</a>. 
-En bref, CollabScore a pour but
-d’analyser des images de partitions musicales 
-afin d’en produire une version <em>éditable</em>, autrement
-dit dans un format qui permet la modification du contenu
-et son utilisation dans divers contextes. Le format
-produit par une analyse CollabScore est soit 
-<a href="https://www.musicxml.com/">MusicXML</a>, soit 
-<a href="https://music-encoding.org/">MEI</a>. Grâce à CollabScore,
-des archives musicales conservées au format image 
-peuvent redevenir exploitables avec des fonctionnalités
-comme l’écoute synchronisée, l’extraction de parties séparées,
-la transposition, etc.  <strong>Pour en savoir plus sur 
-les objectifs du projet, vous pouvez 
-<a href="/collabscore.html">consulter la page dédiée</a></strong>.</p>
-
-<h2 id="les-données">Les données</h2>
-
-<p>Toutes les informations sur les œuvres musicales proviennent
-d’une blbliothèque numérique, Neuma, 
-gérée conjointement par le Conservatoire national des 
-arts et métiers et l’IRéMus. Cette bibliothèque,
-accessible en ligne à l’adresse 
-<a href="https://neuma.huma-num.fr">https://neuma.huma-num.fr</a>, 
-fournit notamment:</p>
-<ul>
-  <li>une organisation hiérarchique en collections et sous-collections ;</li>
-  <li>les représentations numériques d’une œuvre sous forme
-de partition dans
-différents formats: image, XML, MIDI, PDF, etc. ;</li>
-  <li>des annotations décrivant ces représentations et les associant ;</li>
-  <li>des services.</li>
-</ul>
-
-<figure><img class="docimage" src="images/neuma.png" alt="Neuma" /><figcaption>Aperçu de la bibliothèque numérique Neuma</figcaption></figure>
-
-<p>Le système de reconnaissance optique des contenus analyse les
-représentations-image dans Neuma, et y insère le format
-éditable (XML) obtenu. C’est en interrogeant Neuma
-que le système collaboratif propose à ses utilisateurs
-d’ajouter des informations de correction et de validation. C’est
-aussi dans Neuma que l’on peut accéder au résultat final des processus
-CollabScore, à savoir une partition éditable extraite d’une image
-et améliorée par les corrections des annotateurs.</p>
-
-<p>En tant qu’utilisateur des interfaces collaboratives, vous n’aurez probablement pas à interagir directement avec Neuma, <strong>mais si vous voulez en savoir plus, vous pouvez 
-<a href="/neuma.html">consulter la page dédiée</a></strong>.</p>
-
-<h2 id="la-reconnaissance-optique-ou-omr">La reconnaissance optique, ou OMR</h2>
-
-<p>CollabScore produit une partition éditable à partir
-d’une image par <em>reconnaissance optique</em> des éléments
-de la notation musicale, ou OMR pour
-<em>optical music recognition</em>. Nous avons développé
-notre propre système OMR, nommé DMOS. Il analyse l’image de
-la partition pour en extraire des objets et reconstituer le contenu,
-comme l’illustre l’image ci-dessous.</p>
-
-<figure><img class="docimage" src="images/omr_reco.png" alt="OMR" /><figcaption>Illustration du processus de reconnaissance optique</figcaption></figure>
-
-<p>Quoique il tente
-de produire une reconnaissance la plus précise
-possible, le résultat présente et présentera toujours des limites
-et produira toujours des erreurs, ou du moins
-des incertitudes. La phase de reconnaissance optique est
-donc complétée par une phase de validation et de correction
-collaborative qui propose à des annotateurs
-d’intervenir pour valider ou corriger les
-résultat de la reconnaissance OMR.</p>
-
-<p><strong>Pour en savoir plus sur DMOS, vous pouvez 
-<a href="/omr.html">consulter la page dédiée</a></strong>.</p>
-
-<h2 id="callico-un-système-de-correction-collaborative">Callico, un système de correction collaborative</h2>
-
-<p>Quand l’OMR a produit une partition éditable par reconnaissance
-optique d’une image, il reste à valider cette reconnaissance
-et à la corriger éventuellement. CollabScore propose des
-interfaces pour que les utilisateurs puissent accéder aux documents
-analysés,  comparer l’image initiale et la partition éditable, et 
-indiquer les corrections à effectuer. L’image ci-dessous montre
-une de ces interfaces, avec la mise en vis-à-vis de l’image (à
-gauche) et de son interprétation (à droite).</p>
-
-<figure><img class="docimage" src="images/collab-phase2.png" alt="Interfaces collaboratives" /><figcaption>Une des interfaces collaboratives</figcaption></figure>
-
-<p>L’essentiel de la présente documentation est consacré à ces
-interfaces collaboratives. Elles constituent un système collaboratif
-que nous avons construit sur la base de [Callico]{https://teklia.com/our-solutions/callico/}, une plate-forme
-logicielle distribuée par la société Teklia. Nous avons
-avons largement adapté Callico aux spécificités de la 
-musique notée.</p>
-
-<h2 id="comment-lire-ce-guide">Comment lire ce guide</h2>
-
-<p>Ce guide est destiné aussi bien aux administrateurs 
-qui créent et 
-gèrent des campagnes d’annotation qu’aux annotateurs 
-qui accèdent à  des documents pour les annoter.</p>
-
-<ul>
-  <li>
-    <p>les administrateurs <a href="/admin.html">peuvent accéder à cette section du site</a>;</p>
-  </li>
-  <li>
-    <p>les annotateurs <a href="/annotateur.html">peuvent accéder à cette section du site</a>.</p>
-  </li>
-</ul>
-
-<p>Il est recommandé de prendre connaissance de la documentation avant
-de se lancer dans des corrections et validation. La compréhension
-des principes généraux, et l’organisation de chaque interface en 
-particulier, ne peuvent que faciliter la prise en main de nos outils.
-Nous avons cherché à les rendre aussi  simples que possible,  mais
-ils s’appuient sur des notions et des connaissances loin 
-d’être triviales, à commencer par la notation musicale elle-même.
-Bonne lecture !</p>
+   <h1 id="introducing-the-collabscore-dataset">Introducing the CollabScore dataset</h1>
 
 
     <div class="tags">
@@ -525,8 +306,8 @@ Bonne lecture !</p>
 <footer>
             <div class="row">
                 <div class="col-lg-12 footer">
-               &copy;2025 Conservatoire national des arts et métiers. All rights reserved. <br />
- Site last generated: May 5, 2025 <br />
+               &copy;2026 Conservatoire national des arts et métiers. All rights reserved. <br />
+ Site last generated: Jan 20, 2026 <br />
 <p><img src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>
