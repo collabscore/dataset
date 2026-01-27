@@ -41,10 +41,17 @@ is fully documented in the [documentation](https://collabscore.github.io/dataset
 ### Single score comparison
 
 The predicted score in folder ``predicted``must have the exact same filename as the reference score in ``ground_truth``. 
-The score 
+The script must be run with the ``-a single`` option, and take as input the name of the file(s) to compare. Example
+for file ``C006_0.mei``.
+
 ```bash
 python3 compare.py -a single -s C006_0
 ```
+
+Results will be found in the ``results``folder:
+  - ``C006_0_predicted_diff.pdf``, differences found in the predicted file
+  - ``C006_0_ground_diff.pdf``, differences found in the reference file
+  - detailed list of operations in ``C006_0_report.json``
 
 ### Mass comparison
 
@@ -61,3 +68,27 @@ The dataset is made available under a [Creative Commons Attribution Non-Commerci
 
 ## Citing
 
+If you use this work in any research, please cite the relevant paper:
+
+
+@inproceedings{rigauxEtAl26,
+  title={The collabscore Dataset. Towards Robust and Generalized OMR Evaluation},
+  author={Rigaux, Philippe and Coüasnon, Bertrand and  Guillotel-Nothmann, Christophe and  Guilloux, Fabien and Lemaitre, Aurélie},
+  booktitle={XXX},
+  pages={XXX},
+  year={2026}
+}
+```
+
+
+To cite MusicDiff, please refer to the following paper:
+
+```
+@inproceedings{foscarin2019diff,
+  title={A diff procedure for music score files},
+  author={Foscarin, Francesco and Jacquemard, Florent and Fournier-S’niehotta, Raphael},
+  booktitle={6th International Conference on Digital Libraries for Musicology},
+  pages={58--64},
+  year={2019}
+}
+```
