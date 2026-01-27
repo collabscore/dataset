@@ -32,11 +32,11 @@ implemented in MusicDiff.
 
 ## Documentation 
 
-For details, please refere to the [https://collabscore.github.io/dataset/](documentation).
+For details, please refere to the [https://collabscore.github.io/dataset](documentation).
 
 ## Licence
 
-The dataset is made available under a [https://creativecommons.org/licenses/by-nc-sa/4.0/](Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)) license.
+The dataset is made available under a [https://creativecommons.org/licenses/by-nc-sa/4.0](Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)) license.
 
 ## Citing
 
