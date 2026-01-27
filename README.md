@@ -22,21 +22,22 @@ must be placed in a parallel directory, with a consistent
 naming. Note that is not necessary for the scores to be
 in MEI format. 
 
+
 ### Single score comparison
+
 
 ### Mass comparison
 
 Evaluating a set of predicted scores  consists essentially in running the 
-mass comparison measurements already
-implemented in MusicDiff. 
+mass comparison measurements already implemented in MusicDiff. 
 
 ## Documentation 
 
-For details, please refere to the [https://collabscore.github.io/dataset](documentation).
+For details, please refere to the [documentation](https://collabscore.github.io/dataset).
 
 ## Licence
 
-The dataset is made available under a [https://creativecommons.org/licenses/by-nc-sa/4.0](Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)) license.
+The dataset is made available under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0) license.
 
 ## Citing
 
