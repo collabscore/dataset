@@ -7,31 +7,41 @@ This repository contains the reference dataset produced by the [CollabScore](htt
 The dataset  consists of 26 scores by Camille Saint-Saëns, totaling 199 pages,
 covering the main genres practiced by the composer 
 with the exception of operas. For each score, the dataset provides 
-  - images of the original edition, taken from the Gallica digital library, 
+  - images of the original edition, taken from the Gallica digital library ;
   - a reference encoding in MEI format, 
   - a set of annotations linking  images and regions in images, to the corresponding notation
     fragment in the reference score.
+
+Images are actually supplied as references to the [Gallica](https:/gallica.bnf.fr) digital library, embedded in IIIF manifests. The 
+```iiif.py`` script lets extract useful contents. Reference scores can be found in the ``ground_truth``folder. 
+
+It is assumed that the OMR predicted files will be put in the ``predicted``folder.
+For the sake of illustration, the ``predicted`` folder is initially fed with  the results
+of the CollabScore OMR system. This lets you begin directly testing the comparison utility. Eventually,
+you must replace the content of ``predicted`` with your own predicted scores. Be careful to respect 
+the score file naming, as the comparison assume identical names in, respectively, ``predicted`` 
+and ``ground_truth`` folders. 
 
 ## Running an evaluation
 
 We mostly rely on [MusicDiff](https://github.com/gregchapman-dev/musicdiff), a Python
 package which compares the predicted scores with the reference ones (ground truth). 
 The reference scores are stored  in a directory ``ground_truth``, in MEI format,
-and predicted scores  obtained by the tested OMR 
-must be placed in a parallel directory, with a consistent
-naming. Note that is not necessary for the scores to be
-in MEI format. 
+and predicted scores  obtained by the tested OMR  must be placed in a parallel directory, with a consistent
+naming. Note that is not necessary for the scores to be in MEI format. 
 
-### The ``compare.py```script
+### The compare.py script
 
 The dataset comes with a ``compare.py`` script which can be use tu run comparisons between predicted and ground truth, either at
 an individual or global level.
 
-It is recommended to set up virtual Python 3.12+ environment and to install the required packages with ``pip install - requirements.txt``.  The scipt
+It is recommended to set up virtual Python 3.12+ environment and to install the required packages with ``pip install - requirements.txt``.  The script
 is fully documented in the [documentation](https://collabscore.github.io/dataset).
 
 ### Single score comparison
 
+The predicted score in folder ``predicted``must have the exact same filename as the reference score in ``ground_truth``. 
+The score 
 ```bash
 python3 compare.py -a single -s C006_0
 ```
