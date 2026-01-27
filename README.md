@@ -70,7 +70,7 @@ The dataset is made available under a [Creative Commons Attribution Non-Commerci
 
 If you use this work in any research, please cite the relevant paper:
 
-
+```
 @inproceedings{rigauxEtAl26,
   title={The collabscore Dataset. Towards Robust and Generalized OMR Evaluation},
   author={Rigaux, Philippe and Coüasnon, Bertrand and  Guillotel-Nothmann, Christophe and  Guilloux, Fabien and Lemaitre, Aurélie},
