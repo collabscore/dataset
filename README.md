@@ -25,6 +25,9 @@ in MEI format.
 
 ### Single score comparison
 
+```bash
+python3 compare.py -a single -s C006_0
+```
 
 ### Mass comparison
 
