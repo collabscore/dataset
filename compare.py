@@ -1,13 +1,19 @@
+# ------------------------------------------------------------------------------
+# Purpose:       Run comparison between encoded music score, at an individual or collection level
+#
+# Authors:       Philippe Rigaux <philippe.rigaux@cnam.fr>
+#
+# Copyright:     (c) 2026- Philippe Rigaux
+# License:       Creative commons CC BY-NC-SA 4.0, see LICENSE.md
+# ------------------------------------------------------------------------------
 
 import sys, os
 import argparse
 import json
 from pathlib import Path
 
-sys.path.append("../lib")
-sys.path.append("../lib/musicdiff")
 
-# Music analysis module
+# Music analysis modules
 import converter21
 import music21 as m21
 import musicdiff as mdiff
@@ -17,24 +23,23 @@ from musicdiff.annotation import AnnScore
 from musicdiff.comparison import Comparison
 from musicdiff.visualization import Visualization
 
+# Rredefined dirs
 OUT_DIR="results"
 PREDICTED_DIR="predicted"
 GROUND_TRUTH_DIR="ground_truth"
 
 def main(argv=None):
 	"""
-	  Utilitaire de comparaison de partitions numérisées
-	  
-	  Légèrement adapté du code musicdiff de Francesco Foscarion / Greg Chapman 
+	Slightly adapted from the musicdiff code by Francesco Foscarion / Greg Chapman 
 	"""
 
-	# Comment out this line to go back to music21's built-in Humdrum/MEI importers.
+	# Use the converted 21 MEI 
 	converter21.register()
 
 	current_path = os.path.dirname(os.path.abspath(__file__))
 	out_dir = os.path.join(current_path, OUT_DIR)
 
-	# On accepte des arguments
+	# Script args
 	parser = argparse.ArgumentParser(description='Diff utility')
 	parser.add_argument('-s', '--score', dest='score',
                    help='Name of the score file')
