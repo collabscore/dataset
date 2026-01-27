@@ -3,20 +3,17 @@
 topnav:
 - title: Topnav
   items:
-    - title: Site collaboratif
+    - title: Project site
       external_url: https://collabscore.cnam.fr
-    - title: GitHub CollabScore
-      external_url: https://github.com/collabscore
+    - title: GitHub
+      external_url: https://github.com/collabscore/dataset
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Liens
+    - title: Links
       folderitems:
         - title: Neuma
           external_url: https://neuma.huma-num.fr
         - title:  Documentation Github
-          external_url: https://idratherbewriting.com/documentation-theme-jekyll/
-        - title: Documentation Callico
-          external_url: https://doc.callico.eu/
