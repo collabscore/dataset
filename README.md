@@ -13,7 +13,7 @@ with the exception of operas. For each score, the dataset provides
     fragment in the reference score.
 
 Images are actually supplied as references to the [Gallica](https:/gallica.bnf.fr) digital library, embedded in IIIF manifests. The 
-```iiif.py`` script lets extract useful contents. Reference scores can be found in the ``ground_truth``folder. 
+``iiif.py`` script lets extract useful contents. Reference scores can be found in the ``ground_truth`` folder. 
 
 It is assumed that the OMR predicted files will be put in the ``predicted``folder.
 For the sake of illustration, the ``predicted`` folder is initially fed with  the results
