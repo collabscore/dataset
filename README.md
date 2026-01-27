@@ -22,6 +22,13 @@ must be placed in a parallel directory, with a consistent
 naming. Note that is not necessary for the scores to be
 in MEI format. 
 
+### The ``compare.py```script
+
+The dataset comes with a ``compare.py`` script which can be use tu run comparisons between predicted and ground truth, either at
+an individual or global level.
+
+It is recommended to set up virtual Python 3.12+ environment and to install the required packages with ``pip install - requirements.txt``.  The scipt
+is fully documented in the [documentation](https://collabscore.github.io/dataset).
 
 ### Single score comparison
 
