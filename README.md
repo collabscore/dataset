@@ -45,33 +45,49 @@ The reference scores are stored  in a directory ``ground_truth``, in MEI format,
 and predicted scores  obtained by the tested OMR  must be placed in a parallel directory, with a consistent
 naming. Note that is not necessary for the scores to be in MEI format. 
 
-### The compare.py script
+### The csd_utils.py script
 
-The dataset comes with a ``compare.py`` script which can be use tu run comparisons between predicted and ground truth, either at
+The dataset comes with a ``csd_utils.py`` script which can be used to run comparisons between predicted and ground truth, either at
 an individual or global level.
 
-It is recommended to set up virtual Python 3.12+ environment and to install the required packages with ``pip install - requirements.txt``.  The script
-is fully documented in the [documentation](https://collabscore.github.io/dataset).
+It is recommended to set up virtual Python 3.12+ environment and to install the required packages with ``pip install - requirements.txt``.  The script is fully documented in the [documentation](https://collabscore.github.io/dataset).
 
 ### Single score comparison
 
 The predicted score in folder ``predicted``must have the exact same filename as the reference score in ``ground_truth``. 
-The script must be run with the ``-a single`` option, and take as input the name of the file(s) to compare. Example
+The script must be run with the ``-a single`` option, and take as input (i) the name of the file(s) to compare and (ii) the
+list of details to include in the comparison. Example
 for file ``C006_0.mei``.
 
 ```bash
-python3 compare.py -a single -s C006_0
+python3 compare.py -a single -s C006_0.mei -d notesandrests signatures
 ```
+
+The list of detail level can be obtained with the ``-h`` option. See also the documentation on MusicDiff, https://gregchapman-dev.github.io/musicdiff/musicdiff.html.
 
 Results will be found in the ``results``folder:
   - ``C006_0_predicted_diff.pdf``, differences found in the predicted file
   - ``C006_0_ground_diff.pdf``, differences found in the reference file
   - detailed list of operations in ``C006_0_report.json``
 
-### Mass comparison
+### Computing all comparisons
 
-Evaluating a set of predicted scores  consists essentially in running the 
-mass comparison measurements already implemented in MusicDiff. 
+You can run the comparison over all scores with the ``all`` action. The details must be specified, and hold for
+all comparisons.
+
+```bash
+python3 compare.py -a all -d notesandrests signatures
+```
+
+### Buildin ga report
+
+The ``report`` action lets you build a general document (in HTML, Latex) from all the individual score
+reports.
+
+```bash
+python3 compare.py -a report
+```
+
 
 ## Documentation 
 
