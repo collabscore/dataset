@@ -22,6 +22,21 @@ you must replace the content of ``predicted`` with your own predicted scores. Be
 the score file naming, as the comparison assume identical names in, respectively, ``predicted`` 
 and ``ground_truth`` folders. 
 
+## Viewing the content
+
+We provide a tiny Node.js site which shows the list of scores and allows to display images (using the Mirador IIIF viewer)
+or MEI files (using the Verovio viewer). You just need to install Node.js and run the commands.
+
+```bash
+npm install
+npm start
+```
+
+This shoud start a Node.js server of http://127.0.0.1:8080. The main page shows a list of the
+the scores, each associated to the respective link for images, refrence score and predicted score.
+
+<img width="1141" height="867" alt="ListOpus" src="https://github.com/user-attachments/assets/9b8d8314-384b-4ee5-b4c8-eec4e8e6f38f" />
+
 ## Running an evaluation
 
 We mostly rely on [MusicDiff](https://github.com/gregchapman-dev/musicdiff), a Python
