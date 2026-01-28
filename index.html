@@ -1,35 +1,500 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mirador Viewer</title>
- </head>
-<!-- Include the CJS version from a CDN or from a local web server -->
-<script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+
+
+
+<!DOCTYPE HTML>
 <!--
-  N.B.: The above line will always use the latest version. If a new major version is released,
-  your Mirador instance might break. Consider pinning it to a specific major version:
-  <script src="https://unpkg.com/mirador@^3/dist/mirador.min.js"></script>
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<!-- By default uses Roboto font. Be sure to load this or change the font -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+<html>
+	<head>
+		<title>The CollabScore dataset</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="cscore/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+  
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<div  class="logo"><img src="cscore/images/collabscore.svg"/>
+									<br/>
+											<p>A dataset of music scores dedicated to Optical Music Recognition</p>
+									</div>
+									<ul class="icons">
+										<li><a href="http://anr.fr" class="icon brands"><img width="100"  src="cscore/images/logoAnr.png"/></a><br/>
+										    Funded by the French  <i>Agence nationale de la recherche</i></li>
+									</ul>
+								</header>
+ 
+
+     							
 
 
-<!-- Container element of Mirador whose id should be passed to the instantiating call as "id" -->
-<div id="my-mirador"/> 
+<h2>Dataset content</h2>
+<table>
+	<tr>
+		<th>Code</th>
+		<th>Title</th>
+		<th>Genre</th>
+		<th>Images</th>
+		<th>Reference score</th>
+		<th>Predicted score</th>
+		<th>#part</th>
+		<th>#pages</th>
+		<th>#systems</th>
+		<th>#measures</th>
+	</tr>
 
-<script type="text/javascript">
-var mirador = Mirador.viewer({
-  "id": "my-mirador",
-  "windows": [
-    {
-      "loadedManifest": "http://localhost:8081/manifest.json",
-      "thumbnailNavigationPosition": 'far-bottom'
-    }
-  ]
-});   </script>
-	
-  </body>
+
+<tr>
+
+	<td>C006_0</td>
+	<td>[Dans les coins bleus] </td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C006_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C006_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C006_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>4</td>
+	<td>15</td>
+	<td>51</td>
+</tr>
+
+<tr>
+
+	<td>C009_0</td>
+	<td>[Fière beauté] </td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C009_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C009_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C009_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>5</td>
+	<td>20</td>
+	<td>123</td>
+</tr>
+
+<tr>
+
+	<td>C010_0</td>
+	<td>[God save the King]</td>
+	<td>hymne national</td>
+	<td><a href="mirador.html?ref=C010_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C010_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C010_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>2</td>
+	<td>7</td>
+	<td>28</td>
+</tr>
+
+<tr>
+
+	<td>C013_0</td>
+	<td>[La sérénité] </td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C013_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C013_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C013_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>3</td>
+	<td>11</td>
+	<td>51</td>
+</tr>
+
+<tr>
+
+	<td>C024_0</td>
+	<td>[Chanson triste] </td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C024_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C024_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C024_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>4</td>
+	<td>15</td>
+	<td>48</td>
+</tr>
+
+<tr>
+
+	<td>C035_0</td>
+	<td>[Avril]</td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C035_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C035_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C035_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>5</td>
+	<td>19</td>
+	<td>66</td>
+</tr>
+
+<tr>
+
+	<td>C036_0</td>
+	<td>[L'Amour blessé]</td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C036_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C036_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C036_0" target="_blank">Show</a></td>
+	<td>3</td>
+	<td>5</td>
+	<td>19</td>
+	<td>55</td>
+</tr>
+
+<tr>
+
+	<td>C041_0</td>
+	<td>[Villanelle]</td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C041_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C041_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C041_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>5</td>
+	<td>19</td>
+	<td>89</td>
+</tr>
+
+<tr>
+
+	<td>C046_0</td>
+	<td>[L'Amant malheureux]</td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C046_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C046_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C046_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>5</td>
+	<td>19</td>
+	<td>87</td>
+</tr>
+
+<tr>
+
+	<td>C055_0</td>
+	<td>[Aimons-nous] </td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C055_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C055_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C055_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>4</td>
+	<td>17</td>
+	<td>67</td>
+</tr>
+
+<tr>
+
+	<td>C079_0</td>
+	<td>[La coccinelle] </td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C079_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C079_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C079_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>2</td>
+	<td>9</td>
+	<td>53</td>
+</tr>
+
+<tr>
+
+	<td>C080_0</td>
+	<td>[La feuille de peuplier]</td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C080_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C080_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C080_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>4</td>
+	<td>16</td>
+	<td>98</td>
+</tr>
+
+<tr>
+
+	<td>C141_0</td>
+	<td>[Guitare] </td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=C141_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C141_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C141_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>3</td>
+	<td>13</td>
+	<td>44</td>
+</tr>
+
+<tr>
+
+	<td>C307_0</td>
+	<td>[Quam dilecta]</td>
+	<td>divers</td>
+	<td><a href="mirador.html?ref=C307_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C307_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C307_0" target="_blank">Show</a></td>
+	<td>5</td>
+	<td>8</td>
+	<td>16</td>
+	<td>89</td>
+</tr>
+
+<tr>
+
+	<td>C437_0</td>
+	<td>[Calme des nuits]</td>
+	<td>choeur</td>
+	<td><a href="mirador.html?ref=C437_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C437_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C437_0" target="_blank">Show</a></td>
+	<td>5</td>
+	<td>5</td>
+	<td>10</td>
+	<td>58</td>
+</tr>
+
+<tr>
+
+	<td>C438_0</td>
+	<td>[Les fleurs et les arbres]</td>
+	<td>choeur</td>
+	<td><a href="mirador.html?ref=C438_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C438_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C438_0" target="_blank">Show</a></td>
+	<td>5</td>
+	<td>6</td>
+	<td>12</td>
+	<td>78</td>
+</tr>
+
+<tr>
+
+	<td>C446_0</td>
+	<td>[Madrigal]</td>
+	<td>madrigal</td>
+	<td><a href="mirador.html?ref=C446_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C446_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C446_0" target="_blank">Show</a></td>
+	<td>4</td>
+	<td>7</td>
+	<td>21</td>
+	<td>124</td>
+</tr>
+
+<tr>
+
+	<td>C449_0</td>
+	<td>[Sérénade d'hiver] </td>
+	<td>choeur</td>
+	<td><a href="mirador.html?ref=C449_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C449_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C449_0" target="_blank">Show</a></td>
+	<td>4</td>
+	<td>14</td>
+	<td>56</td>
+	<td>222</td>
+</tr>
+
+<tr>
+
+	<td>C452_0</td>
+	<td>[Les marins de Kermor]</td>
+	<td>choeur</td>
+	<td><a href="mirador.html?ref=C452_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C452_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C452_0" target="_blank">Show</a></td>
+	<td>5</td>
+	<td>15</td>
+	<td>54</td>
+	<td>249</td>
+</tr>
+
+<tr>
+
+	<td>C455_0</td>
+	<td>[Ode] </td>
+	<td>divers</td>
+	<td><a href="mirador.html?ref=C455_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C455_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C455_0" target="_blank">Show</a></td>
+	<td>4</td>
+	<td>12</td>
+	<td>47</td>
+	<td>256</td>
+</tr>
+
+<tr>
+
+	<td>C456_0</td>
+	<td>[Les soldats de Gédéon]</td>
+	<td>choeur</td>
+	<td><a href="mirador.html?ref=C456_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=C456_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=C456_0" target="_blank">Show</a></td>
+	<td>8</td>
+	<td>38</td>
+	<td>80</td>
+	<td>357</td>
+</tr>
+
+<tr>
+
+	<td>R042_0</td>
+	<td>[Les cloches du soir]</td>
+	<td>étude</td>
+	<td><a href="mirador.html?ref=R042_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=R042_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=R042_0" target="_blank">Show</a></td>
+	<td>1</td>
+	<td>3</td>
+	<td>14</td>
+	<td>72</td>
+</tr>
+
+<tr>
+
+	<td>R125_C1</td>
+	<td>[Le cygne] </td>
+	<td>divers</td>
+	<td><a href="mirador.html?ref=R125_C1" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=R125_C1" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=R125_C1" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>3</td>
+	<td>15</td>
+	<td>29</td>
+</tr>
+
+<tr>
+
+	<td>R165_1</td>
+	<td>[Suite orchestre, Prélude]</td>
+	<td>suite</td>
+	<td><a href="mirador.html?ref=R165_1" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=R165_1" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=R165_1" target="_blank">Show</a></td>
+	<td>10</td>
+	<td>5</td>
+	<td>9</td>
+	<td>50</td>
+</tr>
+
+<tr>
+
+	<td>R165_2</td>
+	<td>[Suite orchestre, Sérénade]</td>
+	<td>suite</td>
+	<td><a href="mirador.html?ref=R165_2" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=R165_2" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=R165_2" target="_blank">Show</a></td>
+	<td>9</td>
+	<td>5</td>
+	<td>10</td>
+	<td>54</td>
+</tr>
+
+<tr>
+
+	<td>R165_3</td>
+	<td>[Suite orchestre]</td>
+	<td>suite</td>
+	<td><a href="mirador.html?ref=R165_3" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=R165_3" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=R165_3" target="_blank">Show</a></td>
+	<td>7</td>
+	<td>6</td>
+	<td>12</td>
+	<td>85</td>
+</tr>
+
+<tr>
+
+	<td>R171_0</td>
+	<td>[Danse macabre (Mélodie)] </td>
+	<td>mélodie</td>
+	<td><a href="mirador.html?ref=R171_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=R171_0" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=R171_0" target="_blank">Show</a></td>
+	<td>2</td>
+	<td>6</td>
+	<td>25</td>
+	<td>137</td>
+</tr>
+
+<tr>
+
+	<td>R171_3</td>
+	<td>[Danse macabre (Poème symphonique)]</td>
+	<td>poème symphonique</td>
+	<td><a href="mirador.html?ref=R171_3" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=gt&ref=R171_3" target="_blank">Show</a></td>
+	<td><a href="verovio.html?type=predicted&ref=R171_3" target="_blank">Show</a></td>
+	<td>3</td>
+	<td>15</td>
+	<td>69</td>
+	<td>471</td>
+</tr>
+
+
+
+</table>
+
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+								<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li>Choice 1</li>
+         	</ul>
+								</nav>
+
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contact</h2>
+									</header>
+									<p>Please contact the project coordinator for any request:</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">philippe.rigaux@cnam.fr</a></li>
+									</ul>
+								</section>
+
+						</div>
+
+					</div>
+
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="cscore//js/jquery.min.js""></script>
+			<script src="cscore//js/browser.min.js"></script>
+			<script src="cscore//js/breakpoints.min.js"></script>
+			<script src="cscore//js/util.js"></script>
+			<script src="cscore//js/main.js"></script>
+
+	</body>
 </html>

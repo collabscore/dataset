@@ -1,0 +1,30 @@
+{
+  "name": "dataset",
+  "version": "1.0.0",
+  "description": "This repository contains the reference dataset produced by the [CollabScore](https://collabscore.cnam.fr) project to test and evaluate Optical Music Recognition. It combines a set of images of music scores, all accessible and transformable through an IIIF server, the corresponding list of score encodings in MEI, and a few useful tools to set up a testing environment dedicated to Optical Music Recognition systems.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "http-server -p 8080"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collabscore/dataset.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collabscore/dataset/issues"
+  },
+  "homepage": "https://github.com/collabscore/dataset#readme",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}
