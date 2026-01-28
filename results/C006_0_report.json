@@ -4,26 +4,26 @@
   "operations": [
     {
       "op": "insbar",
-      "x1": "None",
-      "x2": "[] Extras:['timesig,off=0.0,info:,numerator=2,denominator=4']",
+      "pred_score_obj": "None",
+      "ground_score_obj": "[] Extras:['timesig,off=0.0,info:,numerator=2,denominator=4']",
       "cost": 2
     },
     {
       "op": "insbar",
-      "x1": "None",
-      "x2": "[] Extras:['clef,symbol=G2,off=0.5', 'timesig,off=0.0,info:,symbol=common']",
+      "pred_score_obj": "None",
+      "ground_score_obj": "[] Extras:['clef,symbol=G2,off=0.5', 'timesig,off=0.0,info:,symbol=common']",
       "cost": 2
     },
     {
       "op": "delbar",
-      "x1": "[] Extras:['timesig,off=0.0,info:,numerator=2,denominator=4']",
-      "x2": "None",
+      "pred_score_obj": "[] Extras:['timesig,off=0.0,info:,numerator=2,denominator=4']",
+      "ground_score_obj": "None",
       "cost": 2
     },
     {
       "op": "delbar",
-      "x1": "[] Extras:['clef,symbol=G2,off=0.0', 'timesig,off=0.0,info:,symbol=common']",
-      "x2": "None",
+      "pred_score_obj": "[] Extras:['clef,symbol=G2,off=0.0', 'timesig,off=0.0,info:,symbol=common']",
+      "ground_score_obj": "None",
       "cost": 2
     }
   ]
