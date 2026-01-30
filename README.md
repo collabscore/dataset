@@ -60,7 +60,7 @@ list of details to include in the comparison. Example
 for file ``C006_0.mei``.
 
 ```bash
-python3 compare.py -a single -s C006_0.mei -d notesandrests signatures
+python3 csd_utils.py -a single -s C006_0.mei -d notesandrests signatures
 ```
 
 The list of detail level can be obtained with the ``-h`` option. See also the documentation on MusicDiff, https://gregchapman-dev.github.io/musicdiff/musicdiff.html.
@@ -76,7 +76,7 @@ You can run the comparison over all scores with the ``all`` action. The details 
 all comparisons.
 
 ```bash
-python3 compare.py -a all -d notesandrests signatures
+python3 csd_utils.py -a all -d notesandrests signatures
 ```
 
 ### Buildin ga report
@@ -85,7 +85,7 @@ The ``report`` action lets you build a general document (in HTML, Latex) from al
 reports.
 
 ```bash
-python3 compare.py -a report
+python3 csd_utils.py -a report
 ```
 
 
