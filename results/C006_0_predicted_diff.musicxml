@@ -6,54 +6,54 @@
     <creator type="composer">Music21</creator>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-01-28</encoding-date>
+      <encoding-date>2026-01-30</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>converter21</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
     <miscellaneous>
-      <miscellaneous-field name="meiraw:meiHead">&lt;ns0:meiHead xmlns:ns0="http://www.music-encoding.org/ns/mei" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}mei' at 0x105577010&gt;"&gt;
-&lt;ns0:fileDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x1055770b0&gt;"&gt;
-&lt;ns0:titleStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x105577150&gt;"&gt;
-&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}titleStmt' at 0x1055771f0&gt;" /&gt;
+      <miscellaneous-field name="meiraw:meiHead">&lt;ns0:meiHead xmlns:ns0="http://www.music-encoding.org/ns/mei" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}mei' at 0x10ba352b0&gt;"&gt;
+&lt;ns0:fileDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x10ba35350&gt;"&gt;
+&lt;ns0:titleStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x10ba353f0&gt;"&gt;
+&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}titleStmt' at 0x10ba35490&gt;" /&gt;
 &lt;/ns0:titleStmt&gt;
-&lt;ns0:pubStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x105577150&gt;"&gt;
-&lt;ns0:unpub __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x105577330&gt;" /&gt;
+&lt;ns0:pubStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x10ba353f0&gt;"&gt;
+&lt;ns0:unpub __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x10ba355d0&gt;" /&gt;
 &lt;/ns0:pubStmt&gt;
-&lt;ns0:sourceDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x105577150&gt;"&gt;
-&lt;ns0:source type="digital" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}sourceDesc' at 0x105577470&gt;"&gt;
-&lt;ns0:bibl __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}source' at 0x105577510&gt;"&gt;
-&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x1055775b0&gt;" /&gt;
-&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x1055775b0&gt;"&gt;
-&lt;ns0:persName __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x1055776a0&gt;" /&gt;
+&lt;ns0:sourceDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x10ba353f0&gt;"&gt;
+&lt;ns0:source type="digital" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}sourceDesc' at 0x10ba35710&gt;"&gt;
+&lt;ns0:bibl __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}source' at 0x10ba357b0&gt;"&gt;
+&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x10ba35850&gt;" /&gt;
+&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x10ba35850&gt;"&gt;
+&lt;ns0:persName __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x10ba35940&gt;" /&gt;
 &lt;/ns0:composer&gt;
-&lt;ns0:availability __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x1055775b0&gt;"&gt;
-&lt;ns0:useRestrict type="copyright" analog="humdrum:YEC" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}availability' at 0x105577790&gt;"&gt;CollabScore project&lt;/ns0:useRestrict&gt;
+&lt;ns0:availability __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x10ba35850&gt;"&gt;
+&lt;ns0:useRestrict type="copyright" analog="humdrum:YEC" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}availability' at 0x10ba35a30&gt;"&gt;CollabScore project&lt;/ns0:useRestrict&gt;
 &lt;/ns0:availability&gt;
 &lt;/ns0:bibl&gt;
 &lt;/ns0:source&gt;
 &lt;/ns0:sourceDesc&gt;
 &lt;/ns0:fileDesc&gt;
-&lt;ns0:encodingDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x1055770b0&gt;"&gt;
-&lt;ns0:appInfo __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}encodingDesc' at 0x105577830&gt;"&gt;
-&lt;ns0:application version="4.0.0" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1055778d0&gt;"&gt;
-&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x105577920&gt;"&gt;converter21&lt;/ns0:name&gt;
+&lt;ns0:encodingDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x10ba35350&gt;"&gt;
+&lt;ns0:appInfo __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}encodingDesc' at 0x10ba35ad0&gt;"&gt;
+&lt;ns0:application version="4.0.0" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x10ba35b70&gt;"&gt;
+&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x10ba35bc0&gt;"&gt;converter21&lt;/ns0:name&gt;
 &lt;/ns0:application&gt;
-&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1055778d0&gt;"&gt;
-&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x105577a10&gt;"&gt;music21 v.9.9.1&lt;/ns0:name&gt;
+&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x10ba35b70&gt;"&gt;
+&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x10ba35cb0&gt;"&gt;music21 v.9.9.1&lt;/ns0:name&gt;
 &lt;/ns0:application&gt;
-&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1055778d0&gt;"&gt;
-&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x105577ab0&gt;"&gt;DMOS/Collabscore OMR&lt;/ns0:name&gt;
+&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x10ba35b70&gt;"&gt;
+&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x10ba35d50&gt;"&gt;DMOS/Collabscore OMR&lt;/ns0:name&gt;
 &lt;/ns0:application&gt;
 &lt;/ns0:appInfo&gt;
 &lt;/ns0:encodingDesc&gt;
-&lt;ns0:workList __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x1055770b0&gt;"&gt;
-&lt;ns0:work xml:id="work0_encoded_ostwgku" type="encoded" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}workList' at 0x105577ba0&gt;"&gt;
-&lt;ns0:title type="uniform" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x105577c90&gt;"&gt;
-&lt;ns0:titlePart type="main" analog="humdrum:OTL" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}title' at 0x105577ce0&gt;" /&gt;
+&lt;ns0:workList __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x10ba35350&gt;"&gt;
+&lt;ns0:work xml:id="work0_encoded_ostwgku" type="encoded" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}workList' at 0x10ba35e40&gt;"&gt;
+&lt;ns0:title type="uniform" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x10ba35f30&gt;"&gt;
+&lt;ns0:titlePart type="main" analog="humdrum:OTL" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}title' at 0x10ba35f80&gt;" /&gt;
 &lt;/ns0:title&gt;
-&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x105577c90&gt;"&gt;
-&lt;ns0:persName analog="humdrum:COM" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x105577dd0&gt;" /&gt;
+&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x10ba35f30&gt;"&gt;
+&lt;ns0:persName analog="humdrum:COM" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x10ba36070&gt;" /&gt;
 &lt;/ns0:composer&gt;
 &lt;/ns0:work&gt;
 &lt;/ns0:workList&gt;
@@ -71,15 +71,15 @@
     <part-group number="1" type="start">
       <group-barline>no</group-barline>
     </part-group>
-    <score-part id="P27eabcf7c7d6aea93bc2e04969decf68">
+    <score-part id="P7787d14f8b4b890bb7f15641ffc8708a">
       <part-name />
     </score-part>
-    <score-part id="Peeec4d616386606f65fe6492a0ae2ff7">
+    <score-part id="P9eb97acba7efdc2544ca3c2a3870d1e3">
       <part-name />
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P27eabcf7c7d6aea93bc2e04969decf68">
+  <part id="P7787d14f8b4b890bb7f15641ffc8708a">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -313,12 +313,6 @@
     <!--========================= Measure 4 ==========================-->
     <measure implicit="no" number="4">
       <print new-system="yes" />
-      <attributes>
-        <time id="ts_1062_2946">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_1173_3013">
         <pitch>
           <step>G</step>
@@ -357,12 +351,6 @@
     </measure>
     <!--========================= Measure 5 ==========================-->
     <measure implicit="no" number="5">
-      <attributes>
-        <time id="ts_1673_2964" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_1781_2974">
         <rest />
         <duration>5040</duration>
@@ -556,12 +544,6 @@
     <!--========================= Measure 7 ==========================-->
     <measure implicit="no" number="7">
       <print new-system="yes" />
-      <attributes>
-        <time id="ts_1066_4140">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_1177_4192">
         <pitch>
           <step>A</step>
@@ -599,12 +581,6 @@
     </measure>
     <!--========================= Measure 8 ==========================-->
     <measure implicit="no" number="8">
-      <attributes>
-        <time id="ts_1644_4159" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_1772_4170">
         <rest />
         <duration>5040</duration>
@@ -803,12 +779,6 @@
     <!--========================= Measure 10 =========================-->
     <measure implicit="no" number="10">
       <print new-page="yes" />
-      <attributes>
-        <time id="ts_861_984">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_967_1026">
         <pitch>
           <step>B</step>
@@ -851,12 +821,6 @@
     </measure>
     <!--========================= Measure 11 =========================-->
     <measure implicit="no" number="11">
-      <attributes>
-        <time id="ts_1368_1011" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_1462_1021">
         <rest />
         <duration>5040</duration>
@@ -1051,12 +1015,6 @@
     </measure>
     <!--========================= Measure 13 =========================-->
     <measure implicit="no" number="13">
-      <attributes>
-        <time id="ts_3310_979">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_3395_1007">
         <pitch>
           <step>C</step>
@@ -1096,12 +1054,6 @@
     <!--========================= Measure 14 =========================-->
     <measure implicit="no" number="14">
       <print new-system="yes" />
-      <attributes>
-        <time id="ts_860_2140" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <dynamics>
@@ -1303,12 +1255,6 @@
     </measure>
     <!--========================= Measure 16 =========================-->
     <measure implicit="no" number="16">
-      <attributes>
-        <time id="ts_3083_2105">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_3196_2176">
         <pitch>
           <step>G</step>
@@ -1348,12 +1294,6 @@
     <!--========================= Measure 17 =========================-->
     <measure implicit="no" number="17">
       <print new-system="yes" />
-      <attributes>
-        <time id="ts_858_3237" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_974_3243">
         <rest />
         <duration>5040</duration>
@@ -1543,12 +1483,6 @@
     </measure>
     <!--========================= Measure 19 =========================-->
     <measure implicit="no" number="19">
-      <attributes>
-        <time id="ts_2648_3207">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_2724_3231">
         <pitch>
           <step>C</step>
@@ -1587,12 +1521,6 @@
     </measure>
     <!--========================= Measure 20 =========================-->
     <measure implicit="no" number="20">
-      <attributes>
-        <time id="ts_3089_3229" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_3165_3199">
         <pitch>
           <step>E</step>
@@ -1780,12 +1708,6 @@
     </measure>
     <!--========================= Measure 22 =========================-->
     <measure implicit="no" number="22">
-      <attributes>
-        <time id="ts_2019_4305">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_2142_4344">
         <pitch>
           <step>B</step>
@@ -1823,12 +1745,6 @@
     </measure>
     <!--========================= Measure 23 =========================-->
     <measure implicit="no" number="23">
-      <attributes>
-        <time id="ts_2620_4332" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <dynamics>
@@ -2082,11 +1998,6 @@
     </measure>
     <!--========================= Measure 26 =========================-->
     <measure implicit="no" number="26">
-      <attributes>
-        <key id="ks_2177_912">
-          <fifths>1</fifths>
-        </key>
-      </attributes>
       <note color="#13819E" id="rest_2705_966">
         <rest measure="yes" />
         <duration>40320</duration>
@@ -3630,7 +3541,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="Peeec4d616386606f65fe6492a0ae2ff7">
+  <part id="P9eb97acba7efdc2544ca3c2a3870d1e3">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -3652,9 +3563,9 @@
           <line>4</line>
         </clef>
       </attributes>
-      <note color="#13819E" id="v1_nh_1489_2213">
+      <note color="#13819E" id="v1_nh_1489_2276">
         <pitch>
-          <step>G</step>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
         <duration>20160</duration>
@@ -3678,10 +3589,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1489_2276">
+      <note color="#13819E" id="v1_nh_1489_2213">
         <chord />
         <pitch>
-          <step>C</step>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
         <duration>20160</duration>
@@ -3691,16 +3602,14 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1697_2229">
+      <note color="#13819E" id="v1_nh_1696_2305">
         <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>4</octave>
+          <step>A</step>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
@@ -3718,15 +3627,17 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1696_2305">
+      <note color="#13819E" id="v1_nh_1697_2229">
         <chord />
         <pitch>
-          <step>A</step>
-          <octave>3</octave>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
         <type>half</type>
+        <accidental>sharp</accidental>
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
@@ -4003,21 +3914,7 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3690_2258">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-        <beam number="1">continue</beam>
-      </note>
       <note color="#13819E" id="v1_nh_3689_2291">
-        <chord />
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -4028,11 +3925,24 @@
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
+        <beam number="1">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3822_2273">
+      <note color="#13819E" id="v1_nh_3690_2258">
+        <chord />
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
+      <note color="#13819E" id="v1_nh_3822_2311">
+        <pitch>
+          <step>G</step>
           <octave>3</octave>
         </pitch>
         <duration>5040</duration>
@@ -4043,10 +3953,11 @@
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3822_2311">
+      <note color="#13819E" id="v1_nh_3822_2273">
         <chord />
         <pitch>
-          <step>G</step>
+          <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
         </pitch>
         <duration>5040</duration>
@@ -4071,12 +3982,6 @@
     </measure>
     <!--========================= Measure 4 ==========================-->
     <measure implicit="no" number="4">
-      <attributes>
-        <time id="ts_1062_3346--ts_1065_3674">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_1178_3486">
         <pitch>
           <step>B</step>
@@ -4163,12 +4068,6 @@
     </measure>
     <!--========================= Measure 5 ==========================-->
     <measure implicit="no" number="5">
-      <attributes>
-        <time id="ts_1675_3360--ts_1675_3696" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_1785_3369">
         <rest />
         <duration>5040</duration>
@@ -4372,21 +4271,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3556_3406">
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-        <beam number="1">continue</beam>
-      </note>
       <note color="#13819E" id="v1_nh_3557_3438">
-        <chord />
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -4397,11 +4282,24 @@
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
+        <beam number="1">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3676_3420">
+      <note color="#13819E" id="v1_nh_3556_3406">
+        <chord />
         <pitch>
-          <step>E</step>
-          <alter>-1</alter>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
+      <note color="#13819E" id="v1_nh_3675_3453">
+        <pitch>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -4412,10 +4310,11 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3675_3453">
+      <note color="#13819E" id="v1_nh_3676_3420">
         <chord />
         <pitch>
-          <step>C</step>
+          <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -4467,12 +4366,6 @@
     </measure>
     <!--========================= Measure 7 ==========================-->
     <measure implicit="no" number="7">
-      <attributes>
-        <time id="ts_1062_4541--ts_1059_4875">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="v1_nh_1177_4652">
         <pitch>
           <step>D</step>
@@ -4499,7 +4392,21 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
+      <note color="#13819E" id="v1_nh_1291_4668">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+      </note>
       <note color="#13819E" id="v1_nh_1291_4635">
+        <chord />
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -4511,25 +4418,12 @@
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1291_4668">
-        <chord />
+      <note color="#13819E" id="v1_nh_1407_4687">
         <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-      </note>
-      <note color="#13819E" id="v1_nh_1406_4651">
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -4538,12 +4432,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1407_4687">
+      <note color="#13819E" id="v1_nh_1406_4651">
         <chord />
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
+          <step>D</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -4586,12 +4479,6 @@
     </measure>
     <!--========================= Measure 8 ==========================-->
     <measure implicit="no" number="8">
-      <attributes>
-        <time id="ts_1647_4555--ts_1651_4892" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_1776_4568">
         <rest />
         <duration>5040</duration>
@@ -4697,10 +4584,10 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <note color="#A637B0" id="v2_nh_1774_4920">
+      <note color="#A637B0" id="v2_nh_1773_5024">
         <pitch>
           <step>C</step>
-          <octave>3</octave>
+          <octave>2</octave>
         </pitch>
         <duration>20160</duration>
         <voice>2</voice>
@@ -4709,11 +4596,11 @@
         <notehead color="#A637B0" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_1773_5024">
+      <note color="#A637B0" id="v2_nh_1774_4920">
         <chord />
         <pitch>
           <step>C</step>
-          <octave>2</octave>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <voice>2</voice>
@@ -4735,19 +4622,6 @@
     </measure>
     <!--========================= Measure 9 ==========================-->
     <measure implicit="no" number="9">
-      <forward>
-        <duration>40320</duration>
-        <staff>1</staff>
-      </forward>
-      <attributes>
-        <clef id="clef_3861_4518">
-          <sign>F</sign>
-          <line>4</line>
-        </clef>
-      </attributes>
-      <backup>
-        <duration>40320</duration>
-      </backup>
       <note color="#13819E" id="v1_nh_2915_4638">
         <pitch>
           <step>D</step>
@@ -4820,6 +4694,12 @@
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
+      <attributes>
+        <clef id="clef_3861_4518">
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
       <backup>
         <duration>40320</duration>
       </backup>
@@ -5033,10 +4913,10 @@
       <backup>
         <duration>20160</duration>
       </backup>
-      <note color="#A637B0" id="v2_nh_972_1735">
+      <note color="#A637B0" id="v2_nh_971_1840">
         <pitch>
           <step>D</step>
-          <octave>3</octave>
+          <octave>2</octave>
         </pitch>
         <duration>20160</duration>
         <voice>3</voice>
@@ -5050,11 +4930,11 @@
           </articulations>
         </notations>
       </note>
-      <note color="#A637B0" id="v2_nh_971_1840">
+      <note color="#A637B0" id="v2_nh_972_1735">
         <chord />
         <pitch>
           <step>D</step>
-          <octave>2</octave>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <voice>3</voice>
@@ -5069,12 +4949,6 @@
     </measure>
     <!--========================= Measure 11 =========================-->
     <measure implicit="no" number="11">
-      <attributes>
-        <time id="ts_1373_1409--ts_1376_1722" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_1466_1420">
         <rest />
         <duration>5040</duration>
@@ -5082,7 +4956,13 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1586_1530">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1586_1530">
         <pitch>
           <step>D</step>
           <alter>0</alter>
@@ -5093,11 +4973,17 @@
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1716_1499">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1716_1499">
         <pitch>
           <step>F</step>
           <octave>2</octave>
@@ -5106,11 +4992,17 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1819_1469">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1819_1469">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -5119,11 +5011,17 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1942_1440">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1942_1440">
         <pitch>
           <step>C</step>
           <alter>-1</alter>
@@ -5134,11 +5032,17 @@
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2061_1454">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2061_1454">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5148,11 +5052,17 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2190_1468">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2190_1468">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -5161,11 +5071,17 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2325_1438">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2325_1438">
         <pitch>
           <step>C</step>
           <alter>-1</alter>
@@ -5175,7 +5091,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
@@ -5207,7 +5123,13 @@
     </measure>
     <!--========================= Measure 12 =========================-->
     <measure implicit="no" number="12">
-      <note color="#13819E" id="v1_nh_2480_1446">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2480_1446">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5217,10 +5139,10 @@
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2831_1450">
+      <note color="#FF0000" id="v1_nh_2831_1450">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5230,10 +5152,10 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2921_1450">
+      <note color="#FF0000" id="v1_nh_2921_1450">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5243,11 +5165,11 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3027_1466">
+      <note color="#FF0000" id="v1_nh_3027_1466">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -5256,11 +5178,11 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3149_1481">
+      <note color="#FF0000" id="v1_nh_3149_1481">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -5269,7 +5191,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
@@ -5385,13 +5307,19 @@
     </measure>
     <!--========================= Measure 13 =========================-->
     <measure implicit="no" number="13">
-      <attributes>
-        <time id="ts_3314_1385--ts_3312_1692">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
-      <note color="#13819E" id="v1_nh_3400_1466">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3400_1466">
         <pitch>
           <step>A</step>
           <alter>1</alter>
@@ -5402,7 +5330,7 @@
         <type>eighth</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
@@ -5411,7 +5339,7 @@
           </articulations>
         </notations>
       </note>
-      <note color="#13819E" id="v1_nh_3401_1435">
+      <note color="#FF0000" id="v1_nh_3401_1435">
         <chord />
         <pitch>
           <step>C</step>
@@ -5421,25 +5349,22 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3490_1448">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>2</octave>
-        </pitch>
-        <duration>5040</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
         <staff>1</staff>
-        <beam number="1">end</beam>
-      </note>
-      <note color="#13819E" id="v1_nh_3491_1482">
-        <chord />
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3491_1482">
         <pitch>
           <step>G</step>
           <alter>0</alter>
@@ -5450,10 +5375,37 @@
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note color="#FF0000" id="v1_nh_3490_1448">
+        <chord />
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3573_1495">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3573_1495">
         <pitch>
           <step>F</step>
           <alter>0</alter>
@@ -5464,10 +5416,10 @@
         <type>quarter</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3574_1464">
+      <note color="#FF0000" id="v1_nh_3574_1464">
         <chord />
         <pitch>
           <step>A</step>
@@ -5478,7 +5430,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
       <backup>
@@ -5532,30 +5484,20 @@
     </measure>
     <!--========================= Measure 14 =========================-->
     <measure implicit="no" number="14">
-      <attributes>
-        <time id="ts_858_2503--ts_861_2818" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-        <clef id="clef_702_2441">
-          <sign>G</sign>
-          <line>2</line>
-        </clef>
-      </attributes>
       <direction>
         <direction-type>
-          <words color="#FF0000">deleted measure</words>
+          <words color="#FF0000">deleted TrebleClef</words>
         </direction-type>
         <staff>1</staff>
       </direction>
-      <note color="#FF0000" id="rest_974_2515">
+      <note color="#13819E" id="rest_974_2515">
         <rest />
         <duration>5040</duration>
         <voice>1</voice>
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note color="#FF0000" id="v1_nh_1092_2624">
+      <note color="#13819E" id="v1_nh_1092_2624">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5565,11 +5507,11 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF0000" id="v1_nh_1243_2574">
+      <note color="#13819E" id="v1_nh_1243_2574">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -5579,11 +5521,11 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" id="v1_nh_1377_2591">
+      <note color="#13819E" id="v1_nh_1377_2591">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -5592,11 +5534,11 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-      <note color="#FF0000" id="v1_nh_1498_2544">
+      <note color="#13819E" id="v1_nh_1498_2544">
         <pitch>
           <step>G</step>
           <alter>-1</alter>
@@ -5607,11 +5549,11 @@
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF0000" id="v1_nh_1614_2624">
+      <note color="#13819E" id="v1_nh_1614_2624">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5621,11 +5563,11 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" id="v1_nh_1744_2543">
+      <note color="#13819E" id="v1_nh_1744_2543">
         <pitch>
           <step>G</step>
           <alter>-1</alter>
@@ -5635,11 +5577,11 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" id="v1_nh_1858_2558">
+      <note color="#13819E" id="v1_nh_1858_2558">
         <pitch>
           <step>F</step>
           <octave>4</octave>
@@ -5648,7 +5590,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
@@ -5880,19 +5822,7 @@
     </measure>
     <!--========================= Measure 16 =========================-->
     <measure implicit="no" number="16">
-      <attributes>
-        <time id="ts_3087_2475--ts_3089_2782">
-          <beats>2</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">deleted measure</words>
-        </direction-type>
-        <staff>1</staff>
-      </direction>
-      <note color="#FF0000" id="v1_nh_3202_2573">
+      <note color="#13819E" id="v1_nh_3202_2573">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -5902,10 +5832,10 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#FF0000" id="v1_nh_3448_2588">
+      <note color="#13819E" id="v1_nh_3448_2588">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -5914,7 +5844,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
       <backup>
@@ -5984,12 +5914,6 @@
     </measure>
     <!--========================= Measure 17 =========================-->
     <measure implicit="no" number="17">
-      <attributes>
-        <time id="ts_858_3608--ts_859_3917" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_972_3618">
         <rest />
         <duration>5040</duration>
@@ -6411,12 +6335,6 @@
     </measure>
     <!--========================= Measure 20 =========================-->
     <measure implicit="no" number="20">
-      <attributes>
-        <time id="ts_3092_3592--ts_3095_3909" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_3171_3604">
         <rest />
         <duration>5040</duration>
@@ -6875,12 +6793,6 @@
     </measure>
     <!--========================= Measure 23 =========================-->
     <measure implicit="no" number="23">
-      <attributes>
-        <time id="ts_2624_4698--ts_2630_5041" symbol="common">
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <note color="#13819E" id="rest_2746_4715">
         <rest />
         <duration>20160</duration>
@@ -6888,10 +6800,11 @@
         <type>half</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3318_4742">
+      <note color="#13819E" id="v1_nh_3317_4820">
         <pitch>
-          <step>G</step>
-          <octave>4</octave>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -6914,12 +6827,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3317_4820">
+      <note color="#13819E" id="v1_nh_3318_4742">
         <chord />
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -7133,11 +7045,6 @@
     </measure>
     <!--========================= Measure 26 =========================-->
     <measure implicit="no" number="26">
-      <attributes>
-        <key id="ks_2212_1272--ks_2216_1658">
-          <fifths>1</fifths>
-        </key>
-      </attributes>
       <note color="#13819E" id="rest_2704_1331">
         <rest measure="yes" />
         <duration>40320</duration>
@@ -7469,10 +7376,10 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1099_2515">
+      <note color="#13819E" id="v1_nh_1100_2598">
         <pitch>
-          <step>G</step>
-          <octave>4</octave>
+          <step>B</step>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7494,11 +7401,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1100_2598">
+      <note color="#13819E" id="v1_nh_1099_2515">
         <chord />
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7507,10 +7414,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1288_2514">
+      <note color="#13819E" id="v1_nh_1290_2596">
         <pitch>
-          <step>G</step>
-          <octave>4</octave>
+          <step>B</step>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7532,11 +7439,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1290_2596">
+      <note color="#13819E" id="v1_nh_1288_2514">
         <chord />
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7549,19 +7456,6 @@
         <pitch>
           <step>B</step>
           <octave>3</octave>
-        </pitch>
-        <duration>10080</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-      </note>
-      <note color="#13819E" id="v1_nh_1476_2511">
-        <chord />
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7583,6 +7477,19 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
+      <note color="#13819E" id="v1_nh_1476_2511">
+        <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
       <note color="#13819E" id="v1_nh_1618_2593">
         <pitch>
           <step>B</step>
@@ -7595,10 +7502,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1617_2510">
+      <note color="#13819E" id="v1_nh_1618_2557">
         <chord />
         <pitch>
-          <step>G</step>
+          <step>D</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -7608,10 +7515,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1618_2557">
+      <note color="#13819E" id="v1_nh_1617_2510">
         <chord />
         <pitch>
-          <step>D</step>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -7687,10 +7594,10 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1831_2509">
+      <note color="#13819E" id="v1_nh_1830_2589">
         <pitch>
-          <step>G</step>
-          <octave>4</octave>
+          <step>B</step>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7712,11 +7619,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1830_2589">
+      <note color="#13819E" id="v1_nh_1831_2509">
         <chord />
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7725,10 +7632,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1977_2509">
+      <note color="#13819E" id="v1_nh_1977_2591">
         <pitch>
-          <step>G</step>
-          <octave>4</octave>
+          <step>B</step>
+          <octave>3</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -7750,11 +7657,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1977_2591">
+      <note color="#13819E" id="v1_nh_1977_2509">
         <chord />
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -7770,10 +7677,10 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2155_2507">
+      <note color="#13819E" id="v1_nh_2154_2616">
         <pitch>
           <step>G</step>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7795,11 +7702,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2154_2616">
+      <note color="#13819E" id="v1_nh_2155_2507">
         <chord />
         <pitch>
           <step>G</step>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7808,10 +7715,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2302_2507">
+      <note color="#13819E" id="v1_nh_2302_2616">
         <pitch>
           <step>G</step>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -7833,11 +7740,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2302_2616">
+      <note color="#13819E" id="v1_nh_2302_2507">
         <chord />
         <pitch>
           <step>G</step>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -7910,10 +7817,10 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2528_2506">
+      <note color="#13819E" id="v1_nh_2528_2586">
         <pitch>
-          <step>G</step>
-          <octave>4</octave>
+          <step>B</step>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7935,11 +7842,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2528_2586">
+      <note color="#13819E" id="v1_nh_2528_2506">
         <chord />
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7948,10 +7855,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2753_2504">
+      <note color="#13819E" id="v1_nh_2752_2583">
         <pitch>
-          <step>G</step>
-          <octave>4</octave>
+          <step>B</step>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -7973,8 +7880,20 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2752_2583">
+      <note color="#13819E" id="v1_nh_2753_2504">
         <chord />
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
+      <note color="#13819E" id="v1_nh_2946_2581">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -7986,9 +7905,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2947_2473">
+      <note color="#13819E" id="v1_nh_2946_2535">
+        <chord />
         <pitch>
-          <step>B</step>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>10080</duration>
@@ -8011,24 +7931,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2946_2535">
-        <chord />
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-      </note>
-      <note color="#13819E" id="v1_nh_2946_2581">
+      <note color="#13819E" id="v1_nh_2947_2473">
         <chord />
         <pitch>
           <step>B</step>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -8037,10 +7944,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3102_2489">
+      <note color="#13819E" id="v1_nh_3103_2596">
         <pitch>
           <step>A</step>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -8062,11 +7969,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3103_2596">
+      <note color="#13819E" id="v1_nh_3102_2489">
         <chord />
         <pitch>
           <step>A</step>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -8136,9 +8043,22 @@
     </measure>
     <!--========================= Measure 31 =========================-->
     <measure implicit="no" number="31">
-      <note color="#13819E" id="v1_nh_3254_2487">
+      <note color="#13819E" id="v1_nh_3254_2594">
         <pitch>
           <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
+      <note color="#13819E" id="v1_nh_3253_2549">
+        <chord />
+        <pitch>
+          <step>D</step>
           <octave>4</octave>
         </pitch>
         <duration>10080</duration>
@@ -8162,24 +8082,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3253_2549">
-        <chord />
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-      </note>
-      <note color="#13819E" id="v1_nh_3254_2594">
+      <note color="#13819E" id="v1_nh_3254_2487">
         <chord />
         <pitch>
           <step>A</step>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -8390,20 +8297,7 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1136_3609">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-      </note>
       <note color="#13819E" id="v1_nh_1135_3654">
-        <chord />
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -8415,9 +8309,22 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1390_3607">
+      <note color="#13819E" id="v1_nh_1136_3609">
+        <chord />
         <pitch>
           <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
+      <note color="#13819E" id="v1_nh_1389_3651">
+        <pitch>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -8427,10 +8334,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1389_3651">
+      <note color="#13819E" id="v1_nh_1390_3607">
         <chord />
         <pitch>
-          <step>E</step>
+          <step>A</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -8459,19 +8366,6 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1623_3589">
-        <chord />
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-      </note>
       <note color="#13819E" id="v1_nh_1624_3620">
         <chord />
         <pitch>
@@ -8485,9 +8379,22 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1836_3586">
+      <note color="#13819E" id="v1_nh_1623_3589">
+        <chord />
         <pitch>
           <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
+      <note color="#13819E" id="v1_nh_1837_3650">
+        <pitch>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -8510,10 +8417,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1837_3650">
+      <note color="#13819E" id="v1_nh_1836_3586">
         <chord />
         <pitch>
-          <step>E</step>
+          <step>B</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -8577,20 +8484,7 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2125_3598">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-      </note>
       <note color="#13819E" id="v1_nh_2125_3642">
-        <chord />
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -8602,9 +8496,22 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2368_3595">
+      <note color="#13819E" id="v1_nh_2125_3598">
+        <chord />
         <pitch>
           <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
+      <note color="#13819E" id="v1_nh_2369_3640">
+        <pitch>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -8614,10 +8521,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2369_3640">
+      <note color="#13819E" id="v1_nh_2368_3595">
         <chord />
         <pitch>
-          <step>E</step>
+          <step>A</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -8634,10 +8541,10 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2596_3563">
+      <note color="#13819E" id="v1_nh_2596_3640">
         <pitch>
-          <step>C</step>
-          <octave>5</octave>
+          <step>E</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -8659,11 +8566,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2596_3640">
+      <note color="#13819E" id="v1_nh_2596_3563">
         <chord />
         <pitch>
-          <step>E</step>
-          <octave>4</octave>
+          <step>C</step>
+          <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -8672,10 +8579,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2807_3563">
+      <note color="#13819E" id="v1_nh_2806_3638">
         <pitch>
-          <step>C</step>
-          <octave>5</octave>
+          <step>E</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -8697,11 +8604,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2806_3638">
+      <note color="#13819E" id="v1_nh_2807_3563">
         <chord />
         <pitch>
-          <step>E</step>
-          <octave>4</octave>
+          <step>C</step>
+          <octave>5</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -8767,10 +8674,10 @@
     </measure>
     <!--========================= Measure 34 =========================-->
     <measure implicit="no" number="34">
-      <note color="#13819E" id="v1_nh_2985_3562">
+      <note color="#13819E" id="v1_nh_2985_3590">
         <pitch>
-          <step>C</step>
-          <octave>5</octave>
+          <step>A</step>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -8779,11 +8686,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2985_3590">
+      <note color="#13819E" id="v1_nh_2985_3562">
         <chord />
         <pitch>
-          <step>A</step>
-          <octave>4</octave>
+          <step>C</step>
+          <octave>5</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -9168,10 +9075,10 @@
         <type>quarter</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2722_4680">
+      <note color="#13819E" id="v1_nh_2722_4788">
         <pitch>
           <step>C</step>
-          <octave>5</octave>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -9193,11 +9100,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2722_4788">
+      <note color="#13819E" id="v1_nh_2722_4680">
         <chord />
         <pitch>
           <step>C</step>
-          <octave>4</octave>
+          <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
@@ -9319,9 +9226,9 @@
     </measure>
     <!--========================= Measure 37 =========================-->
     <measure implicit="no" number="37">
-      <note color="#13819E" id="v1_nh_3021_4692">
+      <note color="#13819E" id="v1_nh_3021_4766">
         <pitch>
-          <step>B</step>
+          <step>D</step>
           <octave>4</octave>
         </pitch>
         <duration>10080</duration>
@@ -9344,10 +9251,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3021_4766">
+      <note color="#13819E" id="v1_nh_3021_4692">
         <chord />
         <pitch>
-          <step>D</step>
+          <step>B</step>
           <octave>4</octave>
         </pitch>
         <duration>10080</duration>
@@ -9915,10 +9822,10 @@
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3301_1301">
+      <note color="#13819E" id="v1_nh_3303_1406">
         <pitch>
           <step>C</step>
-          <octave>5</octave>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -9940,11 +9847,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3303_1406">
+      <note color="#13819E" id="v1_nh_3301_1301">
         <chord />
         <pitch>
           <step>C</step>
-          <octave>4</octave>
+          <octave>5</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -9984,7 +9891,19 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note color="#5034D4" id="v3_nh_3308_1623">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v3_nh_3308_1623">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -9993,10 +9912,10 @@
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#5034D4" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#5034D4" id="v3_nh_3307_1592">
+      <note color="#FF0000" id="v3_nh_3307_1592">
         <chord />
         <pitch>
           <step>G</step>
@@ -10006,7 +9925,7 @@
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#5034D4" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
       <backup>
@@ -10046,10 +9965,10 @@
     </measure>
     <!--========================= Measure 41 =========================-->
     <measure implicit="no" number="41">
-      <note color="#13819E" id="v1_nh_850_2439">
+      <note color="#13819E" id="v1_nh_852_2546">
         <pitch>
           <step>B</step>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10071,11 +9990,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_852_2546">
+      <note color="#13819E" id="v1_nh_850_2439">
         <chord />
         <pitch>
           <step>B</step>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10084,11 +10003,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1068_2437">
+      <note color="#13819E" id="v1_nh_1069_2545">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10111,12 +10030,12 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1069_2545">
+      <note color="#13819E" id="v1_nh_1068_2437">
         <chord />
         <pitch>
           <step>B</step>
           <alter>-1</alter>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10156,6 +10075,12 @@
       <backup>
         <duration>40320</duration>
       </backup>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
       <note color="#5034D4" id="v3_nh_853_2751">
         <pitch>
           <step>E</step>
@@ -10170,7 +10095,7 @@
         <notehead color="#5034D4" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#5034D4" id="v3_nh_853_2720">
+      <note color="#FF0000" id="v3_nh_853_2720">
         <chord />
         <pitch>
           <step>G</step>
@@ -10180,7 +10105,7 @@
         <voice>3</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#5034D4" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <note color="#5034D4" id="v3_nh_1073_2761">
@@ -10201,10 +10126,10 @@
     </measure>
     <!--========================= Measure 42 =========================-->
     <measure implicit="no" number="42">
-      <note color="#13819E" id="v1_nh_1602_2447">
+      <note color="#13819E" id="v1_nh_1603_2554">
         <pitch>
           <step>A</step>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10226,11 +10151,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1603_2554">
+      <note color="#13819E" id="v1_nh_1602_2447">
         <chord />
         <pitch>
           <step>A</step>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10239,10 +10164,10 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1820_2428">
+      <note color="#13819E" id="v1_nh_1821_2535">
         <pitch>
           <step>B</step>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10266,11 +10191,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1821_2535">
+      <note color="#13819E" id="v1_nh_1820_2428">
         <chord />
         <pitch>
           <step>B</step>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10429,10 +10354,10 @@
     </measure>
     <!--========================= Measure 44 =========================-->
     <measure implicit="no" number="44">
-      <note color="#13819E" id="v1_nh_2889_2384">
+      <note color="#13819E" id="v1_nh_2889_2489">
         <pitch>
           <step>D</step>
-          <octave>5</octave>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10454,11 +10379,11 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2889_2489">
+      <note color="#13819E" id="v1_nh_2889_2384">
         <chord />
         <pitch>
           <step>D</step>
-          <octave>4</octave>
+          <octave>5</octave>
         </pitch>
         <duration>20160</duration>
         <voice>1</voice>
@@ -10847,7 +10772,13 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#A637B0" id="v2_nh_2587_3857">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted dot</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v2_nh_2587_3857">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -10857,7 +10788,7 @@
         <type>eighth</type>
         <dot />
         <stem>up</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
@@ -10914,7 +10845,20 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
+      <note color="#13819E" id="v1_nh_3462_3602">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
       <note color="#13819E" id="v1_nh_3462_3571">
+        <chord />
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -10928,35 +10872,7 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3462_3602">
-        <chord />
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-      </note>
-      <note color="#13819E" id="v1_nh_3616_3586">
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>2520</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-      </note>
       <note color="#13819E" id="v1_nh_3617_3620">
-        <chord />
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -10969,11 +10885,26 @@
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3688_3603">
+      <note color="#13819E" id="v1_nh_3616_3586">
+        <chord />
         <pitch>
-          <step>C</step>
+          <step>D</step>
           <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
+      <note color="#13819E" id="v1_nh_3690_3636">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
         </pitch>
         <duration>2520</duration>
         <voice>1</voice>
@@ -10984,11 +10915,11 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3690_3636">
+      <note color="#13819E" id="v1_nh_3688_3603">
         <chord />
         <pitch>
-          <step>A</step>
-          <octave>3</octave>
+          <step>C</step>
+          <octave>4</octave>
         </pitch>
         <duration>2520</duration>
         <voice>1</voice>
@@ -11475,14 +11406,16 @@
         <type>quarter</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2808_4643">
+      <note color="#13819E" id="v1_nh_2809_4723">
         <pitch>
-          <step>G</step>
-          <octave>4</octave>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <accidental>flat</accidental>
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
@@ -11507,17 +11440,15 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2809_4723">
+      <note color="#13819E" id="v1_nh_2808_4643">
         <chord />
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>flat</accidental>
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
@@ -11546,6 +11477,19 @@
           </articulations>
         </notations>
       </note>
+      <note color="#13819E" id="v1_nh_3088_4691">
+        <chord />
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <staff>1</staff>
+      </note>
       <note color="#13819E" id="v1_nh_3088_4659">
         <chord />
         <pitch>
@@ -11557,19 +11501,6 @@
         <voice>1</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
-        <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
-        <staff>1</staff>
-      </note>
-      <note color="#13819E" id="v1_nh_3088_4691">
-        <chord />
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <voice>1</voice>
-        <type>quarter</type>
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
@@ -11594,10 +11525,10 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_2815_4963">
+      <note color="#A637B0" id="v2_nh_2815_5065">
         <pitch>
           <step>C</step>
-          <octave>3</octave>
+          <octave>2</octave>
         </pitch>
         <duration>10080</duration>
         <voice>2</voice>
@@ -11611,11 +11542,11 @@
           </articulations>
         </notations>
       </note>
-      <note color="#A637B0" id="v2_nh_2815_5065">
+      <note color="#A637B0" id="v2_nh_2815_4963">
         <chord />
         <pitch>
           <step>C</step>
-          <octave>2</octave>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>2</voice>
@@ -11631,10 +11562,10 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_3094_4946">
+      <note color="#A637B0" id="v2_nh_3094_5050">
         <pitch>
           <step>D</step>
-          <octave>3</octave>
+          <octave>2</octave>
         </pitch>
         <duration>10080</duration>
         <voice>2</voice>
@@ -11648,11 +11579,11 @@
           </articulations>
         </notations>
       </note>
-      <note color="#A637B0" id="v2_nh_3094_5050">
+      <note color="#A637B0" id="v2_nh_3094_4946">
         <chord />
         <pitch>
           <step>D</step>
-          <octave>2</octave>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>2</voice>
@@ -11684,15 +11615,17 @@
           </articulations>
         </notations>
       </note>
-      <note color="#13819E" id="v1_nh_3306_4644">
+      <note color="#13819E" id="v1_nh_3308_4722">
         <chord />
         <pitch>
-          <step>G</step>
-          <octave>4</octave>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <accidental>flat</accidental>
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
@@ -11710,17 +11643,15 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_3308_4722">
+      <note color="#13819E" id="v1_nh_3306_4644">
         <chord />
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>flat</accidental>
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <staff>1</staff>
@@ -11742,10 +11673,10 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <note color="#A637B0" id="v2_nh_3315_5004">
+      <note color="#A637B0" id="v2_nh_3316_5107">
         <pitch>
           <step>G</step>
-          <octave>2</octave>
+          <octave>1</octave>
         </pitch>
         <duration>10080</duration>
         <voice>2</voice>
@@ -11759,11 +11690,11 @@
           </articulations>
         </notations>
       </note>
-      <note color="#A637B0" id="v2_nh_3316_5107">
+      <note color="#A637B0" id="v2_nh_3315_5004">
         <chord />
         <pitch>
           <step>G</step>
-          <octave>1</octave>
+          <octave>2</octave>
         </pitch>
         <duration>10080</duration>
         <voice>2</voice>

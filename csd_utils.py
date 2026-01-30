@@ -168,19 +168,20 @@ def compare_single_score(score_name, detail):
 														annotated_ground)
 
 	oplist = []
+	score_report = MdiffScoreReport(score_name)
+	
 	for diff in diff_list:
 		if isinstance(diff[1], AnnNote):
 			print (f"Diff object is a note")
 		if isinstance(diff[1], AnnMeasure):
 			print (f"Diff object is a measure")
-		oplist.append({"op": diff[0],"pred_score_obj":  str(diff[1]), 
-							"ground_score_obj": str(diff[2]), "cost": diff[3]})
-	report = {"cost": _cost, "nb_diffs": len(diff_list), 
-					"operations": oplist}
+		
+		op = MdiffOp (diff[0], diff[1], diff[2], diff[3])		
+		score_report.add (op)
 
 	outrep = os.path.join (OUT_DIR, f"{scpath.stem}_report.json")
 	with open(outrep, "w")  as rep:		
-		json.dump (report, rep, indent=2 )
+		json.dump (score_report.to_dict(), rep, indent=2 )
 
 	Visualization.mark_diffs(predicted_score, ground_score, diff_list)
 	
@@ -255,7 +256,8 @@ def build_full_report():
 			if os.path.exists(report_file):
 				print(f"\tResult file exists for score {score['ref']}.")
 				with open(report_file, "r") as report_file:
-					report = json.load (report_file)
+					report = MdiffScoreReport.from_dict(json.load (report_file))
+					
 					res_file.write (f"<td>{report['nb_diffs']}</td>")
 			res_file.write (f"</tr>")
 		
@@ -298,5 +300,85 @@ def old_decomposed_code():
 	print (f"See files ({outpath}, {outpdf})")
 	print (f"Indicators and operations list is in {outrep}")
 
+###########
+#
+# Classes that wrap musicdiff operations
+#
+##########
+
+class MdiffOp ():
+	""" Description of MDiff operations
+		op[0] is a string describing the diff: “extradel”, or “beamedit” or whatever.
+		op[1] is the the AnnNote or AnnExtra or AnnVoice or AnnWhatever in the first score (None if the diff is an add)
+		op[2] is the AnnNote or AnnExtra or AnnVoice or AnnWhatever in the second score (None if the diff is a delete)
+		op[3] is the edit distance for this diff
+	"""
+	
+	INS_NOTE = "noteins"
+	DEL_NOTE = "notedel"
+	
+	OPERATIONS = [INS_NOTE,DEL_NOTE]
+	
+	def __init__(self, name, first_annot_obj, second_annot_obj, 
+					cost) :
+		self.name = name
+		self.first_annot_obj = first_annot_obj
+		self.second_annot_obj = second_annot_obj
+		self.cost = cost
+		
+	def to_dict(self):
+		return {
+			"op_name": self.name,
+			"first_annot_obj": str(self.first_annot_obj),
+			"second_annot_obj": str(self.second_annot_obj),
+			"cost": self.cost
+			}
+
+	def __repr__(self):
+		return f'Op ({self.name}. ({self.first_annot_obj}, {self.second_annot_obj}). Cost: {self.cost}'
+
+class MdiffScoreReport():
+	"""
+		List of operations found in a Diff measurement 
+		over one score
+	"""
+	def __init__(self, score_ref) :
+		self.score_ref = score_ref
+		self.global_cost = 0
+		
+		# The detailed list of operations
+		self.detailed_ops = []
+		# Operations aggregated on the name
+		self.aggr_ops = {}
+
+	def add(self, op):
+		self.detailed_ops.append(op)
+		
+		# Aggregate
+		if op.name in self.aggr_ops:
+			self.aggr_ops[op.name]["ops"].append(op.to_dict())
+		else:
+			self.aggr_ops[op.name] = {"ops": [op.to_dict()]}
+
+	def to_dict(self):
+		ops_dict = []
+		for op in self.detailed_ops:
+			ops_dict.append(op.to_dict())
+		
+		return {
+			"score_ref": self.score_ref,
+			"global_cost": self.global_cost,
+			"nb_diffs": len(self.detailed_ops),
+			"aggr_ops": self.aggr_ops
+			}
+	
+	@staticmethod
+	def from_dict(dict_report):
+		report = MdiffScoreReport (dict_report["score_ref"])
+		report.global_cost = dict_report["global_cost"]
+		for aggr_op in dict_report["aggr_ops"]:
+			for op_name, op_list in aggr_op["ops"]:
+				print (f"Found op {op_name}")
+		
 if __name__ == "__main__":
 	main()
