@@ -156,7 +156,7 @@ class MdiffScoreReport():
 	@staticmethod
 	def line(ref, title, iiif_link, report, mode='html'):
 		latex_format = """<tr><td>{ref}</td><td>{title}</td>
-		                    <td><a target='_blank' href='{iiif_link}'><link></a></td>
+		                    <td><a target='_blank' href='{iiif_link}'>link</a></td>
 							<td>{nb_diffs}</td></tr>"""
 		return latex_format.format(ref=ref, title=title,
 								iiif_link=iiif_link, 
