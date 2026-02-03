@@ -1,0 +1,65 @@
+{
+  "score_ref": "C010_0.mei",
+  "title": "",
+  "iiif_link": "",
+  "global_cost": 13,
+  "nb_diffs": 6,
+  "aggr_ops": {
+    "notedel": {
+      "label": "notedel",
+      "cost": 9,
+      "nb_diffs": 4,
+      "ops": [
+        {
+          "label": "notedel",
+          "first_annot_obj": "[G6]2*",
+          "second_annot_obj": "None",
+          "cost": 3,
+          "type": "<class 'musicdiff.annotation.AnnNote'>"
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[D4]4",
+          "second_annot_obj": "None",
+          "cost": 2,
+          "type": "<class 'musicdiff.annotation.AnnNote'>"
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[B3]4",
+          "second_annot_obj": "None",
+          "cost": 2,
+          "type": "<class 'musicdiff.annotation.AnnNote'>"
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[B3]4",
+          "second_annot_obj": "None",
+          "cost": 2,
+          "type": "<class 'musicdiff.annotation.AnnNote'>"
+        }
+      ]
+    },
+    "noteins": {
+      "label": "noteins",
+      "cost": 4,
+      "nb_diffs": 2,
+      "ops": [
+        {
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "second_annot_obj": "[C4]4",
+          "cost": 2,
+          "type": "<class 'NoneType'>"
+        },
+        {
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "second_annot_obj": "[A3]4",
+          "cost": 2,
+          "type": "<class 'NoneType'>"
+        }
+      ]
+    }
+  }
+}

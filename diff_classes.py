@@ -22,13 +22,19 @@ class MdiffOp ():
 		op[3] is the edit distance for this diff
 	"""
 	
-	INS_NOTE = "noteins"
-	DEL_NOTE = "notedel"
+	NOTE_INS = "noteins"
+	NOTE_DEL = "notedel"
+	DOT_DEL = "dotdel"
+	EXTRA_DEL = "extradel"
+	EXTRA_INS = "extrains"
+	BAR_DEL = "insbar"
+	BAR_INS = "delbar"
 	
-	OPERATIONS = [INS_NOTE,DEL_NOTE]
+	OPERATIONS = [NOTE_INS,NOTE_DEL,DOT_DEL,EXTRA_DEL,
+					EXTRA_INS, BAR_DEL, BAR_INS]
 	
-	def __init__(self, name, first_annot_obj, second_annot_obj, 
-					cost, type) :
+	def __init__(self, name, first_annot_obj=None, second_annot_obj=None, 
+					cost=0, type="Unknown") :
 		self.name = name
 		self.first_annot_obj = first_annot_obj
 		self.second_annot_obj = second_annot_obj
@@ -70,6 +76,9 @@ class MdiffListOps ():
 	def add (self, op):
 		self.cost += op.cost
 		self.ops.append(op)
+	
+	def nb_diffs(self):
+		return len (self.ops)
 		
 	def to_dict(self):
 		ops_dict = []
@@ -96,8 +105,10 @@ class MdiffScoreReport():
 		List of operations found in a Diff measurement 
 		over one score
 	"""
-	def __init__(self, score_ref) :
+	def __init__(self, score_ref, title, iiif_link) :
 		self.score_ref = score_ref
+		self.title = title
+		self.iiif_link = iiif_link
 		self.global_cost = 0
 		self.nb_diffs = 0
 		# Operations aggregated and indexed by label, inst. of MdiffListOps
@@ -118,22 +129,27 @@ class MdiffScoreReport():
 		
 		return {
 			"score_ref": self.score_ref,
+			"title": self.title,
+			"iiif_link": self.iiif_link,
 			"global_cost": self.global_cost,
 			"nb_diffs": self.nb_diffs,
 			"aggr_ops": ops_dict
 			}
 	
-	def get_ops_list(self, label):
-		# Get a list of operations 
+	def op_info(self, label):
+		# Get the list of operations for a given labeel
 		if label not in self.aggr_ops.keys():
-			print (f"Warning : attemps to get a non existing ops with label {label}")
-			return None 
+			# Return a list with default values
+			return MdiffListOps  (label)
 		else:
 			return self.aggr_ops[label]
 		
 	@staticmethod
 	def from_dict(dict_report):
-		report = MdiffScoreReport (dict_report["score_ref"])
+		report = MdiffScoreReport (dict_report["score_ref"],
+						dict_report["title"],
+						dict_report["iiif_link"]
+		)
 		report.global_cost = dict_report["global_cost"]
 		report.nb_diffs = dict_report["nb_diffs"]
 		for label, aggr_op in dict_report["aggr_ops"].items():
@@ -152,12 +168,37 @@ class MdiffScoreReport():
 	@staticmethod
 	def line_header(mode='html'):
 		return """<tr><th>Ref</th><th>Title</th><th>Images</th>
-							<th>Nb diffs</th></tr>"""
-	@staticmethod
-	def line(ref, title, iiif_link, report, mode='html'):
+							<th>Nb diffs</th>
+							<th>Note ins.</th><
+							<th>Note del.</th>
+							<th>Dot del.</th>
+							<th>Extra del.</th>
+							<th>Extra ins.</th>
+							<th>Bar del.</th>
+							<th>Bar ins.</th>
+							</tr>"""
+							
+	def line(self, mode='html'):
 		latex_format = """<tr><td>{ref}</td><td>{title}</td>
 		                    <td><a target='_blank' href='{iiif_link}'>link</a></td>
-							<td>{nb_diffs}</td></tr>"""
-		return latex_format.format(ref=ref, title=title,
-								iiif_link=iiif_link, 
-								nb_diffs = report.nb_diffs)
+							<td>{nb_diffs}</td>
+							<td>{noteins}</td>
+							<td>{notedel}</td>
+							<td>{dotdel}</td>
+							<td>{extrains}</td>
+							<td>{extradel}</td>
+							<td>{barins}</td>
+							<td>{bardel}</td>
+							</tr>"""
+
+		return latex_format.format(ref=self.score_ref, title=self.title,
+								iiif_link=self.iiif_link, 
+								nb_diffs = self.nb_diffs,
+								noteins=self.op_info(MdiffOp.NOTE_INS).nb_diffs(),
+								notedel=self.op_info(MdiffOp.NOTE_DEL).nb_diffs(),
+								dotdel=self.op_info(MdiffOp.DOT_DEL).nb_diffs(),
+								extrains=self.op_info(MdiffOp.EXTRA_INS).nb_diffs(),
+								extradel=self.op_info(MdiffOp.EXTRA_DEL).nb_diffs(),
+								barins=self.op_info(MdiffOp.BAR_INS).nb_diffs(),
+								bardel=self.op_info(MdiffOp.BAR_DEL).nb_diffs(),
+								)

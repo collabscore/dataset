@@ -6,54 +6,54 @@
     <creator type="composer">Music21</creator>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-01-28</encoding-date>
+      <encoding-date>2026-02-03</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>converter21</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
     <miscellaneous>
-      <miscellaneous-field name="meiraw:meiHead">&lt;ns0:meiHead xmlns:ns0="http://www.music-encoding.org/ns/mei" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}mei' at 0x1039ef6f0&gt;"&gt;
-&lt;ns0:fileDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x1039ef5b0&gt;"&gt;
-&lt;ns0:titleStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x1039ef060&gt;"&gt;
-&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}titleStmt' at 0x1039ee7a0&gt;" /&gt;
+      <miscellaneous-field name="meiraw:meiHead">&lt;ns0:meiHead xmlns:ns0="http://www.music-encoding.org/ns/mei" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}mei' at 0x32b773920&gt;"&gt;
+&lt;ns0:fileDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x32b773f10&gt;"&gt;
+&lt;ns0:titleStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x32b773f60&gt;"&gt;
+&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}titleStmt' at 0x32b773dd0&gt;" /&gt;
 &lt;/ns0:titleStmt&gt;
-&lt;ns0:pubStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x1039ef060&gt;"&gt;
-&lt;ns0:unpub __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x1039ee160&gt;" /&gt;
+&lt;ns0:pubStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x32b773f60&gt;"&gt;
+&lt;ns0:unpub __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x32b773bf0&gt;" /&gt;
 &lt;/ns0:pubStmt&gt;
-&lt;ns0:sourceDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x1039ef060&gt;"&gt;
-&lt;ns0:source type="digital" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}sourceDesc' at 0x1039ed800&gt;"&gt;
-&lt;ns0:bibl __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}source' at 0x1039ed620&gt;"&gt;
-&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x1039ece50&gt;" /&gt;
-&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x1039ece50&gt;"&gt;
-&lt;ns0:persName __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x1039ecd10&gt;" /&gt;
+&lt;ns0:sourceDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x32b773f60&gt;"&gt;
+&lt;ns0:source type="digital" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}sourceDesc' at 0x32b772b60&gt;"&gt;
+&lt;ns0:bibl __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}source' at 0x32b7733d0&gt;"&gt;
+&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x32b7737e0&gt;" /&gt;
+&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x32b7737e0&gt;"&gt;
+&lt;ns0:persName __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x32b7736f0&gt;" /&gt;
 &lt;/ns0:composer&gt;
-&lt;ns0:availability __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x1039ece50&gt;"&gt;
-&lt;ns0:useRestrict type="copyright" analog="humdrum:YEC" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}availability' at 0x1039ec630&gt;"&gt;CollabScore project&lt;/ns0:useRestrict&gt;
+&lt;ns0:availability __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x32b7737e0&gt;"&gt;
+&lt;ns0:useRestrict type="copyright" analog="humdrum:YEC" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}availability' at 0x32b773600&gt;"&gt;CollabScore project&lt;/ns0:useRestrict&gt;
 &lt;/ns0:availability&gt;
 &lt;/ns0:bibl&gt;
 &lt;/ns0:source&gt;
 &lt;/ns0:sourceDesc&gt;
 &lt;/ns0:fileDesc&gt;
-&lt;ns0:encodingDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x1039ef5b0&gt;"&gt;
-&lt;ns0:appInfo __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}encodingDesc' at 0x1039ec450&gt;"&gt;
-&lt;ns0:application version="4.0.0" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1039ef510&gt;"&gt;
-&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x1039ef560&gt;"&gt;converter21&lt;/ns0:name&gt;
+&lt;ns0:encodingDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x32b773f10&gt;"&gt;
+&lt;ns0:appInfo __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}encodingDesc' at 0x32b7735b0&gt;"&gt;
+&lt;ns0:application version="4.0.0" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x32b773510&gt;"&gt;
+&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x32b772f20&gt;"&gt;converter21&lt;/ns0:name&gt;
 &lt;/ns0:application&gt;
-&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1039ef510&gt;"&gt;
-&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x1039effb0&gt;"&gt;music21 v.9.9.1&lt;/ns0:name&gt;
+&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x32b773510&gt;"&gt;
+&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x32b773330&gt;"&gt;music21 v.9.9.1&lt;/ns0:name&gt;
 &lt;/ns0:application&gt;
-&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1039ef510&gt;"&gt;
-&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x1039eff10&gt;"&gt;DMOS/Collabscore OMR&lt;/ns0:name&gt;
+&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x32b773510&gt;"&gt;
+&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x32b773290&gt;"&gt;DMOS/Collabscore OMR&lt;/ns0:name&gt;
 &lt;/ns0:application&gt;
 &lt;/ns0:appInfo&gt;
 &lt;/ns0:encodingDesc&gt;
-&lt;ns0:workList __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x1039ef5b0&gt;"&gt;
-&lt;ns0:work xml:id="work0_encoded_ougooqy" type="encoded" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}workList' at 0x1039efd30&gt;"&gt;
-&lt;ns0:title type="uniform" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x1039efd80&gt;"&gt;
-&lt;ns0:titlePart type="main" analog="humdrum:OTL" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}title' at 0x1039ef740&gt;" /&gt;
+&lt;ns0:workList __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x32b773f10&gt;"&gt;
+&lt;ns0:work xml:id="work0_encoded_ougooqy" type="encoded" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}workList' at 0x32b7731a0&gt;"&gt;
+&lt;ns0:title type="uniform" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x32b772fc0&gt;"&gt;
+&lt;ns0:titlePart type="main" analog="humdrum:OTL" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}title' at 0x32b7730b0&gt;" /&gt;
 &lt;/ns0:title&gt;
-&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x1039efd80&gt;"&gt;
-&lt;ns0:persName analog="humdrum:COM" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x1039efba0&gt;" /&gt;
+&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x32b772fc0&gt;"&gt;
+&lt;ns0:persName analog="humdrum:COM" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x32b772e80&gt;" /&gt;
 &lt;/ns0:composer&gt;
 &lt;/ns0:work&gt;
 &lt;/ns0:workList&gt;
@@ -71,15 +71,15 @@
     <part-group number="1" type="start">
       <group-barline>no</group-barline>
     </part-group>
-    <score-part id="Pdded188a5d321643bfb54cd5c161b22a">
+    <score-part id="P72dda62ce0a30119c22b897506d9a03d">
       <part-name />
     </score-part>
-    <score-part id="P285d71c038544313a5573fe3c251d332">
+    <score-part id="P6fd0e245150b04034f28f79beff26672">
       <part-name />
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pdded188a5d321643bfb54cd5c161b22a">
+  <part id="P72dda62ce0a30119c22b897506d9a03d">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -141,7 +141,22 @@
       </attributes>
       <direction>
         <direction-type>
-          <words color="#FF0000">deleted measure</words>
+          <words color="#FF0000">deleted TrebleClef</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted KeySignature</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed note head</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted dot</words>
         </direction-type>
       </direction>
       <note color="#FF0000" id="rest_1163_2295">
@@ -164,13 +179,23 @@
         <offset sound="yes">5040</offset>
         <sound dynamics="44" />
       </direction>
-      <note color="#13819E" id="rest_1661_2308">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Rest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="rest_1661_2308">
         <rest />
         <duration>5040</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
-      <note color="#13819E" id="v1_nh_1759_2375">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1759_2375">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -179,7 +204,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>Com</text>
@@ -197,7 +222,12 @@
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
       </note>
-      <note color="#13819E" id="v1_nh_1984_2350">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1984_2350">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -207,13 +237,18 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>ment,</text>
         </lyric>
       </note>
-      <note color="#13819E" id="v1_nh_2093_2365">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2093_2365">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -223,13 +258,18 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>di</text>
         </lyric>
       </note>
-      <note color="#13819E" id="v1_nh_2214_2422">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2214_2422">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -238,7 +278,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>saient</text>
@@ -288,7 +328,12 @@
         <voice>1</voice>
         <type>eighth</type>
       </note>
-      <note color="#13819E" id="v1_nh_2743_2393">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2743_2393">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -297,7 +342,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>vec</text>
@@ -1054,7 +1099,12 @@
     <!--========================= Measure 19 =========================-->
     <measure implicit="no" number="19">
       <print new-system="yes" />
-      <note color="#13819E" id="v1_nh_1019_1993">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">increased flags</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1019_1993">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -1063,9 +1113,14 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
       </note>
-      <note color="#13819E" id="v1_nh_1244_1962">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1244_1962">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -1074,9 +1129,14 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
       </note>
-      <note color="#13819E" id="v1_nh_1315_1920">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1315_1920">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -1085,13 +1145,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>et</text>
         </lyric>
       </note>
-      <note color="#13819E" id="v1_nh_1395_1892">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1395_1892">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -1100,7 +1165,7 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>pé</text>
@@ -1386,7 +1451,12 @@
           <fifths>0</fifths>
         </key>
       </attributes>
-      <note id="space-otmvssm" print-object="no" print-spacing="yes">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="space-otmvssm" print-object="no" print-spacing="yes">
         <rest measure="yes" />
         <duration>30240</duration>
         <voice>1</voice>
@@ -1425,12 +1495,7 @@
           <fifths>0</fifths>
         </key>
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">deleted measure</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="rest_1439_4470">
+      <note color="#13819E" id="rest_1439_4470">
         <rest measure="yes" />
         <duration>30240</duration>
         <voice>1</voice>
@@ -1900,13 +1965,23 @@
           <fifths>4</fifths>
         </key>
       </attributes>
-      <note color="#13819E" id="rest_2925_1986">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Rest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="rest_2925_1986">
         <rest />
         <duration>10080</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
-      <note color="#13819E" id="v1_nh_2995_1951">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2995_1951">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -1916,7 +1991,7 @@
         <type>quarter</type>
         <dot />
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>mez!</text>
@@ -2223,7 +2298,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="P285d71c038544313a5573fe3c251d332">
+  <part id="P6fd0e245150b04034f28f79beff26672">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -2325,7 +2400,13 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1518_1813">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1518_1813">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -2335,7 +2416,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -2489,7 +2570,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2238_1894">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted accidental</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2238_1894">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -2499,7 +2586,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -2681,7 +2768,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3096_1915">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted accidental</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3096_1915">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -2691,7 +2784,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -2873,7 +2966,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1022_2898">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted accidental</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1022_2898">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -2883,7 +2982,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -3070,7 +3169,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1812_2768">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1812_2768">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -3080,12 +3185,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1868_2738">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1868_2738">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -3094,12 +3205,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1922_2699">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1922_2699">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -3108,12 +3225,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1982_2657">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1982_2657">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -3122,12 +3245,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2035_2713">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2035_2713">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -3137,12 +3266,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2090_2745">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2090_2745">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -3151,12 +3286,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2152_2907">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2152_2907">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -3165,12 +3306,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2211_2936">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2211_2936">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -3180,12 +3327,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2260_2994">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2260_2994">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -3194,7 +3347,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -3290,7 +3443,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2649_2667">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">increased flags</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2649_2667">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -3299,11 +3458,17 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam color="#FF0000" number="1">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2696_2709">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2696_2709">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -3312,7 +3477,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
@@ -3389,7 +3554,13 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_2786_2917">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v2_nh_2786_2917">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -3398,7 +3569,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -3469,7 +3640,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3209_2788">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3209_2788">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -3478,7 +3655,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -3497,7 +3674,13 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3311_2725">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3311_2725">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -3506,12 +3689,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3366_2699">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3366_2699">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -3521,12 +3710,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3414_2729">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3414_2729">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -3535,12 +3730,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3465_2772">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3465_2772">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -3549,12 +3750,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3522_2950">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3522_2950">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -3564,12 +3771,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3571_2980">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3571_2980">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -3578,12 +3791,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3626_3025">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3626_3025">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -3592,7 +3811,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -3657,7 +3876,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_998_3725">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_998_3725">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -3666,12 +3891,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1088_3695">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1088_3695">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -3681,12 +3912,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1168_3655">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1168_3655">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -3696,12 +3933,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1233_4040">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1233_4040">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -3711,12 +3954,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1303_3982">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1303_3982">
         <pitch>
           <step>A</step>
           <alter>1</alter>
@@ -3727,12 +3976,18 @@
         <type>16th</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1346_3942">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1346_3942">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -3742,12 +3997,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1414_3915">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1414_3915">
         <pitch>
           <step>F</step>
           <alter>2</alter>
@@ -3759,10 +4020,16 @@
         <dot />
         <accidental>double-sharp</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1486_3888">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1486_3888">
         <pitch>
           <step>A</step>
           <alter>1</alter>
@@ -3773,7 +4040,7 @@
         <type>16th</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <note id="space-otmwaei" print-object="no" print-spacing="yes">
@@ -3789,7 +4056,13 @@
     </measure>
     <!--========================= Measure 9 ==========================-->
     <measure implicit="no" number="9">
-      <note color="#13819E" id="v1_nh_1632_4002">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1632_4002">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -3799,12 +4072,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1690_3948">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1690_3948">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -3814,12 +4093,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1748_3908">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1748_3908">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -3829,12 +4114,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1802_3739">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1802_3739">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -3843,12 +4134,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1859_3709">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1859_3709">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -3858,12 +4155,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1913_3640">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1913_3640">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -3872,12 +4175,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1969_3656">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted accidental</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1969_3656">
         <pitch>
           <step>A</step>
           <alter>0</alter>
@@ -3886,14 +4195,20 @@
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental>natural</accidental>
+        <accidental color="#FF0000">natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2020_3714">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2020_3714">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -3903,12 +4218,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2072_3746">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2072_3746">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -3917,7 +4238,7 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -3981,7 +4302,13 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_1969_3656">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v2_nh_1969_3656">
         <pitch>
           <step>A</step>
           <alter>0</alter>
@@ -3992,7 +4319,7 @@
         <type>quarter</type>
         <accidental>natural</accidental>
         <stem>down</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
       <note id="space-otmvpuu" print-object="no" print-spacing="yes">
@@ -4215,7 +4542,13 @@
     </measure>
     <!--========================= Measure 11 =========================-->
     <measure implicit="no" number="11">
-      <note color="#13819E" id="v1_nh_3070_4012">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3070_4012">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -4224,12 +4557,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3120_3972">
+      <note color="#FF0000" id="v1_nh_3120_3972">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -4238,12 +4571,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3159_3804">
+      <note color="#FF0000" id="v1_nh_3159_3804">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -4253,12 +4586,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3207_3767">
+      <note color="#FF0000" id="v1_nh_3207_3767">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -4267,12 +4600,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3257_3725">
+      <note color="#FF0000" id="v1_nh_3257_3725">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -4281,12 +4614,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note id="space-otmvpym" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="space-otmvpym" print-object="no" print-spacing="yes">
         <rest />
         <duration>17640</duration>
         <voice>1</voice>
@@ -4574,7 +4907,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1639_4922">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted accidental</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1639_4922">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -4584,12 +4923,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1740_4848">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1740_4848">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -4598,7 +4943,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -4817,7 +5162,13 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <note color="#13819E" id="v1_nh_2870_5079">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2870_5079">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -4826,12 +5177,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2921_5022">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2921_5022">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -4840,12 +5197,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2978_4982">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2978_4982">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -4854,12 +5217,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3047_4955">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3047_4955">
         <pitch>
           <step>G</step>
           <alter>0</alter>
@@ -4870,12 +5239,18 @@
         <type>16th</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3097_4926">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3097_4926">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -4884,12 +5259,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3148_4884">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3148_4884">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -4898,12 +5279,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3219_4915">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3219_4915">
         <pitch>
           <step>C</step>
           <alter>0</alter>
@@ -4914,7 +5301,7 @@
         <type>16th</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -4933,7 +5320,13 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3309_4976">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3309_4976">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4943,12 +5336,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3355_4990">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3355_4990">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -4957,12 +5356,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3418_5021">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3418_5021">
         <pitch>
           <step>C</step>
           <alter>0</alter>
@@ -4973,12 +5378,18 @@
         <type>16th</type>
         <accidental>natural</accidental>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3463_5051">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3463_5051">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -4987,7 +5398,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -5003,84 +5414,90 @@
           <fifths>1</fifths>
         </key>
       </attributes>
-      <note id="F2part1M16V3E1" print-object="no" print-spacing="yes">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="F2part1M16V3E1" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E3" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E3" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E5" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E5" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E7" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E7" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E9" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E9" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E11" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E11" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E13" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E13" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E15" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E15" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E17" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E17" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E19" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E19" print-object="no" print-spacing="yes">
         <rest />
         <duration>1260</duration>
         <voice>1</voice>
         <type>32nd</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M16V3E21" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M16V3E21" print-object="no" print-spacing="yes">
         <rest />
         <duration>1260</duration>
         <voice>1</voice>
         <type>32nd</type>
         <staff>1</staff>
       </note>
-      <note id="space-otmvimq" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="space-otmvimq" print-object="no" print-spacing="yes">
         <rest />
         <duration>5040</duration>
         <voice>1</voice>
@@ -5090,7 +5507,13 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <note color="#13819E" id="v1_nh_1019_1618">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1019_1618">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -5099,12 +5522,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1099_1561">
+      <note color="#FF0000" id="v1_nh_1099_1561">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -5113,12 +5536,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1172_1517">
+      <note color="#FF0000" id="v1_nh_1172_1517">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -5127,12 +5550,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1255_1489">
+      <note color="#FF0000" id="v1_nh_1255_1489">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -5141,12 +5564,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1334_1458">
+      <note color="#FF0000" id="v1_nh_1334_1458">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -5155,12 +5578,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1411_1312">
+      <note color="#FF0000" id="v1_nh_1411_1312">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -5169,12 +5592,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1487_1270">
+      <note color="#FF0000" id="v1_nh_1487_1270">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -5183,12 +5606,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1562_1325">
+      <note color="#FF0000" id="v1_nh_1562_1325">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -5199,12 +5622,12 @@
         <type>16th</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1637_1354">
+      <note color="#FF0000" id="v1_nh_1637_1354">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -5213,12 +5636,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1716_1474">
+      <note color="#FF0000" id="v1_nh_1716_1474">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -5227,17 +5650,17 @@
         <voice>2</voice>
         <type>32nd</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note id="space-otmvsya" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="space-otmvsya" print-object="no" print-spacing="yes">
         <rest />
         <duration>5040</duration>
         <voice>2</voice>
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <note id="space-otmvpci" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="space-otmvpci" print-object="no" print-spacing="yes">
         <rest />
         <duration>1260</duration>
         <voice>2</voice>
@@ -5259,7 +5682,13 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <note color="#13819E" id="v1_nh_1995_1617">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1995_1617">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -5268,12 +5697,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2075_1559">
+      <note color="#FF0000" id="v1_nh_2075_1559">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -5282,12 +5711,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2156_1516">
+      <note color="#FF0000" id="v1_nh_2156_1516">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -5296,12 +5725,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2237_1488">
+      <note color="#FF0000" id="v1_nh_2237_1488">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -5310,12 +5739,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2312_1460">
+      <note color="#FF0000" id="v1_nh_2312_1460">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -5324,12 +5753,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2388_1312">
+      <note color="#FF0000" id="v1_nh_2388_1312">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -5338,12 +5767,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2463_1270">
+      <note color="#FF0000" id="v1_nh_2463_1270">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -5352,12 +5781,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2544_1313">
+      <note color="#FF0000" id="v1_nh_2544_1313">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -5366,12 +5795,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2616_1340">
+      <note color="#FF0000" id="v1_nh_2616_1340">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -5380,12 +5809,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2703_1475">
+      <note color="#FF0000" id="v1_nh_2703_1475">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -5394,12 +5823,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2775_1517">
+      <note color="#FF0000" id="v1_nh_2775_1517">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -5408,12 +5837,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2853_1545">
+      <note color="#FF0000" id="v1_nh_2853_1545">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -5422,7 +5851,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -5442,7 +5871,13 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <note color="#13819E" id="v1_nh_2996_1616">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2996_1616">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -5451,12 +5886,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3078_1560">
+      <note color="#FF0000" id="v1_nh_3078_1560">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -5465,12 +5900,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3152_1517">
+      <note color="#FF0000" id="v1_nh_3152_1517">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -5479,12 +5914,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3233_1382">
+      <note color="#FF0000" id="v1_nh_3233_1382">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -5493,12 +5928,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3308_1351">
+      <note color="#FF0000" id="v1_nh_3308_1351">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -5507,12 +5942,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3382_1312">
+      <note color="#FF0000" id="v1_nh_3382_1312">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -5521,12 +5956,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3464_1284">
+      <note color="#FF0000" id="v1_nh_3464_1284">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -5535,12 +5970,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3543_1312">
+      <note color="#FF0000" id="v1_nh_3543_1312">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -5549,12 +5984,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3619_1351">
+      <note color="#FF0000" id="v1_nh_3619_1351">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -5563,12 +5998,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3696_1492">
+      <note color="#FF0000" id="v1_nh_3696_1492">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -5577,12 +6012,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3780_1520">
+      <note color="#FF0000" id="v1_nh_3780_1520">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -5591,12 +6026,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3857_1564">
+      <note color="#FF0000" id="v1_nh_3857_1564">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -5605,7 +6040,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -5616,7 +6051,13 @@
     </measure>
     <!--========================= Measure 19 =========================-->
     <measure implicit="no" number="19">
-      <note color="#13819E" id="v1_nh_1019_2547">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1019_2547">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -5625,12 +6066,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1097_2489">
+      <note color="#FF0000" id="v1_nh_1097_2489">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -5639,12 +6080,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1165_2447">
+      <note color="#FF0000" id="v1_nh_1165_2447">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -5653,12 +6094,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1246_2308">
+      <note color="#FF0000" id="v1_nh_1246_2308">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -5667,12 +6108,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1318_2276">
+      <note color="#FF0000" id="v1_nh_1318_2276">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -5681,12 +6122,12 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1393_2234">
+      <note color="#FF0000" id="v1_nh_1393_2234">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -5695,19 +6136,19 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="rest_1472_2196">
+      <note color="#FF0000" id="rest_1472_2196">
         <rest />
         <duration>10080</duration>
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="rest_1772_2197">
+      <note color="#FF0000" id="rest_1772_2197">
         <rest />
         <duration>5040</duration>
         <voice>1</voice>
@@ -5717,49 +6158,49 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <note id="F2part1M19V3E1" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M19V3E1" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>2</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M19V3E3" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M19V3E3" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>2</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M19V3E5" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M19V3E5" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>2</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M19V3E7" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M19V3E7" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>2</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M19V3E9" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M19V3E9" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>2</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F2part1M19V3E11" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F2part1M19V3E11" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>2</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_1471_2586">
+      <note color="#FF0000" id="v2_nh_1471_2586">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -5768,10 +6209,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_1545_2530">
+      <note color="#FF0000" id="v2_nh_1545_2530">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -5780,10 +6221,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_1621_2487">
+      <note color="#FF0000" id="v2_nh_1621_2487">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -5792,7 +6233,7 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
       <backup>
@@ -6787,7 +7228,13 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <note color="#13819E" id="rest_999_4153">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Rest</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="rest_999_4153">
         <rest measure="yes" />
         <duration>30240</duration>
         <voice>2</voice>
@@ -7712,7 +8159,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2462_4828">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted accidental</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2462_4828">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -7721,7 +8174,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -7756,7 +8209,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2697_5009">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted accidental</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2697_5009">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -7765,12 +8224,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2770_5036">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted accidental</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2770_5036">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -7779,7 +8244,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -8057,7 +8522,13 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1166_1512">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1166_1512">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -8066,7 +8537,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -8363,42 +8834,48 @@
     </measure>
     <!--========================= Measure 33 =========================-->
     <measure implicit="no" number="33">
-      <note id="F3part1M33V3E1" print-object="no" print-spacing="yes">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="F3part1M33V3E1" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F3part1M33V3E3" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F3part1M33V3E3" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="F3part1M33V3E5" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="F3part1M33V3E5" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note color="#A637B0" id="rest_3029_1569">
+      <note color="#FF0000" id="rest_3029_1569">
         <rest />
         <duration>10080</duration>
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
       </note>
-      <note id="space-osahwpk" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="space-osahwpk" print-object="no" print-spacing="yes">
         <rest />
         <duration>10080</duration>
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
       </note>
-      <note id="space-otmwano" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="space-otmwano" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
@@ -8596,7 +9073,13 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <note color="#13819E" id="v1_nh_848_2720">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_848_2720">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -8605,12 +9088,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_916_2665">
+      <note color="#FF0000" id="v1_nh_916_2665">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -8619,12 +9102,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_979_2625">
+      <note color="#FF0000" id="v1_nh_979_2625">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -8633,12 +9116,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1042_2440">
+      <note color="#FF0000" id="v1_nh_1042_2440">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -8647,12 +9130,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1104_2412">
+      <note color="#FF0000" id="v1_nh_1104_2412">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -8661,12 +9144,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1161_2372">
+      <note color="#FF0000" id="v1_nh_1161_2372">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -8675,12 +9158,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1225_2344">
+      <note color="#FF0000" id="v1_nh_1225_2344">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -8689,12 +9172,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1287_2373">
+      <note color="#FF0000" id="v1_nh_1287_2373">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -8703,12 +9186,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1349_2414">
+      <note color="#FF0000" id="v1_nh_1349_2414">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -8717,12 +9200,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1409_2599">
+      <note color="#FF0000" id="v1_nh_1409_2599">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -8731,12 +9214,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1467_2630">
+      <note color="#FF0000" id="v1_nh_1467_2630">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -8745,12 +9228,12 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1525_2674">
+      <note color="#FF0000" id="v1_nh_1525_2674">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -8759,7 +9242,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -9042,7 +9525,13 @@
         <type>quarter</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="v1_nh_2989_2677">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2989_2677">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -9051,12 +9540,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3107_2621">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3107_2621">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -9065,12 +9560,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3221_2400">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3221_2400">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -9080,12 +9581,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3360_2388">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3360_2388">
         <pitch>
           <step>A</step>
           <alter>1</alter>
@@ -9096,7 +9603,7 @@
         <type>16th</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -9126,7 +9633,13 @@
         <type>quarter</type>
         <staff>1</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_3050_2649">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v2_nh_3050_2649">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -9136,12 +9649,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#A637B0" id="v2_nh_3166_2427">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v2_nh_3166_2427">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -9150,12 +9669,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#A637B0" id="v2_nh_3280_2372">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v2_nh_3280_2372">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -9164,7 +9689,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -9190,7 +9715,13 @@
         <type>64th</type>
         <staff>1</staff>
       </note>
-      <note color="#A637B0" id="v2_nh_3543_2458">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v2_nh_3543_2458">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -9200,7 +9731,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
       <note print-object="no" print-spacing="yes">
@@ -9294,7 +9825,13 @@
     </measure>
     <!--========================= Measure 38 =========================-->
     <measure implicit="no" number="38">
-      <note color="#A637B0" id="v2_nh_893_3917">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v2_nh_893_3917">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -9304,13 +9841,19 @@
         <type>half</type>
         <dot />
         <stem>down</stem>
-        <notehead color="#A637B0" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
       </note>
       <backup>
         <duration>30240</duration>
       </backup>
-      <note color="#13819E" id="v1_nh_895_3763">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted measure</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_895_3763">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -9320,17 +9863,17 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note id="space-otmvjxo" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="space-otmvjxo" print-object="no" print-spacing="yes">
         <rest />
         <duration>20160</duration>
         <voice>2</voice>
         <type>half</type>
         <staff>2</staff>
       </note>
-      <note id="space-otmwchs" print-object="no" print-spacing="yes">
+      <note color="#FF0000" id="space-otmwchs" print-object="no" print-spacing="yes">
         <rest />
         <duration>7560</duration>
         <voice>2</voice>
@@ -9353,14 +9896,26 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <note color="#13819E" id="rest_1847_3476">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Rest</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="rest_1847_3476">
         <rest />
         <duration>2520</duration>
         <voice>2</voice>
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note color="#13819E" id="v1_nh_1928_3836">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1928_3836">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -9369,12 +9924,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2002_3796">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2002_3796">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -9383,12 +9944,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2078_3769">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2078_3769">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -9398,12 +9965,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2149_3739">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2149_3739">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -9412,12 +9985,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2228_3542">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2228_3542">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -9426,12 +10005,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2312_3515">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2312_3515">
         <pitch>
           <step>G</step>
           <alter>0</alter>
@@ -9442,12 +10027,18 @@
         <type>16th</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2383_3545">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2383_3545">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -9456,12 +10047,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2457_3576">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2457_3576">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -9471,12 +10068,18 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2532_3762">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2532_3762">
         <pitch>
           <step>A</step>
           <alter>1</alter>
@@ -9487,12 +10090,18 @@
         <type>16th</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2613_3778">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2613_3778">
         <pitch>
           <step>G</step>
           <alter>0</alter>
@@ -9503,12 +10112,18 @@
         <type>16th</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2682_3807">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2682_3807">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -9517,7 +10132,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -9606,7 +10221,13 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3029_3800">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3029_3800">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -9616,7 +10237,7 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -9649,7 +10270,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3249_3517">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3249_3517">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -9658,12 +10285,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3322_3574">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3322_3574">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -9673,12 +10306,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3388_3604">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3388_3604">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -9687,19 +10326,31 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="rest_3470_3502">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Rest</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="rest_3470_3502">
         <rest />
         <duration>2520</duration>
         <voice>1</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note color="#13819E" id="rest_3542_3501">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Rest</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="rest_3542_3501">
         <rest />
         <duration>5040</duration>
         <voice>1</voice>
@@ -9772,7 +10423,13 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note color="#5034D4" id="v3_nh_3475_3779">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted accidental</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v3_nh_3475_3779">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -9781,7 +10438,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#5034D4" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -9829,7 +10486,13 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <note color="#A637B0" id="rest_3391_3833">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted dot</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="rest_3391_3833">
         <rest />
         <duration>3780</duration>
         <voice>3</voice>
@@ -9982,7 +10645,13 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_1411_4881">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted accidental</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_1411_4881">
         <pitch>
           <step>G</step>
           <alter>0</alter>
@@ -9991,9 +10660,9 @@
         <duration>2520</duration>
         <voice>2</voice>
         <type>16th</type>
-        <accidental>natural</accidental>
+        <accidental color="#FF0000">natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -10129,7 +10798,13 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2013_4814">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2013_4814">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -10139,7 +10814,7 @@
         <voice>2</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -10175,7 +10850,13 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2220_4890">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted accidental</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2220_4890">
         <pitch>
           <step>G</step>
           <alter>0</alter>
@@ -10184,9 +10865,9 @@
         <duration>2520</duration>
         <voice>2</voice>
         <type>16th</type>
-        <accidental>natural</accidental>
+        <accidental color="#FF0000">natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -10242,7 +10923,13 @@
     </measure>
     <!--========================= Measure 43 =========================-->
     <measure implicit="no" number="43">
-      <note color="#13819E" id="v1_nh_2538_5025">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2538_5025">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -10251,7 +10938,7 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -10284,7 +10971,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2724_4746">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2724_4746">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -10294,7 +10987,7 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -10327,7 +11020,13 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2907_4650">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2907_4650">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -10337,12 +11036,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
       </note>
-      <note color="#13819E" id="v1_nh_2967_4679">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_2967_4679">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -10351,7 +11056,7 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -10370,7 +11075,13 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3090_4682">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3090_4682">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -10379,12 +11090,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3151_4655">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3151_4655">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -10394,12 +11111,18 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
-      <note color="#13819E" id="v1_nh_3216_4628">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted Note</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note color="#FF0000" id="v1_nh_3216_4628">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -10408,7 +11131,7 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>

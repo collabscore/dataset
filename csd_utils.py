@@ -171,7 +171,7 @@ def compare_single_score(score_name, detail):
 														annotated_ground)
 
 	oplist = []
-	score_report = MdiffScoreReport(score_name)
+	score_report = MdiffScoreReport(score_name, "", "")
 	
 	for diff in diff_list:
 		op = MdiffOp (diff[0], diff[1], diff[2], diff[3],
@@ -200,7 +200,7 @@ def compare_single_score(score_name, detail):
 			print_text_output=True, 
 			detail=detail)
 
-def compare_collection():
+def compare_collection(detail):
 	"""
 	   Loop on all scores and compute diffs
 	"""
@@ -212,7 +212,7 @@ def compare_collection():
 			file_name = f"{score['ref']}.mei"
 			print (f"\n\nCompute DIFFS for score {score['title']} (file {file_name})")
 			try:
-				compare_single_score (file_name)
+				compare_single_score (file_name, detail)
 			except Exception as e:
 				print (f"Exception met for score {score['title']}: {e}")
 
@@ -236,6 +236,7 @@ def build_full_report():
 	# First load the dataset.json 
 	with open("dataset.json") as json_data:
 		dataset = json.load (json_data)
+		
 	with open(report_name, "w") as res_file:
 		res_file.write (MdiffScoreReport.table_header())
 		res_file.write (MdiffScoreReport.line_header())
@@ -248,14 +249,13 @@ def build_full_report():
 				print(f"\tResult file exists for score {score['ref']}.")
 				with open(report_file, "r") as report_file:
 					report = MdiffScoreReport.from_dict(json.load (report_file))
+					report.title = score['title']
+					report.iiif_link = score['iiif_link']
 			else:
 				# Default / empty values
-				report = MdiffScoreReport(score['ref'])
+				report = MdiffScoreReport(score['ref'], score['title'], score['iiif_link'])
 			# Write the report line for this score
-			res_file.write (MdiffScoreReport.line(score['ref'],
-												score['title'],
-												score['iiif_link'],
-												report))
+			res_file.write (report.line())
 
 		res_file.write (MdiffScoreReport.table_footer())
 
