@@ -2,9 +2,23 @@
   "score_ref": "C006_0.mei",
   "title": "",
   "iiif_link": "",
-  "global_cost": 136,
-  "nb_diffs": 41,
+  "global_cost": 26,
+  "nb_diffs": 14,
   "aggr_ops": {
+    "extrains": {
+      "label": "extrains",
+      "cost": 1,
+      "nb_diffs": 1,
+      "ops": [
+        {
+          "label": "extrains",
+          "first_annot_obj": "None",
+          "second_annot_obj": "clef,symbol=G2,off=0.5",
+          "cost": 1,
+          "type": "<class 'NoneType'>"
+        }
+      ]
+    },
     "extradel": {
       "label": "extradel",
       "cost": 1,
@@ -19,225 +33,29 @@
         }
       ]
     },
-    "notedel": {
-      "label": "notedel",
-      "cost": 48,
-      "nb_diffs": 16,
+    "accidentdel": {
+      "label": "accidentdel",
+      "cost": 1,
+      "nb_diffs": 1,
       "ops": [
         {
-          "label": "notedel",
-          "first_annot_obj": "[A2sharp]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 4,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[C3]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 3,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[G2natural]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 4,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[B2]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 3,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[F2natural]4",
-          "second_annot_obj": "None",
-          "cost": 3,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[A2]4",
-          "second_annot_obj": "None",
-          "cost": 2,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[D2natural]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 4,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[F2]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 3,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[A2]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 3,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[C3flat]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 4,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[B2]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 3,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[A2]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 3,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[C3]4Bpa",
-          "second_annot_obj": "None",
-          "cost": 3,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[E3]2",
-          "second_annot_obj": "None",
-          "cost": 2,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[G3]2",
-          "second_annot_obj": "None",
-          "cost": 2,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[G3]2",
-          "second_annot_obj": "None",
-          "cost": 2,
+          "label": "accidentdel",
+          "first_annot_obj": "[N-5natural]4",
+          "second_annot_obj": "[N-5]4",
+          "cost": 1,
           "type": "<class 'musicdiff.annotation.AnnNote'>"
         }
       ]
     },
     "noteins": {
       "label": "noteins",
-      "cost": 57,
-      "nb_diffs": 20,
+      "cost": 16,
+      "nb_diffs": 7,
       "ops": [
         {
           "label": "noteins",
           "first_annot_obj": "None",
-          "second_annot_obj": "[F4sharp]4Bpa",
-          "cost": 4,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[A4]4Bpa",
-          "cost": 3,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[E4natural]4Bpa",
-          "cost": 4,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[G4]4Bpa",
-          "cost": 3,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[D4]4",
-          "cost": 2,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[F4]4",
-          "cost": 2,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[B3natural]4Bpa",
-          "cost": 4,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[D4]4Bpa",
-          "cost": 3,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[F4]4Bpa",
-          "cost": 3,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[A4flat]4Bpa",
-          "cost": 4,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[G4]4Bpa",
-          "cost": 3,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[F4]4Bpa",
-          "cost": 3,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[A4]4Bpa",
-          "cost": 3,
-          "type": "<class 'NoneType'>"
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "second_annot_obj": "[G4]4Bpa",
+          "second_annot_obj": "[N-2]4Bpa",
           "cost": 3,
           "type": "<class 'NoneType'>"
         },
@@ -265,65 +83,51 @@
         {
           "label": "noteins",
           "first_annot_obj": "None",
-          "second_annot_obj": "[G4]4",
+          "second_annot_obj": "[N-2]4",
           "cost": 2,
           "type": "<class 'NoneType'>"
         },
         {
           "label": "noteins",
           "first_annot_obj": "None",
-          "second_annot_obj": "[E3]2",
+          "second_annot_obj": "[N1]2",
           "cost": 2,
           "type": "<class 'NoneType'>"
         },
         {
           "label": "noteins",
           "first_annot_obj": "None",
-          "second_annot_obj": "[D3]4Bpa",
+          "second_annot_obj": "[N0]4Bpa",
           "cost": 3,
           "type": "<class 'NoneType'>"
         }
       ]
     },
-    "insbar": {
-      "label": "insbar",
-      "cost": 14,
-      "nb_diffs": 1,
+    "notedel": {
+      "label": "notedel",
+      "cost": 6,
+      "nb_diffs": 3,
       "ops": [
         {
-          "label": "insbar",
-          "first_annot_obj": "None",
-          "second_annot_obj": "['[G4]2', '[G4]4Bpa', '[G4]4Bpa', '[F4]4Bpa', '[E4]4Bpa']",
-          "cost": 14,
-          "type": "<class 'NoneType'>"
-        }
-      ]
-    },
-    "delbar": {
-      "label": "delbar",
-      "cost": 14,
-      "nb_diffs": 1,
-      "ops": [
-        {
-          "label": "delbar",
-          "first_annot_obj": "['[B2]2', '[B2]4Bpa', '[B2]4Bpa', '[A2]4Bpa', '[G2]4Bpa']",
+          "label": "notedel",
+          "first_annot_obj": "[N-11]2",
           "second_annot_obj": "None",
-          "cost": 14,
-          "type": "<class 'musicdiff.annotation.AnnMeasure'>"
-        }
-      ]
-    },
-    "extrains": {
-      "label": "extrains",
-      "cost": 1,
-      "nb_diffs": 1,
-      "ops": [
+          "cost": 2,
+          "type": "<class 'musicdiff.annotation.AnnNote'>"
+        },
         {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "second_annot_obj": "clef,symbol=G2,off=0.5",
-          "cost": 1,
-          "type": "<class 'NoneType'>"
+          "label": "notedel",
+          "first_annot_obj": "[N-9]2",
+          "second_annot_obj": "None",
+          "cost": 2,
+          "type": "<class 'musicdiff.annotation.AnnNote'>"
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N3]2",
+          "second_annot_obj": "None",
+          "cost": 2,
+          "type": "<class 'musicdiff.annotation.AnnNote'>"
         }
       ]
     },
@@ -334,8 +138,8 @@
       "ops": [
         {
           "label": "dotdel",
-          "first_annot_obj": "[C3]4*Bpa",
-          "second_annot_obj": "[C3]4Bpa",
+          "first_annot_obj": "[N-1]4*Bpa",
+          "second_annot_obj": "[N-1]4Bpa",
           "cost": 1,
           "type": "<class 'musicdiff.annotation.AnnNote'>"
         }

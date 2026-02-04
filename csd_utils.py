@@ -24,7 +24,7 @@ from musicdiff.comparison import Comparison
 from musicdiff.visualization import Visualization
 
 # MDiff classe
-from diff_classes import MdiffOp, MdiffScoreReport
+from diff_classes import MdiffOp, MdiffScoreReport, MdiffListOps
 
 # Predefined dirs
 OUT_DIR="results"
@@ -59,7 +59,8 @@ def main(argv=None):
 	parser.add_argument("-d", "--details", default=["allobjects"],
 			nargs="*",
 			choices=["decoratednotesandrests", "otherobjects",
-			"allobjects",  "style", "metadata", "voicing", 
+			"allobjects",  "style", "metadata",
+			"notestaffposition", "voicing", 
 			"notesandrests", "beams", "tremolos", "ornaments",
 			"articulations", "ties", "slurs", "signatures",
 			"directions", "barlines", "staffdetails",
@@ -89,6 +90,8 @@ def main(argv=None):
 				detail |= DetailLevel.Voicing
 			elif det == "metadata":
 				detail |= DetailLevel.Metadata
+			elif det == "notestaffposition":
+				detail |= DetailLevel.NoteStaffPosition
 			# bits in the DecoratedNotesAndRests combo
 			elif det == "notesandrests":
 				detail |= DetailLevel.NotesAndRests
@@ -232,34 +235,52 @@ def build_full_report():
 	"""
 	  Build HTML and other file summarizing the comparison results
 	"""
-	report_name = "full_report.html"
+	REPORT_NAME = "full_report.html"
+	
 	# First load the dataset.json 
 	with open("dataset.json") as json_data:
 		dataset = json.load (json_data)
 		
-	with open(report_name, "w") as res_file:
+	# We summarize the results in a global result fie
+	with open(REPORT_NAME, "w") as res_file:
+		
 		res_file.write (MdiffScoreReport.table_header())
 		res_file.write (MdiffScoreReport.line_header())
 		
 		# Loop on the scores, show the results
 		for score in dataset["list_opus"]:
-			report_file =f"results/{score['ref']}_report.json"
+			score_ref = score['ref']
+			report_file =f"results/{score_ref}_report.json"
 			# Get the report file if it exists
 			if os.path.exists(report_file):
-				print(f"\tResult file exists for score {score['ref']}.")
+				print(f"\tResult file exists for score {score_ref}.")
 				with open(report_file, "r") as report_file:
 					report = MdiffScoreReport.from_dict(json.load (report_file))
 					report.title = score['title']
 					report.iiif_link = score['iiif_link']
+					## OK, we also produce a detailed report dedicated
+					# to the current score
+					score_report_name = report.details_link()
+					with open(score_report_name, "w") as score_report_file:
+						score_report_file.write (MdiffScoreReport.table_header())
+						score_report_file.write (MdiffListOps.detail_line_header())
+						for op_name, list_ops in report.aggr_ops.items():
+							print (f"Detail report for op {op_name}")
+							score_report_file.write (list_ops.detail_line())
+							for op in list_ops.ops:
+								score_report_file.write (op.detail_line())
+								
+						score_report_file.write (MdiffScoreReport.table_footer())
 			else:
 				# Default / empty values
 				report = MdiffScoreReport(score['ref'], score['title'], score['iiif_link'])
 			# Write the report line for this score
 			res_file.write (report.line())
 
+
 		res_file.write (MdiffScoreReport.table_footer())
 
-	print (f"\nDone. Report stored in {report_name}")
+	print (f"\nDone. Report stored in {REPORT_NAME}")
 
 def old_decomposed_code():
 		
