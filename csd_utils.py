@@ -177,8 +177,7 @@ def compare_single_score(score_name, detail):
 	score_report = MdiffScoreReport(score_name, "", "")
 	
 	for diff in diff_list:
-		op = MdiffOp (diff[0], diff[1], diff[2], diff[3],
-					str(type(diff[1])))
+		op = MdiffOp (diff[0], diff[1], diff[2], diff[3])
 		score_report.add (op)
 
 	outrep = os.path.join (OUT_DIR, f"{scpath.stem}_report.json")
@@ -265,7 +264,6 @@ def build_full_report():
 						score_report_file.write (MdiffScoreReport.table_header())
 						score_report_file.write (MdiffListOps.detail_line_header())
 						for op_name, list_ops in report.aggr_ops.items():
-							print (f"Detail report for op {op_name}")
 							score_report_file.write (list_ops.detail_line())
 							for op in list_ops.ops:
 								score_report_file.write (op.detail_line())

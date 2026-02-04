@@ -27,27 +27,55 @@ class MdiffOp ():
 	DOT_DEL = "dotdel"
 	EXTRA_DEL = "extradel"
 	EXTRA_INS = "extrains"
+	ACCIDENT_DEL = "accidentdel"
+	ACCIDENT_INS = "accidentins"
 	BAR_DEL = "insbar"
 	BAR_INS = "delbar"
 	
 	OPERATIONS = [NOTE_INS,NOTE_DEL,DOT_DEL,EXTRA_DEL,
+					ACCIDENT_DEL, ACCIDENT_INS,
 					EXTRA_INS, BAR_DEL, BAR_INS]
 	
-	def __init__(self, name, first_annot_obj=None, second_annot_obj=None, 
-					cost=0, type="Unknown") :
+	def __init__(self, name, 
+					first_annot_obj=None, 
+					second_annot_obj=None, 
+					cost=0,
+					type1=None, id1=None, type2=None, id2=None) :
 		self.name = name
 		self.first_annot_obj = first_annot_obj
 		self.second_annot_obj = second_annot_obj
 		self.cost = cost
-		self.type = type
+		
+		self.type1 = type1
+		self.id1 = id1
+		self.type2 = type2
+		self.id2 = id2
+		
+		if type1 is None:
+			(self.id1, self.type1) = MdiffOp.find_type_and_id (first_annot_obj)
+		if type2 is None:
+			(self.id2, self.type2) = MdiffOp.find_type_and_id (second_annot_obj)
+		
+	@staticmethod
+	def find_type_and_id (mdiff_obj):
+		obj_type = str(type(mdiff_obj))
+		if "AnnNote" in obj_type:
+			return  mdiff_obj.general_note, "Note"
+		elif "AnnExtra" in obj_type:
+			return  mdiff_obj.extra, "ReadingContext"
+		else:
+			return "",obj_type
 		
 	def to_dict(self):
 		return {
 			"label": self.name,
 			"first_annot_obj": str(self.first_annot_obj),
+			"type1": self.type1,
+			"id1": self.id1,
 			"second_annot_obj": str(self.second_annot_obj),
-			"cost": self.cost,
-			"type": self.type
+			"type2": self.type2,
+			"id2": self.id2,
+			"cost": self.cost
 			}
 
 	@staticmethod
@@ -56,7 +84,8 @@ class MdiffOp ():
 						op_dict["first_annot_obj"], 
 						op_dict["second_annot_obj"], 
 						op_dict["cost"],
-						op_dict["type"]
+						op_dict["type1"], op_dict["id1"],
+						op_dict["type2"], op_dict["id2"]
 						)
 
 	def __repr__(self):
@@ -66,15 +95,20 @@ class MdiffOp ():
 		latex_format = """<tr><td></td>
 							<td></td><td></td>
 							<td>{first_obj}</td>
+							<td>{type1}</td>
+							<td>{id1}</td>
 							<td>{second_obj}</td>
-							<td>{type}</td>
+							<td>{type2}</td>
+							<td>{id2}</td>
 							<td>{cost}</td>
 							</tr>"""
 
-		return latex_format.format(op_name=self.name,
-								first_obj=self.first_annot_obj,
+		return latex_format.format(first_obj=self.first_annot_obj,
 								second_obj=self.second_annot_obj,
-								type=self.type,
+								type1=self.type1,
+								id1=self.id1,
+								type2=self.type2,
+								id2=self.id2,
 								cost=self.cost)
 
 class MdiffListOps ():
@@ -109,26 +143,34 @@ class MdiffListOps ():
 	@staticmethod
 	def from_dict(label, dict_list_ops):
 		ops_list = MdiffListOps (label)
-		ops_list.cost = dict_list_ops["cost"]
+		#ops_list.cost = dict_list_ops["cost"]
 		for dict_op in dict_list_ops["ops"]:
 			ops_list.add (MdiffOp.from_dict(dict_op))
 		return ops_list
 
 	@staticmethod
 	def detail_line_header(mode='html'):
-		return """<tr><th><th>Operation</th><th>Global cost</th>
+		return """<tr  bgcolor='lightgrey'>
+							<th>Operation</th>
+							<th>Nb diffs</th>
+							<th>Global cost</th>
 							<th>First object</th>
+							<th>Type1</th>
+							<th>Id1</th>
 							<th>Second object</th>
-							<th>Type</th>
+							<th>Type2</th>
+							<th>Id2</th>
 							<th>Cost</th>
 							</tr>"""
 
 	def detail_line(self, mode='html'):
-		latex_format = """<tr><td>{op_name}</td>
+		latex_format = """<tr bgcolor="lightgrey"><td>{op_name}</td>
+							<td>{nb_diffs}</td>
 							<td>{cost}</td>
-							</tr>"""
+							<td colspan='7'></td> </tr>"""
 
 		return latex_format.format(op_name=self.label,
+								nb_diffs=self.nb_diffs(),
 								cost=self.cost)
 
 class MdiffScoreReport():
@@ -137,7 +179,7 @@ class MdiffScoreReport():
 		over one score
 	"""
 	DETAILED_REPORT_NAME = "results/{ref}_report.html"
-	EMPTY_REPORT_NAME = "results/empty_report.html"
+	EMPTY_REPORT_NAME = "empty_report.html"
 
 	def __init__(self, score_ref, title, iiif_link) :
 		self.score_ref = score_ref
@@ -216,6 +258,7 @@ class MdiffScoreReport():
 		return """<tr><th>Ref</th><th>Title</th><th>Images</th>
 							<th>Details</th>
 							<th>Nb diffs</th>
+							<th>Cost</th>
 							<th>Note ins.</th>
 							<th>Note del.</th>
 							<th>Dot del.</th>
@@ -230,6 +273,7 @@ class MdiffScoreReport():
 		                    <td><a target='_blank' href='{iiif_link}'>link</a></td>
 							<td><a target='_blank' href='{details_link}'>{details_link}</a></td>
 							<td>{nb_diffs}</td>
+							<td>{cost}</td>
 							<td>{noteins}</td>
 							<td>{notedel}</td>
 							<td>{dotdel}</td>
@@ -243,6 +287,7 @@ class MdiffScoreReport():
 								iiif_link=self.iiif_link, 
 								details_link=self.details_link(),
 								nb_diffs = self.nb_diffs,
+								cost=self.global_cost,
 								noteins=self.op_info(MdiffOp.NOTE_INS).nb_diffs(),
 								notedel=self.op_info(MdiffOp.NOTE_DEL).nb_diffs(),
 								dotdel=self.op_info(MdiffOp.DOT_DEL).nb_diffs(),

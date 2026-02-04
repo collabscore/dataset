@@ -12,31 +12,43 @@
       "ops": [
         {
           "label": "notedel",
-          "first_annot_obj": "[G6]2*",
+          "first_annot_obj": "[N12]2*",
+          "type1": "Note",
+          "id1": "v1_nh_1062_1105",
           "second_annot_obj": "None",
-          "cost": 3,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 3
         },
         {
           "label": "notedel",
-          "first_annot_obj": "[D4]4",
+          "first_annot_obj": "[N-5]4",
+          "type1": "Note",
+          "id1": "chord_v1_nh_1620_1544",
           "second_annot_obj": "None",
-          "cost": 2,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
         },
         {
           "label": "notedel",
-          "first_annot_obj": "[B3]4",
+          "first_annot_obj": "[N-7]4",
+          "type1": "Note",
+          "id1": "v3_nh_1654_970",
           "second_annot_obj": "None",
-          "cost": 2,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
         },
         {
           "label": "notedel",
-          "first_annot_obj": "[B3]4",
+          "first_annot_obj": "[N-7]4",
+          "type1": "Note",
+          "id1": "chord_v1_nh_1727_1694",
           "second_annot_obj": "None",
-          "cost": 2,
-          "type": "<class 'musicdiff.annotation.AnnNote'>"
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
         }
       ]
     },
@@ -48,16 +60,22 @@
         {
           "label": "noteins",
           "first_annot_obj": "None",
-          "second_annot_obj": "[C4]4",
-          "cost": 2,
-          "type": "<class 'NoneType'>"
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N-6]4",
+          "type2": "Note",
+          "id2": "m-116",
+          "cost": 2
         },
         {
           "label": "noteins",
           "first_annot_obj": "None",
-          "second_annot_obj": "[A3]4",
-          "cost": 2,
-          "type": "<class 'NoneType'>"
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N-8]4",
+          "type2": "Note",
+          "id2": "m-815",
+          "cost": 2
         }
       ]
     }
