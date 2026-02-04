@@ -63,6 +63,12 @@ for file ``C006_0.mei``.
 python3 csd_utils.py -a single -s C006_0.mei -d notesandrests signatures
 ```
 
+If, instead of comparing pitches, on wishes to compare the position on staff, we run this option instead:
+
+```bash
+python3 csd_utils.py -a single -s C006_0.mei -d notestaffposition notesandrests signatures
+```
+
 The list of detail level can be obtained with the ``-h`` option. See also the documentation on MusicDiff, https://gregchapman-dev.github.io/musicdiff/musicdiff.html.
 
 Results will be found in the ``results``folder:
