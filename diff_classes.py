@@ -25,24 +25,33 @@ class MdiffOp ():
 	NOTE_INS = "noteins"
 	NOTE_DEL = "notedel"
 	DOT_DEL = "dotdel"
-	EXTRA_DEL = "extradel"
-	EXTRA_INS = "extrains"
+	DOT_INS = "dotins"
 	ACCIDENT_DEL = "accidentdel"
 	ACCIDENT_INS = "accidentins"
+	ACCIDENT_EDIT = "accidentedit"
+	HEAD_EDIT = "headedit"
+	
+	EXTRA_DEL = "extradel"
+	EXTRA_INS = "extrains"
+	EXTRA_SYMBOL_EDIT="extrasymboledit"
 	BAR_DEL = "insbar"
 	BAR_INS = "delbar"
+	
 	LYRICS_DEL = "lyricdel"
 	LYRICS_INS = "lyricedit"
 	LYRICS_EDIT = "lyricins"
+	LYRICS_OFFSET_EDIT="lyricoffsetedit"
 	
-	ALL_OPERATIONS = [NOTE_INS,NOTE_DEL,DOT_DEL,EXTRA_DEL,
-					ACCIDENT_DEL, ACCIDENT_INS,
-					EXTRA_INS, EXTRA_DEL, BAR_DEL, BAR_INS,
-					LYRICS_DEL, LYRICS_INS, LYRICS_EDIT]
+	ALL_OPERATIONS = [NOTE_INS,NOTE_DEL,DOT_DEL,DOT_INS,HEAD_EDIT,
+					ACCIDENT_DEL, ACCIDENT_INS,ACCIDENT_EDIT,
+					EXTRA_DEL, EXTRA_INS, BAR_DEL, BAR_INS,
+					LYRICS_DEL, LYRICS_INS, LYRICS_EDIT, LYRICS_OFFSET_EDIT]
 					
-	VOICE_ITEM_OPS =  [NOTE_INS,NOTE_DEL,DOT_DEL,ACCIDENT_DEL, ACCIDENT_INS]
-	CONTEXT_OPS = [EXTRA_DEL, EXTRA_INS]
-	LYRICS_OPS = [LYRICS_DEL, LYRICS_INS, LYRICS_EDIT]
+	VOICE_ITEM_OPS =  [NOTE_INS,NOTE_DEL,HEAD_EDIT,
+						DOT_DEL,DOT_INS,
+						ACCIDENT_DEL, ACCIDENT_INS,ACCIDENT_EDIT]
+	CONTEXT_OPS = [EXTRA_DEL, EXTRA_INS, EXTRA_SYMBOL_EDIT]
+	LYRICS_OPS = [LYRICS_DEL, LYRICS_INS, LYRICS_EDIT, LYRICS_OFFSET_EDIT]
 	
 	def __init__(self, name, 
 					first_annot_obj=None, 
@@ -229,11 +238,11 @@ class MdiffScoreReport():
 		elif self.scope == MdiffScoreReport.CONTEXT_SCOPE:
 			val = (1 - self.nb_diffs / self.ground_stats.nb_context) * 100
 			val = '{:.2f}'.format(val)
-			return "(nb diffs / nb context)", val
+			return "1 - (nb diffs / nb context)", val
 		elif self.scope == MdiffScoreReport.LYRICS_SCOPE:
 			val = (1 - self.nb_diffs / self.ground_stats.nb_lyrics) * 100
 			val = '{:.2f}'.format(val)
-			return "(nb diffs / nb lyrics)", val
+			return "1 - (nb diffs / nb lyrics)", val
 		else:
 			return "no formula", 0
 			
