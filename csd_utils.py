@@ -263,9 +263,21 @@ def build_full_report():
 			if os.path.exists(report_file):
 				print(f"\tResult file exists for score {score_ref}.")
 				with open(report_file, "r") as report_file:
+					# Global report
 					report = MdiffScoreReport.from_dict(json.load (report_file))
 					report.title = score['title']
 					report.iiif_link = score['iiif_link']
+					res_file.write (report.line())
+					# Voice items report
+					items_report = report.sublist(op_categ="items")
+					res_file.write (items_report.line())
+					# Context report
+					context_report = report.sublist(op_categ="context")
+					res_file.write (context_report.line())
+					# Lyrics report
+					lyrics_report = report.sublist(op_categ="lyrics")
+					res_file.write (lyrics_report.line())
+
 					## OK, we also produce a detailed report dedicated
 					# to the current score
 					score_report_name = report.details_link()
@@ -285,8 +297,8 @@ def build_full_report():
 			else:
 				# Default / empty values
 				report = MdiffScoreReport(score['ref'], score['title'], score['iiif_link'])
-			# Write the report line for this score
-			res_file.write (report.line())
+				# Write the report line for this score
+				res_file.write (report.line())
 
 
 		res_file.write (MdiffScoreReport.table_footer())

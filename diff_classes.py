@@ -31,10 +31,18 @@ class MdiffOp ():
 	ACCIDENT_INS = "accidentins"
 	BAR_DEL = "insbar"
 	BAR_INS = "delbar"
+	LYRICS_DEL = "lyricdel"
+	LYRICS_INS = "lyricedit"
+	LYRICS_EDIT = "lyricins"
 	
-	OPERATIONS = [NOTE_INS,NOTE_DEL,DOT_DEL,EXTRA_DEL,
+	ALL_OPERATIONS = [NOTE_INS,NOTE_DEL,DOT_DEL,EXTRA_DEL,
 					ACCIDENT_DEL, ACCIDENT_INS,
-					EXTRA_INS, BAR_DEL, BAR_INS]
+					EXTRA_INS, EXTRA_DEL, BAR_DEL, BAR_INS,
+					LYRICS_DEL, LYRICS_INS, LYRICS_EDIT]
+					
+	VOICE_ITEM_OPS =  [NOTE_INS,NOTE_DEL,DOT_DEL,ACCIDENT_DEL, ACCIDENT_INS]
+	CONTEXT_OPS = [EXTRA_DEL, EXTRA_INS]
+	LYRICS_OPS = [LYRICS_DEL, LYRICS_INS, LYRICS_EDIT]
 	
 	def __init__(self, name, 
 					first_annot_obj=None, 
@@ -140,6 +148,14 @@ class MdiffListOps ():
 			"ops": ops_dict
 			}
 	
+	def summary_dict (self):
+		# Same as before, withou the ops array
+		return {
+			"label": self.label,
+			"cost": self.cost,
+			"nb_diffs": len (self.ops)
+			}
+		
 	@staticmethod
 	def from_dict(label, dict_list_ops):
 		ops_list = MdiffListOps (label)
@@ -181,7 +197,13 @@ class MdiffScoreReport():
 	DETAILED_REPORT_NAME = "results/{ref}_report.html"
 	EMPTY_REPORT_NAME = "empty_report.html"
 
+	ITEMS_SCOPE = "items"
+	CONTEXT_SCOPE = "context"
+	LYRICS_SCOPE = "lyrics"
+	GLOBAL_SCOPE = "global"
+	
 	def __init__(self, score_ref, title, iiif_link) :
+		self.scope = "global" # Or a specific sub-category
 		self.score_ref = score_ref
 		self.title = title
 		self.iiif_link = iiif_link
@@ -195,22 +217,62 @@ class MdiffScoreReport():
 		# Statistics on the scores
 		self.pred_stats = None
 		self.ground_stats = None
-		
+	
+	def metric(self):
+		if self.ground_stats is None:
+			return "no ground", 0
+		# Returns the formula and the value of the metric
+		if self.scope == MdiffScoreReport.ITEMS_SCOPE:
+			val = (1 - self.nb_diffs / self.ground_stats.nb_notes) * 100
+			val = '{:.2f}'.format(val)
+			return "1 - (nb diffs / nb notes)", val
+		elif self.scope == MdiffScoreReport.CONTEXT_SCOPE:
+			val = (1 - self.nb_diffs / self.ground_stats.nb_context) * 100
+			val = '{:.2f}'.format(val)
+			return "(nb diffs / nb context)", val
+		elif self.scope == MdiffScoreReport.LYRICS_SCOPE:
+			val = (1 - self.nb_diffs / self.ground_stats.nb_lyrics) * 100
+			val = '{:.2f}'.format(val)
+			return "(nb diffs / nb lyrics)", val
+		else:
+			return "no formula", 0
+			
 	def add(self, op):
 		
 		self.global_cost += op.cost
 		self.empty_report = False
 		self.nb_diffs += 1
+		# General list of operations
 		if not op.name in self.aggr_ops:
 			self.aggr_ops[op.name] = MdiffListOps(op.name)
 		self.aggr_ops[op.name].add(op)
 
+	def sublist (self, op_categ="items"):
+		# Extract a sublist of the operations, returned as a MdiffScoreReport
+		sub_report = MdiffScoreReport ("", f"{op_categ} diffs", "")
+		sub_report.scope = op_categ
+		sub_report.ground_stats = self.ground_stats
+		
+		for op_name, agg_op in self.aggr_ops.items():
+			if op_categ == "items" and  op_name in MdiffOp.VOICE_ITEM_OPS:
+				# NB: we do no make a copy. The cost and nb_diffs
+				# will be computed in the items_report
+				for op in agg_op.ops:
+					sub_report.add (op)
+			elif op_categ == "context" and  op_name in MdiffOp.CONTEXT_OPS:
+				for op in agg_op.ops:
+					sub_report.add (op)
+			elif op_categ == "lyrics" and  op_name in MdiffOp.LYRICS_OPS:
+				for op in agg_op.ops:
+					sub_report.add (op)
+		return sub_report
+
 	def details_link (self):
 		# Link to a detailed HTML file
-		if self.empty_report:
-			return self.EMPTY_REPORT_NAME
+		if self.scope=="global"and not self.empty_report:
+ 				return self.DETAILED_REPORT_NAME.format(ref=self.score_ref)
 		else:
-			return self.DETAILED_REPORT_NAME.format(ref=self.score_ref)
+			return ""
 			
 	def to_dict(self):
 		ops_dict = {}
@@ -237,6 +299,12 @@ class MdiffScoreReport():
 			"aggr_ops": ops_dict
 			}
 	
+	def summary(self):
+		# A array with the summary of diffs
+		summary = []
+		for label, aggr_op in self.aggr_ops.items():
+			summary.append(aggr_op.summary_dict())
+		return summary
 	def op_info(self, label):
 		# Get the list of operations for a given labeel
 		if label not in self.aggr_ops.keys():
@@ -276,36 +344,50 @@ class MdiffScoreReport():
 	def line_header(mode='html'):
 		return """<tr><th>Ref</th><th>Title</th><th>Images</th>
 							<th>Details</th>
+							<th>Score info</th>
+							<th>Metric</th>
 							<th>Nb diffs</th>
 							<th>Cost</th>
-							<th>Note ins.</th>
-							<th>Note del.</th>
-							<th>Dot del.</th>
-							<th>Extra del.</th>
-							<th>Extra ins.</th>
 							<th>Bar del.</th>
 							<th>Bar ins.</th>
+							<th>Summary</th>
 							</tr>"""
 							
 	def line(self, mode='html'):
+			
 		latex_format = """<tr><td>{ref}</td><td>{title}</td>
 		                    <td><a target='_blank' href='{iiif_link}'>link</a></td>
-							<td><a target='_blank' href='{details_link}'>{details_link}</a></td>
+							<td>{details_link}</td>
+							<td>{score_stats}</td>
 							<td>{nb_diffs}</td>
+							<td>{metric}</td>
 							<td>{cost}</td>
-							<td>{noteins}</td>
-							<td>{notedel}</td>
-							<td>{dotdel}</td>
-							<td>{extrains}</td>
-							<td>{extradel}</td>
 							<td>{barins}</td>
 							<td>{bardel}</td>
+							<td>{summary}</td>
 							</tr>"""
+		if self.details_link() != "":
+			details_link = "<a target='_blank' href='{link}'>Ops details</a>".format(link=self.details_link())
+		else:
+			details_link = ""
+		
+		metric_form, metric_val = self.metric()
 
+		if self.scope == MdiffScoreReport.GLOBAL_SCOPE:
+			if self.ground_stats is not None:
+				ground_stats = str(self.ground_stats.show('json'))
+			else:
+				ground_stats = 'Unknown ground ?'
+		else:
+			ground_stats = metric_form
+			
+		
 		return latex_format.format(ref=self.score_ref, title=self.title,
 								iiif_link=self.iiif_link, 
-								details_link=self.details_link(),
+								details_link=details_link,
+								score_stats=ground_stats,
 								nb_diffs = self.nb_diffs,
+								metric = f"{metric_val}&nbsp;%",
 								cost=self.global_cost,
 								noteins=self.op_info(MdiffOp.NOTE_INS).nb_diffs(),
 								notedel=self.op_info(MdiffOp.NOTE_DEL).nb_diffs(),
@@ -314,6 +396,7 @@ class MdiffScoreReport():
 								extradel=self.op_info(MdiffOp.EXTRA_DEL).nb_diffs(),
 								barins=self.op_info(MdiffOp.BAR_INS).nb_diffs(),
 								bardel=self.op_info(MdiffOp.BAR_DEL).nb_diffs(),
+								summary=str(self.summary())
 								)
 
 class ScoreStats():
@@ -353,12 +436,21 @@ class ScoreStats():
 						self.nb_lyrics += 1
 			self.total_symbols = self.nb_notes + self.nb_context + self.nb_lyrics
 
-	def show(self):
-		print (f"""Total symbols : {self.total_symbols} 
+	def show(self, mode="console"):
+		if mode == "console":
+			print (f"""Total symbols : {self.total_symbols} 
 	notes: {self.notes_nsize} / {self.nb_notes} 
 	context: {self.context_nsize} / {self.nb_context} 
 	lyrics : {self.lyrics_nsize} / {self.nb_lyrics}"""
 			)
+		elif mode == "json":
+			return {"nb_notes": self.nb_notes,
+					"notes_nsize" : self.notes_nsize,
+					"nb_context": self.nb_context,
+					"context_nsize": self.context_nsize,
+					"nb_lyrics": self.nb_lyrics,
+					"lyrics_nsize" : self.lyrics_nsize 
+				}
 
 	def format (self, score_name, mode='html'):
 		html_format = """<h2>Statistics for {score_name} score</h1>
