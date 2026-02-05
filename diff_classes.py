@@ -192,6 +192,10 @@ class MdiffScoreReport():
 		# Tells whether at least on op has been added
 		self.empty_report = True
 		
+		# Statistics on the scores
+		self.pred_stats = None
+		self.ground_stats = None
+		
 	def add(self, op):
 		
 		self.global_cost += op.cost
@@ -213,12 +217,23 @@ class MdiffScoreReport():
 		for label, aggr_op in self.aggr_ops.items():
 			ops_dict[label] = aggr_op.to_dict()
 		
+		if self.pred_stats is not None:
+			dict_pred_stats = self.pred_stats.to_dict()
+		else:
+			dict_pred_stats = None
+		if self.ground_stats is not None:
+			dict_ground_stats = self.ground_stats.to_dict()
+		else:
+			dict_ground_stats = None
+			
 		return {
 			"score_ref": self.score_ref,
 			"title": self.title,
 			"iiif_link": self.iiif_link,
 			"global_cost": self.global_cost,
 			"nb_diffs": self.nb_diffs,
+			"predicted_stats": dict_pred_stats,
+			"ground_stats": dict_ground_stats,
 			"aggr_ops": ops_dict
 			}
 	
@@ -229,7 +244,7 @@ class MdiffScoreReport():
 			return MdiffListOps  (label)
 		else:
 			return self.aggr_ops[label]
-		
+
 	@staticmethod
 	def from_dict(dict_report):
 		report = MdiffScoreReport (dict_report["score_ref"],
@@ -239,6 +254,10 @@ class MdiffScoreReport():
 		report.global_cost = dict_report["global_cost"]
 		report.nb_diffs = dict_report["nb_diffs"]
 		report.empty_report = False
+		if dict_report["predicted_stats"] is not None:
+			report.pred_stats =  ScoreStats.from_dict(dict_report["predicted_stats"])
+		if dict_report["ground_stats"] is not None:
+			report.ground_stats =  ScoreStats.from_dict(dict_report["ground_stats"])
 		for label, aggr_op in dict_report["aggr_ops"].items():
 			report.aggr_ops[label] = MdiffListOps.from_dict (label, aggr_op)
 		return report
@@ -296,4 +315,94 @@ class MdiffScoreReport():
 								barins=self.op_info(MdiffOp.BAR_INS).nb_diffs(),
 								bardel=self.op_info(MdiffOp.BAR_DEL).nb_diffs(),
 								)
+
+class ScoreStats():
+	"""
+		Get statistics on an annotated score content
+		
+		NB: the annotation should at least feature 
+					notesandrests notestaffposition signatures lyrics
+	"""
+
+	def __init__(self, annot_score= None) :
+		
+		self.total_symbols = 0
+		# Number of notes
+		self.nb_notes = 0
+		# Number of symbols in notes
+		self.notes_nsize = 0
+		# Number and notation size of context objects
+		self.nb_context = 0
+		self.context_nsize = 0
+		# Number and notation size of lyrics
+		self.nb_lyrics = 0
+		self.lyrics_nsize = 0
+
+		if annot_score is not None:
+			# Compute: the methods notation_size give us everything
+			for part in annot_score.part_list:
+				for bar in part.bar_list:
+					for note in bar.annot_notes:
+						self.notes_nsize += note.notation_size()
+						self.nb_notes += 1
+					for e in bar.extras_list:
+						self.context_nsize += e.notation_size()
+						self.nb_context += 1
+					for lyr in bar.lyrics_list:
+						self.lyrics_nsize += lyr.notation_size()
+						self.nb_lyrics += 1
+			self.total_symbols = self.nb_notes + self.nb_context + self.nb_lyrics
+
+	def show(self):
+		print (f"""Total symbols : {self.total_symbols} 
+	notes: {self.notes_nsize} / {self.nb_notes} 
+	context: {self.context_nsize} / {self.nb_context} 
+	lyrics : {self.lyrics_nsize} / {self.nb_lyrics}"""
+			)
+
+	def format (self, score_name, mode='html'):
+		html_format = """<h2>Statistics for {score_name} score</h1>
+		<ul>
+		<li><b>Nb notes {nb_notes}
+		<li><b>Notation size for notes {notes_nsize}
+		<li><b>Nb context {nb_context}
+		<li><b>Notation size for context {context_nsize}
+		<li><b>Nb lyrics {nb_lyrics}
+		<li><b>Notation size for lyrics {lyrics_nsize}
+						</ul>
+		"""
+
+		return html_format.format(
+			score_name=score_name,
+			nb_notes = self.nb_notes,
+			notes_nsize = self.notes_nsize,
+			nb_context = self.nb_context,
+			context_nsize = self.context_nsize,
+			nb_lyrics = self.nb_lyrics,
+			lyrics_nsize = self.lyrics_nsize,
+					)
+
+	def to_dict(self):
+		return {
+			"total_symbols": self.total_symbols,
+			"nb_notes": self.nb_notes,
+			"notes_nsize": self.notes_nsize,
+			"nb_context": self.nb_context,
+			"context_nsize": self.context_nsize,
+			"nb_lyrics": self.nb_lyrics,
+			"lyrics_nsize": self.lyrics_nsize
+			}
+
+	@staticmethod
+	def from_dict(dict_stats):
+		stats = ScoreStats()
+		stats.total_symbols = dict_stats["total_symbols"]
+		stats.nb_notes = dict_stats["nb_notes"]
+		stats.notes_nsize = dict_stats["notes_nsize"]
+		stats.nb_context = dict_stats["nb_context"]
+		stats.context_nsize = dict_stats["context_nsize"]
+		stats.nb_lyrics = dict_stats["nb_lyrics"]
+		stats.lyrics_nsize = dict_stats["lyrics_nsize"]
+		return stats
+
 

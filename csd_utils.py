@@ -24,7 +24,7 @@ from musicdiff.comparison import Comparison
 from musicdiff.visualization import Visualization
 
 # MDiff classe
-from diff_classes import MdiffOp, MdiffScoreReport, MdiffListOps
+from diff_classes import MdiffOp, MdiffScoreReport, MdiffListOps, ScoreStats
 
 # Predefined dirs
 OUT_DIR="results"
@@ -166,16 +166,25 @@ def compare_single_score(score_name, detail):
 	predicted_score = m21.converter.parse(predicted_path, forceSource=True)
 	ground_score = m21.converter.parse(ground_truth_path, forceSource=True)
 
+
 	# scan each score, producing an annotated wrapper
 	annotated_predicted: AnnScore = AnnScore(predicted_score, detail)
 	annotated_ground: AnnScore = AnnScore(ground_score, detail)
+	print (f"Number of symbol in predicted : {annotated_predicted.notation_size()}")
+	print (f"Number of symbol in ground : {annotated_ground.notation_size()}")
+
 	
 	diff_list, _cost = Comparison.annotated_scores_diff(annotated_predicted, 
 														annotated_ground)
 
 	oplist = []
 	score_report = MdiffScoreReport(score_name, "", "")
+
+	score_report.pred_stats = ScoreStats (annotated_predicted)
+	score_report.ground_stats = ScoreStats (annotated_ground)
 	
+	score_report.pred_stats.show()
+
 	for diff in diff_list:
 		op = MdiffOp (diff[0], diff[1], diff[2], diff[3])
 		score_report.add (op)
@@ -263,6 +272,10 @@ def build_full_report():
 					with open(score_report_name, "w") as score_report_file:
 						score_report_file.write (MdiffScoreReport.table_header())
 						score_report_file.write (MdiffListOps.detail_line_header())
+						if report.pred_stats is not None:
+							score_report_file.write (report.pred_stats.format("predicted"))
+						if report.ground_stats is not None:
+							score_report_file.write (report.ground_stats.format("ground"))
 						for op_name, list_ops in report.aggr_ops.items():
 							score_report_file.write (list_ops.detail_line())
 							for op in list_ops.ops:
