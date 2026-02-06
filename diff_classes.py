@@ -370,10 +370,23 @@ class MdiffScoreReport():
 
 	@staticmethod
 	def table_header(mode='html'):
-		return "<table border='1'>"
+		if mode == "html":
+			return "<table border='1'>"
+		else:
+			return """\\begin{small}
+\\begin{tabular}{l|l|r|r|r}
+\\textbf{Ref} & \\textbf{Title} & \\textbf{Nbs objects} &  \\textbf{Nbs diffs} & \\textbf{Metric} \\\ \hline
+	"""
+	
 	@staticmethod
 	def table_footer(mode='html'):
-		return "</table>"
+		if mode=="html":
+			return "</table>"
+		else:
+			return """\hline
+\end{tabular}
+\end{small}
+	"""
 	
 	@staticmethod
 	def line_header(mode='html'):
@@ -388,9 +401,10 @@ class MdiffScoreReport():
 							<th>Summary</th>
 							</tr>"""
 							
-	def line(self, mode='html'):
-			
-		latex_format = """<tr><td>{ref}</td><td>{title}</td>
+	def line(self, score_ref=None, title=None, mode='html'):
+		
+		
+		html_format = """<tr><td>{ref}</td><td>{title}</td>
 		                    <td><a target='_blank' href='{iiif_link}'>link</a></td>
 							<td>{details_link}</td>
 							<td>{score_stats}</td>
@@ -401,6 +415,9 @@ class MdiffScoreReport():
 							<td>{bardel}</td>
 							<td>{summary}</td>
 							</tr>"""
+		latex_format = """{ref} & {title} & {nb_objs} & {nb_diffs} & {metric} \\\ 
+		"""
+		
 		if self.details_link() != "":
 			details_link = "<a target='_blank' href='{link}'>Ops details</a>".format(link=self.details_link())
 		else:
@@ -416,8 +433,8 @@ class MdiffScoreReport():
 		else:
 			ground_stats = metric_form
 			
-		
-		return latex_format.format(ref=self.score_ref, title=self.title,
+		if mode == "html":
+			return html_format.format(ref=self.score_ref, title=self.title,
 								iiif_link=self.iiif_link, 
 								details_link=details_link,
 								score_stats=ground_stats,
@@ -433,6 +450,22 @@ class MdiffScoreReport():
 								bardel=self.op_info(MdiffOp.BAR_DEL).nb_diffs(),
 								summary=str(self.summary())
 								)
+		elif mode == "latex":
+			score_ref = score_ref.replace("_", "\_")
+			if self.ground_stats is not None:
+				if self.scope == MdiffScoreReport.ITEMS_SCOPE:
+					nb_objects = self.ground_stats.nb_notes 
+				elif self.scope == MdiffScoreReport.CONTEXT_SCOPE:
+					nb_objects = self.ground_stats.nb_context 
+				elif self.scope == MdiffScoreReport.LYRICS_SCOPE:
+					nb_objects = self.ground_stats.nb_lyrics 
+			return latex_format.format(ref=score_ref, 
+								title=title,
+								nb_objs=nb_objects,
+								nb_diffs=self.nb_diffs,
+								metric = f"{metric_val} \%"
+								)
+
 
 class ScoreStats():
 	"""

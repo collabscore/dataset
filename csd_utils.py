@@ -250,18 +250,29 @@ def build_full_report():
 		
 	# We summarize the results in a global result fie
 	with open(REPORT_NAME, "w") as res_file:
-		
+		latex_items_name =f"results/latex_items.tex"
+		latex_items_file = open(latex_items_name, "w")
+		latex_items_file.write (MdiffScoreReport.table_header("latex"))
+
+		latex_context_name =f"results/latex_context.tex"
+		latex_context_file = open(latex_context_name, "w")
+		latex_context_file.write (MdiffScoreReport.table_header("latex"))
+
+		latex_lyrics_name =f"results/latex_lyrics.tex"
+		latex_lyrics_file = open(latex_lyrics_name, "w")
+		latex_lyrics_file.write (MdiffScoreReport.table_header("latex"))
+
 		res_file.write (MdiffScoreReport.table_header())
 		res_file.write (MdiffScoreReport.line_header())
-		
 		# Loop on the scores, show the results
 		for score in dataset["list_opus"]:
 			score_ref = score['ref']
-			report_file =f"results/{score_ref}_report.json"
+			report_file_name =f"results/{score_ref}_report.json"
+			
 			# Get the report file if it exists
-			if os.path.exists(report_file):
+			if os.path.exists(report_file_name):
 				print(f"\tResult file exists for score {score_ref}.")
-				with open(report_file, "r") as report_file:
+				with open(report_file_name, "r") as report_file:
 					# Global report
 					report = MdiffScoreReport.from_dict(json.load (report_file))
 					report.title = score['title']
@@ -270,12 +281,22 @@ def build_full_report():
 					# Voice items report
 					items_report = report.sublist(op_categ=MdiffScoreReport.ITEMS_SCOPE)
 					res_file.write (items_report.line())
+					latex_items_file.write (
+						items_report.line(score_ref, report.title, "latex"))
+		
 					# Context report
 					context_report = report.sublist(op_categ=MdiffScoreReport.CONTEXT_SCOPE)
 					res_file.write (context_report.line())
+					latex_context_file.write (
+						context_report.line(score_ref, report.title, "latex"))
+
 					# Lyrics report
 					lyrics_report = report.sublist(op_categ=MdiffScoreReport.LYRICS_SCOPE)
 					res_file.write (lyrics_report.line())
+					latex_lyrics_file.write (
+						lyrics_report.line(score_ref, report.title, "latex"))
+
+
 					# Expressions report
 					expr_report = report.sublist(op_categ=MdiffScoreReport.EXPRESSION_SCOPE)
 					res_file.write (expr_report.line())
@@ -304,6 +325,9 @@ def build_full_report():
 
 
 		res_file.write (MdiffScoreReport.table_footer())
+		latex_items_file.write (MdiffScoreReport.table_footer("latex"))
+		latex_context_file.write (MdiffScoreReport.table_footer("latex"))
+		latex_lyrics_file.write (MdiffScoreReport.table_footer("latex"))
 
 	print (f"\nDone. Report stored in {REPORT_NAME}")
 
