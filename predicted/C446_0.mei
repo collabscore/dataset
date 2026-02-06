@@ -35,7 +35,7 @@
          </appInfo>
       </encodingDesc>
       <workList>
-         <work xml:id="work0_encoded_osbwsvg" type="encoded">
+         <work xml:id="work0_encoded_qgomfcy" type="encoded">
             <title type="uniform">
                <titlePart type="main" analog="humdrum:OTL"/>
             </title>
@@ -45,7 +45,7 @@
          </work>
       </workList>
    </meiHead>
-   <music decls="#work0_encoded_osbwsvg">
+   <music decls="#work0_encoded_qgomfcy">
       <body>
          <mdiv>
             <score>
@@ -114,7 +114,7 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-okbqszo" staff="5" tstamp="1.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-qjufiqi" staff="5" tstamp="1.0" place="above">mf</dynam>
                   </measure>
                   <measure n="2" xml:id="m2">
                      <staff n="1">
@@ -140,7 +140,7 @@
                               <note xml:id="v1_nh_1507_2734" pname="d" oct="4" stem.dir="up" color="#13819E"/>
                            </chord>
                            <space xml:id="F1part1M2V4E2" dur="8" color="#13819E"/>
-                           <space xml:id="space-osavdme" dur="8"/>
+                           <space xml:id="space-qizhqnw" dur="8"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -154,7 +154,7 @@
                               <note xml:id="v2_nh_1649_2877" pname="b" oct="3" stem.dir="down" color="#a637b0"/>
                            </chord>
                            <space xml:id="F1part1M2V5E3" dur="8" color="#a637b0" staff="4"/>
-                           <space xml:id="space-osfyrhg" dur="8"/>
+                           <space xml:id="space-qirgqey" dur="8"/>
                         </layer>
                      </staff>
                   </measure>
@@ -321,10 +321,7 @@
                      </staff>
                      <staff n="4">
                         <layer n="1" label="1">
-                           <chord xml:id="chord_v1_nh_3384_2724" dur="2">
-                              <note xml:id="v1_nh_3383_2681" pname="g" oct="4" stem.dir="up" color="#13819E"/>
-                              <note xml:id="v1_nh_3384_2724" pname="d" oct="4" stem.dir="up" color="#13819E"/>
-                           </chord>
+                           <note xml:id="v1_nh_3383_2681" dur="2" pname="g" oct="4" stem.dir="up" color="#13819E"/>
                            <chord xml:id="chord_v1_nh_3683_2698" dur="4">
                               <note xml:id="v1_nh_3681_2669" pname="a" oct="4" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_3683_2698" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s"/>
@@ -341,18 +338,18 @@
                            <note xml:id="v2_nh_3684_2939" dur="4" pname="d" oct="3" stem.dir="up" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-ouabywm" staff="5" tstamp="1.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-qjufjdg" staff="5" tstamp="1.0" place="above">p</dynam>
                   </measure>
                   <sb/>
                   <measure n="7" xml:id="m7">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osfysmq" dots="1" dur="2"/>
+                           <space xml:id="space-qizhsuy" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osfyyno" dots="1" dur="2"/>
+                           <space xml:id="space-qizhnzk" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -396,12 +393,12 @@
                   <measure n="8" xml:id="m8">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osfyqya" dots="1" dur="2"/>
+                           <space xml:id="space-qizhpzc" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osfyvbc" dots="1" dur="2"/>
+                           <space xml:id="space-qizhung" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -413,7 +410,7 @@
                            </note>
                            <note xml:id="v1_nh_1594_3289" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>lui</syl>
+                                 <syl wordpos="t">lui</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_1716_3300" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
@@ -451,12 +448,12 @@
                   <measure n="9" xml:id="m9">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osfyouq" dots="1" dur="2"/>
+                           <space xml:id="space-qizhvye" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osfyopc" dots="1" dur="2"/>
+                           <space xml:id="space-qizhvca" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -468,7 +465,7 @@
                            </note>
                            <note xml:id="v1_nh_2042_3284" dur="8" pname="d" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>mes;</syl>
+                                 <syl wordpos="t">mes ;</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_2136_3307" dur="8" color="#13819E"/>
@@ -506,12 +503,12 @@
                   <measure n="10" xml:id="m10">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osfymtc" dots="1" dur="2"/>
+                           <space xml:id="space-qizhwfo" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osfyoai" dots="1" dur="2"/>
+                           <space xml:id="space-qizhxjc" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -554,12 +551,12 @@
                   <measure n="11" xml:id="m11">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osfynee" dots="1" dur="2"/>
+                           <space xml:id="space-qizhxbs" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osfylvc" dots="1" dur="2"/>
+                           <space xml:id="space-qizhyfg" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -605,12 +602,12 @@
                   <measure n="12" xml:id="m12">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osfyllw" dots="1" dur="2"/>
+                           <space xml:id="space-qizhyqi" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osfylka" dots="1" dur="2"/>
+                           <space xml:id="space-qjiwzci" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -660,12 +657,12 @@
                   <measure n="13" xml:id="m13">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-peusaui" dots="1" dur="2"/>
+                           <space xml:id="space-qjiwrsi" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osuyqno" dots="1" dur="2"/>
+                           <space xml:id="space-qjiwyuy" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -681,7 +678,7 @@
                      <staff n="4">
                         <layer n="1" label="1">
                            <note xml:id="v1_nh_953_4653" dur="2" pname="a" oct="4" stem.dir="up" color="#13819E"/>
-                           <beam xml:id="beam-orxwjci">
+                           <beam xml:id="beam-qiziose">
                               <note xml:id="v1_nh_1134_4548" dur="8" pname="a" oct="5" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_1225_4832" dur="8" pname="c" oct="4" stem.dir="down" color="#13819E" staff="5"/>
                            </beam>
@@ -694,22 +691,22 @@
                      <staff n="5">
                         <layer>
                            <note xml:id="v2_nh_955_4924" dur="2" pname="d" oct="3" stem.dir="down" color="#a637b0"/>
-                           <beam xml:id="beam-orxwdfc">
+                           <beam xml:id="beam-qiziscu">
                               <note xml:id="v2_nh_1138_4817" dur="8" pname="d" oct="4" stem.dir="down" color="#a637b0"/>
                            </beam>
-                           <space xml:id="space-osbreeq" dur="8"/>
+                           <space xml:id="space-qiziddg" dur="8"/>
                         </layer>
                      </staff>
                   </measure>
                   <measure n="14" xml:id="m14">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqats" dots="1" dur="2"/>
+                           <space xml:id="space-qizidkq" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osapyse" dots="1" dur="2"/>
+                           <space xml:id="space-qizidoi" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -742,7 +739,7 @@
                         <layer>
                            <note xml:id="v2_nh_1385_4847" dur="4" pname="e" oct="6" stem.dir="down" color="#a637b0"/>
                            <note xml:id="v2_nh_1514_4830" dur="4" pname="c" oct="4" stem.dir="down" color="#a637b0"/>
-                           <beam xml:id="beam-orxwdvs">
+                           <beam xml:id="beam-qizisgm">
                               <note xml:id="v2_nh_1640_4875" dur="8" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_1731_4845" dur="8" pname="b" oct="3" stem.dir="down" color="#a637b0"/>
                            </beam>
@@ -752,12 +749,12 @@
                   <measure n="15" xml:id="m15">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqjky" dots="1" dur="2"/>
+                           <space xml:id="space-qizidsa" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osapnmm" dots="1" dur="2"/>
+                           <space xml:id="space-qizidvs" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -792,17 +789,17 @@
                            <note xml:id="v2_nh_2146_4916" dur="4" pname="d" oct="3" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-ojxvvgy" staff="3" tstamp="3.0" place="above">pp</dynam>
+                     <dynam xml:id="dynam-qioygbo" staff="3" tstamp="3.0" place="above">pp</dynam>
                   </measure>
                   <measure n="16" xml:id="m16">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqdpo" dots="1" dur="2"/>
+                           <space xml:id="space-qizidzk" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osappcy" dots="1" dur="2"/>
+                           <space xml:id="space-qiziedc" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -851,12 +848,12 @@
                   <measure n="17" xml:id="m17">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqels" dots="1" dur="2"/>
+                           <space xml:id="space-qiziegu" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osaqjzs" dots="1" dur="2"/>
+                           <space xml:id="space-qiziekm" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -868,7 +865,7 @@
                            </note>
                            <note xml:id="v1_nh_2981_4285" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>vre</syl>
+                                 <syl wordpos="t">vre</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_3070_4292" dur="8" color="#13819E"/>
@@ -900,12 +897,12 @@
                   <measure n="18" xml:id="m18">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqjhg" dots="1" dur="2"/>
+                           <space xml:id="space-qizieoe" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osaqijg" dots="1" dur="2"/>
+                           <space xml:id="space-qizierw" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -929,7 +926,10 @@
                      </staff>
                      <staff n="4">
                         <layer n="1" label="1">
-                           <note xml:id="v1_nh_3378_4613" dur="2" pname="c" oct="5" stem.dir="up" color="#13819E"/>
+                           <chord xml:id="chord_v1_nh_3379_4642" dur="2">
+                              <note xml:id="v1_nh_3378_4613" pname="c" oct="5" stem.dir="up" color="#13819E"/>
+                              <note xml:id="v1_nh_3379_4642" pname="a" oct="4" stem.dir="up" color="#13819E"/>
+                           </chord>
                            <note xml:id="v1_nh_3670_4630" dur="4" pname="b" oct="4" stem.dir="up" color="#13819E"/>
                         </layer>
                         <layer n="2" label="3">
@@ -948,12 +948,12 @@
                   <measure n="19" xml:id="m19">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osapnoi" dots="1" dur="2"/>
+                           <space xml:id="space-qizievo" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osaqgsu" dots="1" dur="2"/>
+                           <space xml:id="space-qiziezg" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -965,7 +965,7 @@
                            </note>
                            <note xml:id="v1_nh_1264_1018" dur="4" pname="e" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>vre.</syl>
+                                 <syl wordpos="t">vre.</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_1389_1047" dur="4" color="#13819E"/>
@@ -981,7 +981,7 @@
                               <note xml:id="v1_nh_1263_1385" pname="c" oct="5" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_1263_1455" pname="e" oct="4" stem.dir="up" color="#13819E"/>
                            </chord>
-                           <beam xml:id="beam-orxwjnk">
+                           <beam xml:id="beam-qiziozo">
                               <chord xml:id="chord_v1_nh_1383_1399" dur="8">
                                  <note xml:id="v1_nh_1383_1372" pname="d" oct="5" stem.dir="up" color="#13819E"/>
                                  <note xml:id="v1_nh_1383_1399" pname="b" oct="4" stem.dir="up" color="#13819E"/>
@@ -1003,17 +1003,17 @@
                            <note xml:id="v2_nh_1386_1648" dur="4" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-pqxnywm" staff="5" tstamp="3.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-qjufcls" staff="5" tstamp="3.0" place="above">mf</dynam>
                   </measure>
                   <measure n="20" xml:id="m20">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqfym" dots="1" dur="2"/>
+                           <space xml:id="space-qizifcy" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osaqejw" dots="1" dur="2"/>
+                           <space xml:id="space-qizifgq" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -1053,12 +1053,12 @@
                   <measure n="21" xml:id="m21">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaporw" dots="1" dur="2"/>
+                           <space xml:id="space-qizifki" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osaprns" dots="1" dur="2"/>
+                           <space xml:id="space-qizifoa" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -1080,7 +1080,7 @@
                            </note>
                            <note xml:id="v1_nh_2409_1051" dur="8" pname="b" oct="4" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>ter</syl>
+                                 <syl wordpos="t">ter</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_2519_1065" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E">
@@ -1109,17 +1109,17 @@
                            <note xml:id="v2_nh_2020_1694" dots="1" dur="2" pname="c" oct="3" stem.dir="up" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-pqxojga" staff="5" tstamp="1.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-qjufhjc" staff="5" tstamp="1.0" place="above">p</dynam>
                   </measure>
                   <measure n="22" xml:id="m22">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osapspk" dots="1" dur="2"/>
+                           <space xml:id="space-qizifrs" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osapvfs" dots="1" dur="2"/>
+                           <space xml:id="space-qizifvk" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -1137,7 +1137,7 @@
                            </note>
                            <note xml:id="v1_nh_3034_1025" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>guir</syl>
+                                 <syl wordpos="t">guir</syl>
                               </verse>
                            </note>
                         </layer>
@@ -1162,12 +1162,12 @@
                   <measure n="23" xml:id="m23">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osapwwe" dots="1" dur="2"/>
+                           <space xml:id="space-qizifzc" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osaqadc" dots="1" dur="2"/>
+                           <space xml:id="space-qizigcu" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -1192,7 +1192,7 @@
                      <staff n="4">
                         <layer n="1" label="1">
                            <note xml:id="v1_nh_3210_1405" dur="2" pname="a" oct="4" stem.dir="up" color="#13819E"/>
-                           <beam xml:id="beam-orxwgps">
+                           <beam xml:id="beam-qizipdg">
                               <note xml:id="v1_nh_3435_1420" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E" accid="s"/>
                               <note xml:id="v1_nh_3516_1406" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E"/>
                            </beam>
@@ -1213,12 +1213,12 @@
                   <measure n="24" xml:id="m24">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqccu" dots="1" dur="2"/>
+                           <space xml:id="space-qiziggm" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osapxqm" dots="1" dur="2"/>
+                           <space xml:id="space-qizigke" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -1313,7 +1313,7 @@
                            </note>
                            <note xml:id="v1_nh_1714_2063" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E" accid="s">
                               <verse n="1">
-                                 <syl>vre</syl>
+                                 <syl wordpos="t">vre</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_1835_2048" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
@@ -1368,7 +1368,7 @@
                            </note>
                            <note xml:id="v1_nh_2354_2062" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E" accid="s">
                               <verse n="1">
-                                 <syl>mer</syl>
+                                 <syl wordpos="t">mer</syl>
                               </verse>
                            </note>
                         </layer>
@@ -1454,8 +1454,8 @@
                            <rest xml:id="rest_2760_3324" dur="4" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osakxlg" staff="2" tstamp="3.0" place="above">pp</dynam>
-                     <dynam xml:id="dynam-ojxhprs" staff="3" tstamp="3.0" place="above">pp</dynam>
+                     <dynam xml:id="dynam-pqiwcfg" staff="2" tstamp="3.0" place="above">pp</dynam>
+                     <dynam xml:id="dynam-qfazdvk" staff="3" tstamp="3.0" place="above">pp</dynam>
                   </measure>
                   <measure n="29" xml:id="m29">
                      <staff n="1">
@@ -1504,7 +1504,7 @@
                            </note>
                            <note xml:id="v1_nh_3482_2701" dur="8" pname="c" oct="3" stem.dir="up" color="#13819E">
                               <verse n="1">
-                                 <syl wordpos="i">tra</syl>
+                                 <syl wordpos="m">tra</syl>
                               </verse>
                            </note>
                         </layer>
@@ -1519,7 +1519,7 @@
                            <rest xml:id="rest_3207_3327" dots="1" dur="2" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <tie xml:id="tie-orxwkpc" staff="1" startid="#v1_nh_2955_2044" endid="#v1_nh_3627_2044"/>
+                     <tie xml:id="tie-qiziobo" staff="1" startid="#v1_nh_2955_2044" endid="#v1_nh_3627_2044"/>
                   </measure>
                   <measure n="30" xml:id="m30">
                      <staff n="1">
@@ -1549,7 +1549,7 @@
                         <layer>
                            <note xml:id="v1_nh_3630_2692" dur="4" pname="d" oct="3" stem.dir="up" color="#13819E">
                               <verse n="1">
-                                 <syl>vaux</syl>
+                                 <syl wordpos="t">vaux</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_3774_2713" dots="1" dur="4" pname="b" oct="2" stem.dir="up" color="#13819E">
@@ -1590,12 +1590,10 @@
                               <note xml:id="v1_nh_1135_4084" pname="b" oct="4" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_1135_4107" pname="g" oct="4" stem.dir="up" color="#13819E"/>
                            </chord>
-                           <beam xml:id="beam-orxwjpg">
-                              <chord xml:id="chord_v1_nh_1261_4082" dur="8">
-                                 <note xml:id="v1_nh_1261_4103" pname="g" oct="4" stem.dir="up" color="#13819E"/>
-                                 <note xml:id="v1_nh_1261_4082" pname="b" oct="4" stem.dir="up" color="#13819E"/>
-                              </chord>
-                           </beam>
+                           <chord xml:id="chord_v1_nh_1261_4082" dur="8">
+                              <note xml:id="v1_nh_1261_4103" pname="g" oct="4" stem.dir="up" color="#13819E"/>
+                              <note xml:id="v1_nh_1261_4082" pname="b" oct="4" stem.dir="up" color="#13819E"/>
+                           </chord>
                            <chord xml:id="chord_v1_nh_1340_4093" dur="8">
                               <note xml:id="v1_nh_1341_4072" pname="c" oct="5" stem.dir="up" color="#13819E" accid.ges="s"/>
                               <note xml:id="v1_nh_1340_4093" pname="a" oct="4" stem.dir="up" color="#13819E"/>
@@ -1611,7 +1609,7 @@
                            <keySig xml:id="ks_1012_4353" sig="1s"/>
                            <note xml:id="v1_nh_1134_4377" dots="1" dur="4" pname="e" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>mant,</syl>
+                                 <syl wordpos="t">mant,</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_1261_4374" dur="8" pname="e" oct="3" stem.dir="down" color="#13819E">
@@ -1752,8 +1750,8 @@
                            <rest xml:id="rest_2117_5016" dots="1" dur="2" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osavzzk" staff="2" tstamp="2.0" place="above">pp</dynam>
-                     <dynam xml:id="dynam-ojypsgu" staff="3" tstamp="2.0" place="above">pp</dynam>
+                     <dynam xml:id="dynam-pqikgpc" staff="2" tstamp="2.0" place="above">pp</dynam>
+                     <dynam xml:id="dynam-qfazksm" staff="3" tstamp="2.0" place="above">pp</dynam>
                   </measure>
                   <measure n="34" xml:id="m34">
                      <staff n="1">
@@ -1781,12 +1779,12 @@
                         <layer>
                            <note xml:id="v1_nh_2409_4381" dur="4" pname="c" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl wordpos="i">heu</syl>
+                                 <syl wordpos="m">heu</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_2518_4369" dur="4" pname="d" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>reux</syl>
+                                 <syl wordpos="t">reux</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_2641_4370" dur="4" pname="d" oct="3" stem.dir="down" color="#13819E">
@@ -1856,7 +1854,7 @@
                            <note xml:id="v2_nh_3041_5067" dur="4" pname="g" oct="2" stem.dir="up" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osbwrrs" staff="1" tstamp="3.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-qgmrnae" staff="1" tstamp="3.0" place="above">mf</dynam>
                   </measure>
                   <measure n="36" xml:id="m36">
                      <staff n="1">
@@ -1891,7 +1889,7 @@
                      <staff n="4">
                         <layer n="1" label="1">
                            <note xml:id="v1_nh_3219_4648" dur="2" pname="g" oct="5" stem.dir="up" color="#13819E"/>
-                           <beam xml:id="beam-orxwasm">
+                           <beam xml:id="beam-qizipgy">
                               <note xml:id="v1_nh_3425_4658" dur="8" pname="f" oct="5" stem.dir="up" color="#13819E" accid="n"/>
                               <note xml:id="v1_nh_3496_4671" dur="8" pname="e" oct="5" stem.dir="up" color="#13819E"/>
                            </beam>
@@ -1918,7 +1916,7 @@
                            </note>
                            <note xml:id="v1_nh_3743_3744" dur="4" pname="a" oct="4" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>re;</syl>
+                                 <syl wordpos="t">re ;</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_3848_3725" dur="8" color="#13819E"/>
@@ -1953,7 +1951,7 @@
                            <note xml:id="v2_nh_3637_4971" dots="1" dur="2" pname="f" oct="3" stem.dir="down" color="#a637b0" accid="n"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osbwgma" staff="1" tstamp="3.5" place="above">p</dynam>
+                     <dynam xml:id="dynam-qgmrwge" staff="1" tstamp="3.5" place="above">p</dynam>
                   </measure>
                   <pb/>
                   <measure n="38" xml:id="m38">
@@ -1989,28 +1987,33 @@
                      <staff n="4">
                         <layer n="1" label="1">
                            <note xml:id="v1_nh_898_1898" dur="2" pname="d" oct="5" stem.dir="up" color="#13819E"/>
-                           <beam xml:id="beam-orxwiia">
+                           <beam xml:id="beam-qizipkq">
                               <note xml:id="v1_nh_1160_1911" dur="8" pname="c" oct="5" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_1258_1897" dur="8" pname="d" oct="5" stem.dir="up" color="#13819E"/>
                            </beam>
                         </layer>
                         <layer n="2" label="3">
-                           <note xml:id="v3_nh_901_1928" dur="4" pname="b" oct="4" stem.dir="down" color="#5034D4" accid="f"/>
+                           <note xml:id="v3_nh_901_1928" dur="16" pname="b" oct="4" stem.dir="down" color="#5034D4" accid="f"/>
                            <note xml:id="v3_nh_1030_1940" dur="4" pname="a" oct="4" stem.dir="down" color="#5034D4"/>
-                           <beam xml:id="beam-orxwhns">
+                           <beam xml:id="beam-qizipsa">
                               <note xml:id="v3_nh_1161_1940" dur="8" pname="a" oct="4" stem.dir="down" color="#5034D4"/>
                               <note xml:id="v3_nh_1257_1926" dur="8" pname="b" oct="4" stem.dir="down" color="#5034D4" accid="n"/>
                            </beam>
+                        </layer>
+                        <layer n="3" label="4">
+                           <space xml:id="F3part1M38V7E1" dur="16" color="#0a6206"/>
+                           <note xml:id="v4_nh_1033_2182" dur="4" pname="f" oct="3" stem.dir="down" color="#0a6206" accid="n" staff="5"/>
                         </layer>
                      </staff>
                      <staff n="5">
                         <layer>
                            <note xml:id="v2_nh_903_2169" dur="4" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
-                           <note xml:id="v2_nh_1033_2182" dur="4" pname="f" oct="3" stem.dir="down" color="#a637b0" accid="n"/>
                            <note xml:id="v2_nh_1163_2209" dur="4" pname="d" oct="3" stem.dir="down" color="#a637b0"/>
+                           <space xml:id="space-qizhztw" dur="4"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-pqwulau" staff="5" tstamp="1.0" place="above">p</dynam>
+                     <beamSpan xml:id="beam-qizipoi" staff="4" startid="#v3_nh_901_1928" endid="#v3_nh_2593_4652" plist="v3_nh_901_1928 v3_nh_2593_4652"/>
+                     <dynam xml:id="dynam-pqbpqhc" staff="5" tstamp="1.0" place="above">p</dynam>
                   </measure>
                   <measure n="39" xml:id="m39">
                      <staff n="1">
@@ -2022,7 +2025,7 @@
                            </note>
                            <note xml:id="v1_nh_1528_995" dur="8" pname="b" oct="4" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>re.</syl>
+                                 <syl wordpos="t">re.</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_1618_992" dur="8" color="#13819E"/>
@@ -2075,7 +2078,7 @@
                            </note>
                            <note xml:id="v1_nh_2183_980" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>tient</syl>
+                                 <syl wordpos="t">tient</syl>
                               </verse>
                            </note>
                         </layer>
@@ -2120,7 +2123,7 @@
                            </note>
                            <note xml:id="v1_nh_2503_1007" dur="4" pname="a" oct="4" stem.dir="up" color="#13819E">
                               <verse n="1">
-                                 <syl>re</syl>
+                                 <syl wordpos="t">re</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_2642_992" dur="4" pname="b" oct="4" stem.dir="up" color="#13819E">
@@ -2272,15 +2275,15 @@
                            <note xml:id="v2_nh_3656_2198" dur="4" pname="d" oct="3" stem.dir="up" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osavjho" staff="2" tstamp="3.0" place="above">p</dynam>
-                     <dynam xml:id="dynam-ojypkyq" staff="3" tstamp="3.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-pqnahfs" staff="2" tstamp="3.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-qfazhwq" staff="3" tstamp="3.0" place="above">p</dynam>
                   </measure>
                   <sb/>
                   <measure n="44" xml:id="m44">
                      <staff n="1">
                         <layer>
                            <keySig xml:id="default_ks_part4_44" sig="1s"/>
-                           <space xml:id="space-osavydk" dots="1" dur="2"/>
+                           <space xml:id="space-qiziaiq" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -2359,7 +2362,7 @@
                   <measure n="45" xml:id="m45">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osavlxw" dots="1" dur="2"/>
+                           <space xml:id="space-qiziaxk" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -2382,7 +2385,7 @@
                         <layer>
                            <note xml:id="v1_nh_1561_2831" dur="4" pname="d" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>vaux,</syl>
+                                 <syl wordpos="t">vaux,</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_1701_2850" dots="1" dur="4" pname="b" oct="2" stem.dir="up" color="#13819E">
@@ -2411,7 +2414,7 @@
                   <measure n="46" xml:id="m46">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osavkds" dots="1" dur="2"/>
+                           <space xml:id="space-qizibme" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -2427,7 +2430,7 @@
                         <layer>
                            <note xml:id="v1_nh_1990_2819" dots="1" dur="4" pname="e" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>mant,</syl>
+                                 <syl wordpos="t">mant,</syl>
                               </verse>
                            </note>
                            <space xml:id="F3part2M46V2E1" dur="4" color="#13819E"/>
@@ -2440,16 +2443,16 @@
                      </staff>
                      <staff n="4">
                         <layer>
-                           <space xml:id="space-osavdim" dots="1" dur="2"/>
+                           <space xml:id="space-qizhzmm" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="5">
                         <layer n="1" label="1">
                            <note xml:id="v1_nh_1994_3376" dots="1" dur="4" pname="c" oct="4" stem.dir="up" color="#13819E"/>
                            <space xml:id="F3part1M46V3E1" dur="4" color="#13819E" staff="4"/>
-                           <beam xml:id="beam-orxwcxs">
+                           <beam xml:id="beam-qiziske">
                               <chord xml:id="chord_v1_nh_2148_3408" dur="8">
-                                 <note xml:id="v1_nh_2149_3377" pname="b" oct="3" stem.dir="up" color="#13819E"/>
+                                 <note xml:id="v1_nh_2149_3377" pname="c" oct="4" stem.dir="up" color="#13819E"/>
                                  <note xml:id="v1_nh_2148_3408" pname="g" oct="3" stem.dir="up" color="#13819E"/>
                               </chord>
                            </beam>
@@ -2460,7 +2463,7 @@
                               <note xml:id="v2_nh_1994_3409" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
                            </chord>
                            <space xml:id="F3part1M46V4E2" dur="4" color="#a637b0" staff="4"/>
-                           <beam xml:id="beam-orxwchc">
+                           <beam xml:id="beam-qizisnw">
                               <note xml:id="v2_nh_2150_3436" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
                            </beam>
                         </layer>
@@ -2469,7 +2472,7 @@
                   <measure n="47" xml:id="m47">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaveke" dots="1" dur="2"/>
+                           <space xml:id="space-qiziceq" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -2503,7 +2506,7 @@
                               <note xml:id="v1_nh_2479_3250" pname="c" oct="4" stem.dir="up" color="#13819E"/>
                            </chord>
                            <space xml:id="F3part1M47V3E2" dur="4" color="#13819E"/>
-                           <beam xml:id="beam-osfykke">
+                           <beam xml:id="beam-qizipvs">
                               <chord xml:id="chord_v1_nh_2634_3251" dur="8">
                                  <note xml:id="v1_nh_2633_3219" pname="e" oct="4" stem.dir="up" color="#13819E"/>
                                  <note xml:id="v1_nh_2634_3251" pname="c" oct="4" stem.dir="up" color="#13819E"/>
@@ -2515,7 +2518,7 @@
                         <layer>
                            <note xml:id="v2_nh_2482_3459" dots="1" dur="4" pname="c" oct="3" stem.dir="down" color="#a637b0"/>
                            <space xml:id="F3part1M47V4E1" dur="4" color="#a637b0" staff="4"/>
-                           <beam xml:id="beam-orxwddg">
+                           <beam xml:id="beam-qizisro">
                               <note xml:id="v2_nh_2636_3433" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
                            </beam>
                         </layer>
@@ -2524,7 +2527,7 @@
                   <measure n="48" xml:id="m48">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osavjye" dots="1" dur="2"/>
+                           <space xml:id="space-qizicma" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -2585,14 +2588,14 @@
                            <note xml:id="v2_nh_3235_3432" dur="4" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osaqkse" staff="2" tstamp="2.0" place="above">mf</dynam>
-                     <dynam xml:id="dynam-okbzecu" staff="3" tstamp="2.0" place="above">mf</dynam>
-                     <dynam xml:id="dynam-penllnk" staff="5" tstamp="2.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-pqnanvk" staff="2" tstamp="2.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-qfaywyi" staff="3" tstamp="2.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-pqbpyfw" staff="5" tstamp="2.0" place="above">mf</dynam>
                   </measure>
                   <measure n="49" xml:id="m49">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osavdxg" dots="1" dur="2"/>
+                           <space xml:id="space-qizhxxw" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -2620,7 +2623,7 @@
                            </note>
                            <note xml:id="v1_nh_3539_2823" dur="4" pname="d" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>reux</syl>
+                                 <syl wordpos="t">reux</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_3663_2824" dur="4" pname="d" oct="3" stem.dir="down" color="#13819E">
@@ -2711,7 +2714,7 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osbqpfc" staff="1" tstamp="3.0" place="above">f</dynam>
+                     <dynam xml:id="dynam-ppiatvc" staff="1" tstamp="3.0" place="above">f</dynam>
                   </measure>
                   <measure n="51" xml:id="m51">
                      <staff n="1">
@@ -2723,7 +2726,7 @@
                            </note>
                            <note xml:id="v1_nh_1518_3767" dots="1" dur="4" pname="f" oct="5" stem.dir="down" color="#13819E" accid.ges="s">
                               <verse n="1">
-                                 <syl>on</syl>
+                                 <syl wordpos="t">on</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_1681_3780" dur="8" pname="e" oct="5" stem.dir="down" color="#13819E">
@@ -2774,7 +2777,7 @@
                            </note>
                            <note xml:id="v1_nh_1979_3792" dur="4" pname="d" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>re</syl>
+                                 <syl wordpos="t">re</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_2145_3793" dur="4" pname="d" oct="5" stem.dir="up" color="#13819E">
@@ -2788,7 +2791,7 @@
                            <space xml:id="F3part4M52V2E3" dur="4" color="#a637b0"/>
                            <note xml:id="v2_nh_2116_3746" dur="4" pname="g" oct="5" stem.dir="down" color="#a637b0">
                               <verse n="1">
-                                 <syl>Qu'</syl>
+                                 <syl wordpos="t">Qu'</syl>
                               </verse>
                            </note>
                         </layer>
@@ -2866,9 +2869,7 @@
                         <layer n="2" label="3">
                            <space xml:id="F3part1M53V7E1" dur="4" color="#5034D4"/>
                            <space xml:id="F3part1M53V7E3" dur="4" color="#5034D4"/>
-                           <beam xml:id="beam-orxwipk">
-                              <note xml:id="v3_nh_2593_4652" dur="8" pname="a" oct="5" stem.dir="up" color="#5034D4"/>
-                           </beam>
+                           <note xml:id="v3_nh_2593_4652" dur="8" pname="a" oct="5" stem.dir="up" color="#5034D4"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -2898,7 +2899,7 @@
                            </note>
                            <note xml:id="v1_nh_2981_3788" dur="8" pname="d" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>re?</syl>
+                                 <syl>re ?</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_3075_3808" dur="8" color="#13819E"/>
@@ -2948,8 +2949,8 @@
                            <note xml:id="v2_nh_3179_5000" dur="4" pname="f" oct="3" stem.dir="down" color="#a637b0" accid.ges="s"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osbrkjg" staff="1" tstamp="3.0" place="above">mf</dynam>
-                     <dynam xml:id="dynam-penlcou" staff="5" tstamp="3.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-ppiasps" staff="1" tstamp="3.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-pqbqeqa" staff="5" tstamp="3.0" place="above">mf</dynam>
                   </measure>
                   <measure n="55" xml:id="m55">
                      <staff n="1">
@@ -3044,7 +3045,7 @@
                      </staff>
                      <staff n="5">
                         <layer>
-                           <beam xml:id="beam-orxwcse">
+                           <beam xml:id="beam-qizisvg">
                               <note xml:id="v2_nh_1142_2274" dur="8" pname="f" oct="3" stem.dir="down" color="#a637b0" accid.ges="s"/>
                               <note xml:id="v2_nh_1232_2288" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_1324_2297" dur="8" pname="d" oct="3" stem.dir="down" color="#a637b0"/>
@@ -3053,7 +3054,7 @@
                            <note xml:id="v2_nh_1513_2322" dur="4" pname="b" oct="2" stem.dir="up" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <tie xml:id="tie-orxwcqi" staff="5" startid="#v2_nh_1513_2322" endid="#v2_nh_1772_2318"/>
+                     <tie xml:id="tie-qizitau" staff="5" startid="#v2_nh_1513_2322" endid="#v2_nh_1772_2318"/>
                   </measure>
                   <measure n="57" xml:id="m57">
                      <staff n="1">
@@ -3088,7 +3089,7 @@
                      <staff n="4">
                         <layer n="1" label="1">
                            <note xml:id="v1_nh_1770_1964" dur="2" pname="d" oct="5" stem.dir="up" color="#13819E"/>
-                           <beam xml:id="beam-orxwhka">
+                           <beam xml:id="beam-qizipzk">
                               <note xml:id="v1_nh_2136_1949" dur="8" pname="e" oct="5" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_2226_1975" dur="8" pname="c" oct="5" stem.dir="up" color="#13819E"/>
                            </beam>
@@ -3099,7 +3100,7 @@
                      </staff>
                      <staff n="5">
                         <layer>
-                           <beam xml:id="beam-orxwciy">
+                           <beam xml:id="beam-qizisyy">
                               <note xml:id="v2_nh_1772_2318" dur="8" pname="b" oct="2" stem.dir="up" color="#a637b0"/>
                               <note xml:id="v2_nh_1867_2331" dur="8" pname="a" oct="2" stem.dir="up" color="#a637b0"/>
                               <note xml:id="v2_nh_1958_2318" dur="8" pname="b" oct="2" stem.dir="up" color="#a637b0"/>
@@ -3172,8 +3173,8 @@
                            <note xml:id="v2_nh_2660_2280" dur="4" pname="d" oct="3" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osapzvs" staff="2" tstamp="3.0" place="above">mf</dynam>
-                     <dynam xml:id="dynam-okbytlw" staff="3" tstamp="3.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-pqnkpem" staff="2" tstamp="3.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-qjuqkiy" staff="3" tstamp="3.0" place="above">mf</dynam>
                   </measure>
                   <measure n="59" xml:id="m59">
                      <staff n="1">
@@ -3243,7 +3244,7 @@
                      </staff>
                      <staff n="4">
                         <layer>
-                           <beam xml:id="beam-orxwhrk">
+                           <beam xml:id="beam-qiziqdc">
                               <chord xml:id="chord_v1_nh_2865_2013" dur="8">
                                  <note xml:id="v1_nh_2864_1985" pname="b" oct="4" stem.dir="up" color="#13819E"/>
                                  <note xml:id="v1_nh_2865_2013" pname="g" oct="4" stem.dir="up" color="#13819E"/>
@@ -3278,7 +3279,7 @@
                               <note xml:id="v2_nh_2867_2279" pname="d" oct="3" stem.dir="up" color="#a637b0"/>
                               <note xml:id="v2_nh_2868_2335" pname="g" oct="2" stem.dir="up" color="#a637b0"/>
                            </chord>
-                           <beam xml:id="beam-orxwbsi">
+                           <beam xml:id="beam-qizitka">
                               <note xml:id="v2_nh_3313_2303" dur="8" pname="b" oct="2" stem.dir="up" color="#a637b0"/>
                               <note xml:id="v2_nh_3408_2291" dur="8" pname="c" oct="3" stem.dir="up" color="#a637b0"/>
                            </beam>
@@ -3325,7 +3326,7 @@
                         <layer>
                            <note xml:id="v1_nh_3573_1631" dur="4" pname="d" oct="3" stem.dir="up" color="#13819E">
                               <verse n="1">
-                                 <syl>vaux,</syl>
+                                 <syl wordpos="t">vaux,</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_3753_1653" dots="1" dur="4" pname="b" oct="2" stem.dir="up" color="#13819E">
@@ -3401,7 +3402,7 @@
                         <layer>
                            <note xml:id="v1_nh_1142_3300" dots="1" dur="4" pname="e" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>mant,</syl>
+                                 <syl wordpos="t">mant,</syl>
                               </verse>
                            </note>
                            <space xml:id="F4part2M61V3E1" dur="8" color="#13819E"/>
@@ -3425,7 +3426,7 @@
                               <note xml:id="v1_nh_1146_3768" pname="b" oct="3" stem.dir="up" color="#13819E"/>
                            </chord>
                            <space xml:id="F4part1M61V4E2" dur="8" color="#13819E"/>
-                           <beam xml:id="beam-orxweoe">
+                           <beam xml:id="beam-qiziqgu">
                               <chord xml:id="chord_v1_nh_1343_3766" dur="8">
                                  <note xml:id="v1_nh_1338_3662" pname="b" oct="4" stem.dir="up" color="#13819E"/>
                                  <note xml:id="v1_nh_1338_3691" pname="g" oct="4" stem.dir="up" color="#13819E"/>
@@ -3443,12 +3444,11 @@
                         <layer>
                            <note xml:id="v2_nh_1151_3951" dots="1" dur="4" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
                            <space xml:id="F4part1M61V5E1" dur="8" color="#a637b0" staff="4"/>
-                           <beam xml:id="beam-orxwbjc">
-                              <note xml:id="v2_nh_1345_3947" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
-                              <note xml:id="v2_nh_1451_3944" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
-                           </beam>
+                           <note xml:id="v2_nh_1345_3947" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
+                           <note xml:id="v2_nh_1451_3944" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
+                     <beamSpan xml:id="beam-qizitns" staff="5" startid="#v2_nh_1345_3947" endid="#v2_nh_3725_3589" plist="v2_nh_1345_3947 v2_nh_1451_3944 v2_nh_3725_3589"/>
                   </measure>
                   <measure n="62" xml:id="m62">
                      <staff n="1">
@@ -3470,7 +3470,7 @@
                            </note>
                            <note xml:id="v1_nh_2093_2604" dur="8" pname="g" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>le</syl>
+                                 <syl wordpos="t">le</syl>
                               </verse>
                            </note>
                         </layer>
@@ -3514,7 +3514,7 @@
                            </note>
                            <note xml:id="v1_nh_2098_3263" dur="8" pname="g" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>le</syl>
+                                 <syl wordpos="t">le</syl>
                               </verse>
                            </note>
                         </layer>
@@ -3526,7 +3526,7 @@
                               <note xml:id="v1_nh_1721_3644" pname="c" oct="5" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_1722_3713" pname="e" oct="4" stem.dir="up" color="#13819E"/>
                            </chord>
-                           <beam xml:id="beam-orxwgnw">
+                           <beam xml:id="beam-qiziqkm">
                               <chord xml:id="chord_v1_nh_1891_3642" dur="8">
                                  <note xml:id="v1_nh_1889_3611" pname="e" oct="5" stem.dir="up" color="#13819E"/>
                                  <note xml:id="v1_nh_1891_3642" pname="c" oct="5" stem.dir="up" color="#13819E"/>
@@ -3543,7 +3543,7 @@
                         </layer>
                         <layer n="2" label="3">
                            <space xml:id="F4part1M62V6E1" dots="1" dur="4" color="#5034D4"/>
-                           <beam xml:id="beam-orxwgxc">
+                           <beam xml:id="beam-qiziqoe">
                               <note xml:id="v3_nh_1893_3709" dur="8" pname="e" oct="4" stem.dir="down" color="#5034D4"/>
                               <note xml:id="v3_nh_1996_3693" dur="8" pname="f" oct="4" stem.dir="down" color="#5034D4" accid.ges="s"/>
                               <note xml:id="v3_nh_2102_3677" dur="8" pname="g" oct="4" stem.dir="down" color="#5034D4"/>
@@ -3553,7 +3553,7 @@
                      <staff n="5">
                         <layer>
                            <note xml:id="v2_nh_1729_3966" dots="1" dur="4" pname="c" oct="3" stem.dir="down" color="#a637b0"/>
-                           <beam xml:id="beam-orxwalc">
+                           <beam xml:id="beam-qizitlw">
                               <note xml:id="v2_nh_1897_3937" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_2000_3891" dur="8" pname="a" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_2108_3907" dur="8" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
@@ -3652,7 +3652,7 @@
                            </note>
                            <note xml:id="v1_nh_2935_2594" dots="1" dur="4" pname="g" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>reux</syl>
+                                 <syl wordpos="t">reux</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_3094_2608" dur="8" pname="f" oct="5" stem.dir="down" color="#13819E" accid.ges="s">
@@ -3677,7 +3677,7 @@
                         <layer n="2" label="2">
                            <note xml:id="v2_nh_2794_2963" dur="4" pname="e" oct="5" stem.dir="down" color="#a637b0">
                               <verse n="1">
-                                 <syl wordpos="i">heu</syl>
+                                 <syl wordpos="m">heu</syl>
                               </verse>
                            </note>
                         </layer>
@@ -3822,18 +3822,18 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-pqwvrum" staff="5" tstamp="1.0" place="above">f</dynam>
+                     <dynam xml:id="dynam-qjripae" staff="5" tstamp="1.0" place="above">f</dynam>
                   </measure>
                   <sb/>
                   <measure n="67" xml:id="m67">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqakm" dots="1" dur="2"/>
+                           <space xml:id="space-qizigps" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osaqdns" dots="1" dur="2"/>
+                           <space xml:id="space-qizigtk" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -3876,12 +3876,12 @@
                   <measure n="68" xml:id="m68">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqdau" dots="1" dur="2"/>
+                           <space xml:id="space-qizigxc" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osaqceq" dots="1" dur="2"/>
+                           <space xml:id="space-qizihau" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -3896,10 +3896,10 @@
                               <note xml:id="v1_nh_1654_4656" pname="d" oct="5" stem.dir="down" color="#13819E"/>
                               <note xml:id="v1_nh_1654_4614" pname="g" oct="5" stem.dir="down" color="#13819E"/>
                            </chord>
-                           <chord xml:id="chord_v1_nh_1851_4626" dur="4">
+                           <chord xml:id="chord_v1_nh_1853_4654" dur="4">
                               <note xml:id="v1_nh_1853_4696" pname="a" oct="4" stem.dir="down" color="#13819E"/>
-                              <note xml:id="v1_nh_1853_4654" pname="d" oct="5" stem.dir="down" color="#13819E"/>
                               <note xml:id="v1_nh_1851_4626" pname="f" oct="5" stem.dir="down" color="#13819E" accid.ges="s"/>
+                              <note xml:id="v1_nh_1853_4654" pname="d" oct="5" stem.dir="down" color="#13819E"/>
                            </chord>
                         </layer>
                      </staff>
@@ -3919,12 +3919,12 @@
                   <measure n="69" xml:id="m69">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqazg" dots="1" dur="2"/>
+                           <space xml:id="space-qizihem" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osaqagu" dots="1" dur="2"/>
+                           <space xml:id="space-qizihie" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -3958,17 +3958,17 @@
                            <rest xml:id="rest_2361_4958" dur="4" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-ojyfyps" staff="3" tstamp="3.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-qjuqhjk" staff="3" tstamp="3.0" place="above">mf</dynam>
                   </measure>
                   <measure n="70" xml:id="m70">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osapzkq" dots="1" dur="2"/>
+                           <space xml:id="space-qizihlw" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osapyfg" dots="1" dur="2"/>
+                           <space xml:id="space-qizihpo" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4009,17 +4009,17 @@
                            <note xml:id="v2_nh_2853_4956" dur="4" pname="d" oct="3" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osvkybw" staff="5" tstamp="3.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-qjritkq" staff="5" tstamp="3.0" place="above">p</dynam>
                   </measure>
                   <measure n="71" xml:id="m71">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osapxmu" dots="1" dur="2"/>
+                           <space xml:id="space-qizihtg" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osapwqq" dots="1" dur="2"/>
+                           <space xml:id="space-qizihwy" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4031,7 +4031,7 @@
                            </note>
                            <note xml:id="v1_nh_3197_4336" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E">
                               <verse n="1">
-                                 <syl>se,</syl>
+                                 <syl wordpos="t">se,</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_3294_4304" dur="8" color="#13819E"/>
@@ -4064,12 +4064,12 @@
                   <measure n="72" xml:id="m72">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osapnqe" dots="1" dur="2"/>
+                           <space xml:id="space-qiziiaq" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osapvca" dots="1" dur="2"/>
+                           <space xml:id="space-qiziiei" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4117,12 +4117,12 @@
                   <measure n="73" xml:id="m73">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osapuhs" dots="1" dur="2"/>
+                           <space xml:id="space-qiziiia" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osapsuy" dots="1" dur="2"/>
+                           <space xml:id="space-qiziils" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4171,12 +4171,12 @@
                   <measure n="74" xml:id="m74">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osapsaq" dots="1" dur="2"/>
+                           <space xml:id="space-qiziipk" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osappvk" dots="1" dur="2"/>
+                           <space xml:id="space-qiziitc" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4219,12 +4219,12 @@
                   <measure n="75" xml:id="m75">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osappbc" dots="1" dur="2"/>
+                           <space xml:id="space-qiziiwu" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-osapndg" dots="1" dur="2"/>
+                           <space xml:id="space-qizijam" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4271,12 +4271,12 @@
                   <measure n="76" xml:id="m76">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-osaqbbc" dots="1" dur="2"/>
+                           <space xml:id="space-qizijee" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwfxg" dots="1" dur="2"/>
+                           <space xml:id="space-qizijhw" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4322,12 +4322,12 @@
                   <measure n="77" xml:id="m77">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxwcku" dots="1" dur="2"/>
+                           <space xml:id="space-qizijlo" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxvtgq" dots="1" dur="2"/>
+                           <space xml:id="space-qizijpg" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4365,12 +4365,12 @@
                   <measure n="78" xml:id="m78">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxwboq" dots="1" dur="2"/>
+                           <space xml:id="space-qizijsy" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwdsa" dots="1" dur="2"/>
+                           <space xml:id="space-qizijwq" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4416,12 +4416,12 @@
                   <measure n="79" xml:id="m79">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxweey" dots="1" dur="2"/>
+                           <space xml:id="space-qizikai" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwdkq" dots="1" dur="2"/>
+                           <space xml:id="space-qizikea" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4433,7 +4433,7 @@
                            </note>
                            <note xml:id="v1_nh_1093_2224" dur="8" pname="d" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>prendre</syl>
+                                 <syl wordpos="t">prendre</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_1181_2250" dur="8" color="#13819E"/>
@@ -4465,12 +4465,12 @@
                   <measure n="80" xml:id="m80">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxwdqe" dots="1" dur="2"/>
+                           <space xml:id="space-qizikhs" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwets" dots="1" dur="2"/>
+                           <space xml:id="space-qiziklk" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4513,12 +4513,12 @@
                   <measure n="81" xml:id="m81">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxvtim" dots="1" dur="2"/>
+                           <space xml:id="space-qizikpc" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwkce" dots="1" dur="2"/>
+                           <space xml:id="space-qiziksu" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4530,7 +4530,7 @@
                            </note>
                            <note xml:id="v1_nh_2128_2190" dur="8" pname="f" oct="5" stem.dir="down" color="#13819E" accid="n">
                               <verse n="1">
-                                 <syl>dre</syl>
+                                 <syl wordpos="t">dre</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_2214_2237" dur="8" color="#13819E"/>
@@ -4562,12 +4562,12 @@
                   <measure n="82" xml:id="m82">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxvtoa" dots="1" dur="2"/>
+                           <space xml:id="space-qizikwm" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwjsy" dots="1" dur="2"/>
+                           <space xml:id="space-qizilae" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4584,12 +4584,12 @@
                            </note>
                            <note xml:id="v1_nh_2737_2217" dur="8" pname="d" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl wordpos="i">vi</syl>
+                                 <syl wordpos="m">vi</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_2830_2232" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>ter</syl>
+                                 <syl wordpos="t">ter</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_2944_2246" dur="8" pname="b" oct="4" stem.dir="down" color="#13819E">
@@ -4608,7 +4608,7 @@
                         <layer n="1" label="1">
                            <rest xml:id="rest_2522_2638" dur="4" color="#13819E"/>
                            <rest xml:id="rest_2737_2634" dur="4" color="#13819E"/>
-                           <beam xml:id="beam-orxwfrs">
+                           <beam xml:id="beam-qiziqrw">
                               <note xml:id="v1_nh_2948_2646" dur="8" pname="b" oct="4" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_3088_2660" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E"/>
                            </beam>
@@ -4632,12 +4632,12 @@
                   <measure n="83" xml:id="m83">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxwcbo" dots="1" dur="2"/>
+                           <space xml:id="space-qizildw" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxvxjs" dots="1" dur="2"/>
+                           <space xml:id="space-qizilho" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4668,7 +4668,7 @@
                      </staff>
                      <staff n="5">
                         <layer>
-                           <beam xml:id="beam-orxwbfk">
+                           <beam xml:id="beam-qizitrk">
                               <note xml:id="v2_nh_3258_2913" dur="8" pname="b" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_3353_2927" dur="8" pname="a" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_3455_2944" dur="8" pname="g" oct="3" stem.dir="down" color="#a637b0" accid="s"/>
@@ -4690,7 +4690,7 @@
                            </note>
                            <note xml:id="v1_nh_1218_3433" dur="4" pname="c" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>dre</syl>
+                                 <syl wordpos="t">dre</syl>
                               </verse>
                            </note>
                         </layer>
@@ -4723,7 +4723,7 @@
                            <note xml:id="v2_nh_1214_4871" dur="4" pname="a" oct="3" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <tie xml:id="tie-orxwfim" staff="4" startid="#v1_nh_1216_4573" endid="#v1_nh_1406_4573"/>
+                     <tie xml:id="tie-qiziqxk" staff="4" startid="#v1_nh_1216_4573" endid="#v1_nh_1406_4573"/>
                   </measure>
                   <measure n="85" xml:id="m85">
                      <staff n="1">
@@ -4762,7 +4762,7 @@
                            <note xml:id="v2_nh_1405_4867" dots="1" dur="2" pname="a" oct="3" stem.dir="up" color="#a637b0"/>
                         </layer>
                         <layer n="2" label="3">
-                           <note xml:id="v3_nh_1405_4897" dots="1" dur="2" pname="f" oct="3" stem.dir="down" color="#5034D4" accid="n"/>
+                           <note xml:id="v3_nh_1405_4897" dur="2" pname="f" oct="3" stem.dir="down" color="#5034D4" accid="n"/>
                         </layer>
                      </staff>
                   </measure>
@@ -4780,9 +4780,9 @@
                         <layer>
                            <rest xml:id="rest_1849_3850" dur="4" color="#13819E"/>
                            <rest xml:id="rest_1975_3849" dur="4" color="#13819E"/>
-                           <chord xml:id="chord_v1_nh_2103_3877" dur="4">
-                              <note xml:id="v1_nh_2104_3858" pname="b" oct="4" stem.dir="up" color="#13819E"/>
+                           <chord xml:id="chord_v1_nh_2104_3858" dur="4">
                               <note xml:id="v1_nh_2103_3877" pname="g" oct="4" stem.dir="up" color="#13819E" accid="s"/>
+                              <note xml:id="v1_nh_2104_3858" pname="b" oct="4" stem.dir="up" color="#13819E"/>
                            </chord>
                         </layer>
                      </staff>
@@ -4797,7 +4797,7 @@
                            <space xml:id="F5part2M86V4E3" dur="4" color="#a637b0"/>
                            <note xml:id="v2_nh_2104_4172" dur="4" pname="e" oct="3" stem.dir="down" color="#a637b0">
                               <verse n="1">
-                                 <syl wordpos="i">Cha</syl>
+                                 <syl wordpos="m">Cha</syl>
                               </verse>
                            </note>
                         </layer>
@@ -4819,9 +4819,9 @@
                            <note xml:id="v3_nh_1848_4908" dur="4" pname="e" oct="3" stem.dir="down" color="#5034D4"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-oscaoro" staff="1" tstamp="1.0" place="above">p</dynam>
-                     <dynam xml:id="dynam-osbidiu" staff="2" tstamp="3.0" place="above">p</dynam>
-                     <dynam xml:id="dynam-ojxsbpw" staff="3" tstamp="3.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-pphfhuu" staff="1" tstamp="1.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-qjjuvwq" staff="2" tstamp="3.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-qfhawce" staff="3" tstamp="3.0" place="above">p</dynam>
                   </measure>
                   <measure n="87" xml:id="m87">
                      <staff n="1">
@@ -4885,7 +4885,7 @@
                            <rest xml:id="rest_2529_4916" dots="1" dur="2" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <tie xml:id="tie-orxwklk" staff="1" startid="#v1_nh_2278_3403" endid="#v1_nh_2919_3404"/>
+                     <tie xml:id="tie-qiziofg" staff="1" startid="#v1_nh_2278_3403" endid="#v1_nh_2919_3404"/>
                   </measure>
                   <measure n="88" xml:id="m88">
                      <staff n="1">
@@ -4897,9 +4897,9 @@
                      </staff>
                      <staff n="2">
                         <layer n="1" label="1">
-                           <chord xml:id="chord_v1_nh_2922_3877" dur="4">
-                              <note xml:id="v1_nh_2922_3857" pname="b" oct="4" stem.dir="up" color="#13819E"/>
+                           <chord xml:id="chord_v1_nh_2922_3857" dur="4">
                               <note xml:id="v1_nh_2922_3877" pname="g" oct="4" stem.dir="up" color="#13819E" accid="s"/>
+                              <note xml:id="v1_nh_2922_3857" pname="b" oct="4" stem.dir="up" color="#13819E"/>
                            </chord>
                            <note xml:id="v1_nh_3062_3830" dots="1" dur="4" pname="e" oct="5" stem.dir="up" color="#13819E">
                               <artic artic="acc" place="above"/>
@@ -5022,7 +5022,7 @@
                            <note xml:id="v1_nh_1089_1632" dots="1" dur="4" pname="d" oct="3" stem.dir="down" color="#13819E"/>
                            <note xml:id="v1_nh_1247_1630" dur="8" pname="d" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>de</syl>
+                                 <syl wordpos="t">de</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_1346_1622" dur="8" pname="e" oct="3" stem.dir="down" color="#13819E">
@@ -5128,7 +5128,7 @@
                         <layer>
                            <note xml:id="v1_nh_2113_1607" dur="4" pname="f" oct="3" stem.dir="down" color="#13819E" accid="n">
                               <verse n="1">
-                                 <syl>doit</syl>
+                                 <syl wordpos="t">doit</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_2234_1598" dots="1" dur="4" pname="g" oct="3" stem.dir="down" color="#13819E">
@@ -5199,8 +5199,8 @@
                            <note xml:id="v2_nh_2786_2299" dur="4" pname="c" oct="3" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-oscadem" staff="1" tstamp="3.0" place="above">mf</dynam>
-                     <dynam xml:id="dynam-osvkylc" staff="5" tstamp="2.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-pphyoma" staff="1" tstamp="3.0" place="above">mf</dynam>
+                     <dynam xml:id="dynam-qjuscmq" staff="5" tstamp="2.0" place="above">p</dynam>
                   </measure>
                   <measure n="94" xml:id="m94">
                      <staff n="1">
@@ -5298,12 +5298,12 @@
                   <measure n="96" xml:id="m96">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxvyai" dots="1" dur="2"/>
+                           <space xml:id="space-qizillg" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxvxuu" dots="1" dur="2"/>
+                           <space xml:id="space-qiziloy" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -5315,7 +5315,7 @@
                               </verse>
                            </note>
                            <space xml:id="F6part2M96V1E1" dur="8" color="#13819E"/>
-                           <note xml:id="v1_nh_1362_2654" dur="8" pname="d" oct="5" stem.dir="down" color="#13819E">
+                           <note xml:id="v1_nh_1362_2654" dur="8" pname="f" oct="3" stem.dir="down" color="#13819E" accid.ges="s">
                               <verse n="1">
                                  <syl>pour</syl>
                               </verse>
@@ -5345,17 +5345,17 @@
                            <note xml:id="v2_nh_1223_3012" dur="4" pname="c" oct="5" stem.dir="up" color="#a637b0" staff="4"/>
                         </layer>
                      </staff>
-                     <beamSpan xml:id="beam-orxwgke" staff="4" startid="#v3_nh_1362_2998" endid="#v3_nh_3624_3615" plist="v3_nh_1362_2998 chord_v3_nh_3441_3280 v3_nh_3624_3615"/>
+                     <beamSpan xml:id="beam-qiziqvo" staff="4" startid="#v3_nh_1362_2998" endid="#v3_nh_3624_3615" plist="v3_nh_1362_2998 chord_v3_nh_3441_3280 v3_nh_3624_3615"/>
                   </measure>
                   <measure n="97" xml:id="m97">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxwodk" dots="1" dur="2"/>
+                           <space xml:id="space-qizilsq" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwqey" dots="1" dur="2"/>
+                           <space xml:id="space-qizilwi" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -5367,7 +5367,7 @@
                            </note>
                            <note xml:id="v1_nh_1789_2678" dur="4" pname="b" oct="4" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>dre;</syl>
+                                 <syl wordpos="t">dre ;</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_1925_2667" dur="4" color="#13819E"/>
@@ -5398,12 +5398,12 @@
                   <measure n="98" xml:id="m98">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxwqbg" dots="1" dur="2"/>
+                           <space xml:id="space-qizimaa" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwqiq" dots="1" dur="2"/>
+                           <space xml:id="space-qizimds" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -5418,7 +5418,7 @@
                                  <syl>n'a</syl>
                               </verse>
                            </note>
-                           <beam xml:id="beam-orxwmjg">
+                           <beam xml:id="beam-qizioom">
                               <note xml:id="v1_nh_2366_2660" dur="8" pname="c" oct="5" stem.dir="down" color="#13819E">
                                  <verse n="1">
                                     <syl>point</syl>
@@ -5426,7 +5426,7 @@
                               </note>
                               <note xml:id="v1_nh_2463_2645" dur="8" pname="d" oct="5" stem.dir="down" color="#13819E"/>
                            </beam>
-                           <beam xml:id="beam-orxwkhs">
+                           <beam xml:id="beam-qiziovw">
                               <note xml:id="v1_nh_2569_2631" dur="8" pname="e" oct="5" stem.dir="down" color="#13819E">
                                  <verse n="1">
                                     <syl>&#224;</syl>
@@ -5443,7 +5443,7 @@
                         <layer n="2" label="3">
                            <note xml:id="v3_nh_2139_3072" dur="4" pname="e" oct="4" stem.dir="down" color="#5034D4"/>
                            <note xml:id="v3_nh_2367_3028" dur="4" pname="a" oct="4" stem.dir="down" color="#5034D4"/>
-                           <beam xml:id="beam-orxwfme">
+                           <beam xml:id="beam-qizirgq">
                               <note xml:id="v3_nh_2569_3040" dur="8" pname="g" oct="4" stem.dir="down" color="#5034D4"/>
                               <note xml:id="v3_nh_2663_3025" dur="8" pname="a" oct="4" stem.dir="down" color="#5034D4"/>
                            </beam>
@@ -5458,12 +5458,12 @@
                   <measure n="99" xml:id="m99">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxwpgy" dots="1" dur="2"/>
+                           <space xml:id="space-qizimhk" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwpxo" dots="1" dur="2"/>
+                           <space xml:id="space-qizimlc" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -5475,7 +5475,7 @@
                            </note>
                            <note xml:id="v1_nh_3232_2628" dur="4" pname="e" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>dre</syl>
+                                 <syl wordpos="t">dre</syl>
                               </verse>
                            </note>
                         </layer>
@@ -5494,7 +5494,7 @@
                      </staff>
                      <staff n="5">
                         <layer>
-                           <beam xml:id="beam-orxwafo">
+                           <beam xml:id="beam-qizitvc">
                               <note xml:id="v2_nh_2834_3254" dur="8" pname="a" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_2929_3270" dur="8" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_3032_3257" dur="8" pname="a" oct="3" stem.dir="down" color="#a637b0"/>
@@ -5507,12 +5507,12 @@
                   <measure n="100" xml:id="m100">
                      <staff n="1">
                         <layer>
-                           <space xml:id="space-orxwpfc" dots="1" dur="2"/>
+                           <space xml:id="space-qizimou" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer>
-                           <space xml:id="space-orxwoua" dots="1" dur="2"/>
+                           <space xml:id="space-qizimsm" dots="1" dur="2"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -5529,7 +5529,7 @@
                            </note>
                            <note xml:id="v1_nh_3650_2683" dots="1" dur="4" pname="a" oct="4" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>cheux</syl>
+                                 <syl wordpos="t">cheux</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_3872_2670" dur="8" pname="b" oct="4" stem.dir="down" color="#13819E">
@@ -5561,11 +5561,7 @@
                   <measure n="101" xml:id="m101">
                      <staff n="1">
                         <layer>
-                           <note xml:id="v1_nh_1089_3752" dur="2" pname="g" oct="4" stem.dir="up" color="#13819E" accid="s">
-                              <verse n="1">
-                                 <syl>P]</syl>
-                              </verse>
-                           </note>
+                           <note xml:id="v1_nh_1089_3752" dur="2" pname="g" oct="4" stem.dir="up" color="#13819E" accid="s"/>
                            <rest xml:id="rest_1318_3708" dur="4" color="#13819E"/>
                         </layer>
                      </staff>
@@ -5586,14 +5582,14 @@
                         <layer n="1" label="1">
                            <rest xml:id="rest_1092_4335" dur="4" color="#13819E"/>
                            <rest xml:id="rest_1206_4333" dur="4" color="#13819E"/>
-                           <note xml:id="v1_nh_1324_4334" dur="4" pname="e" oct="3" stem.dir="up" color="#13819E"/>
+                           <note xml:id="v1_nh_1324_4334" dur="4" pname="c" oct="5" stem.dir="up" color="#13819E"/>
                         </layer>
                         <layer n="2" label="2">
                            <space xml:id="F6part2M101V4E1" dur="4" color="#a637b0"/>
                            <space xml:id="F6part2M101V4E3" dur="4" color="#a637b0"/>
-                           <note xml:id="v2_nh_1324_4334" dur="4" pname="e" oct="3" stem.dir="down" color="#a637b0">
+                           <note xml:id="v2_nh_1324_4334" dur="4" pname="c" oct="5" stem.dir="down" color="#a637b0">
                               <verse n="1">
-                                 <syl wordpos="i">Cha</syl>
+                                 <syl wordpos="m">Cha</syl>
                               </verse>
                            </note>
                         </layer>
@@ -5613,7 +5609,8 @@
                            <rest xml:id="rest_1325_4996" dur="4" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-ojxzlee" staff="3" tstamp="3.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-qjiardo" staff="2" tstamp="3.0" place="above">p</dynam>
+                     <dynam xml:id="dynam-qfhasps" staff="3" tstamp="3.0" place="above">p</dynam>
                   </measure>
                   <measure n="102" xml:id="m102">
                      <staff n="1">
@@ -5792,7 +5789,8 @@
                            <rest xml:id="rest_2706_4975" dots="1" dur="2" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-ouaczga" staff="3" tstamp="3.0" place="above">pp</dynam>
+                     <dynam xml:id="dynam-qjiaubg" staff="2" tstamp="3.0" place="above">pp</dynam>
+                     <dynam xml:id="dynam-qfhajjs" staff="3" tstamp="3.0" place="above">pp</dynam>
                   </measure>
                   <measure n="105" xml:id="m105">
                      <staff n="1">
@@ -5818,7 +5816,7 @@
                               <note xml:id="v1_nh_3381_4025" pname="c" oct="5" stem.dir="down" color="#13819E" accid="s"/>
                               <note xml:id="v1_nh_3381_4003" pname="e" oct="5" stem.dir="down" color="#13819E"/>
                            </chord>
-                           <space xml:id="space-orxwpbk" dur="16"/>
+                           <space xml:id="space-qizimwe" dur="16"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -5933,7 +5931,7 @@
                         <layer>
                            <note xml:id="v1_nh_932_1514" dur="4" pname="f" oct="3" stem.dir="down" color="#13819E" accid.ges="s">
                               <verse n="1">
-                                 <syl>doit</syl>
+                                 <syl wordpos="t">doit</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_1071_1505" dots="1" dur="4" pname="g" oct="3" stem.dir="down" color="#13819E">
@@ -5975,7 +5973,7 @@
                         <layer>
                            <note xml:id="v1_nh_1357_1269" dur="2" pname="d" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>mour</syl>
+                                 <syl wordpos="t">mour</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_1668_1283" dur="4" color="#13819E"/>
@@ -6001,7 +5999,7 @@
                      <staff n="5">
                         <layer>
                            <rest xml:id="rest_1359_2103" dur="4" color="#a637b0"/>
-                           <beam xml:id="beam-orxwbdo">
+                           <beam xml:id="beam-qizityu">
                               <note xml:id="v2_nh_1486_2112" dur="8" pname="d" oct="3" stem.dir="up" color="#a637b0"/>
                               <note xml:id="v2_nh_1576_2126" dur="8" pname="c" oct="3" stem.dir="up" color="#a637b0"/>
                               <note xml:id="v2_nh_1671_2140" dur="8" pname="b" oct="2" stem.dir="up" color="#a637b0"/>
@@ -6009,8 +6007,8 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-oscaops" staff="1" tstamp="3.0" place="above">f</dynam>
-                     <dynam xml:id="dynam-pqwrhdo" staff="5" tstamp="2.0" place="above">f</dynam>
+                     <dynam xml:id="dynam-pphymxk" staff="1" tstamp="3.0" place="above">f</dynam>
+                     <dynam xml:id="dynam-qjusllg" staff="5" tstamp="2.0" place="above">f</dynam>
                   </measure>
                   <measure n="109" xml:id="m109">
                      <staff n="1">
@@ -6052,7 +6050,7 @@
                               <note xml:id="v1_nh_2043_1907" pname="d" oct="4" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_2044_1938" pname="b" oct="3" stem.dir="up" color="#13819E"/>
                            </chord>
-                           <beam xml:id="beam-orxwfeu">
+                           <beam xml:id="beam-qizircy">
                               <note xml:id="v1_nh_2172_1881" dur="8" pname="f" oct="4" stem.dir="up" color="#13819E" accid.ges="s"/>
                               <note xml:id="v1_nh_2254_1896" dur="8" pname="e" oct="4" stem.dir="up" color="#13819E"/>
                            </beam>
@@ -6068,7 +6066,7 @@
                            <note xml:id="v2_nh_1921_2165" dots="1" dur="2" pname="g" oct="2" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <tie xml:id="tie-orxwahk" staff="5" startid="#v2_nh_1921_2165" endid="#v2_nh_2413_2166"/>
+                     <tie xml:id="tie-qiziuei" staff="5" startid="#v2_nh_1921_2165" endid="#v2_nh_2413_2166"/>
                   </measure>
                   <measure n="110" xml:id="m110">
                      <staff n="1">
@@ -6080,7 +6078,7 @@
                            </note>
                            <note xml:id="v1_nh_2540_979" dur="8" pname="d" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>dre?</syl>
+                                 <syl wordpos="t">dre ?</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_2618_1000" dur="8" color="#13819E"/>
@@ -6137,7 +6135,7 @@
                            </note>
                            <note xml:id="v1_nh_3021_924" dots="1" dur="4" pname="a" oct="5" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl>il</syl>
+                                 <syl wordpos="t">il</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_3225_938" dur="8" pname="g" oct="5" stem.dir="down" color="#13819E">
@@ -6166,7 +6164,7 @@
                         <layer n="2" label="3">
                            <note xml:id="v3_nh_2901_1898" dur="4" pname="e" oct="4" stem.dir="down" color="#5034D4"/>
                            <note xml:id="v3_nh_3027_1929" dur="4" pname="c" oct="4" stem.dir="down" color="#5034D4"/>
-                           <beam xml:id="beam-orxwcmq">
+                           <beam xml:id="beam-qizirki">
                               <note xml:id="v3_nh_3153_1916" dur="8" pname="d" oct="4" stem.dir="down" color="#5034D4"/>
                               <note xml:id="v3_nh_3235_1903" dur="8" pname="e" oct="4" stem.dir="down" color="#5034D4"/>
                            </beam>
@@ -6176,7 +6174,7 @@
                         <layer>
                            <note xml:id="v2_nh_2903_2131" dur="4" pname="c" oct="3" stem.dir="up" color="#a637b0"/>
                            <note xml:id="v2_nh_3030_2159" dur="4" pname="a" oct="2" stem.dir="up" color="#a637b0"/>
-                           <beam xml:id="beam-orxvzdw">
+                           <beam xml:id="beam-qiziucm">
                               <note xml:id="v2_nh_3157_2146" dur="8" pname="b" oct="2" stem.dir="up" color="#a637b0"/>
                               <note xml:id="v2_nh_3240_2133" dur="8" pname="c" oct="3" stem.dir="up" color="#a637b0"/>
                            </beam>
@@ -6193,7 +6191,7 @@
                            </note>
                            <note xml:id="v1_nh_3505_955" dur="4" pname="f" oct="5" stem.dir="down" color="#13819E" accid.ges="s">
                               <verse n="1">
-                                 <syl>dre?</syl>
+                                 <syl>dre ?</syl>
                               </verse>
                            </note>
                            <rest xml:id="rest_3636_1000" dur="4" color="#13819E"/>
@@ -6229,7 +6227,7 @@
                         <layer n="1" label="2">
                            <note xml:id="v2_nh_3389_2050" dur="4" pname="b" oct="3" stem.dir="up" color="#a637b0"/>
                            <note xml:id="v2_nh_3515_2067" dur="4" pname="a" oct="3" stem.dir="up" color="#a637b0"/>
-                           <beam xml:id="beam-orxwabw">
+                           <beam xml:id="beam-qiziuno">
                               <note xml:id="v2_nh_3643_2023" dur="8" pname="d" oct="4" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_3727_2039" dur="8" pname="c" oct="4" stem.dir="down" color="#a637b0"/>
                            </beam>
@@ -6252,8 +6250,6 @@
                               </verse>
                            </note>
                            <note xml:id="v1_nh_1187_2404" dur="4" pname="g" oct="5" stem.dir="down" color="#13819E">
-                              <artic artic="stacc" place="above"/>
-                              <artic artic="stacc" place="above"/>
                               <verse n="1">
                                  <syl>on</syl>
                               </verse>
@@ -6308,7 +6304,7 @@
                         </layer>
                         <layer n="2" label="2">
                            <note xml:id="v2_nh_1395_2460" dur="2" pname="c" oct="5" stem.dir="up" color="#a637b0"/>
-                           <beam xml:id="beam-orxwmui">
+                           <beam xml:id="beam-qizignw">
                               <note xml:id="v2_nh_1622_2388" dur="8" pname="a" oct="5" stem.dir="down" color="#a637b0">
                                  <verse n="1">
                                     <syl>un</syl>
@@ -6331,7 +6327,7 @@
                      <staff n="4">
                         <layer n="1" label="1">
                            <note xml:id="v1_nh_1376_3299" dur="2" pname="c" oct="5" stem.dir="up" color="#13819E"/>
-                           <beam xml:id="beam-orxweiq">
+                           <beam xml:id="beam-qiziroa">
                               <note xml:id="v1_nh_1622_3327" dur="8" pname="a" oct="4" stem.dir="up" color="#13819E"/>
                               <note xml:id="v1_nh_1704_3343" dur="8" pname="g" oct="4" stem.dir="up" color="#13819E"/>
                            </beam>
@@ -6507,10 +6503,10 @@
                            <rest xml:id="rest_2922_2998" dur="4" color="#13819E"/>
                            <note xml:id="v1_nh_3047_2981" dur="4" pname="g" oct="3" stem.dir="down" color="#13819E">
                               <verse n="1">
-                                 <syl wordpos="i">Cha</syl>
+                                 <syl wordpos="m">Cha</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>tempo</syl>
+                                 <syl wordpos="t">tempo</syl>
                               </verse>
                            </note>
                         </layer>
@@ -6536,9 +6532,9 @@
                            <note xml:id="v2_nh_3046_3550" dur="4" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-osazcjw" staff="2" tstamp="3.0" place="above">f</dynam>
-                     <dynam xml:id="dynam-oubizpw" staff="3" tstamp="3.0" place="above">f</dynam>
-                     <dynam xml:id="dynam-osksbcy" staff="5" tstamp="3.0" place="above">f</dynam>
+                     <dynam xml:id="dynam-qjigdzk" staff="2" tstamp="3.0" place="above">f</dynam>
+                     <dynam xml:id="dynam-qfezxbs" staff="3" tstamp="3.0" place="above">f</dynam>
+                     <dynam xml:id="dynam-qijuijg" staff="5" tstamp="3.0" place="above">f</dynam>
                   </measure>
                   <measure n="118" xml:id="m118">
                      <staff n="1">
@@ -6572,7 +6568,7 @@
                               <note xml:id="v1_nh_3726_2767" pname="c" oct="5" stem.dir="down" color="#13819E" accid.ges="s"/>
                               <note xml:id="v1_nh_3726_2742" pname="e" oct="5" stem.dir="down" color="#13819E"/>
                            </chord>
-                           <space xml:id="space-orxwlye" dur="16"/>
+                           <space xml:id="space-qizimzw" dur="16"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -6596,7 +6592,7 @@
                      </staff>
                      <staff n="4">
                         <layer n="1" label="1">
-                           <beam xml:id="beam-orxwerw">
+                           <beam xml:id="beam-qizirrs">
                               <chord xml:id="chord_v1_nh_3244_3281" dur="8">
                                  <note xml:id="v1_nh_3246_3310" pname="c" oct="5" stem.dir="down" color="#13819E"/>
                                  <note xml:id="v1_nh_3244_3281" pname="e" oct="5" stem.dir="down" color="#13819E"/>
@@ -6605,8 +6601,20 @@
                                  <note xml:id="v1_nh_3336_3296" pname="d" oct="5" stem.dir="down" color="#13819E"/>
                                  <note xml:id="v1_nh_3335_3265" pname="f" oct="5" stem.dir="down" color="#13819E" accid.ges="s"/>
                               </chord>
+                              <chord xml:id="chord_v1_nh_3528_3250" dur="8">
+                                 <note xml:id="v1_nh_3529_3285" pname="e" oct="5" stem.dir="down" color="#13819E"/>
+                                 <note xml:id="v1_nh_3528_3250" pname="a" oct="5" stem.dir="down" color="#13819E"/>
+                              </chord>
+                              <chord xml:id="chord_v1_nh_3625_3271" dur="8">
+                                 <note xml:id="v1_nh_3626_3301" pname="d" oct="5" stem.dir="down" color="#13819E"/>
+                                 <note xml:id="v1_nh_3625_3271" pname="f" oct="5" stem.dir="down" color="#13819E" accid.ges="s"/>
+                              </chord>
+                              <chord xml:id="chord_v1_nh_3724_3290" dur="8">
+                                 <note xml:id="v1_nh_3725_3319" pname="c" oct="5" stem.dir="down" color="#13819E"/>
+                                 <note xml:id="v1_nh_3724_3290" pname="e" oct="5" stem.dir="down" color="#13819E"/>
+                              </chord>
                            </beam>
-                           <space xml:id="space-orxwoqi" dots="1" dur="8"/>
+                           <space xml:id="space-qizinbs" dur="8"/>
                         </layer>
                         <layer n="2" label="3">
                            <space xml:id="F7part1M118V6E1" dur="8" color="#5034D4"/>
@@ -6617,7 +6625,7 @@
                            </chord>
                            <space xml:id="F7part1M118V6E6" dur="8" color="#5034D4"/>
                            <note xml:id="v3_nh_3624_3615" dur="8" pname="c" oct="3" stem.dir="down" color="#5034D4" staff="5"/>
-                           <space xml:id="space-orxwnky" dots="1" dur="8"/>
+                           <space xml:id="space-qijtstc" dur="8"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -6627,10 +6635,11 @@
                               <note xml:id="v2_nh_3244_3551" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_3243_3504" pname="c" oct="4" stem.dir="down" color="#a637b0"/>
                            </chord>
-                           <space xml:id="space-osksbrs" dur="4"/>
+                           <note xml:id="v2_nh_3725_3589" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
+                           <space xml:id="space-qijtsuy" dur="8"/>
                         </layer>
                      </staff>
-                     <tie xml:id="tie-orxwkyi" staff="1" startid="#v1_nh_3242_2405" endid="#v1_nh_930_3878"/>
+                     <tie xml:id="tie-qiziomq" staff="1" startid="#v1_nh_3242_2405" endid="#v1_nh_930_3878"/>
                   </measure>
                   <sb/>
                   <measure n="119" xml:id="m119">
@@ -6662,14 +6671,10 @@
                      <staff n="3">
                         <layer>
                            <keySig xml:id="ks_800_4450" sig="1s"/>
-                           <note xml:id="v1_nh_923_4454" dur="4" pname="g" oct="3" stem.dir="down" color="#13819E">
-                              <verse n="1">
-                                 <syl>mer</syl>
-                              </verse>
-                           </note>
+                           <space xml:id="F7part2M119V3E1" dur="4" color="#13819E"/>
                            <note xml:id="v1_nh_1049_4460" dots="1" dur="4" pname="f" oct="3" stem.dir="down" color="#13819E" accid.ges="s">
                               <verse n="1">
-                                 <syl>A</syl>
+                                 <syl>merA</syl>
                               </verse>
                            </note>
                            <note xml:id="v1_nh_1252_4470" dur="8" pname="e" oct="3" stem.dir="down" color="#13819E">
@@ -6679,9 +6684,11 @@
                            </note>
                         </layer>
                      </staff>
+                     <staffDef n="4">
+                        <keySig xml:id="ks_795_4712--ks_789_5015" sig="1s"/>
+                     </staffDef>
                      <staff n="4">
-                        <layer>
-                           <keySig xml:id="ks_795_4712--ks_789_5015" sig="1s"/>
+                        <layer n="1" label="1">
                            <chord xml:id="chord_v1_nh_916_4770" dur="4">
                               <note xml:id="v1_nh_916_4798" pname="b" oct="4" stem.dir="down" color="#13819E"/>
                               <note xml:id="v1_nh_916_4770" pname="d" oct="5" stem.dir="down" color="#13819E"/>
@@ -6691,26 +6698,28 @@
                               <note xml:id="v1_nh_1045_4793" pname="b" oct="4" stem.dir="down" color="#13819E"/>
                               <note xml:id="v1_nh_1045_4722" pname="g" oct="5" stem.dir="down" color="#13819E"/>
                            </chord>
-                           <chord xml:id="chord_v1_nh_1249_4721" dur="8">
-                              <note xml:id="v1_nh_1249_4821" pname="g" oct="4" stem.dir="down" color="#13819E"/>
-                              <note xml:id="v1_nh_1249_4779" pname="c" oct="5" stem.dir="down" color="#13819E" accid="s"/>
-                              <note xml:id="v1_nh_1249_4721" pname="g" oct="5" stem.dir="down" color="#13819E"/>
+                        </layer>
+                        <layer n="2" label="3">
+                           <space xml:id="F7part1M119V6E1" dur="4" color="#5034D4"/>
+                           <note xml:id="v3_nh_1041_5002" dots="1" dur="4" pname="b" oct="3" stem.dir="up" color="#5034D4" staff="5"/>
+                           <chord xml:id="chord_v3_nh_1249_4821" dur="8">
+                              <note xml:id="v3_nh_1249_4779" pname="c" oct="5" stem.dir="down" color="#5034D4" accid="s"/>
+                              <note xml:id="v3_nh_1249_4821" pname="g" oct="4" stem.dir="down" color="#5034D4"/>
                            </chord>
                         </layer>
+                        <layer n="3" label="4">
+                           <space xml:id="F7part1M119V7E1" dur="4" color="#0a6206"/>
+                           <space xml:id="F7part1M119V7E3" dur="4" color="#0a6206"/>
+                           <space xml:id="F7part1M119V7E5" dur="8" color="#0a6206"/>
+                           <note xml:id="v4_nh_1247_4985" dur="8" pname="c" oct="4" stem.dir="up" color="#0a6206" accid="s" staff="5"/>
+                        </layer>
                      </staff>
-                     <staffDef n="5">
-                        <keySig xml:id="ks_789_5015" sig="1s"/>
-                     </staffDef>
                      <staff n="5">
-                        <layer n="1" label="2">
+                        <layer>
+                           <keySig xml:id="ks_789_5015" sig="1s"/>
                            <note xml:id="v2_nh_913_5033" dur="4" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
                            <note xml:id="v2_nh_1040_5047" dots="1" dur="4" pname="f" oct="3" stem.dir="down" color="#a637b0" accid.ges="s"/>
                            <note xml:id="v2_nh_1247_5059" dur="8" pname="e" oct="3" stem.dir="down" color="#a637b0"/>
-                        </layer>
-                        <layer n="2" label="3">
-                           <space xml:id="F7part1M119V6E1" dur="4" color="#5034D4" staff="4"/>
-                           <note xml:id="v3_nh_1041_5002" dots="1" dur="4" pname="b" oct="3" stem.dir="up" color="#5034D4"/>
-                           <note xml:id="v3_nh_1247_4985" dur="8" pname="c" oct="4" stem.dir="up" color="#5034D4" accid="s"/>
                         </layer>
                      </staff>
                   </measure>
@@ -6772,7 +6781,7 @@
                               <note xml:id="v1_nh_1813_4494" pname="c" oct="3" stem.dir="down" color="#13819E"/>
                               <note xml:id="v1_nh_1812_4444" pname="a" oct="3" stem.dir="down" color="#13819E"/>
                            </chord>
-                           <space xml:id="space-orxwoku" dur="16"/>
+                           <space xml:id="space-qizinjc" dur="16"/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -6782,7 +6791,7 @@
                               <note xml:id="v1_nh_1395_4763" pname="d" oct="5" stem.dir="down" color="#13819E"/>
                               <note xml:id="v1_nh_1395_4734" pname="f" oct="5" stem.dir="down" color="#13819E" accid.ges="s"/>
                            </chord>
-                           <beam xml:id="beam-orxwdzk">
+                           <beam xml:id="beam-qizirvk">
                               <chord xml:id="chord_v1_nh_1594_4765" dur="8">
                                  <note xml:id="v1_nh_1595_4834" pname="f" oct="4" stem.dir="down" color="#13819E" accid.ges="s"/>
                                  <note xml:id="v1_nh_1594_4765" pname="d" oct="5" stem.dir="down" color="#13819E"/>
@@ -6802,11 +6811,11 @@
                      </staff>
                      <staff n="5">
                         <layer n="1" label="2">
-                           <chord xml:id="chord_v2_nh_1392_4967" dots="1" dur="4">
-                              <note xml:id="v2_nh_1391_5012" pname="a" oct="3" stem.dir="up" color="#a637b0"/>
+                           <chord xml:id="chord_v2_nh_1391_5012" dots="1" dur="4">
                               <note xml:id="v2_nh_1392_4967" pname="d" oct="4" stem.dir="up" color="#a637b0"/>
+                              <note xml:id="v2_nh_1391_5012" pname="a" oct="3" stem.dir="up" color="#a637b0"/>
                            </chord>
-                           <beam xml:id="beam-orxvxsy">
+                           <beam xml:id="beam-qiziujw">
                               <chord xml:id="chord_v2_nh_1592_4963" dur="8">
                                  <note xml:id="v2_nh_1592_5069" pname="d" oct="3" stem.dir="down" color="#a637b0"/>
                                  <note xml:id="v2_nh_1592_4963" pname="d" oct="4" stem.dir="down" color="#a637b0"/>
@@ -6881,18 +6890,25 @@
                               <note xml:id="v1_nh_2137_4521" pname="g" oct="2" stem.dir="down" color="#13819E"/>
                               <note xml:id="v1_nh_2137_4456" pname="g" oct="3" stem.dir="down" color="#13819E"/>
                            </chord>
-                           <space xml:id="space-ojwstcq" dur="4"/>
-                           <space xml:id="space-orxwils" dur="16"/>
+                           <chord xml:id="chord_v1_nh_2244_4457" dur="8">
+                              <note xml:id="v1_nh_2244_4514" pname="a" oct="2" stem.dir="down" color="#13819E"/>
+                              <note xml:id="v1_nh_2244_4457" pname="g" oct="3" stem.dir="down" color="#13819E"/>
+                           </chord>
+                           <chord xml:id="chord_v1_nh_2377_4459" dur="8">
+                              <note xml:id="v1_nh_2377_4507" pname="b" oct="2" stem.dir="down" color="#13819E"/>
+                              <note xml:id="v1_nh_2377_4459" pname="g" oct="3" stem.dir="down" color="#13819E"/>
+                           </chord>
+                           <space xml:id="space-qizinue" dur="16"/>
                         </layer>
                      </staff>
                      <staff n="4">
                         <layer>
-                           <chord xml:id="chord_v1_nh_1962_4768" dots="1" dur="4">
+                           <chord xml:id="chord_v1_nh_1961_4723" dots="1" dur="4">
                               <note xml:id="v1_nh_1962_4824" pname="g" oct="4" stem.dir="down" color="#13819E"/>
-                              <note xml:id="v1_nh_1961_4723" pname="g" oct="5" stem.dir="down" color="#13819E"/>
                               <note xml:id="v1_nh_1962_4768" pname="d" oct="5" stem.dir="down" color="#13819E"/>
+                              <note xml:id="v1_nh_1961_4723" pname="g" oct="5" stem.dir="down" color="#13819E"/>
                            </chord>
-                           <beam xml:id="beam-orxwedc">
+                           <beam xml:id="beam-qizirzc">
                               <chord xml:id="chord_v1_nh_2134_4726" dur="8">
                                  <note xml:id="v1_nh_2133_4827" pname="g" oct="4" stem.dir="down" color="#13819E"/>
                                  <note xml:id="v1_nh_2133_4798" pname="b" oct="4" stem.dir="down" color="#13819E"/>
@@ -6918,7 +6934,7 @@
                               <note xml:id="v2_nh_1958_5030" pname="g" oct="3" stem.dir="down" color="#a637b0"/>
                               <note xml:id="v2_nh_1957_4997" pname="b" oct="3" stem.dir="down" color="#a637b0"/>
                            </chord>
-                           <beam xml:id="beam-orxvyqy">
+                           <beam xml:id="beam-qiziurg">
                               <chord xml:id="chord_v2_nh_2133_5032" dur="8">
                                  <note xml:id="v2_nh_2133_5129" pname="g" oct="2" stem.dir="down" color="#a637b0"/>
                                  <note xml:id="v2_nh_2133_5032" pname="g" oct="3" stem.dir="down" color="#a637b0"/>

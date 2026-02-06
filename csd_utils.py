@@ -68,7 +68,6 @@ def main(argv=None):
 		help="included details (can include multiple details)"
 		)
 
-
 	args = parser.parse_args()
 	
 	# Determine the combination of details

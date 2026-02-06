@@ -6,54 +6,54 @@
     <creator type="composer">Music21</creator>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-05</encoding-date>
+      <encoding-date>2026-02-06</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>converter21</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
     <miscellaneous>
-      <miscellaneous-field name="meiraw:meiHead">&lt;ns0:meiHead xmlns:ns0="http://www.music-encoding.org/ns/mei" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}mei' at 0x107843ab0&gt;"&gt;
-&lt;ns0:fileDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x107843b50&gt;"&gt;
-&lt;ns0:titleStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x107843bf0&gt;"&gt;
-&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}titleStmt' at 0x107843c90&gt;" /&gt;
+      <miscellaneous-field name="meiraw:meiHead">&lt;ns0:meiHead xmlns:ns0="http://www.music-encoding.org/ns/mei" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}mei' at 0x1054a7d80&gt;"&gt;
+&lt;ns0:fileDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x1054a7e20&gt;"&gt;
+&lt;ns0:titleStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x1054a7ec0&gt;"&gt;
+&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}titleStmt' at 0x1054a7f60&gt;" /&gt;
 &lt;/ns0:titleStmt&gt;
-&lt;ns0:pubStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x107843bf0&gt;"&gt;
-&lt;ns0:unpub __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x107843dd0&gt;" /&gt;
+&lt;ns0:pubStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x1054a7ec0&gt;"&gt;
+&lt;ns0:unpub __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x1054d80e0&gt;" /&gt;
 &lt;/ns0:pubStmt&gt;
-&lt;ns0:sourceDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x107843bf0&gt;"&gt;
-&lt;ns0:source type="digital" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}sourceDesc' at 0x107843f10&gt;"&gt;
-&lt;ns0:bibl __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}source' at 0x107843fb0&gt;"&gt;
-&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x107874090&gt;" /&gt;
-&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x107874090&gt;"&gt;
-&lt;ns0:persName __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x107874180&gt;" /&gt;
+&lt;ns0:sourceDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x1054a7ec0&gt;"&gt;
+&lt;ns0:source type="digital" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}sourceDesc' at 0x1054d8220&gt;"&gt;
+&lt;ns0:bibl __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}source' at 0x1054d82c0&gt;"&gt;
+&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x1054d8360&gt;" /&gt;
+&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x1054d8360&gt;"&gt;
+&lt;ns0:persName __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x1054d8450&gt;" /&gt;
 &lt;/ns0:composer&gt;
-&lt;ns0:availability __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x107874090&gt;"&gt;
-&lt;ns0:useRestrict type="copyright" analog="humdrum:YEC" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}availability' at 0x107874270&gt;"&gt;CollabScore project&lt;/ns0:useRestrict&gt;
+&lt;ns0:availability __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}bibl' at 0x1054d8360&gt;"&gt;
+&lt;ns0:useRestrict type="copyright" analog="humdrum:YEC" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}availability' at 0x1054d8540&gt;"&gt;CollabScore project&lt;/ns0:useRestrict&gt;
 &lt;/ns0:availability&gt;
 &lt;/ns0:bibl&gt;
 &lt;/ns0:source&gt;
 &lt;/ns0:sourceDesc&gt;
 &lt;/ns0:fileDesc&gt;
-&lt;ns0:encodingDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x107843b50&gt;"&gt;
-&lt;ns0:appInfo __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}encodingDesc' at 0x107874310&gt;"&gt;
-&lt;ns0:application version="4.0.0" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1078743b0&gt;"&gt;
-&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x107874400&gt;"&gt;converter21&lt;/ns0:name&gt;
+&lt;ns0:encodingDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x1054a7e20&gt;"&gt;
+&lt;ns0:appInfo __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}encodingDesc' at 0x1054d85e0&gt;"&gt;
+&lt;ns0:application version="4.0.0" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1054d8680&gt;"&gt;
+&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x1054d86d0&gt;"&gt;converter21&lt;/ns0:name&gt;
 &lt;/ns0:application&gt;
-&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1078743b0&gt;"&gt;
-&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x1078744f0&gt;"&gt;music21 v.9.9.1&lt;/ns0:name&gt;
+&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1054d8680&gt;"&gt;
+&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x1054d87c0&gt;"&gt;music21 v.9.9.1&lt;/ns0:name&gt;
 &lt;/ns0:application&gt;
-&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1078743b0&gt;"&gt;
-&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x107874590&gt;"&gt;DMOS/Collabscore OMR&lt;/ns0:name&gt;
+&lt;ns0:application __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}appInfo' at 0x1054d8680&gt;"&gt;
+&lt;ns0:name __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}application' at 0x1054d8860&gt;"&gt;DMOS/Collabscore OMR&lt;/ns0:name&gt;
 &lt;/ns0:application&gt;
 &lt;/ns0:appInfo&gt;
 &lt;/ns0:encodingDesc&gt;
-&lt;ns0:workList __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x107843b50&gt;"&gt;
-&lt;ns0:work xml:id="work0_encoded_postpzs" type="encoded" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}workList' at 0x107874680&gt;"&gt;
-&lt;ns0:title type="uniform" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x107874770&gt;"&gt;
-&lt;ns0:titlePart type="main" analog="humdrum:OTL" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}title' at 0x1078747c0&gt;" /&gt;
+&lt;ns0:workList __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x1054a7e20&gt;"&gt;
+&lt;ns0:work xml:id="work0_encoded_qvzpgrw" type="encoded" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}workList' at 0x1054d8950&gt;"&gt;
+&lt;ns0:title type="uniform" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x1054d8a40&gt;"&gt;
+&lt;ns0:titlePart type="main" analog="humdrum:OTL" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}title' at 0x1054d8a90&gt;" /&gt;
 &lt;/ns0:title&gt;
-&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x107874770&gt;"&gt;
-&lt;ns0:persName analog="humdrum:COM" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x1078748b0&gt;" /&gt;
+&lt;ns0:composer __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}work' at 0x1054d8a40&gt;"&gt;
+&lt;ns0:persName analog="humdrum:COM" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}composer' at 0x1054d8b80&gt;" /&gt;
 &lt;/ns0:composer&gt;
 &lt;/ns0:work&gt;
 &lt;/ns0:workList&gt;
@@ -71,15 +71,15 @@
     <part-group number="1" type="start">
       <group-barline>no</group-barline>
     </part-group>
-    <score-part id="Pa19d883729ad50a81a9534f0128e6920">
+    <score-part id="Pf3ad4a9014ec3bab198be8f51ef0e2f7">
       <part-name />
     </score-part>
-    <score-part id="Pe8d99e1ddc5116cfd35f1ee89e8899cc">
+    <score-part id="Pf174a6752c1c5cf5af0e3575ca8c8b84">
       <part-name />
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pa19d883729ad50a81a9534f0128e6920">
+  <part id="Pf3ad4a9014ec3bab198be8f51ef0e2f7">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -502,12 +502,7 @@
     </measure>
     <!--========================= Measure 6 ==========================-->
     <measure implicit="no" number="6">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="v1_nh_2960_2907">
+      <note color="#13819E" id="v1_nh_2960_2907">
         <pitch>
           <step>F</step>
           <octave>5</octave>
@@ -516,9 +511,9 @@
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>sor,</text>
         </lyric>
       </note>
@@ -603,7 +598,7 @@
         <stem>up</stem>
         <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>ty—</text>
         </lyric>
       </note>
@@ -767,12 +762,7 @@
     </measure>
     <!--========================= Measure 9 ==========================-->
     <measure implicit="no" number="9">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="v1_nh_2907_4209">
+      <note color="#13819E" id="v1_nh_2907_4209">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -783,9 +773,9 @@
         <type>half</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>vers,</text>
         </lyric>
       </note>
@@ -1022,12 +1012,7 @@
     </measure>
     <!--========================= Measure 12 =========================-->
     <measure implicit="no" number="12">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="v1_nh_2475_1020">
+      <note color="#13819E" id="v1_nh_2475_1020">
         <pitch>
           <step>B</step>
           <alter>0</alter>
@@ -1038,9 +1023,9 @@
         <type>half</type>
         <accidental>natural</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>certs</text>
         </lyric>
       </note>
@@ -1369,12 +1354,7 @@
           <beat-type>4</beat-type>
         </time>
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="v1_nh_3196_2176">
+      <note color="#13819E" id="v1_nh_3196_2176">
         <pitch>
           <step>G</step>
           <alter>-1</alter>
@@ -1385,9 +1365,9 @@
         <type>quarter</type>
         <accidental>flat</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
-          <syllabic>begin</syllabic>
+          <syllabic>middle</syllabic>
           <text>pi</text>
         </lyric>
       </note>
@@ -2704,12 +2684,7 @@
         <offset sound="yes">30240</offset>
         <sound dynamics="88" />
       </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="v1_nh_1024_4337">
+      <note color="#13819E" id="v1_nh_1024_4337">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -2718,9 +2693,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>ge,</text>
         </lyric>
       </note>
@@ -2848,12 +2823,7 @@
     </measure>
     <!--========================= Measure 37 =========================-->
     <measure implicit="no" number="37">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="v1_nh_3016_4322">
+      <note color="#13819E" id="v1_nh_3016_4322">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -2862,9 +2832,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>nir</text>
         </lyric>
       </note>
@@ -3153,12 +3123,7 @@
         <offset sound="yes">35280</offset>
         <sound dynamics="57" />
       </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="v1_nh_2849_997">
+      <note color="#13819E" id="v1_nh_2849_997">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3167,9 +3132,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
-          <syllabic>begin</syllabic>
+          <syllabic>middle</syllabic>
           <text>mé</text>
         </lyric>
       </note>
@@ -3272,7 +3237,7 @@
         <stem>up</stem>
         <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>—On,</text>
         </lyric>
       </note>
@@ -3795,7 +3760,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="Pe8d99e1ddc5116cfd35f1ee89e8899cc">
+  <part id="Pf174a6752c1c5cf5af0e3575ca8c8b84">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -11057,7 +11022,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <note id="space-ppoqmqa" print-object="no" print-spacing="yes">
+      <note id="space-qwcjqyy" print-object="no" print-spacing="yes">
         <rest />
         <duration>2520</duration>
         <voice>2</voice>

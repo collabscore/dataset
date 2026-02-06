@@ -243,8 +243,11 @@ class MdiffScoreReport():
 			val = '{:.2f}'.format(val)
 			return "1 - (nb diffs / nb context)", val
 		elif self.scope == MdiffScoreReport.LYRICS_SCOPE:
-			val = (1 - self.nb_diffs / self.ground_stats.nb_lyrics) * 100
-			val = '{:.2f}'.format(val)
+			if self.ground_stats.nb_lyrics != 0:
+				val = (1 - self.nb_diffs / self.ground_stats.nb_lyrics) * 100
+				val = '{:.2f}'.format(val)
+			else:
+				val = "N/A"
 			return "1 - (nb diffs / nb lyrics)", val
 		else:
 			return "no formula", 0
@@ -357,8 +360,8 @@ class MdiffScoreReport():
 		return """<tr><th>Ref</th><th>Title</th><th>Images</th>
 							<th>Details</th>
 							<th>Score info</th>
-							<th>Metric</th>
 							<th>Nb diffs</th>
+							<th>Metric</th>
 							<th>Cost</th>
 							<th>Bar del.</th>
 							<th>Bar ins.</th>
