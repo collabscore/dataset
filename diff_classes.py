@@ -44,17 +44,24 @@ class MdiffOp ():
 	LYRICS_EDIT = "lyricins"
 	LYRICS_OFFSET_EDIT="lyricoffsetedit"
 	
+	ARTICULATION_DEL = "delarticulation"
+	ARTICULATION_INS = "insarticulation"
+	EXPRESSION_INS = "insexpression"
+	EXPRESSION_DEL = "delexpression"
+	
 	ALL_OPERATIONS = [NOTE_INS,NOTE_DEL,DOT_DEL,DOT_INS,HEAD_EDIT,
 					BEAM_INS, BEAM_INS,
 					ACCIDENT_DEL, ACCIDENT_INS,ACCIDENT_EDIT,
 					EXTRA_DEL, EXTRA_INS, BAR_DEL, BAR_INS,
-					LYRICS_DEL, LYRICS_INS, LYRICS_EDIT, LYRICS_OFFSET_EDIT]
+					LYRICS_DEL, LYRICS_INS, LYRICS_EDIT, LYRICS_OFFSET_EDIT,
+					ARTICULATION_DEL, ARTICULATION_INS, EXPRESSION_INS, EXPRESSION_DEL]
 					
 	VOICE_ITEM_OPS =  [NOTE_INS,NOTE_DEL,HEAD_EDIT,
 						DOT_DEL,DOT_INS,BEAM_INS,BEAM_DEL,
 						ACCIDENT_DEL, ACCIDENT_INS,ACCIDENT_EDIT]
 	CONTEXT_OPS = [EXTRA_DEL, EXTRA_INS, EXTRA_SYMBOL_EDIT]
 	LYRICS_OPS = [LYRICS_DEL, LYRICS_INS, LYRICS_EDIT, LYRICS_OFFSET_EDIT]
+	EXPRESSION_OPS = [ARTICULATION_DEL, ARTICULATION_INS, EXPRESSION_INS, EXPRESSION_DEL]
 	
 	def __init__(self, name, 
 					first_annot_obj=None, 
@@ -212,6 +219,7 @@ class MdiffScoreReport():
 	ITEMS_SCOPE = "items"
 	CONTEXT_SCOPE = "context"
 	LYRICS_SCOPE = "lyrics"
+	EXPRESSION_SCOPE="expressions"
 	GLOBAL_SCOPE = "global"
 	
 	def __init__(self, score_ref, title, iiif_link) :
@@ -249,6 +257,15 @@ class MdiffScoreReport():
 			else:
 				val = "N/A"
 			return "1 - (nb diffs / nb lyrics)", val
+		elif self.scope == MdiffScoreReport.EXPRESSION_SCOPE:
+			"""if self.ground_stats.nb_lyrics != 0:
+				val = (1 - self.nb_diffs / self.ground_stats.nb_lyrics) * 100
+				val = '{:.2f}'.format(val)
+			else:
+				val = "N/A"
+			"""
+			val = "todo"
+			return "1 - (nb diffs / nb expressions)", val
 		else:
 			return "no formula", 0
 			
@@ -278,6 +295,9 @@ class MdiffScoreReport():
 				for op in agg_op.ops:
 					sub_report.add (op)
 			elif op_categ == "lyrics" and  op_name in MdiffOp.LYRICS_OPS:
+				for op in agg_op.ops:
+					sub_report.add (op)
+			elif op_categ == MdiffScoreReport.EXPRESSION_SCOPE and  op_name in MdiffOp.EXPRESSION_OPS:
 				for op in agg_op.ops:
 					sub_report.add (op)
 		return sub_report

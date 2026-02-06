@@ -268,14 +268,17 @@ def build_full_report():
 					report.iiif_link = score['iiif_link']
 					res_file.write (report.line())
 					# Voice items report
-					items_report = report.sublist(op_categ="items")
+					items_report = report.sublist(op_categ=MdiffScoreReport.ITEMS_SCOPE)
 					res_file.write (items_report.line())
 					# Context report
-					context_report = report.sublist(op_categ="context")
+					context_report = report.sublist(op_categ=MdiffScoreReport.CONTEXT_SCOPE)
 					res_file.write (context_report.line())
 					# Lyrics report
-					lyrics_report = report.sublist(op_categ="lyrics")
+					lyrics_report = report.sublist(op_categ=MdiffScoreReport.LYRICS_SCOPE)
 					res_file.write (lyrics_report.line())
+					# Expressions report
+					expr_report = report.sublist(op_categ=MdiffScoreReport.EXPRESSION_SCOPE)
+					res_file.write (expr_report.line())
 
 					## OK, we also produce a detailed report dedicated
 					# to the current score

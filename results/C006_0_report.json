@@ -2,12 +2,12 @@
   "score_ref": "C006_0.mei",
   "title": "",
   "iiif_link": "",
-  "global_cost": 94,
-  "nb_diffs": 42,
+  "global_cost": 95,
+  "nb_diffs": 43,
   "predicted_stats": {
     "total_symbols": 1035,
     "nb_notes": 800,
-    "notes_nsize": 2126,
+    "notes_nsize": 2140,
     "nb_context": 56,
     "context_nsize": 80,
     "nb_lyrics": 179,
@@ -16,7 +16,7 @@
   "ground_stats": {
     "total_symbols": 1042,
     "nb_notes": 804,
-    "notes_nsize": 2134,
+    "notes_nsize": 2149,
     "nb_context": 56,
     "context_nsize": 80,
     "nb_lyrics": 182,
@@ -42,8 +42,8 @@
     },
     "lyricedit": {
       "label": "lyricedit",
-      "cost": 42,
-      "nb_diffs": 25,
+      "cost": 38,
+      "nb_diffs": 21,
       "ops": [
         {
           "label": "lyricedit",
@@ -77,30 +77,10 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "l\u2019u-,num=1,id=,off=3.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "l'u-,num=1,id=,off=3.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
           "first_annot_obj": "re.,num=1,id=,off=1.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-re.,num=1,id=,off=1.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "-ty\u2014,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-ty-,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -144,16 +124,6 @@
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 2
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "s\u2019il,num=1,id=,off=1.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "s'il,num=1,id=,off=1.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
         },
         {
           "label": "lyricedit",
@@ -217,16 +187,6 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "-m\u00e9\u2014,num=1,id=,off=2.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-m\u00e9-,num=1,id=,off=2.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
           "first_annot_obj": "amour,num=1,id=,off=3.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -237,7 +197,7 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "-\u2014On,,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "--On,,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-on,,num=1,id=,off=0.0,style={}",
@@ -297,6 +257,33 @@
         }
       ]
     },
+    "delarticulation": {
+      "label": "delarticulation",
+      "cost": 2,
+      "nb_diffs": 2,
+      "ops": [
+        {
+          "label": "delarticulation",
+          "first_annot_obj": "[N-3sharp]2 tenuto",
+          "type1": "Note",
+          "id1": "v1_nh_1973_1024",
+          "second_annot_obj": "[N-3sharp]2",
+          "type2": "Note",
+          "id2": "n11r8uwo",
+          "cost": 1
+        },
+        {
+          "label": "delarticulation",
+          "first_annot_obj": "[N-2]4Bpa tenuto",
+          "type1": "Note",
+          "id1": "v1_nh_2240_3206",
+          "second_annot_obj": "[N-2]4Bpa",
+          "type2": "Note",
+          "id2": "nicek70",
+          "cost": 1
+        }
+      ]
+    },
     "lyricins": {
       "label": "lyricins",
       "cost": 21,
@@ -341,6 +328,43 @@
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 6
+        }
+      ]
+    },
+    "insexpression": {
+      "label": "insexpression",
+      "cost": 3,
+      "nb_diffs": 3,
+      "ops": [
+        {
+          "label": "insexpression",
+          "first_annot_obj": "[R]1",
+          "type1": "Note",
+          "id1": "rest_3493_4255",
+          "second_annot_obj": "[R]1 fermata",
+          "type2": "Note",
+          "id2": "r3ukvp6",
+          "cost": 1
+        },
+        {
+          "label": "insexpression",
+          "first_annot_obj": "[R]2",
+          "type1": "Note",
+          "id1": "rest_3588_4619",
+          "second_annot_obj": "[R]2 fermata",
+          "type2": "Note",
+          "id2": "r1vp8pdx",
+          "cost": 1
+        },
+        {
+          "label": "insexpression",
+          "first_annot_obj": "[R]2",
+          "type1": "Note",
+          "id1": "rest_3595_4947",
+          "second_annot_obj": "[R]2 fermata",
+          "type2": "Note",
+          "id2": "r1x0bbs7",
+          "cost": 1
         }
       ]
     },
