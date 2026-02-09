@@ -250,6 +250,12 @@ def build_full_report():
 		
 	# We summarize the results in a global result fie
 	with open(REPORT_NAME, "w") as res_file:
+
+		latex_complete_name =f"results/latex_complete.tex"
+		latex_complete_file = open(latex_complete_name, "w")
+		latex_complete_file.write (MdiffScoreReport.table_complete_header("latex"))
+
+
 		latex_items_name =f"results/latex_items.tex"
 		latex_items_file = open(latex_items_name, "w")
 		latex_items_file.write (MdiffScoreReport.table_header("latex"))
@@ -300,6 +306,13 @@ def build_full_report():
 					# Expressions report
 					expr_report = report.sublist(op_categ=MdiffScoreReport.EXPRESSION_SCOPE)
 					res_file.write (expr_report.line())
+					
+					# Complete latex report with each category
+					latex_complete_file.write(MdiffScoreReport.line_begining(score_ref, report.title, "latex"))
+					latex_complete_file.write(items_report.line(score_ref, report.title, "latex_complete"))
+					latex_complete_file.write(context_report.line(score_ref, report.title, "latex_complete"))
+					latex_complete_file.write(lyrics_report.line(score_ref, report.title, "latex_complete"))
+					latex_complete_file.write(MdiffScoreReport.line_ending(score_ref, report.title, "latex"))
 
 					## OK, we also produce a detailed report dedicated
 					# to the current score
@@ -328,6 +341,7 @@ def build_full_report():
 		latex_items_file.write (MdiffScoreReport.table_footer("latex"))
 		latex_context_file.write (MdiffScoreReport.table_footer("latex"))
 		latex_lyrics_file.write (MdiffScoreReport.table_footer("latex"))
+		latex_complete_file.write (MdiffScoreReport.table_footer("latex"))
 
 	print (f"\nDone. Report stored in {REPORT_NAME}")
 

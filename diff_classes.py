@@ -243,29 +243,29 @@ class MdiffScoreReport():
 			return "no ground", 0
 		# Returns the formula and the value of the metric
 		if self.scope == MdiffScoreReport.ITEMS_SCOPE:
-			val = (1 - self.nb_diffs / self.ground_stats.nb_notes) * 100
+			val = (self.nb_diffs / self.ground_stats.nb_notes) * 100
 			val = '{:.2f}'.format(val)
-			return "1 - (nb diffs / nb notes)", val
+			return "(nb diffs / nb notes)", val
 		elif self.scope == MdiffScoreReport.CONTEXT_SCOPE:
-			val = (1 - self.nb_diffs / self.ground_stats.nb_context) * 100
+			val = (self.nb_diffs / self.ground_stats.nb_context) * 100
 			val = '{:.2f}'.format(val)
-			return "1 - (nb diffs / nb context)", val
+			return "(nb diffs / nb context)", val
 		elif self.scope == MdiffScoreReport.LYRICS_SCOPE:
 			if self.ground_stats.nb_lyrics != 0:
-				val = (1 - self.nb_diffs / self.ground_stats.nb_lyrics) * 100
+				val = (self.nb_diffs / self.ground_stats.nb_lyrics) * 100
 				val = '{:.2f}'.format(val)
 			else:
 				val = "N/A"
-			return "1 - (nb diffs / nb lyrics)", val
+			return "(nb diffs / nb lyrics)", val
 		elif self.scope == MdiffScoreReport.EXPRESSION_SCOPE:
 			"""if self.ground_stats.nb_lyrics != 0:
-				val = (1 - self.nb_diffs / self.ground_stats.nb_lyrics) * 100
+				val = (self.nb_diffs / self.ground_stats.nb_lyrics) * 100
 				val = '{:.2f}'.format(val)
 			else:
 				val = "N/A"
 			"""
 			val = "todo"
-			return "1 - (nb diffs / nb expressions)", val
+			return "(nb diffs / nb expressions)", val
 		else:
 			return "no formula", 0
 			
@@ -378,6 +378,20 @@ class MdiffScoreReport():
 \\textbf{Ref} & \\textbf{Title} & \\textbf{Nbs objects} &  \\textbf{Nbs diffs} & \\textbf{Metric} \\\ \hline
 	"""
 	
+
+	@staticmethod
+	def table_complete_header(mode='html'):
+		if mode == "html":
+			return "<table border='1'>"
+		else:
+			return """\\begin{small}
+\\begin{tabular}{l|l|r|r|r|r|r|r|r|r|r}
+\\textbf{Ref}& \\textbf{Title} & \\multicolumn{3}{c|}{\\textbf{Voice elements}}  & \\multicolumn{3}{c|}{\\textbf{Context elements}} & \\multicolumn{3}{c}{\\textbf{Lyrics}}\\\ 
+\hline
+ &  & \\textbf{Nb} &  \\textbf{Nb}  & \\textbf{Edition} & \\textbf{Nb} &  \\textbf{Nb}  & \\textbf{Edition}& \\textbf{Nb} &  \\textbf{Nb}  & \\textbf{Edition} \\\ 
+ &  & \\textbf{elts} &  \\textbf{diffs} & \\textbf{Rate} & \\textbf{elts} &  \\textbf{diffs} & \\textbf{Rate} & \\textbf{elts} &  \\textbf{diffs} & \\textbf{Rate} \\\ \hline
+"""
+		
 	@staticmethod
 	def table_footer(mode='html'):
 		if mode=="html":
@@ -400,7 +414,16 @@ class MdiffScoreReport():
 							<th>Bar ins.</th>
 							<th>Summary</th>
 							</tr>"""
-							
+	
+	@staticmethod
+	def line_begining(score_ref=None, title=None,modde='latex',):
+		score_ref = score_ref.replace("_", "\_")
+		return f"{score_ref} & {title}"
+		
+	@staticmethod
+	def line_ending(score_ref=None, title=None,modde='latex',):
+		return " \\\\ \n "
+
 	def line(self, score_ref=None, title=None, mode='html'):
 		
 		
@@ -417,7 +440,11 @@ class MdiffScoreReport():
 							</tr>"""
 		latex_format = """{ref} & {title} & {nb_objs} & {nb_diffs} & {metric} \\\ 
 		"""
-		
+
+		latex_partial_format = "& {nb_objs} & {nb_diffs} & {metric}"
+
+	
+
 		if self.details_link() != "":
 			details_link = "<a target='_blank' href='{link}'>Ops details</a>".format(link=self.details_link())
 		else:
@@ -465,7 +492,21 @@ class MdiffScoreReport():
 								nb_diffs=self.nb_diffs,
 								metric = f"{metric_val} \%"
 								)
-
+		elif mode == "latex_complete":
+			score_ref = score_ref.replace("_", "\_")
+			if self.ground_stats is not None:
+				if self.scope == MdiffScoreReport.ITEMS_SCOPE:
+					nb_objects = self.ground_stats.nb_notes 
+				elif self.scope == MdiffScoreReport.CONTEXT_SCOPE:
+					nb_objects = self.ground_stats.nb_context 
+				elif self.scope == MdiffScoreReport.LYRICS_SCOPE:
+					nb_objects = self.ground_stats.nb_lyrics 
+			return latex_partial_format.format(ref=score_ref, 
+								title=title,
+								nb_objs=nb_objects,
+								nb_diffs=self.nb_diffs,
+								metric = f"{metric_val} \%"
+								)
 
 class ScoreStats():
 	"""
