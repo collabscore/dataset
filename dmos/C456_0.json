@@ -1,6 +1,6 @@
 {
   "id": "C456_0",
-  "date": "2026-01-30-14h",
+  "date": "2026-02-06-16h",
   "pages": [
     {
       "page_url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1174905r/f2",
@@ -9012,7 +9012,7 @@
                     },
                     {
                       "duration": {
-                        "label": "quarter",
+                        "label": "16th",
                         "nb_points": 0
                       },
                       "att_note": {
@@ -9055,7 +9055,12 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 82,
+                      "errors": [
+                        {
+                          "message": "lowDurErr"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -41753,7 +41758,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 98,
+                      "no_group": 95,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -43532,7 +43537,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 95,
+                      "no_group": 93,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -68833,7 +68838,7 @@
                     },
                     {
                       "duration": {
-                        "label": "quarter",
+                        "label": "32th",
                         "nb_points": 0
                       },
                       "att_note": {
@@ -68876,7 +68881,7 @@
                         ]
                       },
                       "direction": "up",
-                      "no_group": 0
+                      "no_group": 83
                     },
                     {
                       "duration": {
@@ -68923,7 +68928,12 @@
                         ]
                       },
                       "direction": "up",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "lowDurErr"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -69030,7 +69040,12 @@
                         ]
                       },
                       "direction": "up",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "supDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -69077,7 +69092,15 @@
                         ]
                       },
                       "direction": "up",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "addElmt"
+                        },
+                        {
+                          "message": "lowDurErr"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -69181,7 +69204,12 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "supDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -69228,7 +69256,15 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "addElmt"
+                        },
+                        {
+                          "message": "lowDurErr"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -69238,7 +69274,7 @@
                   "elements": [
                     {
                       "duration": {
-                        "label": "quarter",
+                        "label": "quaver",
                         "nb_points": 0
                       },
                       "att_note": {
@@ -69289,7 +69325,12 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 97,
+                      "errors": [
+                        {
+                          "message": "lowDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -69340,7 +69381,12 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "supDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -69391,7 +69437,15 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "addElmt"
+                        },
+                        {
+                          "message": "lowDurErr"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -69498,7 +69552,12 @@
                         ]
                       },
                       "direction": "up",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "supDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -69545,8 +69604,11 @@
                         ]
                       },
                       "direction": "up",
-                      "no_group": 90,
+                      "no_group": 99,
                       "errors": [
+                        {
+                          "message": "addElmt"
+                        },
                         {
                           "message": "lowDurErr"
                         }
@@ -69654,7 +69716,12 @@
                         ]
                       },
                       "direction": "up",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "supDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -69701,7 +69768,15 @@
                         ]
                       },
                       "direction": "up",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "addElmt"
+                        },
+                        {
+                          "message": "lowDurErr"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -69805,7 +69880,12 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "supDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -69852,7 +69932,15 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "addElmt"
+                        },
+                        {
+                          "message": "lowDurErr"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -69956,7 +70044,12 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "supDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -70003,7 +70096,15 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "addElmt"
+                        },
+                        {
+                          "message": "lowDurErr"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -83433,7 +83534,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 91
+                      "no_group": 90
                     },
                     {
                       "duration": {
@@ -83479,7 +83580,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 91
+                      "no_group": 90
                     },
                     {
                       "duration": {
@@ -83525,7 +83626,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 91
+                      "no_group": 90
                     },
                     {
                       "duration": {
@@ -83738,7 +83839,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 93
+                      "no_group": 92
                     },
                     {
                       "duration": {
@@ -83784,7 +83885,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 93
+                      "no_group": 92
                     },
                     {
                       "duration": {
@@ -83830,7 +83931,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 93
+                      "no_group": 92
                     },
                     {
                       "duration": {
@@ -84231,7 +84332,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 86
+                      "no_group": 85
                     },
                     {
                       "duration": {
@@ -84277,7 +84378,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 86
+                      "no_group": 85
                     },
                     {
                       "duration": {
@@ -84323,7 +84424,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 87
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -84369,7 +84470,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 87
+                      "no_group": 86
                     }
                   ]
                 },
@@ -84519,7 +84620,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 89
+                      "no_group": 88
                     },
                     {
                       "duration": {
@@ -84570,7 +84671,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 89
+                      "no_group": 88
                     },
                     {
                       "duration": {
@@ -84621,7 +84722,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 90
+                      "no_group": 89
                     },
                     {
                       "duration": {
@@ -84667,7 +84768,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 90
+                      "no_group": 89
                     }
                   ]
                 },
@@ -84775,7 +84876,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 92
+                      "no_group": 91
                     },
                     {
                       "duration": {
@@ -84821,7 +84922,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 92
+                      "no_group": 91
                     },
                     {
                       "duration": {
@@ -85039,7 +85140,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 94
+                      "no_group": 93
                     },
                     {
                       "duration": {
@@ -85085,7 +85186,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 94
+                      "no_group": 93
                     },
                     {
                       "duration": {
@@ -122632,7 +122733,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 92
+                      "no_group": 95
                     },
                     {
                       "duration": {
@@ -123187,7 +123288,7 @@
                     },
                     {
                       "duration": {
-                        "label": "quaver",
+                        "label": "quarter",
                         "nb_points": 0
                       },
                       "att_note": {
@@ -123230,7 +123331,12 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 97
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "supDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -123282,6 +123388,9 @@
                       "direction": "up",
                       "no_group": 0,
                       "errors": [
+                        {
+                          "message": "addElmt"
+                        },
                         {
                           "message": "lowDurErr"
                         }
@@ -182928,7 +183037,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 85
+                      "no_group": 83
                     },
                     {
                       "duration": {
@@ -182970,7 +183079,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 85
+                      "no_group": 83
                     },
                     {
                       "duration": {
@@ -183012,7 +183121,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 85
+                      "no_group": 83
                     },
                     {
                       "duration": {
@@ -183054,7 +183163,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 85
+                      "no_group": 83
                     },
                     {
                       "duration": {
@@ -183096,7 +183205,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 86
+                      "no_group": 84
                     },
                     {
                       "duration": {
@@ -183138,7 +183247,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 86
+                      "no_group": 84
                     },
                     {
                       "duration": {
@@ -183180,7 +183289,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 86
+                      "no_group": 84
                     },
                     {
                       "duration": {
@@ -183222,7 +183331,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 86
+                      "no_group": 84
                     }
                   ]
                 },
@@ -183270,7 +183379,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 88
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -183312,7 +183421,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 88
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -183354,7 +183463,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 88
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -183396,7 +183505,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 88
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -183438,7 +183547,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89
+                      "no_group": 87
                     },
                     {
                       "duration": {
@@ -183480,7 +183589,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89
+                      "no_group": 87
                     },
                     {
                       "duration": {
@@ -183522,7 +183631,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89
+                      "no_group": 87
                     },
                     {
                       "duration": {
@@ -183564,7 +183673,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89
+                      "no_group": 87
                     }
                   ]
                 },
@@ -185058,7 +185167,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 91
+                      "no_group": 89
                     },
                     {
                       "duration": {
@@ -185100,7 +185209,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 91
+                      "no_group": 89
                     },
                     {
                       "duration": {
@@ -185142,7 +185251,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 91
+                      "no_group": 89
                     },
                     {
                       "duration": {
@@ -185184,7 +185293,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 91
+                      "no_group": 89
                     },
                     {
                       "duration": {
@@ -185226,7 +185335,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 90
+                      "no_group": 88
                     },
                     {
                       "duration": {
@@ -185268,7 +185377,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 90
+                      "no_group": 88
                     },
                     {
                       "duration": {
@@ -185310,7 +185419,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 90
+                      "no_group": 88
                     },
                     {
                       "duration": {
@@ -185352,7 +185461,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 90
+                      "no_group": 88
                     }
                   ]
                 },
@@ -187167,7 +187276,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 100
                     },
                     {
                       "duration": {
@@ -187209,7 +187318,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 100
                     },
                     {
                       "duration": {
@@ -187251,7 +187360,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 100
                     },
                     {
                       "duration": {
@@ -187293,7 +187402,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 100
                     },
                     {
                       "duration": {
@@ -187335,7 +187444,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102
+                      "no_group": 101
                     },
                     {
                       "duration": {
@@ -187377,7 +187486,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102
+                      "no_group": 101
                     },
                     {
                       "duration": {
@@ -187419,7 +187528,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102
+                      "no_group": 101
                     },
                     {
                       "duration": {
@@ -187461,7 +187570,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102
+                      "no_group": 101
                     }
                   ]
                 },
@@ -187509,7 +187618,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 105
+                      "no_group": 104
                     },
                     {
                       "duration": {
@@ -187551,7 +187660,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 105
+                      "no_group": 104
                     },
                     {
                       "duration": {
@@ -187593,7 +187702,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 105
+                      "no_group": 104
                     },
                     {
                       "duration": {
@@ -187635,7 +187744,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 105
+                      "no_group": 104
                     },
                     {
                       "duration": {
@@ -187677,7 +187786,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 106
+                      "no_group": 105
                     },
                     {
                       "duration": {
@@ -187719,7 +187828,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 106
+                      "no_group": 105
                     },
                     {
                       "duration": {
@@ -187761,7 +187870,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 106
+                      "no_group": 105
                     },
                     {
                       "duration": {
@@ -187803,7 +187912,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 106
+                      "no_group": 105
                     }
                   ]
                 },
@@ -190773,7 +190882,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 99
+                      "no_group": 97
                     },
                     {
                       "duration": {
@@ -190815,7 +190924,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 99
+                      "no_group": 97
                     },
                     {
                       "duration": {
@@ -190857,7 +190966,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 99
+                      "no_group": 97
                     },
                     {
                       "duration": {
@@ -190899,7 +191008,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 99
+                      "no_group": 97
                     },
                     {
                       "duration": {
@@ -191065,7 +191174,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 103
+                      "no_group": 102
                     },
                     {
                       "duration": {
@@ -191107,7 +191216,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 103
+                      "no_group": 102
                     },
                     {
                       "duration": {
@@ -191149,7 +191258,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 103
+                      "no_group": 102
                     },
                     {
                       "duration": {
@@ -191191,7 +191300,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 103
+                      "no_group": 102
                     }
                   ]
                 },
@@ -192532,7 +192641,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 100
+                      "no_group": 98
                     },
                     {
                       "duration": {
@@ -192574,7 +192683,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 100
+                      "no_group": 98
                     },
                     {
                       "duration": {
@@ -192616,7 +192725,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 100,
+                      "no_group": 98,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -192829,7 +192938,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 104
+                      "no_group": 103
                     },
                     {
                       "duration": {
@@ -192871,7 +192980,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 104
+                      "no_group": 103
                     },
                     {
                       "duration": {
@@ -192913,7 +193022,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 104
+                      "no_group": 103
                     },
                     {
                       "duration": {
@@ -192955,7 +193064,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 104
+                      "no_group": 103
                     }
                   ]
                 },
@@ -201829,7 +201938,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 101
                     },
                     {
                       "duration": {
@@ -201871,7 +201980,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 101
                     },
                     {
                       "duration": {
@@ -201913,7 +202022,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 101
                     },
                     {
                       "duration": {
@@ -201958,7 +202067,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 101
                     },
                     {
                       "duration": {
@@ -202000,7 +202109,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 105
+                      "no_group": 102
                     },
                     {
                       "duration": {
@@ -202045,7 +202154,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 105
+                      "no_group": 102
                     },
                     {
                       "duration": {
@@ -202087,7 +202196,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 105
+                      "no_group": 102
                     },
                     {
                       "duration": {
@@ -202132,7 +202241,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 105
+                      "no_group": 102
                     }
                   ]
                 },
@@ -203449,7 +203558,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 97
+                      "no_group": 94
                     },
                     {
                       "duration": {
@@ -203491,7 +203600,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 97
+                      "no_group": 94
                     },
                     {
                       "duration": {
@@ -203533,7 +203642,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 97
+                      "no_group": 94
                     },
                     {
                       "duration": {
@@ -203578,7 +203687,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 97
+                      "no_group": 94
                     },
                     {
                       "duration": {
@@ -203620,7 +203729,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 98
+                      "no_group": 95
                     },
                     {
                       "duration": {
@@ -203665,7 +203774,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 98
+                      "no_group": 95
                     },
                     {
                       "duration": {
@@ -203707,7 +203816,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 98
+                      "no_group": 95
                     },
                     {
                       "duration": {
@@ -203752,7 +203861,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 98
+                      "no_group": 95
                     }
                   ]
                 },
@@ -203800,7 +203909,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 98
                     },
                     {
                       "duration": {
@@ -203842,7 +203951,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 98
                     },
                     {
                       "duration": {
@@ -203884,7 +203993,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 98
                     },
                     {
                       "duration": {
@@ -203929,7 +204038,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 98
                     },
                     {
                       "duration": {
@@ -203971,7 +204080,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102
+                      "no_group": 99
                     },
                     {
                       "duration": {
@@ -204016,7 +204125,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102
+                      "no_group": 99
                     },
                     {
                       "duration": {
@@ -204058,7 +204167,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102
+                      "no_group": 99
                     },
                     {
                       "duration": {
@@ -204103,7 +204212,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102
+                      "no_group": 99
                     }
                   ]
                 },
@@ -205538,7 +205647,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 99
+                      "no_group": 96
                     },
                     {
                       "duration": {
@@ -205580,7 +205689,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 99
+                      "no_group": 96
                     },
                     {
                       "duration": {
@@ -205622,7 +205731,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 99
+                      "no_group": 96
                     },
                     {
                       "duration": {
@@ -205664,7 +205773,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 99
+                      "no_group": 96
                     }
                   ]
                 },
@@ -205792,7 +205901,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 100
+                      "no_group": 97
                     },
                     {
                       "duration": {
@@ -205834,7 +205943,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 100
+                      "no_group": 97
                     },
                     {
                       "duration": {
@@ -205876,7 +205985,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 100
+                      "no_group": 97
                     },
                     {
                       "duration": {
@@ -205918,7 +206027,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 100
+                      "no_group": 97
                     }
                   ]
                 },
@@ -205966,7 +206075,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 103
+                      "no_group": 100
                     },
                     {
                       "duration": {
@@ -206011,7 +206120,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 103
+                      "no_group": 100
                     },
                     {
                       "duration": {
@@ -206053,7 +206162,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 103
+                      "no_group": 100
                     },
                     {
                       "duration": {
@@ -206095,7 +206204,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 103
+                      "no_group": 100
                     },
                     {
                       "duration": {
@@ -241697,7 +241806,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 83
+                      "no_group": 84
                     },
                     {
                       "duration": {
@@ -241739,7 +241848,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 83
+                      "no_group": 84
                     }
                   ]
                 },
@@ -241839,7 +241948,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 85
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -241881,7 +241990,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 85
+                      "no_group": 86
                     }
                   ]
                 },
@@ -241981,7 +242090,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 87
+                      "no_group": 88
                     },
                     {
                       "duration": {
@@ -242023,7 +242132,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 87
+                      "no_group": 88
                     }
                   ]
                 },
@@ -271995,7 +272104,7 @@
                         ]
                       },
                       "direction": "up",
-                      "no_group": 92
+                      "no_group": 94
                     },
                     {
                       "duration": {
@@ -272037,7 +272146,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 92
+                      "no_group": 94
                     }
                   ]
                 },
@@ -282635,7 +282744,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 87,
+                      "no_group": 89,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -443143,7 +443252,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 83,
+                      "no_group": 87,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -443196,7 +443305,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 83,
+                      "no_group": 87,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -443242,7 +443351,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 83,
+                      "no_group": 87,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -443463,7 +443572,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 87,
+                      "no_group": 90,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -443520,7 +443629,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 87,
+                      "no_group": 90,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -443575,7 +443684,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 87,
+                      "no_group": 90,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -444026,7 +444135,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 92,
+                      "no_group": 97,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -444074,7 +444183,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 92,
+                      "no_group": 97,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -444120,7 +444229,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 92,
+                      "no_group": 97,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -444316,7 +444425,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 96
+                      "no_group": 101
                     },
                     {
                       "duration": {
@@ -444363,7 +444472,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 96,
+                      "no_group": 101,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -444410,7 +444519,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 96
+                      "no_group": 101
                     }
                   ]
                 }
@@ -444784,7 +444893,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -444826,7 +444935,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -444868,7 +444977,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 81,
+                      "no_group": 85,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -444914,7 +445023,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 81,
+                      "no_group": 85,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -444960,7 +445069,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 81,
+                      "no_group": 85,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445098,7 +445207,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 85,
+                      "no_group": 88,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445146,7 +445255,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 85,
+                      "no_group": 88,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445192,7 +445301,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 85,
+                      "no_group": 88,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445238,7 +445347,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 86,
+                      "no_group": 89,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445284,7 +445393,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 86,
+                      "no_group": 89,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445330,7 +445439,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 86,
+                      "no_group": 89,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445560,7 +445669,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 91
+                      "no_group": 96
                     },
                     {
                       "duration": {
@@ -445611,7 +445720,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 91
+                      "no_group": 96
                     },
                     {
                       "duration": {
@@ -445662,7 +445771,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 90,
+                      "no_group": 95,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445708,7 +445817,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 90,
+                      "no_group": 95,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445754,7 +445863,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 90,
+                      "no_group": 95,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445899,7 +446008,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 94,
+                      "no_group": 99,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445947,7 +446056,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 94,
+                      "no_group": 99,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -445993,7 +446102,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 94,
+                      "no_group": 99,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -446039,7 +446148,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 95,
+                      "no_group": 100,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -446085,7 +446194,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 95,
+                      "no_group": 100,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -446131,7 +446240,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 95,
+                      "no_group": 100,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -448598,7 +448707,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 100,
+                      "no_group": 105,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -448646,7 +448755,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 100,
+                      "no_group": 105,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -448692,7 +448801,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 100,
+                      "no_group": 105,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -448780,7 +448889,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 99,
+                      "no_group": 104,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -448828,7 +448937,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 99,
+                      "no_group": 104,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -448874,7 +448983,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 99,
+                      "no_group": 104,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -448982,7 +449091,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 103,
+                      "no_group": 108,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -449030,7 +449139,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 103,
+                      "no_group": 108,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -449078,7 +449187,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 103,
+                      "no_group": 108,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -449166,7 +449275,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102,
+                      "no_group": 107,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -449214,7 +449323,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102,
+                      "no_group": 107,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -449260,7 +449369,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 102,
+                      "no_group": 107,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -449826,7 +449935,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 98,
+                      "no_group": 103,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -449872,7 +449981,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 98,
+                      "no_group": 103,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -449918,7 +450027,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 98,
+                      "no_group": 103,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -450059,7 +450168,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101,
+                      "no_group": 106,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -450105,7 +450214,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101,
+                      "no_group": 106,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -450151,7 +450260,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101,
+                      "no_group": 106,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -452487,7 +452596,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 113
+                      "no_group": 122
                     },
                     {
                       "duration": {
@@ -452529,7 +452638,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 113
+                      "no_group": 122
                     },
                     {
                       "duration": {
@@ -452571,7 +452680,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 113,
+                      "no_group": 122,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -452794,7 +452903,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 117,
+                      "no_group": 126,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -452842,7 +452951,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 117,
+                      "no_group": 126,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -452888,7 +452997,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 117,
+                      "no_group": 126,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -453048,7 +453157,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 106,
+                      "no_group": 111,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -453096,7 +453205,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 106,
+                      "no_group": 111,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -453146,7 +453255,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 106,
+                      "no_group": 111,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -453286,7 +453395,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 105
+                      "no_group": 110
                     },
                     {
                       "duration": {
@@ -453328,7 +453437,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 105
+                      "no_group": 110
                     },
                     {
                       "duration": {
@@ -453370,7 +453479,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 105
+                      "no_group": 110
                     },
                     {
                       "duration": {
@@ -453467,7 +453576,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 109,
+                      "no_group": 115,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -453515,7 +453624,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 109,
+                      "no_group": 115,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -453561,7 +453670,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 109,
+                      "no_group": 115,
                       "tuplet_info": {
                         "num": 3,
                         "numbase": 2
@@ -453696,7 +453805,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 108
+                      "no_group": 114
                     },
                     {
                       "duration": {
@@ -453738,7 +453847,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 108
+                      "no_group": 114
                     },
                     {
                       "duration": {
@@ -453789,7 +453898,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 108
+                      "no_group": 114
                     },
                     {
                       "duration": {
@@ -453967,7 +454076,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 111
+                      "no_group": 120
                     },
                     {
                       "duration": {
@@ -454014,7 +454123,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 111
+                      "no_group": 120
                     },
                     {
                       "duration": {
@@ -454056,7 +454165,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 111,
+                      "no_group": 120,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -454179,7 +454288,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 110
+                      "no_group": 119
                     },
                     {
                       "duration": {
@@ -454226,7 +454335,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 110,
+                      "no_group": 119,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -454273,7 +454382,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 110,
+                      "no_group": 119,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -454382,7 +454491,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 116
+                      "no_group": 125
                     },
                     {
                       "duration": {
@@ -454424,7 +454533,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 116
+                      "no_group": 125
                     },
                     {
                       "duration": {
@@ -454466,7 +454575,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 116,
+                      "no_group": 125,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -454589,7 +454698,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 115
+                      "no_group": 124
                     },
                     {
                       "duration": {
@@ -454631,7 +454740,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 115,
+                      "no_group": 124,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -454678,7 +454787,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 115,
+                      "no_group": 124,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -454850,7 +454959,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 109
                     },
                     {
                       "duration": {
@@ -454892,7 +455001,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 109
                     },
                     {
                       "duration": {
@@ -454934,7 +455043,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 109
                     },
                     {
                       "duration": {
@@ -455096,7 +455205,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 107
+                      "no_group": 113
                     },
                     {
                       "duration": {
@@ -455138,7 +455247,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 107
+                      "no_group": 113
                     },
                     {
                       "duration": {
@@ -455180,7 +455289,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 107
+                      "no_group": 113
                     },
                     {
                       "duration": {
@@ -455433,7 +455542,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 112
+                      "no_group": 121
                     },
                     {
                       "duration": {
@@ -455475,7 +455584,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 112
+                      "no_group": 121
                     },
                     {
                       "duration": {
@@ -455522,7 +455631,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 112
+                      "no_group": 121
                     },
                     {
                       "duration": {
@@ -455773,7 +455882,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 114
+                      "no_group": 123
                     },
                     {
                       "duration": {
@@ -455815,7 +455924,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 114
+                      "no_group": 123
                     },
                     {
                       "duration": {
@@ -455866,7 +455975,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 114
+                      "no_group": 123
                     },
                     {
                       "duration": {
@@ -465768,7 +465877,7 @@
                     },
                     {
                       "duration": {
-                        "label": "16th",
+                        "label": "quaver",
                         "nb_points": 0
                       },
                       "att_note": {
@@ -465811,7 +465920,12 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 84,
+                      "errors": [
+                        {
+                          "message": "supDurErr"
+                        }
+                      ]
                     },
                     {
                       "duration": {
@@ -465858,7 +465972,12 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 0
+                      "no_group": 0,
+                      "errors": [
+                        {
+                          "message": "addElmt"
+                        }
+                      ]
                     },
                     {
                       "duration": {

@@ -1,6 +1,6 @@
 {
   "id": "C446_0",
-  "date": "2026-01-30-13h",
+  "date": "2026-02-06-16h",
   "pages": [
     {
       "page_url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1162011g/f3",
@@ -8420,7 +8420,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 59,
+                      "no_group": 64,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -8515,7 +8515,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 59
+                      "no_group": 64
                     },
                     {
                       "duration": {
@@ -8557,7 +8557,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 61
+                      "no_group": 68
                     }
                   ]
                 },
@@ -8647,7 +8647,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 61,
+                      "no_group": 68,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -9233,7 +9233,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 62
+                      "no_group": 69
                     },
                     {
                       "duration": {
@@ -9275,7 +9275,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 62
+                      "no_group": 69
                     }
                   ]
                 },
@@ -12316,7 +12316,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 66
+                      "no_group": 67
                     },
                     {
                       "duration": {
@@ -12387,7 +12387,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 66
+                      "no_group": 67
                     }
                   ]
                 },
@@ -14558,7 +14558,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 67
+                      "no_group": 68
                     },
                     {
                       "duration": {
@@ -14600,7 +14600,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 67
+                      "no_group": 68
                     }
                   ]
                 },
@@ -26384,7 +26384,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 72
+                      "no_group": 74
                     },
                     {
                       "duration": {
@@ -26426,7 +26426,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 72
+                      "no_group": 74
                     }
                   ]
                 },
@@ -26478,12 +26478,52 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 0,
-                      "errors": [
-                        {
-                          "message": "lowDurErr"
-                        }
-                      ]
+                      "no_group": 0
+                    },
+                    {
+                      "duration": {
+                        "label": "quarter",
+                        "nb_points": 0
+                      },
+                      "att_note": {
+                        "nb_heads": 1,
+                        "heads": [
+                          {
+                            "head_symbol": {
+                              "label": "quarter",
+                              "region": [
+                                [
+                                  1033,
+                                  2182
+                                ],
+                                [
+                                  1033,
+                                  2213
+                                ],
+                                [
+                                  1065,
+                                  2182
+                                ],
+                                [
+                                  1065,
+                                  2213
+                                ]
+                              ]
+                            },
+                            "alter": {
+                              "label": "natural"
+                            },
+                            "no_staff": 5,
+                            "id": "nh_1033_2182",
+                            "height": 6
+                          }
+                        ],
+                        "articulations_top": [],
+                        "articulations_bottom": [],
+                        "verses": []
+                      },
+                      "direction": "down",
+                      "no_group": 0
                     },
                     {
                       "duration": {
@@ -26535,7 +26575,7 @@
                   "elements": [
                     {
                       "duration": {
-                        "label": "16th",
+                        "label": "quarter",
                         "nb_points": 0
                       },
                       "att_note": {
@@ -26576,7 +26616,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 75
+                      "no_group": 0
                     },
                     {
                       "duration": {
@@ -26618,12 +26658,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 0,
-                      "errors": [
-                        {
-                          "message": "lowDurErr"
-                        }
-                      ]
+                      "no_group": 0
                     },
                     {
                       "duration": {
@@ -26665,7 +26700,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 74
+                      "no_group": 78
                     },
                     {
                       "duration": {
@@ -26710,83 +26745,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 74
-                    }
-                  ]
-                },
-                {
-                  "id": "7",
-                  "id_part": "1",
-                  "elements": [
-                    {
-                      "duration": {
-                        "label": "16threst",
-                        "nb_points": 0
-                      },
-                      "att_rest": {
-                        "nb_heads": 1,
-                        "visible": false,
-                        "heads": [
-                          {
-                            "head_symbol": {
-                              "label": "16threst"
-                            },
-                            "no_staff": 4,
-                            "height": 5
-                          }
-                        ]
-                      },
-                      "no_group": 0,
-                      "errors": [
-                        {
-                          "message": "addSkip"
-                        }
-                      ]
-                    },
-                    {
-                      "duration": {
-                        "label": "quarter",
-                        "nb_points": 0
-                      },
-                      "att_note": {
-                        "nb_heads": 1,
-                        "heads": [
-                          {
-                            "head_symbol": {
-                              "label": "quarter",
-                              "region": [
-                                [
-                                  1033,
-                                  2182
-                                ],
-                                [
-                                  1033,
-                                  2213
-                                ],
-                                [
-                                  1065,
-                                  2182
-                                ],
-                                [
-                                  1065,
-                                  2213
-                                ]
-                              ]
-                            },
-                            "alter": {
-                              "label": "natural"
-                            },
-                            "no_staff": 5,
-                            "id": "nh_1033_2182",
-                            "height": 6
-                          }
-                        ],
-                        "articulations_top": [],
-                        "articulations_bottom": [],
-                        "verses": []
-                      },
-                      "direction": "down",
-                      "no_group": 0
+                      "no_group": 78
                     }
                   ]
                 }
@@ -33336,7 +33295,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 80
+                      "no_group": 84
                     },
                     {
                       "duration": {
@@ -33404,7 +33363,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 80,
+                      "no_group": 84,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -33477,7 +33436,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 80,
+                      "no_group": 84,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -33632,7 +33591,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -33674,7 +33633,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82,
+                      "no_group": 86,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -33721,7 +33680,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82,
+                      "no_group": 86,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -34596,7 +34555,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 78
+                      "no_group": 81
                     },
                     {
                       "duration": {
@@ -34664,7 +34623,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 78,
+                      "no_group": 81,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -34737,7 +34696,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 78,
+                      "no_group": 81,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -34862,7 +34821,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 81
+                      "no_group": 85
                     },
                     {
                       "duration": {
@@ -34904,7 +34863,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 81,
+                      "no_group": 85,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -34951,7 +34910,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 81,
+                      "no_group": 85,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -39994,7 +39953,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 88,
+                      "no_group": 91,
                       "errors": [
                         {
                           "message": "addElmt"
@@ -40315,7 +40274,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 88
+                      "no_group": 91
                     }
                   ]
                 }
@@ -48769,7 +48728,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 77
+                      "no_group": 80
                     },
                     {
                       "duration": {
@@ -48863,7 +48822,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 77
+                      "no_group": 80
                     },
                     {
                       "duration": {
@@ -48957,7 +48916,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 77
+                      "no_group": 80
                     }
                   ]
                 },
@@ -49081,7 +49040,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -49123,7 +49082,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -49165,7 +49124,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82
+                      "no_group": 86
                     }
                   ]
                 }
@@ -50148,7 +50107,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 76
+                      "no_group": 79
                     },
                     {
                       "duration": {
@@ -50216,7 +50175,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 76
+                      "no_group": 79
                     },
                     {
                       "duration": {
@@ -50284,7 +50243,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 76
+                      "no_group": 79
                     }
                   ]
                 },
@@ -50374,7 +50333,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 81
+                      "no_group": 85
                     },
                     {
                       "duration": {
@@ -50416,7 +50375,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 81
+                      "no_group": 85
                     },
                     {
                       "duration": {
@@ -50458,7 +50417,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 81
+                      "no_group": 85
                     }
                   ]
                 },
@@ -50531,7 +50490,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 80
+                      "no_group": 84
                     },
                     {
                       "duration": {
@@ -50573,7 +50532,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 80
+                      "no_group": 84
                     },
                     {
                       "duration": {
@@ -50615,7 +50574,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 80
+                      "no_group": 84
                     }
                   ]
                 }
@@ -64100,7 +64059,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 57
+                      "no_group": 61
                     },
                     {
                       "duration": {
@@ -64142,7 +64101,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 57
+                      "no_group": 61
                     }
                   ]
                 },
@@ -64786,7 +64745,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 58
+                      "no_group": 63
                     },
                     {
                       "duration": {
@@ -64828,7 +64787,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 58
+                      "no_group": 63
                     },
                     {
                       "duration": {
@@ -64873,7 +64832,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 58
+                      "no_group": 63
                     },
                     {
                       "duration": {
@@ -64915,7 +64874,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 58
+                      "no_group": 63
                     },
                     {
                       "duration": {
@@ -64957,7 +64916,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 58
+                      "no_group": 63
                     },
                     {
                       "duration": {
@@ -64999,7 +64958,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 58
+                      "no_group": 63
                     }
                   ]
                 },
@@ -75731,7 +75690,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 69
+                      "no_group": 72
                     },
                     {
                       "duration": {
@@ -75773,7 +75732,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 69
+                      "no_group": 72
                     }
                   ]
                 },
@@ -76735,7 +76694,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 68
+                      "no_group": 71
                     },
                     {
                       "duration": {
@@ -76777,7 +76736,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 68
+                      "no_group": 71
                     },
                     {
                       "duration": {
@@ -76824,7 +76783,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 67
+                      "no_group": 70
                     },
                     {
                       "duration": {
@@ -76866,7 +76825,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 67
+                      "no_group": 70
                     }
                   ]
                 },
@@ -77094,7 +77053,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 71
+                      "no_group": 75
                     },
                     {
                       "duration": {
@@ -77136,7 +77095,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 71
+                      "no_group": 75
                     }
                   ]
                 }
@@ -77448,7 +77407,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 72
+                      "no_group": 76
                     },
                     {
                       "duration": {
@@ -77490,7 +77449,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 72
+                      "no_group": 76
                     },
                     {
                       "duration": {
@@ -77532,7 +77491,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 72
+                      "no_group": 76
                     },
                     {
                       "duration": {
@@ -77574,7 +77533,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 72
+                      "no_group": 76
                     },
                     {
                       "duration": {
@@ -84902,7 +84861,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 80
+                      "no_group": 82
                     },
                     {
                       "duration": {
@@ -84944,7 +84903,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 80
+                      "no_group": 82
                     },
                     {
                       "duration": {
@@ -84986,7 +84945,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 80
+                      "no_group": 82
                     },
                     {
                       "duration": {
@@ -85028,7 +84987,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 80
+                      "no_group": 82
                     }
                   ]
                 }
@@ -85576,7 +85535,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 77
+                      "no_group": 78
                     },
                     {
                       "duration": {
@@ -85618,7 +85577,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 77
+                      "no_group": 78
                     }
                   ]
                 },
@@ -87195,7 +87154,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 81
+                      "no_group": 83
                     },
                     {
                       "duration": {
@@ -87237,7 +87196,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 81
+                      "no_group": 83
                     }
                   ]
                 },
@@ -87369,7 +87328,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 79
+                      "no_group": 81
                     },
                     {
                       "duration": {
@@ -87411,7 +87370,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 79
+                      "no_group": 81
                     }
                   ]
                 }
@@ -88068,7 +88027,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82
+                      "no_group": 84
                     },
                     {
                       "duration": {
@@ -88110,7 +88069,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 82,
+                      "no_group": 84,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -89656,7 +89615,7 @@
                         ]
                       },
                       "direction": "down",
-                      "no_group": 84
+                      "no_group": 86
                     },
                     {
                       "duration": {
@@ -89698,7 +89657,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 84
+                      "no_group": 86
                     }
                   ]
                 },
@@ -89876,7 +89835,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 86
+                      "no_group": 88
                     },
                     {
                       "duration": {
@@ -89918,7 +89877,7 @@
                         "verses": []
                       },
                       "direction": "up",
-                      "no_group": 86
+                      "no_group": 88
                     }
                   ]
                 },
@@ -93530,7 +93489,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89
+                      "no_group": 90
                     },
                     {
                       "duration": {
@@ -93598,7 +93557,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89,
+                      "no_group": 90,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -93671,7 +93630,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89
+                      "no_group": 90
                     },
                     {
                       "duration": {
@@ -93739,7 +93698,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89
+                      "no_group": 90
                     },
                     {
                       "duration": {
@@ -93807,7 +93766,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89,
+                      "no_group": 90,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -93959,7 +93918,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 92,
+                      "no_group": 93,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -94088,7 +94047,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 89,
+                      "no_group": 90,
                       "errors": [
                         {
                           "message": "lowDurErr"
@@ -94160,7 +94119,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 92
+                      "no_group": 93
                     }
                   ]
                 }
@@ -96827,7 +96786,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 100
+                      "no_group": 103
                     },
                     {
                       "duration": {
@@ -96921,7 +96880,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 100
+                      "no_group": 103
                     },
                     {
                       "duration": {
@@ -97015,7 +96974,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 100
+                      "no_group": 103
                     }
                   ]
                 },
@@ -97157,7 +97116,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 103
+                      "no_group": 106
                     },
                     {
                       "duration": {
@@ -97225,7 +97184,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 103
+                      "no_group": 106
                     },
                     {
                       "duration": {
@@ -97293,7 +97252,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 103
+                      "no_group": 106
                     }
                   ]
                 },
@@ -98454,7 +98413,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 104
                     },
                     {
                       "duration": {
@@ -98548,7 +98507,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 104
                     },
                     {
                       "duration": {
@@ -98642,7 +98601,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 101
+                      "no_group": 104
                     }
                   ]
                 },
@@ -98810,7 +98769,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 107
                     },
                     {
                       "duration": {
@@ -98878,7 +98837,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 107
                     },
                     {
                       "duration": {
@@ -98946,7 +98905,7 @@
                         "verses": []
                       },
                       "direction": "down",
-                      "no_group": 104
+                      "no_group": 107
                     }
                   ]
                 }
