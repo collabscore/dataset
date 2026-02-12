@@ -1,0 +1,116 @@
+Explanations on the metric computation
+======================================
+
+
+MusicDiff annotations
+---------------------
+
+MusicDiff proceeds by first annotating the notation objects
+found in both scores. It distinguishes the following types
+of annotations:
+
+  - AnnNote: annotation of "general" notes, in the sense
+    of Music21: single notes, rest and chords, essentially
+    everything which has a duration. 
+    MusicDiff does not actually annotate chords, but only
+    all the notes of a chord. The idea is that a chord is
+    nothing more than the list of of composing notes
+  - AnnExtra: annotation of everything which is not a note
+    or a stream (ie, scoree, partl, list or measure). Includes
+    clef, signatures, and directions.
+  - AnnLyric: lyrics
+  - AnnVoice: voices
+  - AnnMeasure, AnnPart, AnnScore: annotate their equivalent Music21
+    objects
+
+The annotation enriches the description of objects with some
+useful information when it comes to compare the scores, and
+in particular the notation size.
+
+What is measured exactly?
+-------------------------
+
+The notation size represents the number of editable symbols
+of an annotated object. The intuition is that this number 
+corresponds to the number of "actions" taken by a user that
+wishes to correct the object.
+
+The underlying assumption is that the correction is directly
+made on the XML representation, and it is inspired by the Unix Diff 
+utility which measures the edit distance between to files.
+
+In the context if a music score, however, no one ever directly
+edits an XML file. An editor (engraver) is rather used and this
+make the correction process much simpler, but also much
+more difficult (if not impossible) to evaluate since it depends
+on the specific editor at hand.
+
+Correction a note for instance means (i) locating the note and
+opening an editor window, (ii) change the value of the pitch or 
+duration or stem or accidentals and (iii) possibly open another window 
+for the lyrics, etc.
+
+Conclusion: for the purpose of clarity and inter-systems comparison,
+we must stick to the principle of measuring XML edition cost, 
+while mentioning that it is not really common practive, and therefore
+introduces a bias.
+
+We must also indicate what is considered as the "atomic" level
+of edition. If, for instance, we say that a (single) note or
+rest is one such level, we assume that it is not more costly
+to edit a note for changing a single value (say, the pitch)
+or for changing *all* its values (including accidentals, duration, 
+etc.). 
+
+**Whatever we choose, we obtain an approximation of the actual
+correction process. Again, what is essential is to correctly state
+what we report, and what choices we made**
+
+How musicdiff determines the notation size
+------------------------------------------
+
+The notation size if obtained by a notation_size() function in
+the Annotation.py file. 
+
+  AnnNote (a note of rest): the size is at least 3 (pitch, octave, duration)
+    and 1 is added for the following optional values: dots,
+    beams, tuplet info, aticulation, expression, grace note, etc.
+  AnnExtra (everything which does not have a duration): in this
+     cas the notation size if the number of XML elements
+     describing the extra object.
+  AnnLyric: at least the length of the syllable, plus 1 for the offset,
+     and 1 is also added for optional elements (for instance
+     the number of the verse)
+     
+ 
+Conclusion: possible metric indicators and their meaning
+--------------------------------------------------------
+
+First we need to decide on the comparison levels. The OMR NED 
+metric proposed recently merges everything. We can choose more
+detailed levels to better report the pros/cons of a specific system.
+
+In our case, we have so far 4 levels:
+  Notes : singles notes and rests
+  Extra: includes signatures, but also other objects -> to improve
+  Lyrics: Ok
+  Expression and directive: so far considered as extra -> to distinguish
+  
+For each level, we know 
+  - The number of elements in the category, 
+  - The sum of notation size
+ 
+The first value is (intuitively) the number of times a user
+must launch an action (ie opening a window on the element). The
+second value is (intuitively) the complexity of the action
+(ie editing a note with 3 values vs a note with many optional 
+values).
+
+Given this setting, we can output as relevant metric
+  - the ratio of numbers: represents the part of the score
+     which must be edited
+  - the ratio of notation sizes: represents (very approximately)
+     the complexity of the correction effort.
+
+
+
