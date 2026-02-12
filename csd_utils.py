@@ -25,6 +25,7 @@ from musicdiff.visualization import Visualization
 
 # MDiff classe
 from diff_classes import MdiffOp, MdiffScoreReport, MdiffListOps, ScoreStats
+from diffutilities import DiffUtilities
 
 # Predefined dirs
 OUT_DIR="results"
@@ -182,7 +183,12 @@ def compare_single_score(score_name, detail):
 	score_report.pred_stats = ScoreStats (annotated_predicted)
 	score_report.ground_stats = ScoreStats (annotated_ground)
 	
-	score_report.pred_stats.show()
+	score_report.ground_stats.show()
+
+	if len(diff_list) > 0:
+		summ: str = '\t' + DiffUtilities.oplistSummary(diff_list)
+		print(summ)
+		#print(summ, file=results)
 
 	for diff in diff_list:
 		op = MdiffOp (diff[0], diff[1], diff[2], diff[3])

@@ -536,6 +536,10 @@ class ScoreStats():
 				for bar in part.bar_list:
 					for note in bar.annot_notes:
 						self.notes_nsize += note.notation_size()
+						#print (f"Full name suffix {note.fullNameSuffix}")
+						nb_pitches = len(note.pitches)
+						if nb_pitches > 1:
+							print (f"This is a AnnNote with {nb_pitches} notes")
 						self.nb_notes += 1
 					for e in bar.extras_list:
 						self.context_nsize += e.notation_size()
@@ -547,10 +551,10 @@ class ScoreStats():
 
 	def show(self, mode="console"):
 		if mode == "console":
-			print (f"""Total symbols : {self.total_symbols} 
-	notes: {self.notes_nsize} / {self.nb_notes} 
-	context: {self.context_nsize} / {self.nb_context} 
-	lyrics : {self.lyrics_nsize} / {self.nb_lyrics}"""
+			print (f"""Total diffs symbols : {self.total_symbols} 
+	Notes\t--  notation size = {self.notes_nsize} / nb notes = {self.nb_notes} 
+	Context\t-- notation size = {self.context_nsize} / nb elements = {self.nb_context} 
+	Lyrics\t-- notation size = {self.lyrics_nsize} / nb elements = {self.nb_lyrics}"""
 			)
 		elif mode == "json":
 			return {"nb_notes": self.nb_notes,
