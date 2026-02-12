@@ -16,7 +16,9 @@ from pathlib import Path
 # Music analysis modules
 import converter21
 import music21 as m21
-import musicdiff as mdiff
+import musicdiff as mdif
+
+import verovio
 
 from musicdiff.m21utils import DetailLevel
 from musicdiff.annotation import AnnScore, AnnNote, AnnMeasure
@@ -35,7 +37,9 @@ GROUND_TRUTH_DIR="ground_truth"
 SINGLE_SCORE_ACTION="single"
 ALL_SCORES_ACTION="all" 
 BUILD_FULL_REPORT="report" 
-ACTIONS = [SINGLE_SCORE_ACTION,ALL_SCORES_ACTION,BUILD_FULL_REPORT]
+CONVERT_GT_XML="convert_gt" 
+ACTIONS = [SINGLE_SCORE_ACTION,ALL_SCORES_ACTION,
+				BUILD_FULL_REPORT, CONVERT_GT_XML]
 
 def main(argv=None):
 	"""
@@ -134,6 +138,8 @@ def main(argv=None):
 		compare_collection (detail)
 	elif args.action == BUILD_FULL_REPORT:
 		build_full_report ()
+	elif args.action == CONVERT_GT_XML:
+		convert_gt_xml_to_mei ()
 	else:
 		print (f"Unknown action {args.action}")
 
@@ -351,6 +357,35 @@ def build_full_report():
 
 	print (f"\nDone. Report stored in {REPORT_NAME}")
 
+
+def convert_gt_xml_to_mei():
+	"""
+	  Convert the musicxml files from Sibelius to MEI files
+	"""
+	
+	# First load the dataset.json 
+	with open("dataset.json") as json_data:
+		dataset = json.load (json_data)
+		
+		# Loop on the scores, show the results
+		for score in dataset["list_opus"]:
+			score_ref = score['ref']
+			
+			musicxml_name = f"./ground_truth/{score_ref}.musicxml"
+			# Get the MusicXML file if it exists
+			if os.path.exists(musicxml_name):
+				print(f"\tMusicXML file exists for score {score_ref}")
+				#with open(musicxml_name, "r") as musicxml_file:
+				# Verovio converter. Works fine
+				tk = verovio.toolkit()
+				tk.loadFile(musicxml_name)
+				mei_name = f"./ground_truth/{score_ref}.mei"
+				print (f"Convert {musicxml_name} to MEI and write in {mei_name}")
+				with open(mei_name, "w") as mei_file:
+					mei_file.write(tk.getMEI())
+
+	return
+	
 def old_decomposed_code():
 		
 	# scan each score, producing an annotated wrapper
