@@ -2,8 +2,8 @@
   "score_ref": "C455_0.mei",
   "title": "",
   "iiif_link": "",
-  "global_cost": 4232,
-  "nb_diffs": 1537,
+  "global_cost": 4227,
+  "nb_diffs": 1539,
   "predicted_stats": {
     "total_symbols": 5291,
     "nb_notes": 2865,
@@ -14,46 +14,19 @@
     "lyrics_nsize": 12901
   },
   "ground_stats": {
-    "total_symbols": 5112,
+    "total_symbols": 5110,
     "nb_notes": 2909,
-    "notes_nsize": 7979,
+    "notes_nsize": 7982,
     "nb_context": 48,
     "context_nsize": 80,
-    "nb_lyrics": 2155,
-    "lyrics_nsize": 12221
+    "nb_lyrics": 2153,
+    "lyrics_nsize": 12205
   },
   "aggr_ops": {
-    "extrasymboledit": {
-      "label": "extrasymboledit",
-      "cost": 4,
-      "nb_diffs": 2,
-      "ops": [
-        {
-          "label": "extrasymboledit",
-          "first_annot_obj": "clef,symbol=G2,off=0.0",
-          "type1": "ReadingContext",
-          "id1": "clef_691_1142",
-          "second_annot_obj": "clef,symbol=G2-8,off=0.0",
-          "type2": "ReadingContext",
-          "id2": "g5vdtg8",
-          "cost": 2
-        },
-        {
-          "label": "extrasymboledit",
-          "first_annot_obj": "clef,symbol=G2,off=0.0",
-          "type1": "ReadingContext",
-          "id1": "clef_687_1389",
-          "second_annot_obj": "clef,symbol=G2-8,off=0.0",
-          "type2": "ReadingContext",
-          "id2": "y1bht2mh",
-          "cost": 2
-        }
-      ]
-    },
     "lyricedit": {
       "label": "lyricedit",
-      "cost": 1000,
-      "nb_diffs": 761,
+      "cost": 1006,
+      "nb_diffs": 765,
       "ops": [
         {
           "label": "lyricedit",
@@ -547,6 +520,16 @@
         },
         {
           "label": "lyricedit",
+          "first_annot_obj": "-a ?,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "a\u00a0?,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "lyricedit",
           "first_annot_obj": "rau-,num=1,id=,off=2.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -884,16 +867,6 @@
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 3
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "Le-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-Le-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
         },
         {
           "label": "lyricedit",
@@ -1277,6 +1250,36 @@
         },
         {
           "label": "lyricedit",
+          "first_annot_obj": "lum,num=1,id=,off=0.5,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "-lum,num=1,id=,off=0.5,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "C\u0153e-,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "C\u0153-,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "est :,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "est\u00a0:,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
           "first_annot_obj": "-duum,num=1,id=,off=0.75,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -1331,26 +1334,6 @@
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "Nil,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "lum,num=1,id=,off=0.5,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-lum,num=1,id=,off=0.5,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "C\u0153e-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "C\u0153-,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -2250,7 +2233,7 @@
           "first_annot_obj": "a ?-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
-          "second_annot_obj": "-a ?,num=1,id=,off=0.0,style={}",
+          "second_annot_obj": "a\u00a0?,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 2
@@ -3467,6 +3450,16 @@
         },
         {
           "label": "lyricedit",
+          "first_annot_obj": "est :,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "est\u00a0:,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
           "first_annot_obj": "duum,num=1,id=,off=0.75,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -4330,7 +4323,7 @@
           "first_annot_obj": "a ?-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
-          "second_annot_obj": "-a ?,num=1,id=,off=0.0,style={}",
+          "second_annot_obj": "a\u00a0?,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 2
@@ -4957,6 +4950,16 @@
         },
         {
           "label": "lyricedit",
+          "first_annot_obj": "-Le-,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "Le-,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
           "first_annot_obj": "dum.,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -5417,66 +5420,6 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "-duum,num=1,id=,off=0.75,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-du-,num=1,id=,off=0.75,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 2
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "bus,num=1,id=,off=1.5,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-bus,num=1,id=,off=1.5,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "-li,num=1,id=,off=1.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-li-,num=1,id=,off=1.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "ta,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-ta-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 2
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "mor-,num=1,id=,off=1.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "mort-,num=1,id=,off=1.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "-Nil,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "Nil,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
           "first_annot_obj": "trum,num=1,id=,off=1.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -5541,6 +5484,76 @@
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-lum,num=1,id=,off=0.5,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "est :,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "est\u00a0:,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "-duum,num=1,id=,off=0.75,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "-du-,num=1,id=,off=0.75,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "bus,num=1,id=,off=1.5,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "-bus,num=1,id=,off=1.5,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "-li,num=1,id=,off=1.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "-li-,num=1,id=,off=1.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "ta,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "-ta-,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "mor-,num=1,id=,off=1.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "mort-,num=1,id=,off=1.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "-Nil,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "Nil,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -6390,7 +6403,7 @@
           "first_annot_obj": "a ?-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
-          "second_annot_obj": "-a ?,num=1,id=,off=0.0,style={}",
+          "second_annot_obj": "a\u00a0?,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 2
@@ -7260,10 +7273,10 @@
           "first_annot_obj": "est :-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
-          "second_annot_obj": "est :,num=1,id=,off=0.0,style={}",
+          "second_annot_obj": "est\u00a0:,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 1
+          "cost": 2
         },
         {
           "label": "lyricedit",
@@ -7679,7 +7692,7 @@
           "id1": "v1_nh_2658_2315",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": "t1c8dt29",
+          "id2": "e10gppcu",
           "cost": 1
         },
         {
@@ -7689,7 +7702,7 @@
           "id1": "v1_nh_2475_1543",
           "second_annot_obj": "[N2]4",
           "type2": "Note",
-          "id2": "t168tftg",
+          "id2": "xnzue1z",
           "cost": 1
         },
         {
@@ -7699,7 +7712,7 @@
           "id1": "v1_nh_1318_3539",
           "second_annot_obj": "[N2]4",
           "type2": "Note",
-          "id2": "vuk8r97",
+          "id2": "wi86frc",
           "cost": 1
         },
         {
@@ -7709,7 +7722,7 @@
           "id1": "v1_nh_2561_2478",
           "second_annot_obj": "[N5]2",
           "type2": "Note",
-          "id2": "z1t1bgsu",
+          "id2": "pg9ms3d",
           "cost": 1
         },
         {
@@ -7719,7 +7732,7 @@
           "id1": "v1_nh_1245_2536",
           "second_annot_obj": "[N2]4Bpa",
           "type2": "Note",
-          "id2": "xpp1p6n",
+          "id2": "evz4rz1",
           "cost": 1
         },
         {
@@ -7729,7 +7742,7 @@
           "id1": "v1_nh_1303_2597",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": "x5v8s3r",
+          "id2": "i1gn48v3",
           "cost": 1
         },
         {
@@ -7739,7 +7752,7 @@
           "id1": "v1_nh_1622_2823",
           "second_annot_obj": "[N-1]4* accent",
           "type2": "Note",
-          "id2": "d1n7qmcq",
+          "id2": "tbl6dn1",
           "cost": 1
         },
         {
@@ -7749,7 +7762,7 @@
           "id1": "v1_nh_935_2825",
           "second_annot_obj": "[N-1]2 accent",
           "type2": "Note",
-          "id2": "l121dbsq",
+          "id2": "bd5dnr3",
           "cost": 1
         },
         {
@@ -7759,7 +7772,7 @@
           "id1": "v1_nh_2560_2709",
           "second_annot_obj": "[N5]2",
           "type2": "Note",
-          "id2": "irjrlg9",
+          "id2": "u1ywd52x",
           "cost": 1
         },
         {
@@ -7769,7 +7782,7 @@
           "id1": "v1_nh_1934_1818",
           "second_annot_obj": "[N-3]4",
           "type2": "Note",
-          "id2": "l1wecj2g",
+          "id2": "mvh4vq5",
           "cost": 1
         },
         {
@@ -7779,7 +7792,7 @@
           "id1": "v1_nh_2496_3029",
           "second_annot_obj": "[N2]4Bpa",
           "type2": "Note",
-          "id2": "x1sn6y9i",
+          "id2": "e1vaqgj5",
           "cost": 1
         },
         {
@@ -7789,7 +7802,7 @@
           "id1": "v1_nh_2087_2045",
           "second_annot_obj": "[N1]4Bpapa",
           "type2": "Note",
-          "id2": "ayjggw",
+          "id2": "evxfvyd",
           "cost": 1
         }
       ]
@@ -8433,7 +8446,7 @@
     },
     "noteins": {
       "label": "noteins",
-      "cost": 306,
+      "cost": 307,
       "nb_diffs": 96,
       "ops": [
         {
@@ -8443,7 +8456,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpa",
           "type2": "Note",
-          "id2": "nq5jpqe",
+          "id2": "y112dnb5",
           "cost": 3
         },
         {
@@ -8453,7 +8466,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpa",
           "type2": "Note",
-          "id2": "cv5sy8p",
+          "id2": "kbhg8er",
           "cost": 3
         },
         {
@@ -8463,7 +8476,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]2",
           "type2": "Note",
-          "id2": "y1r5lzte",
+          "id2": "ckvfvkn",
           "cost": 2
         },
         {
@@ -8473,7 +8486,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4",
           "type2": "Note",
-          "id2": "o20avgc",
+          "id2": "gvy51yo",
           "cost": 2
         },
         {
@@ -8483,7 +8496,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4",
           "type2": "Note",
-          "id2": "s1rg8vwv",
+          "id2": "k1ty9288",
           "cost": 2
         },
         {
@@ -8493,7 +8506,7 @@
           "id1": "",
           "second_annot_obj": "[N4flat]2",
           "type2": "Note",
-          "id2": "z3q2p4x",
+          "id2": "c1ejdecd",
           "cost": 3
         },
         {
@@ -8503,7 +8516,7 @@
           "id1": "",
           "second_annot_obj": "[N3flat]4",
           "type2": "Note",
-          "id2": "f39cabg",
+          "id2": "d1wkn68d",
           "cost": 3
         },
         {
@@ -8511,10 +8524,10 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "[N3]4Bpa",
+          "second_annot_obj": "[N3natural]4Bpa",
           "type2": "Note",
-          "id2": "w1m2rxzd",
-          "cost": 3
+          "id2": "s10e2qmd",
+          "cost": 4
         },
         {
           "label": "noteins",
@@ -8523,7 +8536,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Bpa",
           "type2": "Note",
-          "id2": "x13l9dqz",
+          "id2": "u1akxkv6",
           "cost": 3
         },
         {
@@ -8533,7 +8546,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": "by07qvq",
+          "id2": "y1ped6ac",
           "cost": 3
         },
         {
@@ -8543,7 +8556,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpapa",
           "type2": "Note",
-          "id2": "m17kip42",
+          "id2": "r1ynez2s",
           "cost": 4
         },
         {
@@ -8553,7 +8566,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "rje6m6f",
+          "id2": "w12rcnuk",
           "cost": 2
         },
         {
@@ -8563,7 +8576,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Bpapa",
           "type2": "Note",
-          "id2": "floes0i",
+          "id2": "q19n9w0e",
           "cost": 4
         },
         {
@@ -8573,7 +8586,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpapa",
           "type2": "Note",
-          "id2": "huxrkql",
+          "id2": "sv70d6n",
           "cost": 4
         },
         {
@@ -8583,7 +8596,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpapa",
           "type2": "Note",
-          "id2": "mdeqdu8",
+          "id2": "x1bq93ji",
           "cost": 4
         },
         {
@@ -8593,7 +8606,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpa accent",
           "type2": "Note",
-          "id2": "omwyhqr",
+          "id2": "y1rj2p5z",
           "cost": 4
         },
         {
@@ -8603,7 +8616,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Bpapa",
           "type2": "Note",
-          "id2": "u1ftymdy",
+          "id2": "e1tewz06",
           "cost": 4
         },
         {
@@ -8613,7 +8626,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "y10ushgn",
+          "id2": "i19y7el7",
           "cost": 2
         },
         {
@@ -8623,7 +8636,7 @@
           "id1": "",
           "second_annot_obj": "[N-1flat]4Bpapa",
           "type2": "Note",
-          "id2": "l1tb5d5i",
+          "id2": "y1qmfw3y",
           "cost": 5
         },
         {
@@ -8633,7 +8646,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpapa",
           "type2": "Note",
-          "id2": "r1gtlrf4",
+          "id2": "u16z38qn",
           "cost": 4
         },
         {
@@ -8643,7 +8656,7 @@
           "id1": "",
           "second_annot_obj": "[N-1]4Bpa",
           "type2": "Note",
-          "id2": "hsiuula",
+          "id2": "e8rpwbo",
           "cost": 3
         },
         {
@@ -8653,7 +8666,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpapa",
           "type2": "Note",
-          "id2": "tyni10k",
+          "id2": "m1kfmho4",
           "cost": 4
         },
         {
@@ -8663,7 +8676,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpapa",
           "type2": "Note",
-          "id2": "hzd6rd7",
+          "id2": "z19cdief",
           "cost": 4
         },
         {
@@ -8673,7 +8686,7 @@
           "id1": "",
           "second_annot_obj": "[N3flat]4",
           "type2": "Note",
-          "id2": "f385dwr",
+          "id2": "u1htdhcz",
           "cost": 3
         },
         {
@@ -8683,7 +8696,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "kwzwe09",
+          "id2": "z19f0kcq",
           "cost": 2
         },
         {
@@ -8693,7 +8706,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Tsr(3)",
           "type2": "Note",
-          "id2": "ccbhs74",
+          "id2": "h1r663nn",
           "cost": 4
         },
         {
@@ -8703,7 +8716,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Tco",
           "type2": "Note",
-          "id2": "g1rjrplt",
+          "id2": "lwexbk5",
           "cost": 4
         },
         {
@@ -8713,7 +8726,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Tsp",
           "type2": "Note",
-          "id2": "k1dg790v",
+          "id2": "p1lyq95",
           "cost": 4
         },
         {
@@ -8723,7 +8736,7 @@
           "id1": "",
           "second_annot_obj": "[N2]2",
           "type2": "Note",
-          "id2": "v10kpdof",
+          "id2": "m1nj6677",
           "cost": 2
         },
         {
@@ -8733,7 +8746,7 @@
           "id1": "",
           "second_annot_obj": "[N1sharp]2",
           "type2": "Note",
-          "id2": "y1bqgpov",
+          "id2": "lqbza0x",
           "cost": 3
         },
         {
@@ -8743,7 +8756,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4",
           "type2": "Note",
-          "id2": "u1hwi7tw",
+          "id2": "hpb2s5s",
           "cost": 2
         },
         {
@@ -8753,7 +8766,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": "t1pknbg5",
+          "id2": "x1ljljgy",
           "cost": 3
         },
         {
@@ -8763,7 +8776,7 @@
           "id1": "",
           "second_annot_obj": "[N-1]4Bpa",
           "type2": "Note",
-          "id2": "a1mob0ve",
+          "id2": "wpfhs3d",
           "cost": 3
         },
         {
@@ -8773,7 +8786,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": "e607fjv",
+          "id2": "a4xp0et",
           "cost": 3
         },
         {
@@ -8783,7 +8796,7 @@
           "id1": "",
           "second_annot_obj": "[N0flat]2",
           "type2": "Note",
-          "id2": "ax1usuk",
+          "id2": "s15uhgcx",
           "cost": 3
         },
         {
@@ -8793,7 +8806,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "f1dpfxhu",
+          "id2": "x1d3y98b",
           "cost": 2
         },
         {
@@ -8803,7 +8816,7 @@
           "id1": "",
           "second_annot_obj": "[N-1]4Bpapa",
           "type2": "Note",
-          "id2": "r1rxprlz",
+          "id2": "gbgooai",
           "cost": 4
         },
         {
@@ -8813,7 +8826,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpapa",
           "type2": "Note",
-          "id2": "t1tpmi1q",
+          "id2": "a16o4wcd",
           "cost": 4
         },
         {
@@ -8823,7 +8836,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpapa",
           "type2": "Note",
-          "id2": "p1wg17ub",
+          "id2": "aqkq7y7",
           "cost": 4
         },
         {
@@ -8833,7 +8846,7 @@
           "id1": "",
           "second_annot_obj": "[N-1natural]4Bpapa",
           "type2": "Note",
-          "id2": "hgskrcw",
+          "id2": "tnk6zxo",
           "cost": 5
         },
         {
@@ -8843,7 +8856,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m1iqwpvu",
+          "id2": "y25k4p5",
           "cost": 2
         },
         {
@@ -8853,7 +8866,7 @@
           "id1": "",
           "second_annot_obj": "[N-1flat]4Bpa staccato",
           "type2": "Note",
-          "id2": "axqlpw3",
+          "id2": "m1e6gkop",
           "cost": 5
         },
         {
@@ -8863,7 +8876,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Bpapa",
           "type2": "Note",
-          "id2": "bs42xff",
+          "id2": "x1f1xyh2",
           "cost": 4
         },
         {
@@ -8873,7 +8886,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpapa",
           "type2": "Note",
-          "id2": "i13wbiag",
+          "id2": "f89txuz",
           "cost": 4
         },
         {
@@ -8883,7 +8896,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4 accent",
           "type2": "Note",
-          "id2": "nioyp18",
+          "id2": "c1ohipfz",
           "cost": 3
         },
         {
@@ -8893,7 +8906,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4*",
           "type2": "Note",
-          "id2": "eflb3ro",
+          "id2": "k58mn2q",
           "cost": 3
         },
         {
@@ -8903,7 +8916,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4",
           "type2": "Note",
-          "id2": "nr38wcu",
+          "id2": "l13mv0wk",
           "cost": 2
         },
         {
@@ -8913,7 +8926,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "s1i91gkf",
+          "id2": "q14a4j4p",
           "cost": 2
         },
         {
@@ -8923,7 +8936,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpa",
           "type2": "Note",
-          "id2": "wp1rrtz",
+          "id2": "tczhnhs",
           "cost": 3
         },
         {
@@ -8933,7 +8946,7 @@
           "id1": "",
           "second_annot_obj": "[R]2",
           "type2": "Note",
-          "id2": "h14juudu",
+          "id2": "s10vpg49",
           "cost": 2
         },
         {
@@ -8943,7 +8956,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4",
           "type2": "Note",
-          "id2": "hbyjste",
+          "id2": "zdeu7po",
           "cost": 2
         },
         {
@@ -8953,7 +8966,7 @@
           "id1": "",
           "second_annot_obj": "[R]2",
           "type2": "Note",
-          "id2": "afe5avq",
+          "id2": "kfixrbc",
           "cost": 2
         },
         {
@@ -8963,7 +8976,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4 accent staccato",
           "type2": "Note",
-          "id2": "s2xqtay",
+          "id2": "a1qc1oui",
           "cost": 4
         },
         {
@@ -8973,7 +8986,7 @@
           "id1": "",
           "second_annot_obj": "[N0]4",
           "type2": "Note",
-          "id2": "r1v9m38j",
+          "id2": "hpinoox",
           "cost": 2
         },
         {
@@ -8983,7 +8996,7 @@
           "id1": "",
           "second_annot_obj": "[N1]2",
           "type2": "Note",
-          "id2": "g1dfbx06",
+          "id2": "s1vnk2g9",
           "cost": 2
         },
         {
@@ -8993,7 +9006,7 @@
           "id1": "",
           "second_annot_obj": "[N3]2",
           "type2": "Note",
-          "id2": "bgvecmv",
+          "id2": "l1lqvq3z",
           "cost": 2
         },
         {
@@ -9003,7 +9016,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "f14xc0xm",
+          "id2": "p1foql1r",
           "cost": 2
         },
         {
@@ -9013,7 +9026,7 @@
           "id1": "",
           "second_annot_obj": "[N2sharp]4Bpapa",
           "type2": "Note",
-          "id2": "s22a0ic",
+          "id2": "z1a90b9c",
           "cost": 5
         },
         {
@@ -9023,7 +9036,7 @@
           "id1": "",
           "second_annot_obj": "[N0]4Bpa",
           "type2": "Note",
-          "id2": "p1xx67dz",
+          "id2": "w16oxyhr",
           "cost": 3
         },
         {
@@ -9033,7 +9046,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "t14ccfrf",
+          "id2": "azddz5h",
           "cost": 2
         },
         {
@@ -9043,7 +9056,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpapa",
           "type2": "Note",
-          "id2": "k1t2cuon",
+          "id2": "r11btbhf",
           "cost": 4
         },
         {
@@ -9053,7 +9066,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpapa",
           "type2": "Note",
-          "id2": "ojl64oe",
+          "id2": "vi2d2zd",
           "cost": 4
         },
         {
@@ -9063,7 +9076,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpapa",
           "type2": "Note",
-          "id2": "o1gw863g",
+          "id2": "l1rt46jo",
           "cost": 4
         },
         {
@@ -9073,7 +9086,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpa accent",
           "type2": "Note",
-          "id2": "rfw3ggw",
+          "id2": "nke82nm",
           "cost": 4
         },
         {
@@ -9083,7 +9096,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpapa",
           "type2": "Note",
-          "id2": "wh1nt8b",
+          "id2": "s1ryl72d",
           "cost": 4
         },
         {
@@ -9093,7 +9106,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "a10owaak",
+          "id2": "w1gd3rwb",
           "cost": 2
         },
         {
@@ -9103,7 +9116,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Bpapa",
           "type2": "Note",
-          "id2": "uxpyky5",
+          "id2": "u9s9c08",
           "cost": 4
         },
         {
@@ -9113,7 +9126,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "yby75vi",
+          "id2": "y1o1sqqm",
           "cost": 2
         },
         {
@@ -9123,7 +9136,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpapa",
           "type2": "Note",
-          "id2": "y7wbk7j",
+          "id2": "d1b9kzgv",
           "cost": 4
         },
         {
@@ -9133,7 +9146,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpapa",
           "type2": "Note",
-          "id2": "o1vewex4",
+          "id2": "z1twpenc",
           "cost": 4
         },
         {
@@ -9143,7 +9156,7 @@
           "id1": "",
           "second_annot_obj": "[N6]4Bpa",
           "type2": "Note",
-          "id2": "o1d39m9x",
+          "id2": "z167lcpk",
           "cost": 3
         },
         {
@@ -9153,7 +9166,7 @@
           "id1": "",
           "second_annot_obj": "[N6]4Bpapa",
           "type2": "Note",
-          "id2": "blya0jw",
+          "id2": "n10hb109",
           "cost": 4
         },
         {
@@ -9163,7 +9176,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpa",
           "type2": "Note",
-          "id2": "kgfwp4g",
+          "id2": "o7h8itb",
           "cost": 3
         },
         {
@@ -9173,7 +9186,7 @@
           "id1": "",
           "second_annot_obj": "[N1flat]4Bpa",
           "type2": "Note",
-          "id2": "m994vck",
+          "id2": "q323kf2",
           "cost": 4
         },
         {
@@ -9183,7 +9196,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Bpa",
           "type2": "Note",
-          "id2": "ragskdg",
+          "id2": "v1w81afs",
           "cost": 3
         },
         {
@@ -9193,7 +9206,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4",
           "type2": "Note",
-          "id2": "t1siuiyw",
+          "id2": "w18nn0gs",
           "cost": 2
         },
         {
@@ -9203,7 +9216,7 @@
           "id1": "",
           "second_annot_obj": "[N5flat]4",
           "type2": "Note",
-          "id2": "xz1rofg",
+          "id2": "a346s9c",
           "cost": 3
         },
         {
@@ -9213,7 +9226,7 @@
           "id1": "",
           "second_annot_obj": "[N-1sharp]4Bpa",
           "type2": "Note",
-          "id2": "aoffa0o",
+          "id2": "g1axnesh",
           "cost": 4
         },
         {
@@ -9223,7 +9236,7 @@
           "id1": "",
           "second_annot_obj": "[N-1]4Bpa",
           "type2": "Note",
-          "id2": "i1j501tp",
+          "id2": "g11hjat5",
           "cost": 3
         },
         {
@@ -9233,7 +9246,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpa",
           "type2": "Note",
-          "id2": "mafvgwg",
+          "id2": "k18lprqv",
           "cost": 3
         },
         {
@@ -9243,7 +9256,7 @@
           "id1": "",
           "second_annot_obj": "[N0flat]4Bpa",
           "type2": "Note",
-          "id2": "w1y8ktin",
+          "id2": "s1ls0r1q",
           "cost": 4
         },
         {
@@ -9253,7 +9266,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4",
           "type2": "Note",
-          "id2": "i10vhniz",
+          "id2": "b1p5t07p",
           "cost": 2
         },
         {
@@ -9263,7 +9276,7 @@
           "id1": "",
           "second_annot_obj": "[N0]4Tco",
           "type2": "Note",
-          "id2": "j1ccd8l",
+          "id2": "b193pk2f",
           "cost": 4
         },
         {
@@ -9273,7 +9286,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Tsp",
           "type2": "Note",
-          "id2": "n1xli77z",
+          "id2": "facqi9g",
           "cost": 4
         },
         {
@@ -9283,7 +9296,7 @@
           "id1": "",
           "second_annot_obj": "[N0]4Tco",
           "type2": "Note",
-          "id2": "y1qwp5o5",
+          "id2": "a1p6b8gj",
           "cost": 4
         },
         {
@@ -9293,7 +9306,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Tsp",
           "type2": "Note",
-          "id2": "c1a1vbbf",
+          "id2": "e2153nx",
           "cost": 4
         },
         {
@@ -9303,7 +9316,7 @@
           "id1": "",
           "second_annot_obj": "[N-1]4",
           "type2": "Note",
-          "id2": "ybem7w0",
+          "id2": "i198yiei",
           "cost": 2
         },
         {
@@ -9313,7 +9326,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4",
           "type2": "Note",
-          "id2": "n1bwecrh",
+          "id2": "ssxdpbg",
           "cost": 2
         },
         {
@@ -9323,7 +9336,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4",
           "type2": "Note",
-          "id2": "s4mwn4z",
+          "id2": "x1m21jl5",
           "cost": 2
         },
         {
@@ -9333,7 +9346,7 @@
           "id1": "",
           "second_annot_obj": "[N0]4",
           "type2": "Note",
-          "id2": "t12m5il3",
+          "id2": "y1241a28",
           "cost": 2
         },
         {
@@ -9343,7 +9356,7 @@
           "id1": "",
           "second_annot_obj": "[N-1]4Bpapa",
           "type2": "Note",
-          "id2": "y1vshdaq",
+          "id2": "a1t2j5a4",
           "cost": 4
         },
         {
@@ -9353,7 +9366,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpapa",
           "type2": "Note",
-          "id2": "s1c37ad5",
+          "id2": "c1pni2z6",
           "cost": 4
         },
         {
@@ -9363,7 +9376,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpapa",
           "type2": "Note",
-          "id2": "f14emimi",
+          "id2": "qdcdvn",
           "cost": 4
         },
         {
@@ -9373,7 +9386,7 @@
           "id1": "",
           "second_annot_obj": "[N0]4Bpa",
           "type2": "Note",
-          "id2": "y1k38j1l",
+          "id2": "l1dhyg9o",
           "cost": 3
         },
         {
@@ -9383,7 +9396,7 @@
           "id1": "",
           "second_annot_obj": "[N-1sharp]4Bpa",
           "type2": "Note",
-          "id2": "s5e8ff5",
+          "id2": "z1xa6vnb",
           "cost": 4
         },
         {
@@ -9393,7 +9406,7 @@
           "id1": "",
           "second_annot_obj": "[N0]4Bpa",
           "type2": "Note",
-          "id2": "x1hwslrg",
+          "id2": "egcensg",
           "cost": 3
         }
       ]
@@ -9410,7 +9423,7 @@
           "id1": "v1_nh_1063_1546",
           "second_annot_obj": "[N4]4*",
           "type2": "Note",
-          "id2": "yukjd6o",
+          "id2": "g13jyo33",
           "cost": 1
         },
         {
@@ -9420,7 +9433,7 @@
           "id1": "v1_nh_1304_577",
           "second_annot_obj": "[N1]4*",
           "type2": "Note",
-          "id2": "s1ee5uvp",
+          "id2": "g1mxfg12",
           "cost": 1
         },
         {
@@ -9430,7 +9443,7 @@
           "id1": "v1_nh_2119_2531",
           "second_annot_obj": "[N5]4** accent",
           "type2": "Note",
-          "id2": "o1bkwair",
+          "id2": "h1lanfs7",
           "cost": 1
         },
         {
@@ -9440,7 +9453,7 @@
           "id1": "v1_nh_1166_3537",
           "second_annot_obj": "[N5]4**",
           "type2": "Note",
-          "id2": "g1ron9aq",
+          "id2": "y110rxfr",
           "cost": 1
         },
         {
@@ -9450,7 +9463,7 @@
           "id1": "v1_nh_2177_1524",
           "second_annot_obj": "[N3]4*",
           "type2": "Note",
-          "id2": "jjafwri",
+          "id2": "z6y6msi",
           "cost": 1
         },
         {
@@ -9460,7 +9473,7 @@
           "id1": "v1_nh_1526_1761",
           "second_annot_obj": "[N2]2*",
           "type2": "Note",
-          "id2": "qdyjglq",
+          "id2": "d11979qi",
           "cost": 1
         },
         {
@@ -9470,7 +9483,7 @@
           "id1": "v1_nh_2003_814",
           "second_annot_obj": "[N0natural]2*",
           "type2": "Note",
-          "id2": "k3j72qr",
+          "id2": "c12zwyvd",
           "cost": 1
         },
         {
@@ -9480,7 +9493,7 @@
           "id1": "v1_nh_1167_3813",
           "second_annot_obj": "[N2]4**",
           "type2": "Note",
-          "id2": "a16l861y",
+          "id2": "w1xdsldn",
           "cost": 1
         },
         {
@@ -9490,7 +9503,7 @@
           "id1": "v1_nh_2122_2788",
           "second_annot_obj": "[N3flat]4** accent",
           "type2": "Note",
-          "id2": "clpbtfr",
+          "id2": "zzco964",
           "cost": 1
         },
         {
@@ -9500,7 +9513,7 @@
           "id1": "v1_nh_2385_2709",
           "second_annot_obj": "[N6flat]2*",
           "type2": "Note",
-          "id2": "i11b5pm8",
+          "id2": "x12uu8cu",
           "cost": 1
         },
         {
@@ -9510,7 +9523,7 @@
           "id1": "v1_nh_2223_3987",
           "second_annot_obj": "[N5]4* accent",
           "type2": "Note",
-          "id2": "cvunlom",
+          "id2": "a1cgojt8",
           "cost": 1
         },
         {
@@ -9520,7 +9533,7 @@
           "id1": "v1_nh_930_2968",
           "second_annot_obj": "[N7]4*Bpa accent",
           "type2": "Note",
-          "id2": "g1wdil2c",
+          "id2": "n9m101d",
           "cost": 1
         },
         {
@@ -9530,7 +9543,7 @@
           "id1": "v1_nh_1165_3998",
           "second_annot_obj": "[N6]4**",
           "type2": "Note",
-          "id2": "n1qi9m8z",
+          "id2": "y1nyzjiw",
           "cost": 1
         },
         {
@@ -9540,7 +9553,7 @@
           "id1": "v1_nh_2122_2990",
           "second_annot_obj": "[N6]4** accent",
           "type2": "Note",
-          "id2": "wcmp04v",
+          "id2": "i1px0wm5",
           "cost": 1
         },
         {
@@ -9550,7 +9563,7 @@
           "id1": "v1_nh_797_3259",
           "second_annot_obj": "[N2]2* accent",
           "type2": "Note",
-          "id2": "t17qsq1n",
+          "id2": "x1smlp4n",
           "cost": 1
         },
         {
@@ -9560,7 +9573,7 @@
           "id1": "v1_nh_1165_4279",
           "second_annot_obj": "[N3]4**",
           "type2": "Note",
-          "id2": "r1j9j6or",
+          "id2": "b8odkg3",
           "cost": 1
         },
         {
@@ -9570,7 +9583,7 @@
           "id1": "v1_nh_2123_3261",
           "second_annot_obj": "[N3]4** accent",
           "type2": "Note",
-          "id2": "a1rfi1bq",
+          "id2": "l16j3kaa",
           "cost": 1
         }
       ]
@@ -10114,8 +10127,8 @@
     },
     "lyricins": {
       "label": "lyricins",
-      "cost": 386,
-      "nb_diffs": 74,
+      "cost": 376,
+      "nb_diffs": 72,
       "ops": [
         {
           "label": "lyricins",
@@ -10193,16 +10206,6 @@
           "type1": "<class 'NoneType'>",
           "id1": "",
           "second_annot_obj": "-ti,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 5
-        },
-        {
-          "label": "lyricins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "Le-,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 5
@@ -10322,20 +10325,20 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "-um,num=1,id=,off=1.0,style={}",
+          "second_annot_obj": "-sum,num=1,id=,off=1.5,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 5
+          "cost": 6
         },
         {
           "label": "lyricins",
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "-sum,num=1,id=,off=1.5,style={}",
+          "second_annot_obj": "-um,num=1,id=,off=1.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 6
+          "cost": 5
         },
         {
           "label": "lyricins",
@@ -10662,16 +10665,6 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "Le-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 5
-        },
-        {
-          "label": "lyricins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
           "second_annot_obj": "-e-,num=1,id=,off=0.75,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
@@ -10871,7 +10864,7 @@
           "id1": "v1_nh_827_540",
           "second_annot_obj": "[N5]1 strong accent",
           "type2": "Note",
-          "id2": "u3c3nyn",
+          "id2": "e6sxweo",
           "cost": 1
         },
         {
@@ -10881,7 +10874,7 @@
           "id1": "v1_nh_2437_2520",
           "second_annot_obj": "[N6]1 strong accent",
           "type2": "Note",
-          "id2": "j1n59cle",
+          "id2": "qcu7m8q",
           "cost": 1
         },
         {
@@ -10891,7 +10884,7 @@
           "id1": "v1_nh_2276_3583",
           "second_annot_obj": "[N1]1 strong accent",
           "type2": "Note",
-          "id2": "e1el7dad",
+          "id2": "l1tvxgr2",
           "cost": 1
         },
         {
@@ -10901,7 +10894,7 @@
           "id1": "v1_nh_1997_3543",
           "second_annot_obj": "[N5]1 strong accent",
           "type2": "Note",
-          "id2": "o11dmlv6",
+          "id2": "v183ozrv",
           "cost": 1
         },
         {
@@ -10911,7 +10904,7 @@
           "id1": "v1_nh_1733_3553",
           "second_annot_obj": "[N4]1 strong accent",
           "type2": "Note",
-          "id2": "y9xjima",
+          "id2": "f1y8k9fn",
           "cost": 1
         },
         {
@@ -10921,7 +10914,7 @@
           "id1": "v1_nh_534_494",
           "second_annot_obj": "[N5]1 strong accent",
           "type2": "Note",
-          "id2": "z16twg37",
+          "id2": "qlimvjl",
           "cost": 1
         },
         {
@@ -10931,7 +10924,7 @@
           "id1": "v1_nh_608_541",
           "second_annot_obj": "[N5]4 strong accent",
           "type2": "Note",
-          "id2": "f18hmiol",
+          "id2": "hrsbw1f",
           "cost": 1
         },
         {
@@ -10941,7 +10934,7 @@
           "id1": "v1_nh_1720_1502",
           "second_annot_obj": "[N5]2 strong accent",
           "type2": "Note",
-          "id2": "e7ljdiy",
+          "id2": "v13vk0fz",
           "cost": 1
         },
         {
@@ -10951,7 +10944,7 @@
           "id1": "v1_nh_828_808",
           "second_annot_obj": "[N2]1 strong accent",
           "type2": "Note",
-          "id2": "f4cpchq",
+          "id2": "n1e11fz4",
           "cost": 1
         },
         {
@@ -10961,7 +10954,7 @@
           "id1": "v1_nh_2275_3819",
           "second_annot_obj": "[N1]1 strong accent",
           "type2": "Note",
-          "id2": "gy2h6qz",
+          "id2": "lrv1x41",
           "cost": 1
         },
         {
@@ -10971,7 +10964,7 @@
           "id1": "v1_nh_1996_3776",
           "second_annot_obj": "[N5]1 strong accent",
           "type2": "Note",
-          "id2": "q1t2vp0d",
+          "id2": "v1w5oo",
           "cost": 1
         },
         {
@@ -10981,7 +10974,7 @@
           "id1": "v1_nh_1733_3788",
           "second_annot_obj": "[N4]1 strong accent",
           "type2": "Note",
-          "id2": "aeq69al",
+          "id2": "fzjhg4h",
           "cost": 1
         },
         {
@@ -10991,7 +10984,7 @@
           "id1": "v1_nh_2439_2781",
           "second_annot_obj": "[N4]1 strong accent",
           "type2": "Note",
-          "id2": "p73bbwn",
+          "id2": "u1qzntgf",
           "cost": 1
         },
         {
@@ -11001,7 +10994,7 @@
           "id1": "v1_nh_531_760",
           "second_annot_obj": "[N2]1 strong accent",
           "type2": "Note",
-          "id2": "i1x8jpu",
+          "id2": "v1fvfpog",
           "cost": 1
         },
         {
@@ -11011,7 +11004,7 @@
           "id1": "v1_nh_509_2739",
           "second_annot_obj": "[N3flat]1 strong accent",
           "type2": "Note",
-          "id2": "r343ghu",
+          "id2": "d1h5veg1",
           "cost": 1
         },
         {
@@ -11021,7 +11014,7 @@
           "id1": "v1_nh_607_810",
           "second_annot_obj": "[N2]4 strong accent",
           "type2": "Note",
-          "id2": "h1j727lj",
+          "id2": "n4ykxws",
           "cost": 1
         },
         {
@@ -11031,7 +11024,7 @@
           "id1": "v1_nh_1719_1776",
           "second_annot_obj": "[N1sharp]2 strong accent",
           "type2": "Note",
-          "id2": "y1ptg2t9",
+          "id2": "s1py5xfb",
           "cost": 1
         },
         {
@@ -11041,7 +11034,7 @@
           "id1": "v1_nh_828_1010",
           "second_annot_obj": "[N5natural]1 strong accent",
           "type2": "Note",
-          "id2": "x2ke1qw",
+          "id2": "f1utofvg",
           "cost": 1
         },
         {
@@ -11051,7 +11044,7 @@
           "id1": "v1_nh_2273_4077",
           "second_annot_obj": "[N-1]1 strong accent",
           "type2": "Note",
-          "id2": "a106hjln",
+          "id2": "f1ijaqfe",
           "cost": 1
         },
         {
@@ -11061,7 +11054,7 @@
           "id1": "v1_nh_1997_4034",
           "second_annot_obj": "[N3]1 strong accent",
           "type2": "Note",
-          "id2": "k14v25lw",
+          "id2": "pxzzyyk",
           "cost": 1
         },
         {
@@ -11071,7 +11064,7 @@
           "id1": "v1_nh_1734_4047",
           "second_annot_obj": "[N2]1 strong accent",
           "type2": "Note",
-          "id2": "u1fs3bz1",
+          "id2": "z1slfpgt",
           "cost": 1
         },
         {
@@ -11081,7 +11074,7 @@
           "id1": "v1_nh_2440_2980",
           "second_annot_obj": "[N7flat]1 strong accent",
           "type2": "Note",
-          "id2": "i19ie6k",
+          "id2": "n1p24kd",
           "cost": 1
         },
         {
@@ -11091,7 +11084,7 @@
           "id1": "v1_nh_530_982",
           "second_annot_obj": "[N5flat]1 strong accent",
           "type2": "Note",
-          "id2": "y1drh135",
+          "id2": "jtbw3w2",
           "cost": 1
         },
         {
@@ -11101,7 +11094,7 @@
           "id1": "v1_nh_610_1009",
           "second_annot_obj": "[N5]4 strong accent",
           "type2": "Note",
-          "id2": "vi6e0ku",
+          "id2": "q1fy18vb",
           "cost": 1
         },
         {
@@ -11111,7 +11104,7 @@
           "id1": "v1_nh_1722_2007",
           "second_annot_obj": "[N1]2 strong accent",
           "type2": "Note",
-          "id2": "lmltq8y",
+          "id2": "t1394r9s",
           "cost": 1
         },
         {
@@ -11121,7 +11114,7 @@
           "id1": "v1_nh_831_1265",
           "second_annot_obj": "[N3]1 strong accent",
           "type2": "Note",
-          "id2": "il0ayaw",
+          "id2": "d1as7ol0",
           "cost": 1
         },
         {
@@ -11131,7 +11124,7 @@
           "id1": "v1_nh_2443_3296",
           "second_annot_obj": "[N0flat]1 strong accent",
           "type2": "Note",
-          "id2": "rddmu2f",
+          "id2": "jrc1eem",
           "cost": 1
         },
         {
@@ -11141,7 +11134,7 @@
           "id1": "v1_nh_2276_4316",
           "second_annot_obj": "[N-1]1 strong accent",
           "type2": "Note",
-          "id2": "jx3ena5",
+          "id2": "bsknq1t",
           "cost": 1
         },
         {
@@ -11151,7 +11144,7 @@
           "id1": "v1_nh_532_1257",
           "second_annot_obj": "[N1]1 strong accent",
           "type2": "Note",
-          "id2": "z1cc4s26",
+          "id2": "yisphsp",
           "cost": 1
         },
         {
@@ -11161,15 +11154,15 @@
           "id1": "v1_nh_505_3255",
           "second_annot_obj": "[N2]1 strong accent",
           "type2": "Note",
-          "id2": "f16i0lf9",
+          "id2": "dyrw2bw",
           "cost": 1
         }
       ]
     },
     "accidentins": {
       "label": "accidentins",
-      "cost": 19,
-      "nb_diffs": 19,
+      "cost": 21,
+      "nb_diffs": 21,
       "ops": [
         {
           "label": "accidentins",
@@ -11178,7 +11171,7 @@
           "id1": "v1_nh_2882_1587",
           "second_annot_obj": "[N0flat]4Bpa",
           "type2": "Note",
-          "id2": "u1g7se57",
+          "id2": "coirqv",
           "cost": 1
         },
         {
@@ -11188,7 +11181,7 @@
           "id1": "v1_nh_1255_3573",
           "second_annot_obj": "[N2natural]2",
           "type2": "Note",
-          "id2": "uokknmc",
+          "id2": "bzja5pd",
           "cost": 1
         },
         {
@@ -11198,7 +11191,7 @@
           "id1": "v1_nh_1812_3530",
           "second_annot_obj": "[N3natural]4Bpa",
           "type2": "Note",
-          "id2": "dcat80z",
+          "id2": "eordt3w",
           "cost": 1
         },
         {
@@ -11208,7 +11201,17 @@
           "id1": "v1_nh_993_1607",
           "second_annot_obj": "[N1natural]4 staccato",
           "type2": "Note",
-          "id2": "mjz4jtk",
+          "id2": "ztaeey2",
+          "cost": 1
+        },
+        {
+          "label": "accidentins",
+          "first_annot_obj": "[N3]4Bpa",
+          "type1": "Note",
+          "id1": "v1_nh_2141_1504",
+          "second_annot_obj": "[N3natural]4Bpa",
+          "type2": "Note",
+          "id2": "u154mfuc",
           "cost": 1
         },
         {
@@ -11218,7 +11221,7 @@
           "id1": "v1_nh_2881_1824",
           "second_annot_obj": "[N0flat]4Bpa",
           "type2": "Note",
-          "id2": "z1ktt8w7",
+          "id2": "f1ce1s6j",
           "cost": 1
         },
         {
@@ -11228,7 +11231,7 @@
           "id1": "v1_nh_1258_3810",
           "second_annot_obj": "[N2natural]2",
           "type2": "Note",
-          "id2": "wiwz11y",
+          "id2": "b14iejxr",
           "cost": 1
         },
         {
@@ -11238,7 +11241,17 @@
           "id1": "v1_nh_1814_3771",
           "second_annot_obj": "[N3natural]4Bpa",
           "type2": "Note",
-          "id2": "r1h9cqx9",
+          "id2": "q1yoq43p",
+          "cost": 1
+        },
+        {
+          "label": "accidentins",
+          "first_annot_obj": "[N3]4Bpa",
+          "type1": "Note",
+          "id1": "v1_nh_2152_2749",
+          "second_annot_obj": "[N3double-flat]4Bpa",
+          "type2": "Note",
+          "id2": "x8qgc3q",
           "cost": 1
         },
         {
@@ -11248,7 +11261,7 @@
           "id1": "v1_nh_2086_2799",
           "second_annot_obj": "[N2natural]2",
           "type2": "Note",
-          "id2": "sbw2jfv",
+          "id2": "c1wi4v2j",
           "cost": 1
         },
         {
@@ -11258,7 +11271,7 @@
           "id1": "v1_nh_1258_4068",
           "second_annot_obj": "[N0natural]2",
           "type2": "Note",
-          "id2": "qpvuyjv",
+          "id2": "v8rkqw8",
           "cost": 1
         },
         {
@@ -11268,7 +11281,7 @@
           "id1": "v1_nh_2901_3040",
           "second_annot_obj": "[N2sharp]4",
           "type2": "Note",
-          "id2": "e1rc6tnt",
+          "id2": "i7uma44",
           "cost": 1
         },
         {
@@ -11278,7 +11291,7 @@
           "id1": "v1_nh_1390_3018",
           "second_annot_obj": "[N1natural]4",
           "type2": "Note",
-          "id2": "s1k92hnf",
+          "id2": "r1wc1qzq",
           "cost": 1
         },
         {
@@ -11288,7 +11301,7 @@
           "id1": "v1_nh_1717_3003",
           "second_annot_obj": "[N4flat]4Bpapa",
           "type2": "Note",
-          "id2": "wnw7l7e",
+          "id2": "d1151qxa",
           "cost": 1
         },
         {
@@ -11298,7 +11311,7 @@
           "id1": "v1_nh_2149_2035",
           "second_annot_obj": "[N2flat]4Bpapa",
           "type2": "Note",
-          "id2": "fsib2dj",
+          "id2": "jtgzq7e",
           "cost": 1
         },
         {
@@ -11308,7 +11321,7 @@
           "id1": "v1_nh_2087_3050",
           "second_annot_obj": "[N2natural]2",
           "type2": "Note",
-          "id2": "ozcpf3a",
+          "id2": "k1ryqoej",
           "cost": 1
         },
         {
@@ -11318,7 +11331,7 @@
           "id1": "v1_nh_1259_4306",
           "second_annot_obj": "[N0natural]2",
           "type2": "Note",
-          "id2": "zhh8u10",
+          "id2": "r1d6h8mx",
           "cost": 1
         },
         {
@@ -11328,7 +11341,7 @@
           "id1": "v1_nh_1399_1243",
           "second_annot_obj": "[N3natural]4Bpa",
           "type2": "Note",
-          "id2": "vzqewez",
+          "id2": "ffj51k7",
           "cost": 1
         },
         {
@@ -11338,7 +11351,7 @@
           "id1": "v1_nh_2672_4305",
           "second_annot_obj": "[N1natural]4",
           "type2": "Note",
-          "id2": "f1cta5id",
+          "id2": "w1s7zpgz",
           "cost": 1
         },
         {
@@ -11348,7 +11361,7 @@
           "id1": "v1_nh_1398_3255",
           "second_annot_obj": "[N1natural]4",
           "type2": "Note",
-          "id2": "cpff83p",
+          "id2": "p1x7iows",
           "cost": 1
         },
         {
@@ -11358,7 +11371,7 @@
           "id1": "v1_nh_944_2322",
           "second_annot_obj": "[N-2natural]4Bpa",
           "type2": "Note",
-          "id2": "p18dldr6",
+          "id2": "f37xdo6",
           "cost": 1
         }
       ]
@@ -11375,7 +11388,7 @@
           "id1": "rest_2702_3596",
           "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "yzdvpbu",
+          "id2": "en8jdvt",
           "cost": 1
         },
         {
@@ -11385,7 +11398,7 @@
           "id1": "rest_2846_3561",
           "second_annot_obj": "[R]1 fermata",
           "type2": "Note",
-          "id2": "ceehhm9",
+          "id2": "u1v5456s",
           "cost": 1
         },
         {
@@ -11395,7 +11408,7 @@
           "id1": "rest_2465_3560",
           "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "x14kenoi",
+          "id2": "mknq80f",
           "cost": 1
         },
         {
@@ -11405,7 +11418,7 @@
           "id1": "rest_2096_524",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "q19thytp",
+          "id2": "ytozlw3",
           "cost": 1
         },
         {
@@ -11415,7 +11428,7 @@
           "id1": "rest_1903_1557",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "yz8mjeb",
+          "id2": "o15iooe6",
           "cost": 1
         },
         {
@@ -11425,7 +11438,7 @@
           "id1": "rest_1522_3572",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "a18gob6f",
+          "id2": "s1wc5bk8",
           "cost": 1
         },
         {
@@ -11435,7 +11448,7 @@
           "id1": "rest_2704_3834",
           "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "azab0h9",
+          "id2": "eo7n4vs",
           "cost": 1
         },
         {
@@ -11445,7 +11458,7 @@
           "id1": "rest_2842_3780",
           "second_annot_obj": "[R]1 fermata",
           "type2": "Note",
-          "id2": "s1dcjxxe",
+          "id2": "g1sgqmwi",
           "cost": 1
         },
         {
@@ -11455,7 +11468,7 @@
           "id1": "rest_2465_3792",
           "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "c1o1jwf",
+          "id2": "nsipxk8",
           "cost": 1
         },
         {
@@ -11465,7 +11478,7 @@
           "id1": "rest_2103_762",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "yqr0zoz",
+          "id2": "aluc9pt",
           "cost": 1
         },
         {
@@ -11475,7 +11488,7 @@
           "id1": "rest_1904_1791",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "f1acp5k0",
+          "id2": "vdsgihv",
           "cost": 1
         },
         {
@@ -11485,7 +11498,7 @@
           "id1": "rest_1526_3807",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "u4c93xa",
+          "id2": "qdfelke",
           "cost": 1
         },
         {
@@ -11495,7 +11508,7 @@
           "id1": "rest_2704_4070",
           "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "u1dhz426",
+          "id2": "y1sfukod",
           "cost": 1
         },
         {
@@ -11505,7 +11518,7 @@
           "id1": "rest_2828_3988",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "hwsnofj",
+          "id2": "t13wy4ce",
           "cost": 1
         },
         {
@@ -11515,7 +11528,7 @@
           "id1": "rest_2470_4029",
           "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "m1fua04d",
+          "id2": "vhz2h1m",
           "cost": 1
         },
         {
@@ -11525,7 +11538,7 @@
           "id1": "rest_2108_993",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "d7u4rb0",
+          "id2": "d1qhj184",
           "cost": 1
         },
         {
@@ -11535,7 +11548,7 @@
           "id1": "rest_1902_2025",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "g1ti28br",
+          "id2": "o1al14l5",
           "cost": 1
         },
         {
@@ -11545,7 +11558,7 @@
           "id1": "rest_1525_4042",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "h1d1c9b2",
+          "id2": "s11wkgbs",
           "cost": 1
         },
         {
@@ -11555,7 +11568,7 @@
           "id1": "rest_2704_4309",
           "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "dv54fhz",
+          "id2": "uwx6myd",
           "cost": 1
         },
         {
@@ -11565,7 +11578,7 @@
           "id1": "rest_2885_4253",
           "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "j18uz53b",
+          "id2": "j1aan0p9",
           "cost": 1
         },
         {
@@ -11575,7 +11588,7 @@
           "id1": "rest_2473_4267",
           "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "s1gg8zee",
+          "id2": "p18vj0h4",
           "cost": 1
         },
         {
@@ -11585,7 +11598,7 @@
           "id1": "rest_2113_1226",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "pghg1tm",
+          "id2": "d1shekxl",
           "cost": 1
         },
         {
@@ -11595,7 +11608,7 @@
           "id1": "rest_1905_2262",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "dezjms",
+          "id2": "gkmyaz1",
           "cost": 1
         },
         {
@@ -11605,7 +11618,7 @@
           "id1": "rest_1529_4289",
           "second_annot_obj": "[R]4 fermata",
           "type2": "Note",
-          "id2": "l1dl2zbl",
+          "id2": "v1u7fk5q",
           "cost": 1
         }
       ]
@@ -11622,7 +11635,7 @@
           "id1": "v1_nh_1504_3575",
           "second_annot_obj": "[N2]4Tco",
           "type2": "Note",
-          "id2": "e59t1ib",
+          "id2": "l1upbn3s",
           "cost": 1
         },
         {
@@ -11632,7 +11645,7 @@
           "id1": "v1_nh_1505_4069",
           "second_annot_obj": "[N0]4Tco",
           "type2": "Note",
-          "id2": "ah6swg4",
+          "id2": "f1blvmgu",
           "cost": 1
         },
         {
@@ -11642,7 +11655,7 @@
           "id1": "v1_nh_1998_3980",
           "second_annot_obj": "[N2]4Tco",
           "type2": "Note",
-          "id2": "wunzwh0",
+          "id2": "k13w9xeo",
           "cost": 1
         },
         {
@@ -11652,7 +11665,7 @@
           "id1": "v1_nh_2868_3051",
           "second_annot_obj": "[N0]4Tco",
           "type2": "Note",
-          "id2": "x16xu7mv",
+          "id2": "liubo2q",
           "cost": 1
         },
         {
@@ -11662,7 +11675,7 @@
           "id1": "v1_nh_1362_3299",
           "second_annot_obj": "[N0]4BpaTco",
           "type2": "Note",
-          "id2": "nyttb0n",
+          "id2": "zc7amvc",
           "cost": 1
         }
       ]
@@ -12344,16 +12357,6 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "--,num=1,id=,off=0.5,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 4
-        },
-        {
-          "label": "lyricdel",
           "first_annot_obj": "-16,num=2,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -12361,6 +12364,16 @@
           "type2": "<class 'NoneType'>",
           "id2": "",
           "cost": 5
+        },
+        {
+          "label": "lyricdel",
+          "first_annot_obj": "--,num=1,id=,off=0.5,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 4
         },
         {
           "label": "lyricdel",
@@ -13484,16 +13497,6 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "--,num=1,id=,off=0.5,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 4
-        },
-        {
-          "label": "lyricdel",
           "first_annot_obj": "--,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -13565,6 +13568,16 @@
         {
           "label": "lyricdel",
           "first_annot_obj": "-P,num=2,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 4
+        },
+        {
+          "label": "lyricdel",
+          "first_annot_obj": "--,num=1,id=,off=0.5,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -14556,7 +14569,7 @@
           "id1": "v1_nh_2291_2546",
           "second_annot_obj": "[N3]4",
           "type2": "Note",
-          "id2": "qijdb0n",
+          "id2": "ht1vxgn",
           "cost": 1
         },
         {
@@ -14566,7 +14579,7 @@
           "id1": "v1_nh_534_494",
           "second_annot_obj": "[N5]1 strong accent",
           "type2": "Note",
-          "id2": "z16twg37",
+          "id2": "qlimvjl",
           "cost": 1
         },
         {
@@ -14576,7 +14589,7 @@
           "id1": "v1_nh_800_635",
           "second_annot_obj": "[N-1]4",
           "type2": "Note",
-          "id2": "xon1whc",
+          "id2": "lp6w6ib",
           "cost": 1
         },
         {
@@ -14586,7 +14599,7 @@
           "id1": "v2_nh_2017_3526",
           "second_annot_obj": "[N3]1 accent",
           "type2": "Note",
-          "id2": "d1wuxheu",
+          "id2": "t1cyryak",
           "cost": 1
         },
         {
@@ -14596,7 +14609,7 @@
           "id1": "v2_nh_2017_3526",
           "second_annot_obj": "[N3]1 accent",
           "type2": "Note",
-          "id2": "d1wuxheu",
+          "id2": "t1cyryak",
           "cost": 1
         },
         {
@@ -14606,7 +14619,7 @@
           "id1": "v1_nh_2210_1584",
           "second_annot_obj": "[N0]4Bpa staccato",
           "type2": "Note",
-          "id2": "y1wwej9l",
+          "id2": "h16gvc5w",
           "cost": 1
         },
         {
@@ -14616,7 +14629,7 @@
           "id1": "v1_nh_2384_2478",
           "second_annot_obj": "[N6flat]2* accent",
           "type2": "Note",
-          "id2": "e15ljzh2",
+          "id2": "t1ofxuan",
           "cost": 1
         },
         {
@@ -14626,7 +14639,7 @@
           "id1": "v1_nh_1108_2774",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": "a1j2jho",
+          "id2": "w4t9qs5",
           "cost": 1
         },
         {
@@ -14636,7 +14649,7 @@
           "id1": "v1_nh_819_1837",
           "second_annot_obj": "[N-1flat]4Bpa",
           "type2": "Note",
-          "id2": "y17tz7vt",
+          "id2": "luolqmn",
           "cost": 1
         },
         {
@@ -14646,7 +14659,7 @@
           "id1": "v1_nh_944_1857",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": "e11b9qsz",
+          "id2": "r13lv163",
           "cost": 1
         },
         {
@@ -14656,7 +14669,7 @@
           "id1": "v1_nh_1080_1823",
           "second_annot_obj": "[N0]4Bpa",
           "type2": "Note",
-          "id2": "i1h7397n",
+          "id2": "vni9cn7",
           "cost": 1
         },
         {
@@ -14666,7 +14679,7 @@
           "id1": "v1_nh_1205_1846",
           "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": "n16evc7l",
+          "id2": "a1ekvmvy",
           "cost": 1
         },
         {
@@ -14676,7 +14689,7 @@
           "id1": "v1_nh_2385_2709",
           "second_annot_obj": "[N6flat]2*",
           "type2": "Note",
-          "id2": "i11b5pm8",
+          "id2": "x12uu8cu",
           "cost": 1
         },
         {
@@ -14686,7 +14699,7 @@
           "id1": "v1_nh_1402_2757",
           "second_annot_obj": "[N2flat]2",
           "type2": "Note",
-          "id2": "e1jqw4gu",
+          "id2": "ttvmdwd",
           "cost": 1
         },
         {
@@ -14696,7 +14709,7 @@
           "id1": "v1_nh_2290_3013",
           "second_annot_obj": "[N3]4",
           "type2": "Note",
-          "id2": "juqbx4k",
+          "id2": "zd7wfal",
           "cost": 1
         },
         {
@@ -14706,7 +14719,7 @@
           "id1": "v1_nh_1297_998",
           "second_annot_obj": "[N3]2",
           "type2": "Note",
-          "id2": "e6o3ws0",
+          "id2": "oacqzwn",
           "cost": 1
         },
         {
@@ -14716,7 +14729,7 @@
           "id1": "v1_nh_2389_2963",
           "second_annot_obj": "[N4flat]2*",
           "type2": "Note",
-          "id2": "t1u8fu8l",
+          "id2": "v41x42n",
           "cost": 1
         },
         {
@@ -14726,7 +14739,7 @@
           "id1": "v1_nh_2390_3192",
           "second_annot_obj": "[N4flat]2*",
           "type2": "Note",
-          "id2": "l137o2ri",
+          "id2": "o1uy6kt5",
           "cost": 1
         }
       ]
@@ -14743,7 +14756,7 @@
           "id1": "v1_nh_1983_2566",
           "second_annot_obj": "[N1natural]2",
           "type2": "Note",
-          "id2": "u15ywudt",
+          "id2": "me50w4d",
           "cost": 2
         },
         {
@@ -14753,7 +14766,7 @@
           "id1": "v1_nh_946_2085",
           "second_annot_obj": "[N-2natural]4Bpa",
           "type2": "Note",
-          "id2": "l1cb157v",
+          "id2": "bnmwen",
           "cost": 2
         }
       ]
@@ -14770,7 +14783,7 @@
           "id1": "v1_nh_1483_2545",
           "second_annot_obj": "[N3]2 accent",
           "type2": "Note",
-          "id2": "j1pem9rg",
+          "id2": "bgs5h8n",
           "cost": 1
         },
         {
@@ -14780,7 +14793,7 @@
           "id1": "v1_nh_1399_2471",
           "second_annot_obj": "[N7flat]2 accent",
           "type2": "Note",
-          "id2": "zabn7ms",
+          "id2": "oncvnq7",
           "cost": 1
         },
         {
@@ -14790,7 +14803,7 @@
           "id1": "v1_nh_1122_1954",
           "second_annot_obj": "[N1]4",
           "type2": "Note",
-          "id2": "dkoxf9h",
+          "id2": "b1lsy4gf",
           "cost": 1
         }
       ]
@@ -15044,7 +15057,7 @@
           "id1": "v1_nh_2354_571",
           "second_annot_obj": "[N2]4 accent staccato",
           "type2": "Note",
-          "id2": "q1d96ay",
+          "id2": "e14p4pep",
           "cost": 1
         },
         {
@@ -15054,7 +15067,7 @@
           "id1": "v1_nh_2642_2544",
           "second_annot_obj": "[N4sharp]4Bpa staccato",
           "type2": "Note",
-          "id2": "tesk1d9",
+          "id2": "xhyqg2",
           "cost": 1
         },
         {
@@ -15064,7 +15077,7 @@
           "id1": "v1_nh_956_2871",
           "second_annot_obj": "[N-1sharp]4 accent staccato",
           "type2": "Note",
-          "id2": "cy1r58z",
+          "id2": "k1lt0cyd",
           "cost": 1
         },
         {
@@ -15074,7 +15087,7 @@
           "id1": "v1_nh_1668_3061",
           "second_annot_obj": "[N2natural]4 staccato",
           "type2": "Note",
-          "id2": "j4q5qo8",
+          "id2": "oiav07x",
           "cost": 1
         },
         {
@@ -15084,7 +15097,7 @@
           "id1": "v1_nh_1997_4271",
           "second_annot_obj": "[N3]1 strong accent",
           "type2": "Note",
-          "id2": "t79a0wx",
+          "id2": "lx7t8w7",
           "cost": 1
         },
         {
@@ -15094,7 +15107,7 @@
           "id1": "v1_nh_1733_4284",
           "second_annot_obj": "[N2]1 strong accent",
           "type2": "Note",
-          "id2": "ds5cpms",
+          "id2": "v14uq5oj",
           "cost": 1
         },
         {
@@ -15104,7 +15117,7 @@
           "id1": "v1_nh_1004_2341",
           "second_annot_obj": "[N-1]4 staccato",
           "type2": "Note",
-          "id2": "v1kw2tzg",
+          "id2": "q332zki",
           "cost": 1
         }
       ]
@@ -15375,7 +15388,7 @@
           "id1": "v1_nh_1396_1574",
           "second_annot_obj": "[N1]4Bpapa",
           "type2": "Note",
-          "id2": "b1u7wtn7",
+          "id2": "moct4sr",
           "cost": 1
         },
         {
@@ -15385,7 +15398,7 @@
           "id1": "v1_nh_2443_2028",
           "second_annot_obj": "[N2sharp]4Bpa",
           "type2": "Note",
-          "id2": "fwbhf2b",
+          "id2": "mft0cnd",
           "cost": 1
         }
       ]
@@ -15402,7 +15415,7 @@
           "id1": "v1_nh_1883_3781",
           "second_annot_obj": "[N2]4Bpa",
           "type2": "Note",
-          "id2": "v134k6bq",
+          "id2": "t1yacu7s",
           "cost": 1
         },
         {
@@ -15412,7 +15425,7 @@
           "id1": "v2_nh_1951_3794",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": "zut4cn8",
+          "id2": "x1uz1lzl",
           "cost": 1
         },
         {
@@ -15422,7 +15435,7 @@
           "id1": "v1_nh_2453_3990",
           "second_annot_obj": "[N5]4Bpa",
           "type2": "Note",
-          "id2": "i13wfbps",
+          "id2": "g8c8aru",
           "cost": 1
         },
         {
@@ -15432,7 +15445,7 @@
           "id1": "v1_nh_1115_3046",
           "second_annot_obj": "[N0]4Bpapa",
           "type2": "Note",
-          "id2": "lkrj680",
+          "id2": "sreibls",
           "cost": 1
         },
         {
@@ -15442,7 +15455,7 @@
           "id1": "v1_nh_2636_3019",
           "second_annot_obj": "[N4]4Bpapa",
           "type2": "Note",
-          "id2": "k12ypciy",
+          "id2": "h1a5vgf6",
           "cost": 1
         },
         {
@@ -15452,7 +15465,7 @@
           "id1": "v1_nh_837_2992",
           "second_annot_obj": "[N2]4Bpa",
           "type2": "Note",
-          "id2": "gen3y1g",
+          "id2": "kmwsbe7",
           "cost": 1
         }
       ]
@@ -15526,7 +15539,7 @@
           "id1": "v1_nh_1433_4316",
           "second_annot_obj": "[N-1]4Tsr(3)",
           "type2": "Note",
-          "id2": "fze9k8t",
+          "id2": "x7o9307",
           "cost": 1
         },
         {
@@ -15536,7 +15549,7 @@
           "id1": "v1_nh_1433_4316",
           "second_annot_obj": "[N-1]4Tsr(3)",
           "type2": "Note",
-          "id2": "fze9k8t",
+          "id2": "x7o9307",
           "cost": 1
         },
         {
@@ -15546,7 +15559,7 @@
           "id1": "v1_nh_2804_3306",
           "second_annot_obj": "[N-2natural]4Tsr(3)",
           "type2": "Note",
-          "id2": "tzqw8r3",
+          "id2": "vw4lby9",
           "cost": 1
         },
         {
@@ -15556,7 +15569,7 @@
           "id1": "v1_nh_2804_3306",
           "second_annot_obj": "[N-2natural]4Tsr(3)",
           "type2": "Note",
-          "id2": "tzqw8r3",
+          "id2": "vw4lby9",
           "cost": 1
         }
       ]
