@@ -5,19 +5,19 @@
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2026-02-06</encoding-date>
+      <encoding-date>2026-02-13</encoding-date>
       <software>music21 v.9.9.1</software>
     </encoding>
     <miscellaneous>
       <miscellaneous-field name="humdrum:YER">2026/01/08/13:18:25</miscellaneous-field>
-      <miscellaneous-field name="meiraw:meiHead">&lt;ns0:meiHead xmlns:ns0="http://www.music-encoding.org/ns/mei" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}mei' at 0x3b39ddd50&gt;"&gt;
-&lt;ns0:fileDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x3b39dddf0&gt;"&gt;
-&lt;ns0:titleStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x3b39dde90&gt;"&gt;
-&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}titleStmt' at 0x3b39ddf30&gt;" /&gt;
+      <miscellaneous-field name="meiraw:meiHead">&lt;ns0:meiHead xmlns:ns0="http://www.music-encoding.org/ns/mei" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}mei' at 0x72d9bebc85e0&gt;"&gt;
+&lt;ns0:fileDesc __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}meiHead' at 0x72d9bebc8680&gt;"&gt;
+&lt;ns0:titleStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x72d9bebc8900&gt;"&gt;
+&lt;ns0:title __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}titleStmt' at 0x72d9bebc89f0&gt;" /&gt;
 &lt;/ns0:titleStmt&gt;
-&lt;ns0:pubStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x3b39dde90&gt;"&gt;
-&lt;ns0:date isodate="2026-01-08T13:18:25" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x3b39de070&gt;" /&gt;
-&lt;ns0:availability __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x3b39de070&gt;"&gt;CollabScore project&lt;/ns0:availability&gt;
+&lt;ns0:pubStmt __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}fileDesc' at 0x72d9bebc8900&gt;"&gt;
+&lt;ns0:date isodate="2026-01-08T13:18:25" __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x72d9bebc8bd0&gt;" /&gt;
+&lt;ns0:availability __mei_parent__="&lt;Element '{http://www.music-encoding.org/ns/mei}pubStmt' at 0x72d9bebc8bd0&gt;"&gt;CollabScore project&lt;/ns0:availability&gt;
 &lt;/ns0:pubStmt&gt;
 &lt;/ns0:fileDesc&gt;
 &lt;/ns0:meiHead&gt;
@@ -37,11 +37,11 @@
     <score-part id="1">
       <part-name>SOPRANOS</part-name>
       <part-abbreviation>part5</part-abbreviation>
-      <score-instrument id="I59fcc1f1097e3fdd70ccb4e7eaf8db98">
+      <score-instrument id="Id2814c50d397a50edcea4f80a5eca784">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I59fcc1f1097e3fdd70ccb4e7eaf8db98">
+      <midi-instrument id="Id2814c50d397a50edcea4f80a5eca784">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -49,11 +49,11 @@
     <score-part id="2">
       <part-name>CONTRALTOS</part-name>
       <part-abbreviation>part4</part-abbreviation>
-      <score-instrument id="I093f96b28b5cc36c5c60f4660cf1a209">
+      <score-instrument id="I4d8f46b8fec98d665ee7f3cef058cc44">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I093f96b28b5cc36c5c60f4660cf1a209">
+      <midi-instrument id="I4d8f46b8fec98d665ee7f3cef058cc44">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -61,11 +61,11 @@
     <score-part id="3">
       <part-name>TÉNORS</part-name>
       <part-abbreviation>part3</part-abbreviation>
-      <score-instrument id="Id5a0f5575d9926127a17cfb41395f708">
+      <score-instrument id="I6f72326cd0dd29d0388738a1bed8cf70">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Id5a0f5575d9926127a17cfb41395f708">
+      <midi-instrument id="I6f72326cd0dd29d0388738a1bed8cf70">
         <midi-channel>3</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -73,16 +73,16 @@
     <score-part id="4">
       <part-name>BASSES</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="I49d9147a3a05cd58a820091c57a12788">
+      <score-instrument id="I77612fa854c46b571faa6358d4fe9637">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I49d9147a3a05cd58a820091c57a12788">
+      <midi-instrument id="I77612fa854c46b571faa6358d4fe9637">
         <midi-channel>4</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="P681f81ad7f7c90721ef8e940ad2591c2">
+    <score-part id="Pd537f61ff0a1d6ca32a6faed76cf6c37">
       <part-name />
     </score-part>
   </part-list>
@@ -176,7 +176,12 @@
     </measure>
     <!--========================= Measure 4 ==========================-->
     <measure implicit="no" number="4">
-      <note color="#13819E" id="n97m6i7">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="n97m6i7">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -185,7 +190,7 @@
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>lec</text>
@@ -258,7 +263,12 @@
     </measure>
     <!--========================= Measure 5 ==========================-->
     <measure implicit="no" number="5">
-      <note color="#13819E" id="n1kz6g5m">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="n1kz6g5m">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -268,7 +278,7 @@
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <notations>
           <tied type="start" />
         </notations>
@@ -473,12 +483,17 @@
     </measure>
     <!--========================= Measure 8 ==========================-->
     <measure implicit="no" number="8">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <direction placement="above">
         <direction-type>
           <wedge number="2" spread="15" type="diminuendo" />
         </direction-type>
       </direction>
-      <note color="#13819E" id="n1teoiko">
+      <note color="#FF0000" id="n1teoiko">
         <pitch>
           <step>E</step>
           <octave>5</octave>
@@ -487,7 +502,7 @@
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>tu</text>
@@ -1028,7 +1043,12 @@
     </measure>
     <!--========================= Measure 18 =========================-->
     <measure implicit="no" number="18">
-      <note color="#13819E" id="nj1qesx">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="nj1qesx">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -1037,7 +1057,7 @@
         <voice>1</voice>
         <type>whole</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>ni.</text>
@@ -1079,7 +1099,7 @@
       </attributes>
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted measure</words>
+          <words color="#FF0000">changed KeySignature info: ,sharp1</words>
         </direction-type>
       </direction>
       <direction placement="above">
@@ -1090,7 +1110,7 @@
         </direction-type>
         <sound dynamics="88" />
       </direction>
-      <note color="#FF0000" id="nv54g81">
+      <note color="#13819E" id="nv54g81">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -1099,12 +1119,22 @@
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>Cor</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted Note</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric offset</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n1s6dic8">
         <pitch>
           <step>B</step>
@@ -1120,6 +1150,16 @@
           <text>me</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted Note</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n1pqdc87">
         <pitch>
           <step>B</step>
@@ -1141,12 +1181,7 @@
     </measure>
     <!--========================= Measure 22 =========================-->
     <measure implicit="no" number="22">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="no4z7zz">
+      <note color="#13819E" id="no4z7zz">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -1155,12 +1190,17 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>et</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="nqv8v2g">
         <pitch>
           <step>A</step>
@@ -1176,6 +1216,11 @@
           <text>ca</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n1f3yehf">
         <pitch>
           <step>A</step>
@@ -1191,6 +1236,11 @@
           <text>ro</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n1yrk3tq">
         <pitch>
           <step>E</step>
@@ -1214,7 +1264,7 @@
     <measure implicit="no" number="23">
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted measure</words>
+          <words color="#FF0000">changed lyric</words>
         </direction-type>
       </direction>
       <note color="#FF0000" id="nueyy8a">
@@ -1232,12 +1282,17 @@
           <text>a,</text>
         </lyric>
       </note>
-      <note color="#FF0000" id="rr710ys">
+      <note color="#13819E" id="rr710ys">
         <rest />
         <duration>5040</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n6c1eug">
         <pitch>
           <step>B</step>
@@ -1253,6 +1308,11 @@
           <text>ex</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n1i8bkji">
         <pitch>
           <step>B</step>
@@ -1268,7 +1328,7 @@
           <text>ul</text>
         </lyric>
       </note>
-      <note color="#FF0000" id="n1p3hye5">
+      <note color="#13819E" id="n1p3hye5">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -1278,7 +1338,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>middle</syllabic>
           <text>ta</text>
@@ -1293,7 +1353,7 @@
       <print new-system="yes" />
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted measure</words>
+          <words color="#FF0000">changed lyric</words>
         </direction-type>
       </direction>
       <note color="#FF0000" id="n1pyhkb6">
@@ -1311,7 +1371,7 @@
           <text>ve</text>
         </lyric>
       </note>
-      <note color="#FF0000" id="n1c756b5">
+      <note color="#13819E" id="n1c756b5">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -1319,10 +1379,10 @@
         <duration>5040</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF0000" id="n914267">
+      <note color="#13819E" id="n914267">
         <pitch>
           <step>C</step>
           <octave>5</octave>
@@ -1330,10 +1390,10 @@
         <duration>5040</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" id="nomo860">
+      <note color="#13819E" id="nomo860">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -1341,10 +1401,10 @@
         <duration>5040</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" id="ni9knds">
+      <note color="#13819E" id="ni9knds">
         <pitch>
           <step>E</step>
           <octave>5</octave>
@@ -1352,7 +1412,7 @@
         <duration>5040</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <beam number="1">end</beam>
       </note>
       <barline location="right">
@@ -1361,12 +1421,7 @@
     </measure>
     <!--========================= Measure 25 =========================-->
     <measure implicit="no" number="25">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="n1jopid">
+      <note color="#13819E" id="n1jopid">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -1375,9 +1430,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
       </note>
-      <note color="#FF0000" id="n1p2yefh">
+      <note color="#13819E" id="n1p2yefh">
         <pitch>
           <step>C</step>
           <octave>5</octave>
@@ -1385,10 +1440,10 @@
         <duration>5040</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF0000" id="n1p1vkxk">
+      <note color="#13819E" id="n1p1vkxk">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -1396,10 +1451,10 @@
         <duration>5040</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <beam number="1">end</beam>
       </note>
-      <note color="#FF0000" id="n1fl0xk4">
+      <note color="#13819E" id="n1fl0xk4">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -1408,7 +1463,7 @@
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>end</syllabic>
           <text>runt</text>
@@ -1420,18 +1475,13 @@
     </measure>
     <!--========================= Measure 26 =========================-->
     <measure implicit="no" number="26">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="r17f3ccl">
+      <note color="#13819E" id="r17f3ccl">
         <rest />
         <duration>10080</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
-      <note color="#FF0000" id="n16l3a6l">
+      <note color="#13819E" id="n16l3a6l">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -1440,13 +1490,13 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>in</text>
         </lyric>
       </note>
-      <note color="#FF0000" id="nxx6mlk">
+      <note color="#13819E" id="nxx6mlk">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -1455,12 +1505,17 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>De</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="nwmgi0y">
         <pitch>
           <step>E</step>
@@ -1484,7 +1539,7 @@
     <measure implicit="no" number="27">
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted measure</words>
+          <words color="#FF0000">changed lyric</words>
         </direction-type>
       </direction>
       <note color="#FF0000" id="nzz7dmw">
@@ -1502,6 +1557,11 @@
           <text>vi</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n1y66jcg">
         <pitch>
           <step>D</step>
@@ -1517,7 +1577,7 @@
           <text>vum,</text>
         </lyric>
       </note>
-      <note color="#FF0000" id="r1pwogza">
+      <note color="#13819E" id="r1pwogza">
         <rest />
         <duration>10080</duration>
         <voice>1</voice>
@@ -1532,7 +1592,7 @@
       <print new-page="yes" />
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted measure</words>
+          <words color="#FF0000">changed lyric</words>
         </direction-type>
       </direction>
       <note color="#FF0000" id="nghmlmt">
@@ -1550,6 +1610,11 @@
           <text>ex</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n1aa16qw">
         <pitch>
           <step>F</step>
@@ -1566,6 +1631,11 @@
           <text>ul</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n1a54ez5">
         <pitch>
           <step>F</step>
@@ -1590,7 +1660,7 @@
     <measure implicit="no" number="29">
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted measure</words>
+          <words color="#FF0000">changed lyric</words>
         </direction-type>
       </direction>
       <note color="#FF0000" id="n1hzd29s">
@@ -1616,7 +1686,7 @@
     <measure implicit="no" number="30">
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted measure</words>
+          <words color="#FF0000">changed lyric</words>
         </direction-type>
       </direction>
       <note color="#FF0000" id="nlir297">
@@ -1640,12 +1710,7 @@
     </measure>
     <!--========================= Measure 31 =========================-->
     <measure implicit="no" number="31">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="r1dnsfzq">
+      <note color="#13819E" id="r1dnsfzq">
         <rest />
         <duration>10080</duration>
         <voice>1</voice>
@@ -1656,7 +1721,7 @@
           <wedge number="3" spread="0" type="crescendo" />
         </direction-type>
       </direction>
-      <note color="#FF0000" id="nnga3lg">
+      <note color="#13819E" id="nnga3lg">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -1665,13 +1730,13 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>in</text>
         </lyric>
       </note>
-      <note color="#FF0000" id="n1e2yes3">
+      <note color="#13819E" id="n1e2yes3">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -1680,12 +1745,17 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>De</text>
         </lyric>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000" id="n1o55dhs">
         <pitch>
           <step>E</step>
@@ -1707,11 +1777,6 @@
     </measure>
     <!--========================= Measure 32 =========================-->
     <measure implicit="no" number="32">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-      </direction>
       <direction placement="above">
         <direction-type>
           <dynamics>
@@ -1720,7 +1785,7 @@
         </direction-type>
         <sound dynamics="107" />
       </direction>
-      <note color="#FF0000" id="ntbchps">
+      <note color="#13819E" id="ntbchps">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -1730,7 +1795,7 @@
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>vi</text>
@@ -1739,6 +1804,11 @@
       <direction placement="above">
         <direction-type>
           <wedge number="3" spread="15" type="stop" />
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
         </direction-type>
       </direction>
       <note color="#FF0000" id="n1hzwd01">
@@ -1756,7 +1826,7 @@
           <text>vum</text>
         </lyric>
       </note>
-      <note color="#FF0000" id="rzi1fi0">
+      <note color="#13819E" id="rzi1fi0">
         <rest />
         <duration>10080</duration>
         <voice>1</voice>
@@ -1769,12 +1839,7 @@
     <!--========================= Measure 33 =========================-->
     <measure implicit="no" number="33">
       <print new-system="yes" />
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="m1xt32yp">
+      <note color="#13819E" id="m1xt32yp">
         <rest measure="yes" />
         <duration>40320</duration>
         <voice>1</voice>
@@ -2860,7 +2925,12 @@
     </measure>
     <!--========================= Measure 53 =========================-->
     <measure implicit="no" number="53">
-      <note color="#13819E" id="n1eixhe7">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="n1eixhe7">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -2869,7 +2939,7 @@
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>ne</text>
@@ -3181,12 +3251,7 @@
     <!--========================= Measure 63 =========================-->
     <measure implicit="no" number="63">
       <print new-system="yes" />
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="nhzarve">
+      <note color="#13819E" id="nhzarve">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -3196,7 +3261,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <notations>
           <tied type="stop" />
         </notations>
@@ -3659,7 +3724,12 @@
     </measure>
     <!--========================= Measure 73 =========================-->
     <measure implicit="no" number="73">
-      <note color="#13819E" id="n1wpv1bo">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed lyric</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="n1wpv1bo">
         <pitch>
           <step>D</step>
           <alter>0</alter>
@@ -3670,7 +3740,7 @@
         <type>whole</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>single</syllabic>
           <text>la</text>
@@ -3773,12 +3843,7 @@
     </measure>
     <!--========================= Measure 76 =========================-->
     <measure implicit="no" number="76">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="n10dk5t6">
+      <note color="#13819E" id="n10dk5t6">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -3788,7 +3853,7 @@
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>end</syllabic>
           <text>rum</text>
@@ -4224,7 +4289,12 @@
     </measure>
     <!--========================= Measure 89 =========================-->
     <measure implicit="no" number="89">
-      <note color="#13819E" id="m24hxc4">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted expression</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="m24hxc4">
         <rest measure="yes" />
         <duration>40320</duration>
         <voice>1</voice>
@@ -7884,7 +7954,12 @@
     </measure>
     <!--========================= Measure 79 =========================-->
     <measure implicit="no" number="79">
-      <note color="#13819E" id="n1eioqyu">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted articulation</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="n1eioqyu">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -7893,7 +7968,7 @@
         <voice>1</voice>
         <type>whole</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <notations>
           <articulations>
             <strong-accent type="up" />
@@ -8183,7 +8258,12 @@
     </measure>
     <!--========================= Measure 89 =========================-->
     <measure implicit="no" number="89">
-      <note color="#13819E" id="m1tnqp16">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted expression</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="m1tnqp16">
         <rest measure="yes" />
         <duration>40320</duration>
         <voice>1</voice>
@@ -9298,11 +9378,6 @@
     <measure implicit="no" number="23">
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-      </direction>
-      <direction>
-        <direction-type>
           <words color="#FF0000">changed lyric</words>
         </direction-type>
       </direction>
@@ -9329,12 +9404,7 @@
           <text>Cor</text>
         </lyric>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="n8oyhky">
+      <note color="#13819E" id="n8oyhky">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -9343,7 +9413,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <lyric name="1" number="1">
           <syllabic>begin</syllabic>
           <text>me</text>
@@ -12044,7 +12114,12 @@
     </measure>
     <!--========================= Measure 79 =========================-->
     <measure implicit="no" number="79">
-      <note color="#13819E" id="nn7jmg4">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed articulation</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="nn7jmg4">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -12053,7 +12128,7 @@
         <voice>1</voice>
         <type>whole</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <notations>
           <articulations>
             <strong-accent type="up" />
@@ -12332,7 +12407,12 @@
     </measure>
     <!--========================= Measure 89 =========================-->
     <measure implicit="no" number="89">
-      <note color="#13819E" id="m1i81bgw">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted expression</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="m1i81bgw">
         <rest measure="yes" />
         <duration>40320</duration>
         <voice>1</voice>
@@ -15196,12 +15276,7 @@
     </measure>
     <!--========================= Measure 61 =========================-->
     <measure implicit="no" number="61">
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed lyric</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000" id="n1n9al8q">
+      <note color="#13819E" id="n1n9al8q">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -15211,7 +15286,7 @@
         <voice>1</voice>
         <type>whole</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notehead color="#13819E" parentheses="no">normal</notehead>
         <notations>
           <tied type="start" />
           <articulations>
@@ -15994,7 +16069,12 @@
     </measure>
     <!--========================= Measure 79 =========================-->
     <measure implicit="no" number="79">
-      <note color="#13819E" id="n1pm6xst">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">changed articulation</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="n1pm6xst">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -16004,7 +16084,7 @@
         <voice>1</voice>
         <type>whole</type>
         <stem>up</stem>
-        <notehead color="#13819E" parentheses="no">normal</notehead>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <notations>
           <articulations>
             <strong-accent type="up" />
@@ -16283,7 +16363,12 @@
     </measure>
     <!--========================= Measure 89 =========================-->
     <measure implicit="no" number="89">
-      <note color="#13819E" id="m3v3dp2">
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted expression</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" id="m3v3dp2">
         <rest measure="yes" />
         <duration>40320</duration>
         <voice>1</voice>
@@ -16297,7 +16382,7 @@
     </measure>
   </part>
   <!--=========================== Part 5 ===========================-->
-  <part id="P681f81ad7f7c90721ef8e940ad2591c2">
+  <part id="Pd537f61ff0a1d6ca32a6faed76cf6c37">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -17303,21 +17388,15 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <attributes>
-        <clef id="c1rspemc" number="2">
-          <sign>G</sign>
-          <line>2</line>
-        </clef>
-      </attributes>
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted TrebleClef</words>
+          <words color="#FF0000">inserted Rest</words>
         </direction-type>
         <staff>2</staff>
       </direction>
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted Rest</words>
+          <words color="#FF0000">inserted TrebleClef</words>
         </direction-type>
         <staff>2</staff>
       </direction>
@@ -17520,12 +17599,6 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <attributes>
-        <clef id="c1qmjdxk" number="2">
-          <sign>F</sign>
-          <line>4</line>
-        </clef>
-      </attributes>
       <direction>
         <direction-type>
           <words color="#FF0000">inserted measure</words>
@@ -20915,12 +20988,6 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <attributes>
-        <clef id="c1fpi8sx" number="2">
-          <sign>G</sign>
-          <line>2</line>
-        </clef>
-      </attributes>
       <direction>
         <direction-type>
           <words color="#FF0000">inserted TrebleClef</words>
@@ -21079,18 +21146,6 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <attributes>
-        <clef id="csa0x46" number="2">
-          <sign>F</sign>
-          <line>4</line>
-        </clef>
-      </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted BassClef</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <direction>
         <direction-type>
           <words color="#FF0000">inserted KeySignature</words>
@@ -21100,6 +21155,12 @@
       <direction>
         <direction-type>
           <words color="#FF0000">inserted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted BassClef</words>
         </direction-type>
         <staff>2</staff>
       </direction>

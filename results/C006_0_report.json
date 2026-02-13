@@ -2,25 +2,25 @@
   "score_ref": "C006_0.mei",
   "title": "",
   "iiif_link": "",
-  "global_cost": 281,
-  "nb_diffs": 165,
+  "global_cost": 90,
+  "nb_diffs": 47,
   "predicted_stats": {
-    "total_symbols": 1048,
+    "total_symbols": 1035,
     "nb_notes": 800,
-    "notes_nsize": 2202,
-    "nb_context": 69,
-    "context_nsize": 93,
+    "notes_nsize": 2140,
+    "nb_context": 56,
+    "context_nsize": 80,
     "nb_lyrics": 179,
     "lyrics_nsize": 1034
   },
   "ground_stats": {
-    "total_symbols": 1165,
-    "nb_notes": 804,
-    "notes_nsize": 2211,
-    "nb_context": 179,
-    "context_nsize": 269,
+    "total_symbols": 1039,
+    "nb_notes": 801,
+    "notes_nsize": 2135,
+    "nb_context": 56,
+    "context_nsize": 80,
     "nb_lyrics": 182,
-    "lyrics_nsize": 1056
+    "lyrics_nsize": 1051
   },
   "aggr_ops": {
     "lyricdel": {
@@ -40,1157 +40,10 @@
         }
       ]
     },
-    "extrains": {
-      "label": "extrains",
-      "cost": 180,
-      "nb_diffs": 114,
-      "ops": [
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "direction,content=Mod.to non troppo lento,off=0.0",
-          "type2": "ReadingContext",
-          "id2": "d1v4is3a",
-          "cost": 23
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "dynamic,symbol=cresc.,off=0.5",
-          "type2": "ReadingContext",
-          "id2": 4432422160,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "dynamic,symbol=dim.,off=1.0",
-          "type2": "ReadingContext",
-          "id2": 4433465808,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "direction,content=a tempo,off=0.0",
-          "type2": "ReadingContext",
-          "id2": "dh9n48j",
-          "cost": 7
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "direction,content=rit.,off=0.0",
-          "type2": "ReadingContext",
-          "id2": "davmpby",
-          "cost": 4
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "direction,content=dol.,off=0.0",
-          "type2": "ReadingContext",
-          "id2": "d1x9b34a",
-          "cost": 4
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "direction,content=poco rinf.,off=2.0",
-          "type2": "ReadingContext",
-          "id2": "d2at0ne",
-          "cost": 10
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "direction,content=dolcissimo,off=2.5",
-          "type2": "ReadingContext",
-          "id2": "dea2ra1",
-          "cost": 10
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "dynamic,symbol=dim.,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4434598320,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "direction,content=a tempo,off=0.0",
-          "type2": "ReadingContext",
-          "id2": "dj6xcs1",
-          "cost": 7
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4432120144,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "tempo,content=Lento,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4426928480,
-          "cost": 5
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "direction,content=rit.,off=0.5",
-          "type2": "ReadingContext",
-          "id2": "da1jx90",
-          "cost": 4
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "crescendo,off=0.0,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4430320400,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "diminuendo,off=2.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430320720,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=6.0",
-          "type2": "ReadingContext",
-          "id2": 4432118096,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "barline,symbol=final",
-          "type2": "ReadingContext",
-          "id2": 4435580016,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430274128,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4430273872,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4430271824,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4430273360,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4430273616,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430272848,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430272080,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430272336,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430271568,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430271312,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.5",
-          "type2": "ReadingContext",
-          "id2": 4430270288,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4430270544,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430270032,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430269520,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4430268752,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430268496,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430267984,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430268240,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4430267472,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430267216,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4429317264,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4429565968,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430227328,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430320080,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4430319760,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=6.0",
-          "type2": "ReadingContext",
-          "id2": 4420807920,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430274640,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=6.0",
-          "type2": "ReadingContext",
-          "id2": 4430282320,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=6.0",
-          "type2": "ReadingContext",
-          "id2": 4432117840,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430281808,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430282064,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=1.0,dur=3.0",
-          "type2": "ReadingContext",
-          "id2": 4430280528,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=3.0,dur=5.0",
-          "type2": "ReadingContext",
-          "id2": 4430280784,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430279760,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=3.0,dur=3.0",
-          "type2": "ReadingContext",
-          "id2": 4430280016,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430279248,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=2.5",
-          "type2": "ReadingContext",
-          "id2": 4430278992,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430278480,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430277968,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=1.5,dur=2.5",
-          "type2": "ReadingContext",
-          "id2": 4430277456,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=4.5",
-          "type2": "ReadingContext",
-          "id2": 4430276944,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430276432,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430275920,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430275408,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "barline,symbol=final",
-          "type2": "ReadingContext",
-          "id2": 4435580688,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=1.0,dur=1.0",
-          "type2": "ReadingContext",
-          "id2": 4432122448,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=1.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4432122704,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "dynamic,symbol=dim.,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4435576656,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=0.5",
-          "type2": "ReadingContext",
-          "id2": 4432121680,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "dynamic,symbol=mf,off=0.5",
-          "type2": "ReadingContext",
-          "id2": 4435575536,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4432120912,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4432121168,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4432120400,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4432120656,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4432119376,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4432119632,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4432118608,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4432118864,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430226720,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4429317536,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430267728,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430269776,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430269008,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "dynamic,symbol=cresc.,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4432422384,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=2.5",
-          "type2": "ReadingContext",
-          "id2": 4430270800,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=3.5,dur=2.5",
-          "type2": "ReadingContext",
-          "id2": 4430271056,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430273104,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430272592,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430274384,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "dynamic,symbol=dim.,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4433466032,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430274896,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430281552,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430281040,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430281296,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430280272,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430279504,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430278736,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.0,dur=2.0",
-          "type2": "ReadingContext",
-          "id2": 4430278224,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430277712,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430277200,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430276688,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430276176,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "diminuendo,off=0.0,dur=3.875",
-          "type2": "ReadingContext",
-          "id2": 4426926464,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4430275664,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "crescendo,off=0.5,dur=3.0",
-          "type2": "ReadingContext",
-          "id2": 4420807248,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "dynamic,symbol=p,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4433471632,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4430275152,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "dynamic,symbol=pp,off=2.0",
-          "type2": "ReadingContext",
-          "id2": 4434600336,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4432119888,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4432119120,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.5,dur=3.5",
-          "type2": "ReadingContext",
-          "id2": 4432118352,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "barline,symbol=final",
-          "type2": "ReadingContext",
-          "id2": 4435580912,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "pedalmark,off=1.0,dur=0.0",
-          "type2": "ReadingContext",
-          "id2": 4426926800,
-          "cost": 2
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=1.0,dur=4.0",
-          "type2": "ReadingContext",
-          "id2": 4432122960,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=0.0,dur=2.5",
-          "type2": "ReadingContext",
-          "id2": 4432121936,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4432122192,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "slur,off=2.5,dur=1.5",
-          "type2": "ReadingContext",
-          "id2": 4432121424,
-          "cost": 1
-        }
-      ]
-    },
     "lyricedit": {
       "label": "lyricedit",
-      "cost": 22,
-      "nb_diffs": 16,
+      "cost": 29,
+      "nb_diffs": 20,
       "ops": [
         {
           "label": "lyricedit",
@@ -1201,6 +54,16 @@
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "-te ;,num=1,id=,off=1.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "te\u00a0;,num=1,id=,off=1.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 2
         },
         {
           "label": "lyricedit",
@@ -1218,6 +81,26 @@
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "c\u0153ur,num=1,id=,off=1.5,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "Oh !,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "Oh\u00a0!,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "-e !,num=1,id=,off=2.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "e\u00a0!,num=1,id=,off=2.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 2
@@ -1247,7 +130,7 @@
           "first_annot_obj": "ge ;,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
-          "second_annot_obj": "-ge ;,num=1,id=,off=0.0,style={}",
+          "second_annot_obj": "ge\u00a0;,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -1324,6 +207,16 @@
         },
         {
           "label": "lyricedit",
+          "first_annot_obj": "-e ;,num=1,id=,off=1.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "e\u00a0;,num=1,id=,off=1.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "lyricedit",
           "first_annot_obj": "D\u00e2me,num=1,id=,off=2.5,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -1337,7 +230,7 @@
           "first_annot_obj": "re :,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
-          "second_annot_obj": "-re :,num=1,id=,off=0.0,style={}",
+          "second_annot_obj": "re\u00a0:,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -1356,74 +249,87 @@
     },
     "delarticulation": {
       "label": "delarticulation",
-      "cost": 2,
-      "nb_diffs": 2,
+      "cost": 8,
+      "nb_diffs": 8,
       "ops": [
         {
           "label": "delarticulation",
-          "first_annot_obj": "[F4sharp]2 tenuto",
+          "first_annot_obj": "[N-3sharp]2 tenuto",
           "type1": "Note",
           "id1": "v1_nh_1973_1024",
-          "second_annot_obj": "[F4sharp]2",
+          "second_annot_obj": "[N-3sharp]2",
           "type2": "Note",
-          "id2": "n11r8uwo",
+          "id2": "vhcz91b",
           "cost": 1
         },
         {
           "label": "delarticulation",
-          "first_annot_obj": "[G4]4Bpa tenuto",
+          "first_annot_obj": "[N-2]4Bpa tenuto",
           "type1": "Note",
           "id1": "v1_nh_2240_3206",
-          "second_annot_obj": "[G4]4Bpa",
+          "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": "nicek70",
-          "cost": 1
-        }
-      ]
-    },
-    "extradel": {
-      "label": "extradel",
-      "cost": 4,
-      "nb_diffs": 4,
-      "ops": [
-        {
-          "label": "extradel",
-          "first_annot_obj": "dynamic,symbol=f,off=3.0",
-          "type1": "ReadingContext",
-          "id1": 4421090640,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
+          "id2": "d1sk50u7",
           "cost": 1
         },
         {
-          "label": "extradel",
-          "first_annot_obj": "dynamic,symbol=mp,off=3.5",
-          "type1": "ReadingContext",
-          "id1": 4428347536,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
+          "label": "delarticulation",
+          "first_annot_obj": "[N-9]4 staccato",
+          "type1": "Note",
+          "id1": "chord_v1_nh_3308_4722",
+          "second_annot_obj": "[N-9]4",
+          "type2": "Note",
+          "id2": "sh9lz9b",
           "cost": 1
         },
         {
-          "label": "extradel",
-          "first_annot_obj": "dynamic,symbol=pp,off=2.0",
-          "type1": "ReadingContext",
-          "id1": 4428347776,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
+          "label": "delarticulation",
+          "first_annot_obj": "[N-7flat]4 staccato",
+          "type1": "Note",
+          "id1": "chord_v1_nh_2809_4723",
+          "second_annot_obj": "[N-7flat]4",
+          "type2": "Note",
+          "id2": "l1dx4cyl",
           "cost": 1
         },
         {
-          "label": "extradel",
-          "first_annot_obj": "dynamic,symbol=p,off=0.5",
-          "type1": "ReadingContext",
-          "id1": 4421090896,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
+          "label": "delarticulation",
+          "first_annot_obj": "[N-8]4 staccato",
+          "type1": "Note",
+          "id1": "chord_v1_nh_3088_4691",
+          "second_annot_obj": "[N-8]4",
+          "type2": "Note",
+          "id2": "r9cfqn9",
+          "cost": 1
+        },
+        {
+          "label": "delarticulation",
+          "first_annot_obj": "[N-11]4 staccato",
+          "type1": "Note",
+          "id1": "chord_v2_nh_3316_5107",
+          "second_annot_obj": "[N-11]4",
+          "type2": "Note",
+          "id2": "c1cwrijk",
+          "cost": 1
+        },
+        {
+          "label": "delarticulation",
+          "first_annot_obj": "[N-8]4 staccato",
+          "type1": "Note",
+          "id1": "chord_v2_nh_2815_5065",
+          "second_annot_obj": "[N-8]4",
+          "type2": "Note",
+          "id2": "y1ghy27l",
+          "cost": 1
+        },
+        {
+          "label": "delarticulation",
+          "first_annot_obj": "[N-7]4 staccato",
+          "type1": "Note",
+          "id1": "chord_v2_nh_3094_5050",
+          "second_annot_obj": "[N-7]4",
+          "type2": "Note",
+          "id2": "dy7a567",
           "cost": 1
         }
       ]
@@ -1448,20 +354,20 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "a-,num=1,id=,off=2.5,style={}",
+          "second_annot_obj": "-e,,num=1,id=,off=3.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 4
+          "cost": 5
         },
         {
           "label": "lyricins",
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "-e,,num=1,id=,off=3.0,style={}",
+          "second_annot_obj": "a-,num=1,id=,off=2.5,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 5
+          "cost": 4
         },
         {
           "label": "lyricins",
@@ -1475,114 +381,77 @@
         }
       ]
     },
-    "insexpression": {
-      "label": "insexpression",
-      "cost": 3,
-      "nb_diffs": 3,
-      "ops": [
-        {
-          "label": "insexpression",
-          "first_annot_obj": "[R]1",
-          "type1": "Note",
-          "id1": "rest_3493_4255",
-          "second_annot_obj": "[R]1 fermata",
-          "type2": "Note",
-          "id2": "r3ukvp6",
-          "cost": 1
-        },
-        {
-          "label": "insexpression",
-          "first_annot_obj": "[R]2",
-          "type1": "Note",
-          "id1": "rest_3588_4619",
-          "second_annot_obj": "[R]2 fermata",
-          "type2": "Note",
-          "id2": "r1vp8pdx",
-          "cost": 1
-        },
-        {
-          "label": "insexpression",
-          "first_annot_obj": "[R]2",
-          "type1": "Note",
-          "id1": "rest_3595_4947",
-          "second_annot_obj": "[R]2 fermata",
-          "type2": "Note",
-          "id2": "r1x0bbs7",
-          "cost": 1
-        }
-      ]
-    },
     "accidentdel": {
       "label": "accidentdel",
-      "cost": 1,
-      "nb_diffs": 1,
+      "cost": 2,
+      "nb_diffs": 2,
       "ops": [
         {
           "label": "accidentdel",
-          "first_annot_obj": "[D4natural]4",
+          "first_annot_obj": "[N-5natural]4",
           "type1": "Note",
           "id1": "chord_v1_nh_3574_1464",
-          "second_annot_obj": "[D4]4",
+          "second_annot_obj": "[N-5]4",
           "type2": "Note",
-          "id2": "cmvi3wu",
+          "id2": "jihyguf",
+          "cost": 1
+        },
+        {
+          "label": "accidentdel",
+          "first_annot_obj": "[N-4natural]4",
+          "type1": "Note",
+          "id1": "v3_nh_2147_4773",
+          "second_annot_obj": "[N-4]4",
+          "type2": "Note",
+          "id2": "pm257ls",
           "cost": 1
         }
       ]
     },
-    "editbeam": {
-      "label": "editbeam",
-      "cost": 5,
-      "nb_diffs": 5,
+    "noteins": {
+      "label": "noteins",
+      "cost": 10,
+      "nb_diffs": 4,
       "ops": [
         {
-          "label": "editbeam",
-          "first_annot_obj": "[F3sharp]4Bsr",
-          "type1": "Note",
-          "id1": "v1_nh_3041_2481",
-          "second_annot_obj": "[F3sharp]4Bpa",
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": "nounuvd",
-          "cost": 1
+          "id2": "b1uinxyl",
+          "cost": 3
         },
         {
-          "label": "editbeam",
-          "first_annot_obj": "[A3]4Bco",
-          "type1": "Note",
-          "id1": "v1_nh_3138_2450",
-          "second_annot_obj": "[A3]4Bpa",
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N-2]4",
           "type2": "Note",
-          "id2": "n175iaso",
-          "cost": 1
+          "id2": "nrrpyk9",
+          "cost": 2
         },
         {
-          "label": "editbeam",
-          "first_annot_obj": "[C4]4Bco",
-          "type1": "Note",
-          "id1": "v1_nh_3243_2261",
-          "second_annot_obj": "[C4]4Bpa",
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N1]2",
           "type2": "Note",
-          "id2": "n1jo83i8",
-          "cost": 1
+          "id2": "r1djil8w",
+          "cost": 2
         },
         {
-          "label": "editbeam",
-          "first_annot_obj": "[E4]4Bsp",
-          "type1": "Note",
-          "id1": "v1_nh_3341_2229",
-          "second_annot_obj": "[E4]4Bpa",
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N0]4Bpa",
           "type2": "Note",
-          "id2": "nwwlbgn",
-          "cost": 1
-        },
-        {
-          "label": "editbeam",
-          "first_annot_obj": "[C3]4*Bsp",
-          "type1": "Note",
-          "id1": "v2_nh_2587_3857",
-          "second_annot_obj": "[C3]4Bco",
-          "type2": "Note",
-          "id2": "nd0lu88",
-          "cost": 1
+          "id2": "e138dory",
+          "cost": 3
         }
       ]
     },
@@ -1593,7 +462,7 @@
       "ops": [
         {
           "label": "notedel",
-          "first_annot_obj": "[E3]2",
+          "first_annot_obj": "[N-11]2",
           "type1": "Note",
           "id1": "chord_v3_nh_3307_1592",
           "second_annot_obj": "None",
@@ -1603,7 +472,7 @@
         },
         {
           "label": "notedel",
-          "first_annot_obj": "[G3]2",
+          "first_annot_obj": "[N-9]2",
           "type1": "Note",
           "id1": "chord_v3_nh_3307_1592",
           "second_annot_obj": "None",
@@ -1613,7 +482,7 @@
         },
         {
           "label": "notedel",
-          "first_annot_obj": "[G3]2",
+          "first_annot_obj": "[N3]2",
           "type1": "Note",
           "id1": "chord_v3_nh_853_2720",
           "second_annot_obj": "None",
@@ -1623,114 +492,57 @@
         }
       ]
     },
-    "noteins": {
-      "label": "noteins",
-      "cost": 16,
-      "nb_diffs": 7,
+    "insexpression": {
+      "label": "insexpression",
+      "cost": 2,
+      "nb_diffs": 2,
       "ops": [
         {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[G4]4",
-          "type2": "Note",
-          "id2": "cnci2yg",
-          "cost": 2
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[R]4",
-          "type2": "Note",
-          "id2": "r1h1epvz",
-          "cost": 2
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[R]2",
-          "type2": "Note",
-          "id2": "rllcu3u",
-          "cost": 2
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[R]4",
-          "type2": "Note",
-          "id2": "ryizkzn",
-          "cost": 2
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[G4]4Bpa",
-          "type2": "Note",
-          "id2": "c10wzqyr",
-          "cost": 3
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[E3]2",
-          "type2": "Note",
-          "id2": "n91e9mo",
-          "cost": 2
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[D3]4Bsp",
-          "type2": "Note",
-          "id2": "npy6jfs",
-          "cost": 3
-        }
-      ]
-    },
-    "tieins": {
-      "label": "tieins",
-      "cost": 1,
-      "nb_diffs": 1,
-      "ops": [
-        {
-          "label": "tieins",
-          "first_annot_obj": "[C4natural]4",
+          "label": "insexpression",
+          "first_annot_obj": "[R]2",
           "type1": "Note",
-          "id1": "v1_nh_3101_3603",
-          "second_annot_obj": "[C4naturalT]4",
+          "id1": "rest_3588_4619",
+          "second_annot_obj": "[R]2 fermata",
           "type2": "Note",
-          "id2": "n1hko5v1",
+          "id2": "yozk17a",
+          "cost": 1
+        },
+        {
+          "label": "insexpression",
+          "first_annot_obj": "[R]2",
+          "type1": "Note",
+          "id1": "rest_3595_4947",
+          "second_annot_obj": "[R]2 fermata",
+          "type2": "Note",
+          "id2": "f1w3mm6y",
           "cost": 1
         }
       ]
     },
-    "tiedel": {
-      "label": "tiedel",
-      "cost": 1,
-      "nb_diffs": 1,
+    "accidentedit": {
+      "label": "accidentedit",
+      "cost": 4,
+      "nb_diffs": 2,
       "ops": [
         {
-          "label": "tiedel",
-          "first_annot_obj": "[G2T]1",
+          "label": "accidentedit",
+          "first_annot_obj": "[N-3sharp]4",
           "type1": "Note",
-          "id1": "v2_nh_1830_1710",
-          "second_annot_obj": "[G2]1",
+          "id1": "chord_v1_nh_3088_4691",
+          "second_annot_obj": "[N-3flat]4",
           "type2": "Note",
-          "id2": "n14uvvp6",
-          "cost": 1
+          "id2": "r9cfqn9",
+          "cost": 2
+        },
+        {
+          "label": "accidentedit",
+          "first_annot_obj": "[N2sharp]4Bpa",
+          "type1": "Note",
+          "id1": "v2_nh_1767_4930",
+          "second_annot_obj": "[N2natural]4Bpa",
+          "type2": "Note",
+          "id2": "buldt12",
+          "cost": 2
         }
       ]
     },
@@ -1741,47 +553,13 @@
       "ops": [
         {
           "label": "dotdel",
-          "first_annot_obj": "[C3]4*Bsp",
+          "first_annot_obj": "[N-1]4*Bpa",
           "type1": "Note",
           "id1": "v2_nh_2587_3857",
-          "second_annot_obj": "[C3]4Bco",
+          "second_annot_obj": "[N-1]4Bpa",
           "type2": "Note",
-          "id2": "nd0lu88",
+          "id2": "dos469n",
           "cost": 1
-        }
-      ]
-    },
-    "staffgrpnameedit": {
-      "label": "staffgrpnameedit",
-      "cost": 8,
-      "nb_diffs": 1,
-      "ops": [
-        {
-          "label": "staffgrpnameedit",
-          "first_annot_obj": "StaffGroup(Pianotons), partIndices=[1, 2]",
-          "type1": "<class 'musicdiff.annotation.AnnStaffGroup'>",
-          "id1": "",
-          "second_annot_obj": "StaffGroup(PIANO,Pno), partIndices=[1, 2]",
-          "type2": "<class 'musicdiff.annotation.AnnStaffGroup'>",
-          "id2": "",
-          "cost": 8
-        }
-      ]
-    },
-    "staffgrpabbreviationedit": {
-      "label": "staffgrpabbreviationedit",
-      "cost": 3,
-      "nb_diffs": 1,
-      "ops": [
-        {
-          "label": "staffgrpabbreviationedit",
-          "first_annot_obj": "StaffGroup(Pianotons), partIndices=[1, 2]",
-          "type1": "<class 'musicdiff.annotation.AnnStaffGroup'>",
-          "id1": "",
-          "second_annot_obj": "StaffGroup(PIANO,Pno), partIndices=[1, 2]",
-          "type2": "<class 'musicdiff.annotation.AnnStaffGroup'>",
-          "id2": "",
-          "cost": 3
         }
       ]
     }

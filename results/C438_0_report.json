@@ -2,135 +2,58 @@
   "score_ref": "C438_0.mei",
   "title": "",
   "iiif_link": "",
-  "global_cost": 4138,
-  "nb_diffs": 449,
+  "global_cost": 4165,
+  "nb_diffs": 438,
   "predicted_stats": {
-    "total_symbols": 1953,
-    "nb_notes": 1423,
-    "notes_nsize": 3562,
+    "total_symbols": 1958,
+    "nb_notes": 1428,
+    "notes_nsize": 3607,
     "nb_context": 18,
     "context_nsize": 42,
     "nb_lyrics": 512,
-    "lyrics_nsize": 2932
+    "lyrics_nsize": 2949
   },
   "ground_stats": {
-    "total_symbols": 1020,
+    "total_symbols": 1022,
     "nb_notes": 764,
-    "notes_nsize": 1931,
+    "notes_nsize": 1939,
     "nb_context": 12,
     "context_nsize": 28,
-    "nb_lyrics": 244,
-    "lyrics_nsize": 1455
+    "nb_lyrics": 246,
+    "lyrics_nsize": 1466
   },
   "aggr_ops": {
     "delpart": {
       "label": "delpart",
-      "cost": 1733,
+      "cost": 1765,
       "nb_diffs": 2,
       "ops": [
         {
           "label": "delpart",
-          "first_annot_obj": "Part: [\"['[R]2', '[R]2'] Extras:['clef,symbol=G2,off=0.0', 'keysig,off=0.0,info:,sharp0=F,sharp1=C,sharp2=G,sharp3=D', 'timesig,off=0.0,info:,numerator=2,denominator=4']\", \"['[R]2', '[R]2']\", \"['[R]4', '[R]4', '[N-2]4Bpa', '[R]4', '[R]4', '[N-4]4Bpa']\", \"['[N-1]4', '[N-2]4', '[N-3]4', '[N-4]4Bpa']\", \"['[N-1]4', '[N-2]4Bpa', '[N0]4Bpa', '[N-3]4', '[N-4]4Bpa', '[N-2]4Bpa']\", \"['[N1]4', '[N0]4', '[N-3]4', '[N-2]4Bpa', '[N-3]4Bpa']\", \"['[N1]4', '[N0]4Bpa', '[N0]4Bpa', '[N-3]4', '[N-2]4Bpa', '[N-4]4Bpa']\", \"['[N2]4', '[N0]4', '[N-5]4', '[N-5]4Bpa', '[N-4]4Bpa']\", \"['[N0]4', '[R]4', '[N0]4Bpa', '[N-5]4', '[R]4', '[N-3]4Bpa']\", \"['[N1]4', '[N1]4', '[N-2]4', '[N-1]4Bpa', '[N-2]4Bpa']\", \"['[N1]4', '[N0]4', '[N-3]4', '[N-3]4']\", \"['[N0]4', '[N0]4Bpa', '[N0]4Bpa', '[N-3]4', '[N-2]4Bpa', '[N-3]4Bpa']\", \"['[N0]4', '[N-1]4Bpa', '[N-1]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-4]4Bpa']\", \"['[N-2]4', '[N5]4', '[N-2]2']\", \"['[N5]4', '[N4]4Bpa', '[N3]4Bpa', '[N-2]2']\", \"['[N2]4Bpa', '[N1]4Bpa', '[N0]4Bpa', '[N0]4Bpa', '[N-2]4', '[R]4', '[N-4]4Bpa']\", \"['[N0]4', '[N0]4Bpa', '[N0]4Bpa', '[N-3]4', '[N-6]4Bpa', '[N-5]4Bpa']\", \"['[N0]4', '[R]4', '[N-4]4', '[R]4', '[N-2]4Bpa']\", \"['[R]2', '[N-2]4', '[N-3]4Bpa', '[N-4]4Bpa']\", \"['[R]4', '[R]4', '[N2]4Bpa', '[N-4]4', '[N-5]4Bpa', '[N0]4Bpa']\", \"['[N2]4', '[N1]4Bpa', '[N0]4Bpa', '[N0]4', '[N-1sharp]4Bpa', '[N-2]4Bpa']\", \"['[N0]4', '[N-1sharp]4Bpa', '[R]4', '[N-2]4', '[N-5]4Bpa', '[R]4']\", \"['[R]2', '[R]2']\", \"['[R]4', '[R]4', '[N2]4Bpa', '[R]4', '[R]4', '[N-2]4Bpapa']\", \"['[N2]4', '[N2]4Bpa', '[N2]4Bpa', '[N-3double-sharp]4', '[N-2]4Bpa', '[N-1sharp]4Bpa']\", \"['[N2]4', '[N2]4Bpa', '[N0sharp]4Bpa', '[N-1sharp]4', '[N-2]4Bpa', '[N-2]4Bpa', '[N-9]4Bpa']\", \"['[N1]4', '[N0sharp]4Bpa', '[N4]4Bpa', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N4]4', '[N3]4', '[N-2]4', '[N-2]4']\", \"['[R]4', '[N-4]4']\", \"['[R]2', '[N-4]4', '[N1]4']\", \"['[R]2', '[N1]4', '[N0]4Bpa', '[N-1]4Bpa']\", \"['[R]4', '[R]4', '[N1]4Bpa', '[N-2]4Bpa', '[N-3]4Bpa', '[N-4]4Bpa', '[N-4]4Bpa']\", \"['[N0]4', '[N0]4', '[N-4]4', '[N-3]4Bpa', '[N-5]4Bpa']\", \"['[N0]2', '[N-4]2']\", \"['[N0]4Bpa', '[R]4', '[R]4', '[N-4]4Bpa', '[R]4', '[R]4', '[N-4]4Bpa']\", \"['[R]2', '[N-4]4', '[N-3]4Bpa', '[N-4]4Bpa']\", \"['[R]4', '[R]4', '[N1]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-1]4Bpa']\", \"['[N1]4', '[N1]4Bpa', '[N-1]4Bpa', '[N1]4Bpa', '[N-1]4', '[N-1]4Bpa', '[N-8]4Bpa']\", \"['[N1]4', '[N0]4Bpa', '[N2natural]4Bpa', '[N-1]4', '[N-1]4Bpa', '[N-1]4Bpa']\", \"['[N2natural]4', '[N2]4Bpa', '[N2]4Bpa', '[N-1]4', '[N0]4Bpa', '[N0]4Bpa']\", \"['[N2natural]4', '[N1]4Bpa', '[N1]4Bpa', '[N0]4', '[N-1]4Bpa', '[N-1]4Bpa']\", \"['[N1]4', '[N1]4Bpa', '[N1]4Bpa', '[N0]4', '[N-1]4Bpa', '[N-1]4Bpa']\", \"['[N1]2', '[N-2]2']\", \"['[N1]4Bpa', '[R]4', '[R]4', '[N1]4Bpa', '[R]4', '[R]4', '[N-4sharp]4Bpapa']\", \"['[N1]4', '[N2]4Bpa', '[N3sharp]4Bpa', '[N-4sharp]4', '[N-3]4Bpa', '[N-2]4Bpa', '[N-13]4Bpa']\", \"['[N3sharp]4*', '[N2]4Bpa', '[N-2]4', '[N-3]4Bpa']\", \"['[N1]4Bpa', '[R]4', '[R]4', '[N1]4Bpa', '[N-4sharp]4', '[R]4', '[N-4natural]4Bpa', '[R]4']\", \"['[N1]4', '[N2]4', '[N-4]4', '[N-3]4Bpa', '[N-2]4Bpa']\", \"['[N3]4*', '[N2]4Bpa', '[N-2]4']\", \"['[N1]4Bpa', '[R]4', '[R]4', '[N1]4Bpa', '[N-4]4Bpapa', '[R]4', '[R]4', '[N-4]4Bpa']\", \"['[N2natural]2', '[N-3natural]2']\", \"['[N2natural]4', '[N2]4', '[N-3natural]4', '[N-3]4']\", \"['[N2natural]2', '[N-3natural]2']\", \"['[N2natural]4Bpa', '[R]4', '[R]4', '[N2]4Bpa', '[N-4]4Bpa', '[R]4', '[R]4', '[N-4]4Bpa']\", \"['[N1]4', '[N1]4Bpa', '[N3]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-4]4Bpa']\", \"['[N3]4', '[N1]4Bpa', '[N0]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-4sharp]4Bpa']\", \"['[N-1]4', '[N0]4Bpa', '[N1]4Bpa', '[N-3]4', '[N-3]4Bpa', '[N-3]4Bpa']\", \"['[N1]4', '[N-1]4', '[N-3]4', '[N-3]4Bpa', '[N-4]4Bpa']\", \"['[N-3]4', '[N-2]4Bpa', '[N-3]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-4]4Bpa']\", \"['[N1]4', '[R]4', '[N-4]4', '[R]4']\", \"['[R]4', '[N1]4', '[N-3]4', '[N-3double-sharp]4']\", \"['[N0]2', '[N-2]2']\", \"['[N5]2', '[N-2]2']\", \"['[N5]2', '[N-2]2']\", \"['[N4]4', '[N3]4', '[R]2']\", \"['[N2]4', '[N1]4', '[R]2']\", \"['[N0]4', '[N0]4', '[R]4', '[N-4]4']\", \"['[N0]2', '[N-3]4', '[N-4]4']\", \"['[N0]4', '[N0]4', '[N-5]4', '[N-6]4Bpa', '[N-5]4Bpa']\", \"['[N0]4', '[R]4', '[N-4]4', '[R]4', '[N-4]4Bpa']\", \"['[R]2', '[N-4]4', '[N-3]4Bpa', '[N-4]4Bpa']\", \"['[N-2]2', '[N-5natural]4', '[N-4]4Bpa', '[N-5]4Bpa']\", \"['[N-1]2', '[N-6natural]4', '[N-5natural]4Bpa', '[N-6]4Bpa']\", \"['[N-1]4', '[N-2]4', '[N-7]4', '[R]4']\", \"['[N0]2', '[N-2]2']\", \"['[N0]2', '[N-2]2']\", \"['[N1natural]2', '[N-3]2']\", \"['[N3]2', '[N-2]2']\"]",
+          "first_annot_obj": "Part: [\"['[R]2', '[R]2'] Extras:['clef,symbol=G2,off=0.0', 'keysig,off=0.0,info:,sharp0=F,sharp1=C,sharp2=G,sharp3=D', 'timesig,off=0.0,info:,numerator=2,denominator=4']\", \"['[R]2', '[R]2']\", \"['[R]4', '[R]4', '[N-2]4Bpa', '[R]4', '[R]4', '[N-4]4Bpa']\", \"['[N-1]4', '[N-2]4', '[N-3]4', '[N-4]4Bpa']\", \"['[N-1]4', '[N-2]4Bpa', '[N0]4Bpa', '[N-3]4', '[N-4]4Bpa', '[N-2]4Bpa']\", \"['[N1]4', '[N0]4', '[N-3]4', '[N-2]4Bpa', '[N-3]4Bpa']\", \"['[N1]4', '[N0]4Bpa', '[N0]4Bpa', '[N-3]4', '[N-2]4Bpa', '[N-4]4Bpa']\", \"['[N2]4', '[N0]4', '[N-5]4', '[N-5]4Bpa', '[N-4]4Bpa']\", \"['[N0]4', '[R]4', '[N0]4Bpa', '[N-5]4', '[R]4', '[N-3]4Bpa']\", \"['[N1]4', '[N1]4', '[N-2]4', '[N-1]4Bpa', '[N-2]4Bpa']\", \"['[N1]4', '[N0]4', '[N-3]4', '[N-3]4Bpa', '[N-3]4Bpa']\", \"['[N0]4', '[N0]4Bpa', '[N0]4Bpa', '[N-3]4', '[N-2]4Bpa', '[N-3]4Bpa']\", \"['[N0]4', '[N-1]4Bpa', '[N-1]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-4]4Bpa']\", \"['[N-2]4', '[N5]4', '[N-2]2']\", \"['[N5]4', '[N4]4Bpa', '[N3]4Bpa', '[N-2]2']\", \"['[N2]4Bpa', '[N1]4Bpa', '[N0]4Bpa', '[N0]4Bpa', '[N-2]4', '[R]4', '[N-4]4Bpa']\", \"['[N0]4', '[N0]4Bpa', '[N0]4Bpa', '[N-3]4', '[N-6]4Bpa', '[N-5]4Bpa']\", \"['[N0]4', '[R]4', '[N-4]4', '[R]4', '[N-2]4Bpa']\", \"['[R]2', '[N-2]4', '[N-3]4Bpa', '[N-4]4Bpa']\", \"['[R]4', '[R]4', '[N2]4Bpa', '[N-4]4 accent', '[N-5]4Bpa', '[N0]4Bpa']\", \"['[N2]4', '[N1]4Bpa', '[N0]4Bpa', '[N0]4', '[N-1sharp]4Bpa', '[N-2]4Bpa']\", \"['[N0]4 accent', '[N-1sharp]4Bpa', '[R]4', '[N-2]4', '[N-5]4Bpa', '[R]4']\", \"['[R]2', '[R]2']\", \"['[R]4', '[R]4', '[N2]4Bpa', '[R]4', '[R]4', '[N-2]4Bpapa']\", \"['[N2]4', '[N2]4Bpa', '[N2]4Bpa', '[N-3double-sharp]4', '[N-2]4Bpa', '[N-1sharp]4Bpa']\", \"['[N2]4', '[N2]4Bpa', '[N0sharp]4Bpa', '[N-1sharp]4', '[N-2]4Bpa', '[N-2]4Bpa', '[N-9]4Bpa']\", \"['[N1]4', '[N0sharp]4Bpa', '[N4]4Bpa', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N4]4', '[N3]4', '[N-2]4', '[N-2]4']\", \"['[R]4', '[N-4]4']\", \"['[R]2', '[N-4]4', '[N1]4']\", \"['[R]2', '[N1]4', '[N0]4Bpa', '[N-1]4Bpa']\", \"['[R]4', '[R]4', '[N1]4Bpa', '[N-2]4Bpa', '[N-3]4Bpa', '[N-4]4Bpa', '[N-4]4Bpa']\", \"['[N0]4', '[N0]4', '[N-4]4', '[N-3]4Bpa', '[N-5]4Bpa']\", \"['[N0]2', '[N-4]2']\", \"['[N0]4Bpa', '[R]4', '[R]4', '[N-4]4Bpa', '[R]4', '[R]4', '[N-4]4Bpa']\", \"['[R]2', '[N-4]4', '[N-3]4Bpa', '[N-4]4Bpa']\", \"['[R]4', '[R]4', '[N1]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-1]4Bpa']\", \"['[N1]4', '[N1]4Bpa', '[N-1]4Bpa', '[N1]4Bpa', '[N-1]4', '[N-1]4Bpa', '[N-8]4Bpa tenuto']\", \"['[N1]4', '[N0]4Bpa', '[N2natural]4Bpa', '[N-1]4', '[N-1]4Bpa', '[N-1]4Bpa']\", \"['[N2natural]4', '[N2]4Bpa', '[N2]4Bpa', '[N-1]4', '[N0]4Bpa', '[N0]4Bpa']\", \"['[N2natural]4', '[N1]4Bpa', '[N1]4Bpa', '[N0]4', '[N-1]4Bpa', '[N-1]4Bpa']\", \"['[N1]4', '[N1]4Bpa', '[N1]4Bpa', '[N0]4', '[N-1]4Bpa', '[N-1]4Bpa']\", \"['[N1]2', '[N-2]2']\", \"['[N1]4Bpa', '[R]4', '[R]4', '[N1]4Bpa', '[R]4', '[R]4', '[N-4sharp]4Bpapa']\", \"['[N1]4', '[N2]4Bpa', '[N3sharp]4Bpa', '[N-4sharp]4', '[N-3]4Bpa', '[N-2]4Bpa', '[N-13]4Bpa']\", \"['[N3sharp]4* accent', '[N2]4Bpa', '[N-2]4', '[N-3]4Bpa']\", \"['[N1]4Bpa', '[R]4', '[R]4', '[N1]4Bpa', '[N-4sharp]4', '[R]4', '[N-4natural]4Bpa', '[R]4']\", \"['[N1]4', '[N2]4', '[N-4]4', '[N-3]4Bpa', '[N-2]4Bpa']\", \"['[N3]4*', '[N2]4Bpa', '[N-2]4']\", \"['[N1]4Bpa', '[R]4', '[R]4', '[N1]4Bpa', '[N-4]4Bpapa', '[R]4', '[R]4', '[N-4]4Bpa']\", \"['[N2natural]2', '[N-3natural]2']\", \"['[N2natural]4', '[N2]4', '[N-3natural]4', '[N-3]4']\", \"['[N2natural]2', '[N-3natural]2']\", \"['[N2natural]4Bpa', '[R]4', '[R]4', '[N2]4Bpa', '[N-4]4Bpa', '[R]4', '[R]4', '[N-4]4Bpa']\", \"['[N1]4', '[N1]4Bpa', '[N3]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-4]4Bpa']\", \"['[N3]4', '[N1]4Bpa', '[N0]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-4sharp]4Bpa']\", \"['[N-1]4', '[N0]4Bpa', '[N1]4Bpa', '[N-3]4', '[N-3]4Bpa', '[N-3]4Bpa']\", \"['[N1]4', '[N-1]4', '[N-3]4', '[N-3]4Bpa', '[N-4]4Bpa']\", \"['[N-3]4', '[N-2]4Bpa', '[N-3]4Bpa', '[N-4]4', '[N-4]4Bpa', '[N-4]4Bpa']\", \"['[N1]4', '[R]4', '[N-4]4', '[R]4']\", \"['[R]4', '[N1]4', '[N-3]4', '[N-3double-sharp]4']\", \"['[N0]2', '[N-2]2']\", \"['[N5]2', '[N-2]2']\", \"['[N5]2', '[N-2]2']\", \"['[N4]4', '[N3]4', '[R]2']\", \"['[N2]4', '[N1]4', '[R]2']\", \"['[N0]4', '[N0]4', '[R]4', '[N-4]4Bpa', '[N-4]4Bpa']\", \"['[N0]2 accent', '[N-3]4', '[N-4]4']\", \"['[N0]4', '[N0]4', '[N-5]4', '[N-6]4Bpa', '[N-5]4Bpa']\", \"['[N0]4', '[R]4', '[N-4]4', '[R]4', '[N-4]4Bpa']\", \"['[R]2', '[N-4]4', '[N-3]4Bpa', '[N-4]4Bpa']\", \"['[N-2]2', '[N-5natural]4', '[N-4]4Bpa', '[N-5]4Bpa']\", \"['[N-1]2', '[N-6natural]4', '[N-5natural]4Bpa', '[N-6]4Bpa']\", \"['[N-1]4', '[N-2]4', '[N-7]4', '[R]4']\", \"['[N0]2', '[N-2]2']\", \"['[N0]2', '[N-2]2']\", \"['[N1natural]2', '[N-3]2']\", \"['[N3]2 fermata', '[N-2]2']\"]",
           "type1": "<class 'musicdiff.annotation.AnnPart'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 919
+          "cost": 933
         },
         {
           "label": "delpart",
-          "first_annot_obj": "Part: [\"['[R]4', '[N5]4', '[R]2'] Extras:['clef,symbol=F4,off=0.0', 'keysig,off=0.0,info:,sharp0=F,sharp1=C,sharp2=G,sharp3=D', 'timesig,off=0.0,info:,numerator=2,denominator=4']\", \"['[N5]2', '[R]2']\", \"['[N5]2', '[R]4', '[R]4', '[N1]4Bpa']\", \"['[N5]4', '[N5]4Bpa', '[N7]4Bpa', '[N1]4', '[N1]4Bpa', '[N1]4Bpa']\", \"['[N5]4', '[N5]4', '[N1]4', '[N1]4']\", \"['[N4]4', '[N5]4Bpa', '[N6]4Bpa', '[N1]4', '[N1]4']\", \"['[N4]4', '[N5]4Bpa', '[N5]4Bpa', '[N1]4', '[N1]4Bpa', '[N3]4Bpa']\", \"['[N5]4', '[N5]4Bpa', '[N4sharp]4Bpa', '[N2]4', '[N3]4Bpa']\", \"['[N5]4', '[R]4', '[N9]4Bpa', '[N5]4', '[R]4', '[N5]4Bpa']\", \"['[N8]4', '[N9]4Bpa', '[N8]4Bpa', '[N4]4', '[N4]4']\", \"['[N7]4', '[N7]4', '[N4]4', '[N4]4']\", \"['[N7]4', '[N8]4Bpa', '[N7]4Bpa', '[N3]4', '[N3]4Bpa', '[N3]4Bpa']\", \"['[N6]4', '[N6]4Bpa', '[N6]4Bpa', '[N4]4', '[N-3]4Bpa', '[N4]4Bpa', '[N-3]4Bpa', '[N4]4Bpa']\", \"['[N8]2', '[N-2]4', '[N5]4', '[N-2sharp]4', '[N5sharp]4']\", \"['[N8]2', '[N-1]4', '[N6]4', '[N-3sharp]4', '[N4sharp]4']\", \"['[N8]4', '[R]4', '[N3]4Bpa', '[N-2]4', '[N5]4', '[R]4', '[N-2]4Bpa']\", \"['[N4]4', '[N1]4Bpa', '[N2]4Bpa', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N3]4', '[R]4', '[N8]4Bpa', '[N1]4', '[R]4']\", \"['[N8]4', '[N7]4Bpa', '[N6]4Bpa', '[R]2']\", \"['[N6]4', '[N3]4Bpa', '[R]4', '[R]2']\", \"['[R]2', '[R]2']\", \"['[R]2', '[R]4', '[N0]4Bpa']\", \"['[R]2', '[N3]4', '[N2]4Bpa', '[N1]4Bpa']\", \"['[R]4', '[R]4', '[N5sharp]4Bpa', '[N0]2']\", \"['[N4sharp]4', '[N5sharp]4Bpa', '[N6]4Bpa', '[N0]2']\", \"['[N6]4', '[N5sharp]4Bpa', '[N7]4Bpa', '[R]4', '[R]4']\", \"['[N8]4', '[N7]4Bpa', '[N7]4Bpa', '[N3]4', '[N3]4Bpa', '[N5sharp]4Bpa']\", \"['[N7]4', '[N8]4', '[N5sharp]4', '[N6]4']\", \"['[R]2', '[R]2']\", \"['[R]2', '[R]2']\", \"['[R]2', '[R]2']\", \"['[R]4', '[R]4', '[N3]4Bpa', '[R]4', '[R]4', '[N-3sharp]4Bpa']\", \"['[N3]4', '[N4]4Bpa', '[N2]4Bpa', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N3]2', '[N1]2']\", \"['[N3]4Bpa', '[R]4', '[R]4', '[N1]4Bpa', '[R]4', '[R]4']\", \"['[R]2', '[R]2']\", \"['[R]4', '[R]4', '[N8]4Bpa', '[R]4', '[R]4', '[N4]4Bpa']\", \"['[N8]4', '[N9]4Bpa', '[N8]4Bpa', '[N4]4', '[N4]4Bpa']\", \"['[N7natural]4', '[N4]4', '[N7]4', '[N4]4', '[N9]4Bpa']\", \"['[N9]4', '[N10]4Bpa', '[N9]4Bpa', '[N4]4', '[N4]4Bpa', '[N4]4Bpa']\", \"['[N8]4', '[N8]4Bpa', '[N8]4Bpa', '[N4]4', '[N4]4Bpa', '[N4]4Bpa']\", \"['[N8sharp]4', '[N9]4Bpa', '[N9]4Bpa', '[N3]4', '[N2]4Bpa', '[N2]4Bpa']\", \"['[N8sharp]2', '[N6]2']\", \"['[N10]4Bpa', '[R]4', '[R]4', '[N3]4Bpa', '[R]4', '[R]4', '[N-1]4Bpa']\", \"['[N3]4', '[N3]4Bpa', '[N6]4Bpa']\", \"['[N5sharp]2', '[N-4]2', '[N3]2']\", \"['[N6]4Bpa', '[R]4', '[R]4', '[N3]4Bpa', '[N-1]4Bpa', '[R]4', '[R]4', '[N-1]4Bpa']\", \"['[N3]4', '[N3]4Bpa', '[N6]4Bpa', '[N-1]4', '[N-1]4Bpa', '[N-1]4Bpa']\", \"['[N5sharp]2', '[N-4]2', '[N3]2']\", \"['[N6]4Bpa', '[R]4', '[R]4', '[N3]4Bpa', '[N-1]4Bpa', '[R]4', '[R]4', '[N-1]4Bpa']\", \"['[N4]2', '[N-2]2']\", \"['[N4]4', '[N4]4', '[N-2]4', '[N-2]4']\", \"['[N4]2', '[N-2]2']\", \"['[N3]4Bpa', '[R]4', '[R]4', '[N3]4Bpa', '[N-2]4Bpa', '[R]4', '[R]4', '[N-2]4Bpa']\", \"['[N4]4', '[N4]4Bpa', '[N6]4Bpa', '[N-3]4', '[N-3]4']\", \"['[N6]4', '[N4]4Bpa', '[N3]4Bpa', '[N-3]4', '[N-3]4Bpa', '[N-3]4Bpa']\", \"['[N2]4', '[N3]4Bpa', '[N4]4Bpa', '[N-3]4', '[N-3]4Bpa', '[N-3]4Bpa']\", \"['[N4]4', '[N6]4Bpa', '[N6]4Bpa', '[N-3]4', '[N4]4Bpa', '[N4]4Bpa']\", \"['[N6]4', '[N6]4Bpa', '[N6]4Bpa', '[N4]4', '[N4]4Bpa', '[N4]4Bpa']\", \"['[N6]4', '[R]4', '[N4sharp]4', '[R]4']\", \"['[R]4', '[N8]4', '[R]4', '[N4sharp]4']\", \"['[N8]2', '[N5]2']\", \"['[N8]2', '[N5]2']\", \"['[N8]2', '[N5]2']\", \"['[R]2', '[R]2']\", \"['[R]2', '[R]2']\", \"['[R]4', '[N3]4', '[R]4', '[N-2]4']\", \"['[N4]4', '[N3]4', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N2]4', '[N1]4Bpa', '[N2]4Bpa', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N3]4', '[R]4', '[N1]4', '[R]4']\", \"['[R]2', '[R]2']\", \"['[N8]2', '[R]2']\", \"['[N9]2', '[R]2']\", \"['[N9]4', '[N8]4', '[R]2']\", \"['[N8]2', '[N5]2']\", \"['[N6]2', '[N5]2']\", \"['[N6natural]2', '[N4]2']\", \"['[N5]2', '[N1]2']\"]",
+          "first_annot_obj": "Part: [\"['[R]4', '[N5]4', '[R]2'] Extras:['clef,symbol=F4,off=0.0', 'keysig,off=0.0,info:,sharp0=F,sharp1=C,sharp2=G,sharp3=D', 'timesig,off=0.0,info:,numerator=2,denominator=4']\", \"['[N5]2', '[R]2']\", \"['[N5]2', '[R]4', '[R]4', '[N1]4Bpa']\", \"['[N5]4', '[N5]4Bpa', '[N7]4Bpa', '[N1]4', '[N1]4Bpa', '[N1]4Bpa']\", \"['[N5]4', '[N5]4', '[N1]4', '[N1]4']\", \"['[N4]4', '[N5]4Bpa', '[N6]4Bpa', '[N1]4', '[N1]4']\", \"['[N4]4', '[N5]4Bpa', '[N5]4Bpa', '[N1]4', '[N1]4Bpa', '[N3]4Bpa']\", \"['[N5]4', '[N5]4Bpa', '[N4sharp]4Bpa', '[N2]4', '[N3]4Bpa']\", \"['[N5]4', '[R]4', '[N9]4Bpa', '[N5]4', '[R]4', '[N5]4Bpa']\", \"['[N8]4', '[N9]4Bpa', '[N8]4Bpa', '[N4]4', '[N4]4']\", \"['[N7]4', '[N7]4Bpa', '[N7]4Bpa', '[N4]4', '[N4]4']\", \"['[N7]4', '[N8]4Bpa', '[N7]4Bpa', '[N3]4', '[N3]4Bpa', '[N3]4Bpa']\", \"['[N6]4', '[N6]4Bpa', '[N6]4Bpa', '[N4]4', '[N-3]4Bpa', '[N4]4Bpa', '[N-3]4Bpa', '[N4]4Bpa']\", \"['[N8]2', '[N-2]4', '[N5]4', '[N-2sharp]4', '[N5sharp]4']\", \"['[N8]2', '[N-1]4', '[N6]4', '[N-3sharp]4', '[N4sharp]4']\", \"['[N8]4', '[R]4', '[N3]4Bpa', '[N-2]4', '[N5]4', '[R]4', '[N-2]4Bpa']\", \"['[N4]4', '[N1]4Bpa', '[N2]4Bpa', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N3]4', '[R]4', '[N8]4Bpa', '[N1]4', '[R]4']\", \"['[N8]4', '[N7]4Bpa', '[N6]4Bpa', '[R]2']\", \"['[N6]4 accent', '[N3]4Bpa', '[R]4', '[R]2']\", \"['[R]2', '[R]2']\", \"['[R]2', '[R]4', '[N0]4Bpa']\", \"['[R]2', '[N3]4', '[N2]4Bpa', '[N1]4Bpa']\", \"['[R]4', '[R]4', '[N5sharp]4Bpa', '[N0]2 accent']\", \"['[N4sharp]4', '[N5sharp]4Bpa', '[N6]4Bpa', '[N0]2']\", \"['[N6]4', '[N5sharp]4Bpa', '[N7]4Bpa', '[R]4', '[R]4']\", \"['[N8]4', '[N7]4Bpa', '[N7]4Bpa', '[N3]4', '[N3]4Bpa', '[N5sharp]4Bpa']\", \"['[N7]4', '[N8]4', '[N5sharp]4', '[N6]4']\", \"['[R]2', '[R]2']\", \"['[R]2', '[R]2']\", \"['[R]2', '[R]2']\", \"['[R]4', '[R]4', '[N3]4Bpa', '[R]4', '[R]4', '[N-3sharp]4Bpa']\", \"['[N3]4', '[N4]4Bpa', '[N2]4Bpa', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N3]2', '[N1]2']\", \"['[N3]4Bpa', '[R]4', '[R]4', '[N1]4Bpa', '[R]4', '[R]4']\", \"['[R]2', '[R]2']\", \"['[R]4', '[R]4', '[N8]4Bpa', '[R]4', '[R]4', '[N4]4Bpa']\", \"['[N8]4', '[N9]4Bpa', '[N8]4Bpa', '[N4]4', '[N4]4Bpa']\", \"['[N7natural]4', '[N4]4', '[N7]4', '[N4]4', '[N9]4Bpa']\", \"['[N9]4', '[N10]4Bpa', '[N9]4Bpa', '[N4]4', '[N4]4Bpa', '[N4]4Bpa']\", \"['[N8]4', '[N8]4Bpa', '[N8]4Bpa', '[N4]4', '[N4]4Bpa', '[N4]4Bpa']\", \"['[N8sharp]4', '[N9]4Bpa', '[N9]4Bpa', '[N3]4', '[N2]4Bpa', '[N2]4Bpa']\", \"['[N8sharp]2', '[N6]2']\", \"['[N10]4Bpa', '[R]4', '[R]4', '[N3]4Bpa', '[R]4', '[R]4', '[N-1]4Bpa']\", \"['[N3]4', '[N3]4Bpa', '[N6]4Bpa']\", \"['[N5sharp]2', '[N-4]2 accent accent', '[N3]2']\", \"['[N6]4Bpa', '[R]4', '[R]4', '[N3]4Bpa', '[N-1]4Bpa', '[R]4', '[R]4', '[N-1]4Bpa']\", \"['[N3]4', '[N3]4Bpa', '[N6]4Bpa', '[N-1]4', '[N-1]4Bpa', '[N-1]4Bpa']\", \"['[N5sharp]2', '[N-4]2', '[N3]2']\", \"['[N6]4Bpa', '[R]4', '[R]4', '[N3]4Bpa', '[N-1]4Bpa', '[R]4', '[R]4', '[N-1]4Bpa']\", \"['[N4]2', '[N-2]2']\", \"['[N4]4', '[N4]4', '[N-2]4', '[N-2]4']\", \"['[N4]2', '[N-2]2']\", \"['[N3]4Bpa', '[R]4', '[R]4', '[N3]4Bpa', '[N-2]4Bpa', '[R]4', '[R]4', '[N-2]4Bpa']\", \"['[N4]4', '[N4]4Bpa', '[N6]4Bpa', '[N-3]4', '[N-3]4Bpa', '[N-3]4Bpa']\", \"['[N6]4', '[N4]4Bpa', '[N3]4Bpa', '[N-3]4', '[N-3]4Bpa', '[N-3]4Bpa']\", \"['[N2]4', '[N3]4Bpa', '[N4]4Bpa', '[N-3]4', '[N-3]4Bpa', '[N-3]4Bpa']\", \"['[N4]4', '[N6]4Bpa', '[N6]4Bpa', '[N-3]4', '[N4]4Bpa', '[N4]4Bpa']\", \"['[N6]4', '[N6]4Bpa', '[N6]4Bpa', '[N4]4', '[N4]4Bpa', '[N4]4Bpa']\", \"['[N6]4', '[R]4', '[N4sharp]4', '[R]4']\", \"['[R]4', '[N8]4', '[R]4', '[N4sharp]4']\", \"['[N8]2', '[N5]2']\", \"['[N8]2', '[N5]2']\", \"['[N8]2', '[N5]2']\", \"['[R]2', '[R]2']\", \"['[R]2', '[R]2']\", \"['[R]4', '[N3]4', '[R]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N4]4', '[N3]4', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N2]4', '[N1]4Bpa', '[N2]4Bpa', '[N-2]4', '[N-2]4Bpa', '[N-2]4Bpa']\", \"['[N3]4', '[R]4', '[N1]4', '[R]4']\", \"['[R]2', '[R]2']\", \"['[N8]2', '[R]2']\", \"['[N9]2', '[R]2']\", \"['[N9]4', '[N8]4 accent', '[R]2']\", \"['[N8]2', '[N5]2']\", \"['[N6]2', '[N5]2']\", \"['[N6natural]2', '[N4]2']\", \"['[N5]2', '[N1]2 fermata']\"]",
           "type1": "<class 'musicdiff.annotation.AnnPart'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 814
-        }
-      ]
-    },
-    "headedit": {
-      "label": "headedit",
-      "cost": 14,
-      "nb_diffs": 7,
-      "ops": [
-        {
-          "label": "headedit",
-          "first_annot_obj": "[R]2",
-          "type1": "Note",
-          "id1": "rest_1372_1032",
-          "second_annot_obj": "[R]1",
-          "type2": "Note",
-          "id2": "m-74",
-          "cost": 2
-        },
-        {
-          "label": "headedit",
-          "first_annot_obj": "[R]2",
-          "type1": "Note",
-          "id1": "rest_1052_1035",
-          "second_annot_obj": "[R]1",
-          "type2": "Note",
-          "id2": "m-54",
-          "cost": 2
-        },
-        {
-          "label": "headedit",
-          "first_annot_obj": "[R]2",
-          "type1": "Note",
-          "id1": "rest_1375_1324",
-          "second_annot_obj": "[R]1",
-          "type2": "Note",
-          "id2": "m-77",
-          "cost": 2
-        },
-        {
-          "label": "headedit",
-          "first_annot_obj": "[R]2",
-          "type1": "Note",
-          "id1": "rest_1057_1325",
-          "second_annot_obj": "[R]1",
-          "type2": "Note",
-          "id2": "m-59",
-          "cost": 2
-        },
-        {
-          "label": "headedit",
-          "first_annot_obj": "[N4]2",
-          "type1": "Note",
-          "id1": "v1_nh_1548_3259",
-          "second_annot_obj": "[N4]4",
-          "type2": "Note",
-          "id2": "m-2447",
-          "cost": 2
-        },
-        {
-          "label": "headedit",
-          "first_annot_obj": "[R]2",
-          "type1": "Note",
-          "id1": "rest_1380_1909",
-          "second_annot_obj": "[R]1",
-          "type2": "Note",
-          "id2": "m-88",
-          "cost": 2
-        },
-        {
-          "label": "headedit",
-          "first_annot_obj": "[R]2",
-          "type1": "Note",
-          "id1": "rest_1067_1909",
-          "second_annot_obj": "[R]1",
-          "type2": "Note",
-          "id2": "m-70",
-          "cost": 2
+          "cost": 832
         }
       ]
     },
     "lyricedit": {
       "label": "lyricedit",
-      "cost": 66,
-      "nb_diffs": 57,
+      "cost": 60,
+      "nb_diffs": 53,
       "ops": [
         {
           "label": "lyricedit",
@@ -174,33 +97,13 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "maux,,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-maux,,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "tai-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-tai-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "so,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-so,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-so-,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 2
+          "cost": 1
         },
         {
           "label": "lyricedit",
@@ -218,26 +121,6 @@
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-lent,,num=1,id=,off=1.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "tai-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-tai-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "so-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-so-,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -424,13 +307,13 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "ture-,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-ture-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-ture,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 2
+          "cost": 1
         },
         {
           "label": "lyricedit",
@@ -706,7 +589,7 @@
     },
     "lyricdel": {
       "label": "lyricdel",
-      "cost": 1131,
+      "cost": 1140,
       "nb_diffs": 201,
       "ops": [
         {
@@ -781,7 +664,7 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "-lu\u2014,num=1,id=,off=1.5,style={}",
+          "first_annot_obj": "-lu-,num=1,id=,off=1.5,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -831,13 +714,13 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "mi-,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-mi-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 5
+          "cost": 6
         },
         {
           "label": "lyricdel",
@@ -911,13 +794,13 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "le,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-le,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 4
+          "cost": 5
         },
         {
           "label": "lyricdel",
@@ -991,13 +874,13 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "nel,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-nel,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 5
+          "cost": 6
         },
         {
           "label": "lyricdel",
@@ -1021,13 +904,13 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "ture,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-ture,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 6
+          "cost": 7
         },
         {
           "label": "lyricdel",
@@ -1151,13 +1034,13 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "nel-,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-nel-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 6
+          "cost": 7
         },
         {
           "label": "lyricdel",
@@ -1181,13 +1064,13 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "ture,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-ture,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 6
+          "cost": 7
         },
         {
           "label": "lyricdel",
@@ -1241,13 +1124,13 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "rire,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-rire,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 6
+          "cost": 7
         },
         {
           "label": "lyricdel",
@@ -1271,23 +1154,23 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "mi,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-mi,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 5
+        },
+        {
+          "label": "lyricdel",
+          "first_annot_obj": "--,num=1,id=,off=1.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
           "cost": 4
-        },
-        {
-          "label": "lyricdel",
-          "first_annot_obj": "\u2014,num=1,id=,off=1.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 3
         },
         {
           "label": "lyricdel",
@@ -1611,7 +1494,7 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "il\u2014,num=1,id=,off=1.0,style={}",
+          "first_annot_obj": "il-,num=1,id=,off=1.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -1791,7 +1674,7 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "leurs !\u2014,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "leurs !-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -2061,7 +1944,7 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "rire\u2014,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "rire-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -2201,7 +2084,7 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "-lu\u2014,num=1,id=,off=1.5,style={}",
+          "first_annot_obj": "-lu-,num=1,id=,off=1.5,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -2301,7 +2184,7 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "leurs !\u2014,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "leurs !-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -2471,7 +2354,7 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "-leurs,\u2014,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-leurs,-,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -2723,7 +2606,7 @@
     },
     "insbar": {
       "label": "insbar",
-      "cost": 327,
+      "cost": 328,
       "nb_diffs": 54,
       "ops": [
         {
@@ -3091,10 +2974,10 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[N7sharp]2']",
+          "second_annot_obj": "['[N7sharp]2 accent']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
-          "cost": 3
+          "cost": 4
         },
         {
           "label": "insbar",
@@ -3270,8 +3153,8 @@
     },
     "notedel": {
       "label": "notedel",
-      "cost": 86,
-      "nb_diffs": 31,
+      "cost": 80,
+      "nb_diffs": 29,
       "ops": [
         {
           "label": "notedel",
@@ -3527,26 +3410,6 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]4Bpa",
           "type1": "Note",
-          "id1": "v2_nh_1320_1697",
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 3
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[N-3]4Bpa",
-          "type1": "Note",
-          "id1": "v2_nh_1414_1696",
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 3
-        },
-        {
-          "label": "notedel",
-          "first_annot_obj": "[N-3]4Bpa",
-          "type1": "Note",
           "id1": "v1_nh_2545_1640",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
@@ -3587,8 +3450,8 @@
     },
     "noteins": {
       "label": "noteins",
-      "cost": 88,
-      "nb_diffs": 34,
+      "cost": 81,
+      "nb_diffs": 32,
       "ops": [
         {
           "label": "noteins",
@@ -3597,7 +3460,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": "m-1994",
+          "id2": "v8g0186",
           "cost": 3
         },
         {
@@ -3607,7 +3470,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m-1930",
+          "id2": "zgy3s0z",
           "cost": 2
         },
         {
@@ -3617,7 +3480,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": "m-1590",
+          "id2": "afvvyqx",
           "cost": 3
         },
         {
@@ -3627,7 +3490,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": "m-1592",
+          "id2": "cvxgkz",
           "cost": 3
         },
         {
@@ -3637,7 +3500,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m-1597",
+          "id2": "juu2266",
           "cost": 2
         },
         {
@@ -3647,7 +3510,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": "m-1449",
+          "id2": "q1wvqvfl",
           "cost": 3
         },
         {
@@ -3657,7 +3520,7 @@
           "id1": "",
           "second_annot_obj": "[N-4]4Bpa",
           "type2": "Note",
-          "id2": "m-1452",
+          "id2": "v1hho068",
           "cost": 3
         },
         {
@@ -3667,7 +3530,7 @@
           "id1": "",
           "second_annot_obj": "[N-4]4",
           "type2": "Note",
-          "id2": "m-2164",
+          "id2": "ux5rzpo",
           "cost": 2
         },
         {
@@ -3677,7 +3540,7 @@
           "id1": "",
           "second_annot_obj": "[N-4]4",
           "type2": "Note",
-          "id2": "m-2140",
+          "id2": "g1r6k57g",
           "cost": 2
         },
         {
@@ -3687,7 +3550,7 @@
           "id1": "",
           "second_annot_obj": "[N-4]4Bpa",
           "type2": "Note",
-          "id2": "m-2142",
+          "id2": "i1wwwb4b",
           "cost": 3
         },
         {
@@ -3697,7 +3560,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4",
           "type2": "Note",
-          "id2": "m-2112",
+          "id2": "qwfhnjx",
           "cost": 2
         },
         {
@@ -3707,7 +3570,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4",
           "type2": "Note",
-          "id2": "m-2084",
+          "id2": "amd7wnm",
           "cost": 2
         },
         {
@@ -3717,7 +3580,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": "m-2086",
+          "id2": "c9o9mn0",
           "cost": 3
         },
         {
@@ -3725,10 +3588,10 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "[N-4natural]4",
+          "second_annot_obj": "[N-4]4",
           "type2": "Note",
-          "id2": "m-2052",
-          "cost": 3
+          "id2": "l1pdmh6m",
+          "cost": 2
         },
         {
           "label": "noteins",
@@ -3737,7 +3600,7 @@
           "id1": "",
           "second_annot_obj": "[N-4sharp]4Bpa",
           "type2": "Note",
-          "id2": "m-2055",
+          "id2": "n1js2pjt",
           "cost": 4
         },
         {
@@ -3747,7 +3610,7 @@
           "id1": "",
           "second_annot_obj": "[N-4]4",
           "type2": "Note",
-          "id2": "m-2026",
+          "id2": "t10uabxe",
           "cost": 2
         },
         {
@@ -3757,7 +3620,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": "m-1876",
+          "id2": "n1a4u0h2",
           "cost": 3
         },
         {
@@ -3767,7 +3630,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Bpa",
           "type2": "Note",
-          "id2": "m-1911",
+          "id2": "t1ecgg24",
           "cost": 3
         },
         {
@@ -3777,7 +3640,7 @@
           "id1": "",
           "second_annot_obj": "[N8]4Bpa",
           "type2": "Note",
-          "id2": "m-1849",
+          "id2": "m1aozahz",
           "cost": 3
         },
         {
@@ -3787,7 +3650,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpa",
           "type2": "Note",
-          "id2": "m-1733",
+          "id2": "hgg38jx",
           "cost": 3
         },
         {
@@ -3797,7 +3660,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpa",
           "type2": "Note",
-          "id2": "m-1624",
+          "id2": "s1uvfjsh",
           "cost": 3
         },
         {
@@ -3807,7 +3670,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4",
           "type2": "Note",
-          "id2": "m-1574",
+          "id2": "lgc2fza",
           "cost": 2
         },
         {
@@ -3817,7 +3680,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpa",
           "type2": "Note",
-          "id2": "m-1576",
+          "id2": "nbh0ggv",
           "cost": 3
         },
         {
@@ -3827,7 +3690,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m-1548",
+          "id2": "xr8368a",
           "cost": 2
         },
         {
@@ -3837,7 +3700,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m-1549",
+          "id2": "y1r2zry8",
           "cost": 2
         },
         {
@@ -3847,7 +3710,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m-2256",
+          "id2": "zq2mses",
           "cost": 2
         },
         {
@@ -3857,28 +3720,8 @@
           "id1": "",
           "second_annot_obj": "[N3]4",
           "type2": "Note",
-          "id2": "m-2450",
+          "id2": "v14814tf",
           "cost": 2
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[N-3]4Bpa",
-          "type2": "Note",
-          "id2": "m-624",
-          "cost": 3
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[N-3]4Bpa",
-          "type2": "Note",
-          "id2": "m-626",
-          "cost": 3
         },
         {
           "label": "noteins",
@@ -3887,7 +3730,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m-744",
+          "id2": "d1bbkiay",
           "cost": 2
         },
         {
@@ -3897,7 +3740,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpa",
           "type2": "Note",
-          "id2": "m-2100",
+          "id2": "q1xczs2c",
           "cost": 3
         },
         {
@@ -3907,7 +3750,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpa",
           "type2": "Note",
-          "id2": "m-2101",
+          "id2": "r161h03t",
           "cost": 3
         },
         {
@@ -3917,7 +3760,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m-2039",
+          "id2": "m144jjvc",
           "cost": 2
         },
         {
@@ -3927,7 +3770,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m-1679",
+          "id2": "ek4n8ls",
           "cost": 2
         }
       ]
@@ -3944,15 +3787,15 @@
           "id1": "v1_nh_2032_571",
           "second_annot_obj": "[N3]4",
           "type2": "Note",
-          "id2": "m-1993",
+          "id2": "t1ckgw4v",
           "cost": 1
         }
       ]
     },
     "accidentins": {
       "label": "accidentins",
-      "cost": 7,
-      "nb_diffs": 7,
+      "cost": 5,
+      "nb_diffs": 5,
       "ops": [
         {
           "label": "accidentins",
@@ -3961,7 +3804,7 @@
           "id1": "v1_nh_1518_588",
           "second_annot_obj": "[N2sharp]4Bpa",
           "type2": "Note",
-          "id2": "m-1951",
+          "id2": "p1t72z24",
           "cost": 1
         },
         {
@@ -3971,17 +3814,7 @@
           "id1": "v1_nh_2433_2573",
           "second_annot_obj": "[N3sharp]4*",
           "type2": "Note",
-          "id2": "m-1866",
-          "cost": 1
-        },
-        {
-          "label": "accidentins",
-          "first_annot_obj": "[N1]4Bpa",
-          "type1": "Note",
-          "id1": "v1_nh_819_2624",
-          "second_annot_obj": "[N1sharp]4Bpa",
-          "type2": "Note",
-          "id2": "m-1711",
+          "id2": "q1d92kw3",
           "cost": 1
         },
         {
@@ -3991,7 +3824,7 @@
           "id1": "v1_nh_2819_593",
           "second_annot_obj": "[N1natural]2",
           "type2": "Note",
-          "id2": "m-1687",
+          "id2": "otr2tsk",
           "cost": 1
         },
         {
@@ -4001,17 +3834,7 @@
           "id1": "v1_nh_2577_598",
           "second_annot_obj": "[N1natural]4Bpa",
           "type2": "Note",
-          "id2": "m-1659",
-          "cost": 1
-        },
-        {
-          "label": "accidentins",
-          "first_annot_obj": "[N-4]4Bpa",
-          "type1": "Note",
-          "id1": "v1_nh_2927_1023",
-          "second_annot_obj": "[N-4natural]4Bpa",
-          "type2": "Note",
-          "id2": "m-2088",
+          "id2": "xqbru7p",
           "cost": 1
         },
         {
@@ -4021,25 +3844,25 @@
           "id1": "v1_nh_1766_1028",
           "second_annot_obj": "[N-4sharp]4Bpa",
           "type2": "Note",
-          "id2": "m-2028",
+          "id2": "v1f4si4z",
           "cost": 1
         }
       ]
     },
     "delbar": {
       "label": "delbar",
-      "cost": 653,
+      "cost": 657,
       "nb_diffs": 46,
       "ops": [
         {
           "label": "delbar",
-          "first_annot_obj": "['[N2natural]2'] Lyrics:['leurs !,num=1,id=,off=0.0,style={}']",
+          "first_annot_obj": "['[N2natural]2'] Lyrics:['-leurs !,num=1,id=,off=0.0,style={}']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 12
+          "cost": 13
         },
         {
           "label": "delbar",
@@ -4063,17 +3886,17 @@
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[N-2]2'] Lyrics:['Le,num=1,id=,off=0.0,style={}']",
+          "first_annot_obj": "['[N-2]2'] Lyrics:['-Le,num=1,id=,off=0.0,style={}']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 6
+          "cost": 7
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[N0]2'] Lyrics:['et\u2014,num=1,id=,off=0.0,style={}']",
+          "first_annot_obj": "['[N0]2'] Lyrics:['et-,num=1,id=,off=0.0,style={}']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -4173,7 +3996,7 @@
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[N-3natural]2'] Lyrics:['leurs !\u2014,num=1,id=,off=0.0,style={}']",
+          "first_annot_obj": "['[N-3natural]2'] Lyrics:['leurs !-,num=1,id=,off=0.0,style={}']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -4243,13 +4066,13 @@
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[N-2]4*', '[N-3]4Bpa'] Lyrics:['-nel,num=1,id=,off=0.0,style={}', '--,num=1,id=,off=1.5,style={}']",
+          "first_annot_obj": "['[N-2]4* accent', '[N-3]4Bpa'] Lyrics:['-nel,num=1,id=,off=0.0,style={}', '--,num=1,id=,off=1.5,style={}']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 16
+          "cost": 17
         },
         {
           "label": "delbar",
@@ -4333,7 +4156,7 @@
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[N-3]4', '[N-2]4Bpa', '[N-1]4Bpa'] Lyrics:['-flamme,num=1,id=,off=0.0,style={}', 'il-,num=1,id=,off=1.0,style={}', '-lu\u2014,num=1,id=,off=1.5,style={}']",
+          "first_annot_obj": "['[N-3]4', '[N-2]4Bpa', '[N-1]4Bpa'] Lyrics:['-flamme,num=1,id=,off=0.0,style={}', 'il-,num=1,id=,off=1.0,style={}', '-lu-,num=1,id=,off=1.5,style={}']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
@@ -4353,13 +4176,13 @@
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[N0sharp]2'] Lyrics:['-nel-,num=1,id=,off=0.0,style={}']",
+          "first_annot_obj": "['[N0sharp]2 accent'] Lyrics:['-nel-,num=1,id=,off=0.0,style={}']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 10
+          "cost": 11
         },
         {
           "label": "delbar",
@@ -4505,7 +4328,7 @@
           "id1": "v1_nh_2305_2574",
           "second_annot_obj": "[N3]4Bpa",
           "type2": "Note",
-          "id2": "m-1842",
+          "id2": "bk82kkb",
           "cost": 1
         },
         {
@@ -4515,33 +4338,63 @@
           "id1": "v1_nh_827_3265",
           "second_annot_obj": "[N3]4Bpa",
           "type2": "Note",
-          "id2": "m-1729",
+          "id2": "aqzua0k",
           "cost": 1
         }
       ]
     },
-    "extrasymboledit": {
-      "label": "extrasymboledit",
+    "delarticulation": {
+      "label": "delarticulation",
       "cost": 2,
-      "nb_diffs": 1,
+      "nb_diffs": 2,
       "ops": [
         {
-          "label": "extrasymboledit",
-          "first_annot_obj": "clef,symbol=G2,off=0.0",
-          "type1": "ReadingContext",
-          "id1": "clef_690_1576",
-          "second_annot_obj": "clef,symbol=G2-8,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 13919554768,
-          "cost": 2
+          "label": "delarticulation",
+          "first_annot_obj": "[N3sharp]4* accent",
+          "type1": "Note",
+          "id1": "v1_nh_1502_2588",
+          "second_annot_obj": "[N3sharp]4*",
+          "type2": "Note",
+          "id2": "nbr6x6s",
+          "cost": 1
+        },
+        {
+          "label": "delarticulation",
+          "first_annot_obj": "[N3]2 accent",
+          "type1": "Note",
+          "id1": "v1_nh_1514_3584",
+          "second_annot_obj": "[N3]2",
+          "type2": "Note",
+          "id2": "ypm95gw",
+          "cost": 1
         }
       ]
     },
     "lyricins": {
       "label": "lyricins",
-      "cost": 27,
-      "nb_diffs": 5,
+      "cost": 38,
+      "nb_diffs": 7,
       "ops": [
+        {
+          "label": "lyricins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "-ter-,num=1,id=,off=1.5,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 7
+        },
+        {
+          "label": "lyricins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "\u00e9-,num=1,id=,off=1.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 4
+        },
         {
           "label": "lyricins",
           "first_annot_obj": "None",
@@ -4594,6 +4447,40 @@
         }
       ]
     },
+    "extrasymboledit": {
+      "label": "extrasymboledit",
+      "cost": 2,
+      "nb_diffs": 1,
+      "ops": [
+        {
+          "label": "extrasymboledit",
+          "first_annot_obj": "clef,symbol=G2,off=0.0",
+          "type1": "ReadingContext",
+          "id1": "clef_690_1576",
+          "second_annot_obj": "clef,symbol=G2-8,off=0.0",
+          "type2": "ReadingContext",
+          "id2": "oqp3tok",
+          "cost": 2
+        }
+      ]
+    },
+    "headedit": {
+      "label": "headedit",
+      "cost": 2,
+      "nb_diffs": 1,
+      "ops": [
+        {
+          "label": "headedit",
+          "first_annot_obj": "[N4]2",
+          "type1": "Note",
+          "id1": "v1_nh_1548_3259",
+          "second_annot_obj": "[N4]4",
+          "type2": "Note",
+          "id2": "s7evcey",
+          "cost": 2
+        }
+      ]
+    },
     "insbeam": {
       "label": "insbeam",
       "cost": 1,
@@ -4606,7 +4493,24 @@
           "id1": "v1_nh_2466_1574",
           "second_annot_obj": "[N3]4Bpa",
           "type2": "Note",
-          "id2": "m-1677",
+          "id2": "c11o195h",
+          "cost": 1
+        }
+      ]
+    },
+    "insexpression": {
+      "label": "insexpression",
+      "cost": 1,
+      "nb_diffs": 1,
+      "ops": [
+        {
+          "label": "insexpression",
+          "first_annot_obj": "[N1]2",
+          "type1": "Note",
+          "id1": "v1_nh_2885_3633",
+          "second_annot_obj": "[N1]2 fermata",
+          "type2": "Note",
+          "id2": "r1xmddr",
           "cost": 1
         }
       ]

@@ -2,8 +2,8 @@
   "score_ref": "C010_0.mei",
   "title": "",
   "iiif_link": "",
-  "global_cost": 188,
-  "nb_diffs": 103,
+  "global_cost": 186,
+  "nb_diffs": 101,
   "predicted_stats": {
     "total_symbols": 627,
     "nb_notes": 452,
@@ -11,7 +11,7 @@
     "nb_context": 9,
     "context_nsize": 12,
     "nb_lyrics": 166,
-    "lyrics_nsize": 950
+    "lyrics_nsize": 951
   },
   "ground_stats": {
     "total_symbols": 603,
@@ -25,8 +25,8 @@
   "aggr_ops": {
     "lyricedit": {
       "label": "lyricedit",
-      "cost": 84,
-      "nb_diffs": 75,
+      "cost": 82,
+      "nb_diffs": 73,
       "ops": [
         {
           "label": "lyricedit",
@@ -244,16 +244,6 @@
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "them,num=2,id=,off=2.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "d\u2019ef-,num=1,id=,off=2.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "d'ef-,num=1,id=,off=2.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -510,7 +500,7 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "-Long\u2014,num=2,id=,off=0.0,style={}",
+          "first_annot_obj": "-Long-,num=2,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "Long,num=2,id=,off=0.0,style={}",
@@ -584,16 +574,6 @@
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-ous,,num=2,id=,off=2.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "toi-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-toi-,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -837,7 +817,7 @@
         },
         {
           "label": "lyricdel",
-          "first_annot_obj": "-\u2014,num=1,id=,off=1.5,style={}",
+          "first_annot_obj": "--,num=1,id=,off=1.5,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "None",

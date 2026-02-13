@@ -2,68 +2,31 @@
   "score_ref": "C080_0.mei",
   "title": "",
   "iiif_link": "",
-  "global_cost": 1131,
-  "nb_diffs": 308,
+  "global_cost": 1199,
+  "nb_diffs": 313,
   "predicted_stats": {
-    "total_symbols": 1099,
-    "nb_notes": 945,
-    "notes_nsize": 2710,
-    "nb_context": 22,
-    "context_nsize": 38,
+    "total_symbols": 1104,
+    "nb_notes": 952,
+    "notes_nsize": 2755,
+    "nb_context": 20,
+    "context_nsize": 36,
     "nb_lyrics": 132,
-    "lyrics_nsize": 722
+    "lyrics_nsize": 750
   },
   "ground_stats": {
     "total_symbols": 1194,
     "nb_notes": 1034,
-    "notes_nsize": 2976,
+    "notes_nsize": 2992,
     "nb_context": 21,
     "context_nsize": 33,
     "nb_lyrics": 139,
     "lyrics_nsize": 808
   },
   "aggr_ops": {
-    "headedit": {
-      "label": "headedit",
-      "cost": 6,
-      "nb_diffs": 3,
-      "ops": [
-        {
-          "label": "headedit",
-          "first_annot_obj": "[R]2",
-          "type1": "Note",
-          "id1": "rest_1237_3025",
-          "second_annot_obj": "[R]1",
-          "type2": "Note",
-          "id2": "m-297",
-          "cost": 2
-        },
-        {
-          "label": "headedit",
-          "first_annot_obj": "[N-5]4",
-          "type1": "Note",
-          "id1": "v2_nh_1074_1501",
-          "second_annot_obj": "[N-5]2",
-          "type2": "Note",
-          "id2": "m-1543",
-          "cost": 2
-        },
-        {
-          "label": "headedit",
-          "first_annot_obj": "[N-5sharp]4",
-          "type1": "Note",
-          "id1": "v2_nh_833_4861",
-          "second_annot_obj": "[N-5]2",
-          "type2": "Note",
-          "id2": "m-1504",
-          "cost": 2
-        }
-      ]
-    },
     "extradel": {
       "label": "extradel",
-      "cost": 10,
-      "nb_diffs": 6,
+      "cost": 8,
+      "nb_diffs": 4,
       "ops": [
         {
           "label": "extradel",
@@ -104,40 +67,20 @@
           "type2": "<class 'NoneType'>",
           "id2": "",
           "cost": 3
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "clef,symbol=F4,off=2.125",
-          "type1": "ReadingContext",
-          "id1": "clef_856_4847",
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "clef,symbol=G2,off=3.0",
-          "type1": "ReadingContext",
-          "id1": "clef_597_1622",
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
         }
       ]
     },
     "insbar": {
       "label": "insbar",
-      "cost": 318,
-      "nb_diffs": 40,
+      "cost": 337,
+      "nb_diffs": 42,
       "ops": [
         {
           "label": "insbar",
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -147,7 +90,7 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -157,7 +100,7 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -167,7 +110,7 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -177,7 +120,7 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -187,7 +130,7 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -197,7 +140,7 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -207,7 +150,7 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -217,7 +160,7 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -227,7 +170,7 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]1']",
+          "second_annot_obj": "['[R]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 2
@@ -277,10 +220,10 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]4', '[N-4]4Bpapa', '[N-2sharp]4Bpapa', '[N0]4Bpapa', '[R]4', '[N-3]4Bpapa', '[N-1]4Bpapa', '[N0]4Bpapa', '[N-7]2']",
+          "second_annot_obj": "['[R]4', '[N-4]4Bpapa', '[N-2sharp]4Bpapa', '[N0]4Bpapa', '[R]4', '[N-3]4Bpapa', '[N-1]4Bpapa', '[N0]4Bpapa', '[N-7]2 strong accent']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
-          "cost": 31
+          "cost": 32
         },
         {
           "label": "insbar",
@@ -297,10 +240,10 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[R]4', '[N-4]4Bpapa', '[N-2sharp]4Bpapa', '[N0]4Bpapa', '[R]4', '[N-3]4Bpapa', '[N-1]4Bpapa', '[N0]4Bpapa', '[N-7]2']",
+          "second_annot_obj": "['[R]4', '[N-4]4Bpapa', '[N-2sharp]4Bpapa', '[N0]4Bpapa', '[R]4', '[N-3]4Bpapa', '[N-1]4Bpapa', '[N0]4Bpapa', '[N-7]2 strong accent']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
-          "cost": 31
+          "cost": 32
         },
         {
           "label": "insbar",
@@ -317,10 +260,10 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[N-11]2', '[N-9]2', '[N-7]2', '[N-4]2']",
+          "second_annot_obj": "['[N-11]2 fermata', '[N-9]2', '[N-7]2', '[N-4]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
-          "cost": 8
+          "cost": 9
         },
         {
           "label": "insbar",
@@ -337,16 +280,6 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[N-2]2', '[N-9]2']",
-          "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
-          "id2": "",
-          "cost": 4
-        },
-        {
-          "label": "insbar",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
           "second_annot_obj": "['[N-8sharp]2', '[N-1sharp]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
@@ -357,10 +290,10 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[N8]4', '[N5]4', '[N1]2']",
+          "second_annot_obj": "['[N8]4 tenuto', '[N5]4', '[N1]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
-          "cost": 6
+          "cost": 7
         },
         {
           "label": "insbar",
@@ -431,6 +364,36 @@
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
           "cost": 8
+        },
+        {
+          "label": "insbar",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "['[N-2]2', '[N-9]2']",
+          "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
+          "id2": "",
+          "cost": 4
+        },
+        {
+          "label": "insbar",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "['[N-5]2', '[N-1sharp]2', '[N2]2']",
+          "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
+          "id2": "",
+          "cost": 7
+        },
+        {
+          "label": "insbar",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "['[N-5]2', '[N0sharp]2', '[N2]2']",
+          "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
+          "id2": "",
+          "cost": 7
         },
         {
           "label": "insbar",
@@ -527,24 +490,24 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "['[N-13]2', '[N-6]2']",
+          "second_annot_obj": "['[N-13]2 fermata', '[N-6]2']",
           "type2": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id2": "",
-          "cost": 4
+          "cost": 5
         }
       ]
     },
     "noteins": {
       "label": "noteins",
-      "cost": 307,
-      "nb_diffs": 95,
+      "cost": 322,
+      "nb_diffs": 100,
       "ops": [
         {
           "label": "noteins",
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "[R]1",
+          "second_annot_obj": "[R]2",
           "type2": "Note",
           "id2": "m-49",
           "cost": 2
@@ -557,16 +520,6 @@
           "second_annot_obj": "[N0]4",
           "type2": "Note",
           "id2": "m-508",
-          "cost": 2
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "[N1]4",
-          "type2": "Note",
-          "id2": "m-949",
           "cost": 2
         },
         {
@@ -618,6 +571,16 @@
           "type2": "Note",
           "id2": "m-282",
           "cost": 2
+        },
+        {
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N3]4Bpapa",
+          "type2": "Note",
+          "id2": "m-388",
+          "cost": 4
         },
         {
           "label": "noteins",
@@ -734,9 +697,9 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "[N2]4Bpapa",
+          "second_annot_obj": "[N5]4Bpapa",
           "type2": "Note",
-          "id2": "m-960",
+          "id2": "m-1101",
           "cost": 4
         },
         {
@@ -746,7 +709,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": "m-961",
+          "id2": "m-1102",
           "cost": 2
         },
         {
@@ -754,9 +717,9 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "[N2]4Bpapa",
+          "second_annot_obj": "[N-1]4Bpapa",
           "type2": "Note",
-          "id2": "m-962",
+          "id2": "m-1103",
           "cost": 4
         },
         {
@@ -764,9 +727,19 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "[N4]4Bpapa",
+          "second_annot_obj": "[N1]4Bpapa",
           "type2": "Note",
-          "id2": "m-964",
+          "id2": "m-1103",
+          "cost": 4
+        },
+        {
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N3]4Bpapa",
+          "type2": "Note",
+          "id2": "m-1107",
           "cost": 4
         },
         {
@@ -824,10 +797,10 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "[N-9]2",
+          "second_annot_obj": "[N-9]2 accent",
           "type2": "Note",
           "id2": "m-1628",
-          "cost": 2
+          "cost": 3
         },
         {
           "label": "noteins",
@@ -1334,16 +1307,6 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "[N1]4",
-          "type2": "Note",
-          "id2": "m-974",
-          "cost": 2
-        },
-        {
-          "label": "noteins",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
           "second_annot_obj": "[N7sharp]4",
           "type2": "Note",
           "id2": "m-1581",
@@ -1414,9 +1377,29 @@
           "first_annot_obj": "None",
           "type1": "<class 'NoneType'>",
           "id1": "",
-          "second_annot_obj": "[N-6]2",
+          "second_annot_obj": "[N-2]4",
           "type2": "Note",
-          "id2": "m-1938",
+          "id2": "m-1115",
+          "cost": 2
+        },
+        {
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N-3]4",
+          "type2": "Note",
+          "id2": "m-1117",
+          "cost": 2
+        },
+        {
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N-8]4",
+          "type2": "Note",
+          "id2": "m-1119",
           "cost": 2
         },
         {
@@ -1437,6 +1420,36 @@
           "second_annot_obj": "[N5]4",
           "type2": "Note",
           "id2": "m-2051",
+          "cost": 2
+        },
+        {
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N-9]2",
+          "type2": "Note",
+          "id2": "m-2047",
+          "cost": 2
+        },
+        {
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N-2]2",
+          "type2": "Note",
+          "id2": "m-2047",
+          "cost": 2
+        },
+        {
+          "label": "noteins",
+          "first_annot_obj": "None",
+          "type1": "<class 'NoneType'>",
+          "id1": "",
+          "second_annot_obj": "[N1]2",
+          "type2": "Note",
+          "id2": "m-1938",
           "cost": 2
         },
         {
@@ -1493,35 +1506,15 @@
     },
     "lyricedit": {
       "label": "lyricedit",
-      "cost": 69,
-      "nb_diffs": 46,
+      "cost": 42,
+      "nb_diffs": 26,
       "ops": [
         {
           "label": "lyricedit",
-          "first_annot_obj": "blan-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-blan-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "leet,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-leet,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-le et,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 2
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "bi-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-bi-,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -1548,16 +1541,6 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "lan-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-lan-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
           "first_annot_obj": "s ?,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -1565,26 +1548,6 @@
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 3
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "mais,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-mais,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "rait,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-rait,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
         },
         {
           "label": "lyricedit",
@@ -1598,43 +1561,13 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "meau,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-meau,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-meaux.,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 3
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "o-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-o-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "pe,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-pe,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "phir,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-phir,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
+          "cost": 2
         },
         {
           "label": "lyricedit",
@@ -1648,13 +1581,13 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "vo,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-vo,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-vo-,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 2
+          "cost": 1
         },
         {
           "label": "lyricedit",
@@ -1668,43 +1601,13 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "vit,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-vit,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "meil-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-meil-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "tu-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-tu-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "co,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-co,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-cor,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
-          "cost": 2
+          "cost": 1
         },
         {
           "label": "lyricedit",
@@ -1722,36 +1625,6 @@
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-ce,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "len\u2014,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-len-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 2
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "mu-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-mu-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "xi-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-xi-,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -1788,13 +1661,23 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "ra,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-tel-,num=1,id=,off=1.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
-          "second_annot_obj": "-ra,num=1,id=,off=0.0,style={}",
+          "second_annot_obj": "-el-,num=1,id=,off=1.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "-ra-,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "-ra \u2011 t \u2011-,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 6
         },
         {
           "label": "lyricedit",
@@ -1828,80 +1711,10 @@
         },
         {
           "label": "lyricedit",
-          "first_annot_obj": "si,num=1,id=,off=0.0,style={}",
+          "first_annot_obj": "-si,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-si-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 2
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "le,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-le,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "-tel-,num=1,id=,off=1.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-el-,num=1,id=,off=1.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "ra-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-ra \u2011 t \u2011-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 7
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "ch\u00e9-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-ch\u00e9-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "lherbe,num=1,id=,off=0.5,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "l'her-,num=1,id=,off=0.5,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 3
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "rai,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-rai,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "e,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-e,num=1,id=,off=0.0,style={}",
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 1
@@ -1928,6 +1741,26 @@
         },
         {
           "label": "lyricedit",
+          "first_annot_obj": "-Re-,num=1,id=,off=0.0,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "Re-,num=1,id=,off=0.0,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "lyricedit",
+          "first_annot_obj": "lherbe,num=1,id=,off=0.5,style={}",
+          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id1": "",
+          "second_annot_obj": "l'her-,num=1,id=,off=0.5,style={}",
+          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
+          "id2": "",
+          "cost": 3
+        },
+        {
+          "label": "lyricedit",
           "first_annot_obj": "soeurs,num=1,id=,off=0.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
@@ -1935,26 +1768,6 @@
           "type2": "<class 'musicdiff.annotation.AnnLyric'>",
           "id2": "",
           "cost": 2
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "dre,num=1,id=,off=1.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-dre,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "lyricedit",
-          "first_annot_obj": "join-,num=1,id=,off=0.0,style={}",
-          "type1": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id1": "",
-          "second_annot_obj": "-join-,num=1,id=,off=0.0,style={}",
-          "type2": "<class 'musicdiff.annotation.AnnLyric'>",
-          "id2": "",
-          "cost": 1
         }
       ]
     },
@@ -2062,6 +1875,43 @@
         }
       ]
     },
+    "delarticulation": {
+      "label": "delarticulation",
+      "cost": 3,
+      "nb_diffs": 3,
+      "ops": [
+        {
+          "label": "delarticulation",
+          "first_annot_obj": "[N-2]4Bpa staccato staccato",
+          "type1": "Note",
+          "id1": "v1_nh_1883_1999",
+          "second_annot_obj": "[N-2]4Bpa",
+          "type2": "Note",
+          "id2": "m-1618",
+          "cost": 1
+        },
+        {
+          "label": "delarticulation",
+          "first_annot_obj": "[N-2]4Bpa staccato staccato",
+          "type1": "Note",
+          "id1": "v1_nh_1883_1999",
+          "second_annot_obj": "[N-2]4Bpa",
+          "type2": "Note",
+          "id2": "m-1618",
+          "cost": 1
+        },
+        {
+          "label": "delarticulation",
+          "first_annot_obj": "[N-9]2 staccato",
+          "type1": "Note",
+          "id1": "chord_v1_nh_2842_4710",
+          "second_annot_obj": "[N-9]2",
+          "type2": "Note",
+          "id2": "m-2871",
+          "cost": 1
+        }
+      ]
+    },
     "dotins": {
       "label": "dotins",
       "cost": 1,
@@ -2158,8 +2008,8 @@
     },
     "notedel": {
       "label": "notedel",
-      "cost": 183,
-      "nb_diffs": 62,
+      "cost": 219,
+      "nb_diffs": 74,
       "ops": [
         {
           "label": "notedel",
@@ -2176,6 +2026,16 @@
           "first_annot_obj": "[N8]4Bpapa",
           "type1": "Note",
           "id1": "v1_nh_1124_2209",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 4
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N3]4Bpapa",
+          "type1": "Note",
+          "id1": "v1_nh_2889_3398",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -2243,29 +2103,89 @@
         },
         {
           "label": "notedel",
-          "first_annot_obj": "[N1natural]4",
+          "first_annot_obj": "[N1natural]4 staccato",
           "type1": "Note",
           "id1": "v4_nh_1038_1647",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 3
+          "cost": 4
         },
         {
           "label": "notedel",
-          "first_annot_obj": "[N2]4Bpa",
+          "first_annot_obj": "[N5]4Bpapa",
           "type1": "Note",
-          "id1": "v1_nh_3427_2363",
+          "id1": "v1_nh_2947_3413",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 3
+          "cost": 4
         },
         {
           "label": "notedel",
           "first_annot_obj": "[R]4",
           "type1": "Note",
-          "id1": "rest_3489_2392",
+          "id1": "rest_3002_3489",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N-2]4",
+          "type1": "Note",
+          "id1": "v2_nh_2788_3822",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N-1]4Bpapa",
+          "type1": "Note",
+          "id1": "chord_v2_nh_3094_3510",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 4
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N1]4Bpapa",
+          "type1": "Note",
+          "id1": "chord_v2_nh_3094_3510",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 4
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N3]4Bpapa",
+          "type1": "Note",
+          "id1": "v2_nh_3167_3442",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 4
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N-3]4",
+          "type1": "Note",
+          "id1": "v4_nh_3008_3840",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N-8]4",
+          "type1": "Note",
+          "id1": "v5_nh_3008_3930",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -2313,13 +2233,13 @@
         },
         {
           "label": "notedel",
-          "first_annot_obj": "[N-10]2",
+          "first_annot_obj": "[N-10]2 accent",
           "type1": "Note",
           "id1": "v3_nh_1558_2511",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 2
+          "cost": 3
         },
         {
           "label": "notedel",
@@ -2353,13 +2273,13 @@
         },
         {
           "label": "notedel",
-          "first_annot_obj": "[N-5]4Bpapa",
+          "first_annot_obj": "[N-5]4Bpapapa",
           "type1": "Note",
           "id1": "v3_nh_1381_2432",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 4
+          "cost": 5
         },
         {
           "label": "notedel",
@@ -2763,6 +2683,56 @@
         },
         {
           "label": "notedel",
+          "first_annot_obj": "[N-21]2",
+          "type1": "Note",
+          "id1": "chord_v2_nh_1029_4930",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N-14]2",
+          "type1": "Note",
+          "id1": "chord_v2_nh_1029_4930",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N-9]4",
+          "type1": "Note",
+          "id1": "v2_nh_2277_2664",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N-20]2",
+          "type1": "Note",
+          "id1": "chord_v4_nh_2051_2773",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "notedel",
+          "first_annot_obj": "[N-16]2",
+          "type1": "Note",
+          "id1": "chord_v4_nh_2051_2773",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "notedel",
           "first_annot_obj": "[N-12]4",
           "type1": "Note",
           "id1": "v4_nh_3004_5096",
@@ -2807,7 +2777,7 @@
       "ops": [
         {
           "label": "lyricoffsetedit",
-          "first_annot_obj": "dre,num=1,id=,off=1.0,style={}",
+          "first_annot_obj": "-dre,num=1,id=,off=1.0,style={}",
           "type1": "<class 'musicdiff.annotation.AnnLyric'>",
           "id1": "",
           "second_annot_obj": "-dre,num=1,id=,off=0.0,style={}",
@@ -2817,10 +2787,37 @@
         }
       ]
     },
+    "delbeam": {
+      "label": "delbeam",
+      "cost": 2,
+      "nb_diffs": 2,
+      "ops": [
+        {
+          "label": "delbeam",
+          "first_annot_obj": "[N1]4Bpapapa",
+          "type1": "Note",
+          "id1": "v1_nh_2822_3430",
+          "second_annot_obj": "[N1]4Bpapa",
+          "type2": "Note",
+          "id2": "m-386",
+          "cost": 1
+        },
+        {
+          "label": "delbeam",
+          "first_annot_obj": "[N0]4Bpapapa",
+          "type1": "Note",
+          "id1": "v1_nh_2871_3495",
+          "second_annot_obj": "[N0]4Bpapa",
+          "type2": "Note",
+          "id2": "m-1099",
+          "cost": 1
+        }
+      ]
+    },
     "insbeam": {
       "label": "insbeam",
-      "cost": 9,
-      "nb_diffs": 9,
+      "cost": 8,
+      "nb_diffs": 8,
       "ops": [
         {
           "label": "insbeam",
@@ -2830,16 +2827,6 @@
           "second_annot_obj": "[N3]4Bpapa",
           "type2": "Note",
           "id2": "m-520",
-          "cost": 1
-        },
-        {
-          "label": "insbeam",
-          "first_annot_obj": "[N1]4Bpa",
-          "type1": "Note",
-          "id1": "v1_nh_3352_2380",
-          "second_annot_obj": "[N1]4Bpapa",
-          "type2": "Note",
-          "id2": "m-958",
           "cost": 1
         },
         {
@@ -2914,40 +2901,67 @@
         }
       ]
     },
+    "editarticulation": {
+      "label": "editarticulation",
+      "cost": 2,
+      "nb_diffs": 2,
+      "ops": [
+        {
+          "label": "editarticulation",
+          "first_annot_obj": "[N-7]2 accent",
+          "type1": "Note",
+          "id1": "v3_nh_835_4742",
+          "second_annot_obj": "[N-7]2 strong accent",
+          "type2": "Note",
+          "id2": "m-1165",
+          "cost": 1
+        },
+        {
+          "label": "editarticulation",
+          "first_annot_obj": "[N-7]2 accent",
+          "type1": "Note",
+          "id1": "v3_nh_1823_4747",
+          "second_annot_obj": "[N-7]2 strong accent",
+          "type2": "Note",
+          "id2": "m-1231",
+          "cost": 1
+        }
+      ]
+    },
     "delbar": {
       "label": "delbar",
-      "cost": 171,
-      "nb_diffs": 22,
+      "cost": 192,
+      "nb_diffs": 24,
       "ops": [
         {
           "label": "delbar",
-          "first_annot_obj": "['[R]4', '[N-4]4Bpapa', '[N-1sharp]4Bpapa', '[N0]4Bpapa', '[R]4', '[N-3]4Bpapa', '[N-1]4Bpapa', '[N0]4Bpapa', '[N-7]2']",
+          "first_annot_obj": "['[R]4', '[N-4]4Bpapa', '[N-1sharp]4Bpapa', '[N0]4Bpapa', '[R]4', '[N-3]4Bpapa', '[N-1]4Bpapa', '[N0]4Bpapa', '[N-7]2 accent']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 31
+          "cost": 32
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[R]4', '[N-2sharp]4Bpa', '[N0]4Bpa', '[R]4', '[N-7]2']",
+          "first_annot_obj": "['[R]4', '[N-2sharp]4Bpapa', '[N0]4Bpapa', '[R]4', '[N3]4Bpapa', '[N7]4Bpapa', '[N-7]2', '[N-7]4']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 13
+          "cost": 25
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[R]4', '[N-2sharp]4Bpapa', '[N0]4Bpapa', '[R]4', '[N-3]4Bpapa', '[N-1]4Bpapa', '[N0]4Bpapa', '[N-7]2']",
+          "first_annot_obj": "['[R]4', '[N-2sharp]4Bpapa', '[N0]4Bpapa', '[R]4', '[N-3]4Bpapa', '[N-1]4Bpapa', '[N0]4Bpapa', '[N-7]2 accent']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 27
+          "cost": 28
         },
         {
           "label": "delbar",
@@ -3061,13 +3075,33 @@
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[N-20]2', '[N-16]2'] Extras:['clef,symbol=G2,off=2.0']",
+          "first_annot_obj": "['[N-17]2', '[N-13sharp]2', '[N-10]2']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 5
+          "cost": 7
+        },
+        {
+          "label": "delbar",
+          "first_annot_obj": "['[N-17]2', '[N-12sharp]2', '[N-10]2']",
+          "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
+          "id1": "",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 7
+        },
+        {
+          "label": "delbar",
+          "first_annot_obj": "['[N-11]2']",
+          "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
+          "id1": "",
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
         },
         {
           "label": "delbar",
@@ -3121,13 +3155,13 @@
         },
         {
           "label": "delbar",
-          "first_annot_obj": "['[N-6]4', '[N-9]4', '[N-20]2', '[N-16]2']",
+          "first_annot_obj": "['[N-20]2', '[N-16]2']",
           "type1": "<class 'musicdiff.annotation.AnnMeasure'>",
           "id1": "",
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
-          "cost": 8
+          "cost": 4
         },
         {
           "label": "delbar",
@@ -3143,8 +3177,8 @@
     },
     "extrains": {
       "label": "extrains",
-      "cost": 5,
-      "nb_diffs": 5,
+      "cost": 4,
+      "nb_diffs": 4,
       "ops": [
         {
           "label": "extrains",
@@ -3185,16 +3219,6 @@
           "type2": "ReadingContext",
           "id2": "m-1146",
           "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "clef,symbol=G2,off=2.0",
-          "type2": "ReadingContext",
-          "id2": "m-2050",
-          "cost": 1
         }
       ]
     },
@@ -3211,6 +3235,60 @@
           "second_annot_obj": "[N-5sharp]4Bpapa",
           "type2": "Note",
           "id2": "m-2587",
+          "cost": 1
+        }
+      ]
+    },
+    "headedit": {
+      "label": "headedit",
+      "cost": 6,
+      "nb_diffs": 3,
+      "ops": [
+        {
+          "label": "headedit",
+          "first_annot_obj": "[N-5]4",
+          "type1": "Note",
+          "id1": "v2_nh_1074_1501",
+          "second_annot_obj": "[N-5]2",
+          "type2": "Note",
+          "id2": "m-1543",
+          "cost": 2
+        },
+        {
+          "label": "headedit",
+          "first_annot_obj": "[N-5sharp]4",
+          "type1": "Note",
+          "id1": "v2_nh_833_4861",
+          "second_annot_obj": "[N-5]2",
+          "type2": "Note",
+          "id2": "m-1504",
+          "cost": 2
+        },
+        {
+          "label": "headedit",
+          "first_annot_obj": "[N-6]4",
+          "type1": "Note",
+          "id1": "v2_nh_2052_2611",
+          "second_annot_obj": "[N-6]2",
+          "type2": "Note",
+          "id2": "m-1938",
+          "cost": 2
+        }
+      ]
+    },
+    "insexpression": {
+      "label": "insexpression",
+      "cost": 1,
+      "nb_diffs": 1,
+      "ops": [
+        {
+          "label": "insexpression",
+          "first_annot_obj": "[N-2]4",
+          "type1": "Note",
+          "id1": "v2_nh_3011_4936",
+          "second_annot_obj": "[N-2]4 arpeggio mark",
+          "type2": "Note",
+          "id2": "m-2153",
           "cost": 1
         }
       ]
