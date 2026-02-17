@@ -231,7 +231,7 @@ def compare_collection(detail):
 	
 		# Loop on the scores, show the results
 		for score in dataset["list_opus"]:
-			file_name = f"{score['ref']}.mei"
+			file_name = f"{score['ref']}.musicxml"
 			print (f"\n\nCompute DIFFS for score {score['title']} (file {file_name})")
 			try:
 				compare_single_score (file_name, detail)
