@@ -5,7 +5,7 @@
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2026-02-17</encoding-date>
+      <encoding-date>2026-02-18</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>MuseScore Studio 4.6.3</software>
       <supports attribute="new-system" element="print" type="yes" value="yes" />
@@ -63,11 +63,11 @@
     <score-part id="P1">
       <part-name>CHANT</part-name>
       <part-abbreviation>V</part-abbreviation>
-      <score-instrument id="I4ecc950c6c4a8e0c0ab5e770138f42dd">
+      <score-instrument id="I2a0f7a076a6f0ef06b825dace3ffd0c6">
         <instrument-name>CHANT</instrument-name>
         <instrument-abbreviation>V</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I4ecc950c6c4a8e0c0ab5e770138f42dd">
+      <midi-instrument id="I2a0f7a076a6f0ef06b825dace3ffd0c6">
         <midi-channel>1</midi-channel>
         <midi-program>54</midi-program>
       </midi-instrument>
@@ -75,11 +75,11 @@
     <score-part id="P2">
       <part-name>PIANO</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="Ib6a0912bca22f82f69929d2caacbe796">
+      <score-instrument id="I2c0c947e8a062a6c60e6c16600ac8f3e">
         <instrument-name>PIANO</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ib6a0912bca22f82f69929d2caacbe796">
+      <midi-instrument id="I2c0c947e8a062a6c60e6c16600ac8f3e">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -5081,13 +5081,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="60.45" default-y="-272.07">
+      <note default-x="60.45" default-y="-272.07">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -5096,20 +5090,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-38.365545" bezier-y="33.103521" number="5" placement="above" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="104.05" default-y="-257.07">
+      <note default-x="104.05" default-y="-257.07">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -5118,17 +5105,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="147.66" default-y="-262.07">
+      <note default-x="147.66" default-y="-262.07">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -5139,17 +5119,10 @@
         <type>eighth</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="191.27" default-y="-262.07">
+      <note default-x="191.27" default-y="-262.07">
         <pitch>
           <step>F</step>
           <alter>0</alter>
@@ -5160,17 +5133,10 @@
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="234.88" default-y="-267.07">
+      <note default-x="234.88" default-y="-267.07">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -5180,17 +5146,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="278.48" default-y="-272.07">
+      <note default-x="278.48" default-y="-272.07">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -5199,17 +5158,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="322.09" default-y="-277.07">
+      <note default-x="322.09" default-y="-277.07">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -5218,7 +5170,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -5329,19 +5280,7 @@
       <backup>
         <duration>20160</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="43.68" default-y="-287.07">
+      <note default-x="43.68" default-y="-287.07">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -5350,7 +5289,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-19.814742" bezier-y="19.58242" number="1" placement="above" type="start" />
@@ -5359,7 +5297,7 @@
           </articulations>
         </notations>
       </note>
-      <note color="#FF0000" default-x="43.68" default-y="-252.07">
+      <note default-x="43.68" default-y="-252.07">
         <chord />
         <pitch>
           <step>A</step>
@@ -5369,16 +5307,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="130.89" default-y="-272.07">
+      <note default-x="130.89" default-y="-272.07">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -5387,7 +5318,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="1" type="stop" />
@@ -5517,19 +5447,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="109.91" default-y="-304.21">
+      <note default-x="109.91" default-y="-304.21">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5538,10 +5456,9 @@
         <duration>40320</duration>
         <voice>2</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="109.91" default-y="-269.21">
+      <note default-x="109.91" default-y="-269.21">
         <chord />
         <pitch>
           <step>B</step>
@@ -5551,7 +5468,6 @@
         <duration>40320</duration>
         <voice>2</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -5651,13 +5567,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="66.95" default-y="-249.21">
+      <note default-x="66.95" default-y="-249.21">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -5666,20 +5576,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-18.342049" bezier-y="39.534562" number="5" placement="above" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="121.41" default-y="-244.21">
+      <note default-x="121.41" default-y="-244.21">
         <pitch>
           <step>G</step>
           <alter>0</alter>
@@ -5690,17 +5593,10 @@
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="175.86" default-y="-239.21">
+      <note default-x="175.86" default-y="-239.21">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -5709,17 +5605,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="230.32" default-y="-234.21">
+      <note default-x="230.32" default-y="-234.21">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5729,17 +5618,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="284.77" default-y="-269.21">
+      <note default-x="284.77" default-y="-269.21">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5749,7 +5631,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -5763,13 +5644,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="393.68" default-y="-289.21">
+      <note default-x="393.68" default-y="-289.21">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -5779,7 +5654,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-39.336098" bezier-y="-28.963692" number="6" placement="below" type="start" />
@@ -5826,13 +5700,7 @@
       <backup>
         <duration>20160</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="42.04" default-y="-279.21">
+      <note default-x="42.04" default-y="-279.21">
         <pitch>
           <step>G</step>
           <alter>-1</alter>
@@ -5843,17 +5711,10 @@
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="96.49" default-y="-289.21">
+      <note default-x="96.49" default-y="-289.21">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -5863,17 +5724,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="150.95" default-y="-269.21">
+      <note default-x="150.95" default-y="-269.21">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -5883,17 +5737,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="205.4" default-y="-274.21">
+      <note default-x="205.4" default-y="-274.21">
         <pitch>
           <step>A</step>
           <alter>-1</alter>
@@ -5904,7 +5751,6 @@
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -6033,19 +5879,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="109.91" default-y="-314.21">
+      <note default-x="109.91" default-y="-314.21">
         <pitch>
           <step>G</step>
           <octave>1</octave>
@@ -6053,10 +5887,9 @@
         <duration>40320</duration>
         <voice>2</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="109.91" default-y="-279.21">
+      <note default-x="109.91" default-y="-279.21">
         <chord />
         <pitch>
           <step>G</step>
@@ -6065,7 +5898,6 @@
         <duration>40320</duration>
         <voice>2</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -6140,13 +5972,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="50.58" default-y="-279.21">
+      <note default-x="50.58" default-y="-279.21">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -6155,20 +5981,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-34.63192" bezier-y="-29.590132" number="5" placement="below" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="88.65" default-y="-274.21">
+      <note default-x="88.65" default-y="-274.21">
         <pitch>
           <step>A</step>
           <alter>0</alter>
@@ -6179,17 +5998,10 @@
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="126.73" default-y="-269.21">
+      <note default-x="126.73" default-y="-269.21">
         <pitch>
           <step>B</step>
           <alter>0</alter>
@@ -6200,17 +6012,10 @@
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="164.8" default-y="-264.21">
+      <note default-x="164.8" default-y="-264.21">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -6219,17 +6024,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="208.72" default-y="-259.21">
+      <note default-x="208.72" default-y="-259.21">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -6238,17 +6036,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="252.13" default-y="-254.21">
+      <note default-x="252.13" default-y="-254.21">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -6258,17 +6049,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="290.2" default-y="-249.21">
+      <note default-x="290.2" default-y="-249.21">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -6277,7 +6061,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -6379,13 +6162,7 @@
       <backup>
         <duration>20160</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="36.92" default-y="-244.21">
+      <note default-x="36.92" default-y="-244.21">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -6394,19 +6171,12 @@
         <voice>3</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-16.577319" bezier-y="18.754112" number="1" placement="above" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="113.07" default-y="-279.21">
+      <note default-x="113.07" default-y="-279.21">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -6415,7 +6185,6 @@
         <voice>3</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="1" type="stop" />
@@ -6543,13 +6312,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="38.32" default-y="-264.21">
+      <note default-x="38.32" default-y="-264.21">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -6558,16 +6321,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="114.47" default-y="-249.21">
+      <note default-x="114.47" default-y="-249.21">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -6576,16 +6332,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="190.62" default-y="-234.21">
+      <note default-x="190.62" default-y="-234.21">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -6595,7 +6344,6 @@
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -6735,13 +6483,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="87.36" default-y="-239.21">
+      <note default-x="87.36" default-y="-239.21">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -6750,10 +6492,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="201.44" default-y="-259.21">
+      <note default-x="201.44" default-y="-259.21">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -6762,10 +6503,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="315.53" default-y="-244.21">
+      <note default-x="315.53" default-y="-244.21">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -6774,10 +6514,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="429.62" default-y="-229.21">
+      <note default-x="429.62" default-y="-229.21">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -6786,11 +6525,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF0000" default-x="486.67" default-y="-234.21">
+      <note default-x="486.67" default-y="-234.21">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -6800,7 +6538,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
@@ -6882,13 +6619,7 @@
       <backup>
         <duration>10080</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="46.27" default-y="-229.21">
+      <note default-x="46.27" default-y="-229.21">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -6899,19 +6630,12 @@
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-23.11518" bezier-y="15.999735" number="1" placement="above" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="160.36" default-y="-224.21">
+      <note default-x="160.36" default-y="-224.21">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -6920,7 +6644,6 @@
         <voice>5</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="1" type="stop" />
@@ -6929,13 +6652,7 @@
       <backup>
         <duration>20160</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="46.27" default-y="-259.21">
+      <note default-x="46.27" default-y="-259.21">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -6944,7 +6661,6 @@
         <voice>6</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -7010,12 +6726,6 @@
         <type>half</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <direction placement="above">
         <direction-type>
           <dynamics default-x="3.09" default-y="10.61" relative-y="10">
@@ -7025,7 +6735,7 @@
         <staff>2</staff>
         <sound dynamics="44" />
       </direction>
-      <note color="#FF0000" default-x="266.5" default-y="-254.21">
+      <note default-x="266.5" default-y="-254.21">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -7035,7 +6745,6 @@
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -7095,13 +6804,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="87.36" default-y="-274.26">
+      <note default-x="87.36" default-y="-274.26">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -7111,13 +6814,12 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-26.835146" bezier-y="-16.958408" number="3" placement="below" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="149.38" default-y="-279.26">
+      <note default-x="149.38" default-y="-279.26">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -7126,10 +6828,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="211.41" default-y="-284.26">
+      <note default-x="211.41" default-y="-284.26">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -7138,7 +6839,6 @@
         <voice>2</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="3" type="stop" />
@@ -7186,12 +6886,6 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <direction placement="above">
         <direction-type>
           <dynamics default-x="3.76" default-y="4" relative-y="10">
@@ -7201,7 +6895,7 @@
         <staff>2</staff>
         <sound dynamics="31" />
       </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-299.26">
+      <note default-x="12.5" default-y="-299.26">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -7209,10 +6903,9 @@
         <duration>40320</duration>
         <voice>3</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="12.5" default-y="-264.26">
+      <note default-x="12.5" default-y="-264.26">
         <chord />
         <pitch>
           <step>D</step>
@@ -7221,7 +6914,6 @@
         <duration>40320</duration>
         <voice>3</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -7258,19 +6950,13 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <direction placement="below">
         <direction-type>
           <wedge number="3" spread="0" type="crescendo" />
         </direction-type>
         <staff>2</staff>
       </direction>
-      <note color="#FF0000" default-x="73.61" default-y="-299.26">
+      <note default-x="73.61" default-y="-299.26">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -7279,20 +6965,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-35.123284" bezier-y="-30.095615" number="4" placement="below" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="114.96" default-y="-294.26">
+      <note default-x="114.96" default-y="-294.26">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -7301,17 +6980,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="156.31" default-y="-289.26">
+      <note default-x="156.31" default-y="-289.26">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -7321,17 +6993,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="197.66" default-y="-294.26">
+      <note default-x="197.66" default-y="-294.26">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -7340,17 +7005,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="239.02" default-y="-299.26">
+      <note default-x="239.02" default-y="-299.26">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -7359,17 +7017,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="280.37" default-y="-289.26">
+      <note default-x="280.37" default-y="-289.26">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -7379,7 +7030,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
@@ -7389,13 +7039,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="321.72" default-y="-279.26">
+      <note default-x="321.72" default-y="-279.26">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -7404,7 +7048,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -7547,19 +7190,13 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <direction placement="below">
         <direction-type>
           <wedge number="4" spread="15" type="diminuendo" />
         </direction-type>
         <staff>2</staff>
       </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-269.26">
+      <note default-x="12.5" default-y="-269.26">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -7568,13 +7205,12 @@
         <voice>3</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-39.829293" bezier-y="-24.380326" number="6" placement="below" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="177.91" default-y="-274.26">
+      <note default-x="177.91" default-y="-274.26">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -7583,10 +7219,9 @@
         <voice>3</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="260.61" default-y="-279.26">
+      <note default-x="260.61" default-y="-279.26">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -7595,7 +7230,6 @@
         <voice>3</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="6" type="stop" />
@@ -7777,13 +7411,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="77.87" default-y="-277.89">
+      <note default-x="77.87" default-y="-277.89">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -7792,19 +7420,12 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-32.76185" bezier-y="-22.859205" number="2" placement="below" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="146.51" default-y="-242.89">
+      <note default-x="146.51" default-y="-242.89">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -7813,16 +7434,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="224.96" default-y="-247.89">
+      <note default-x="224.96" default-y="-247.89">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -7832,16 +7446,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">decreased flags</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="283.79" default-y="-282.89">
+      <note default-x="283.79" default-y="-282.89">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -7851,7 +7458,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="2" type="stop" />
@@ -8023,13 +7629,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-287.89">
+      <note default-x="12.5" default-y="-287.89">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -8038,19 +7638,12 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-35.401311" bezier-y="-21.826778" number="4" placement="below" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="81.14" default-y="-252.89">
+      <note default-x="81.14" default-y="-252.89">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -8059,16 +7652,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="159.58" default-y="-267.89">
+      <note default-x="159.58" default-y="-267.89">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -8077,7 +7663,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <note default-x="228.22" default-y="-302.89">
@@ -8281,13 +7866,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-297.89">
+      <note default-x="12.5" default-y="-297.89">
         <pitch>
           <step>C</step>
           <octave>2</octave>
@@ -8296,13 +7875,12 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-32.45604" bezier-y="-25.221781" number="6" placement="below" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="90.94" default-y="-262.89">
+      <note default-x="90.94" default-y="-262.89">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -8311,10 +7889,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="169.39" default-y="-262.89">
+      <note default-x="169.39" default-y="-262.89">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -8325,10 +7902,9 @@
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="228.22" default-y="-297.89">
+      <note default-x="228.22" default-y="-297.89">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -8339,7 +7915,6 @@
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="6" type="stop" />
@@ -8476,13 +8051,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-292.89">
+      <note default-x="12.5" default-y="-292.89">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -8491,14 +8060,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-40.357236" bezier-y="27.229954" number="2" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="51.72" default-y="-282.89">
+      <note default-x="51.72" default-y="-282.89">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -8508,11 +8076,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="90.94" default-y="-272.89">
+      <note default-x="90.94" default-y="-272.89">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -8521,11 +8088,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="130.17" default-y="-257.89">
+      <note default-x="130.17" default-y="-257.89">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -8534,11 +8100,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <note color="#FF0000" default-x="169.39" default-y="-247.89">
+      <note default-x="169.39" default-y="-247.89">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -8548,11 +8113,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF0000" default-x="208.61" default-y="-237.89">
+      <note default-x="208.61" default-y="-237.89">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -8561,11 +8125,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="247.83" default-y="-222.89">
+      <note default-x="247.83" default-y="-222.89">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -8574,11 +8137,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="287.05" default-y="-227.89">
+      <note default-x="287.05" default-y="-227.89">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -8589,7 +8151,6 @@
         <type>eighth</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -8753,13 +8314,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="80.81" default-y="-232.7">
+      <note default-x="80.81" default-y="-232.7">
         <pitch>
           <step>C</step>
           <alter>0</alter>
@@ -8770,10 +8325,9 @@
         <type>half</type>
         <accidental>natural</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="288.02" default-y="-227.7">
+      <note default-x="288.02" default-y="-227.7">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -8782,13 +8336,12 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-18.299694" bezier-y="23.483378" number="4" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="378.68" default-y="-262.7">
+      <note default-x="378.68" default-y="-262.7">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -8797,7 +8350,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="4" type="stop" />
@@ -8945,13 +8497,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-267.7">
+      <note default-x="12.5" default-y="-267.7">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -8960,13 +8506,12 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-47.424098" bezier-y="38.008727" number="6" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="103.15" default-y="-232.7">
+      <note default-x="103.15" default-y="-232.7">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -8975,10 +8520,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="206.76" default-y="-242.7">
+      <note default-x="206.76" default-y="-242.7">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -8987,10 +8531,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="297.41" default-y="-247.7">
+      <note default-x="297.41" default-y="-247.7">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -8999,7 +8542,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="6" type="stop" />
@@ -9130,13 +8672,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-252.7">
+      <note default-x="12.5" default-y="-252.7">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -9146,7 +8682,6 @@
         <voice>3</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <note default-x="219.71" default-y="-262.7">
@@ -9156,13 +8691,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="271.51" default-y="-262.7">
+      <note default-x="271.51" default-y="-262.7">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -9171,20 +8700,13 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-4.715029" bezier-y="8.265277" number="3" placement="above" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="323.31" default-y="-257.7">
+      <note default-x="323.31" default-y="-257.7">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -9193,17 +8715,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="375.12" default-y="-252.7">
+      <note default-x="375.12" default-y="-252.7">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -9213,7 +8728,6 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
@@ -9296,13 +8810,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="77.87" default-y="-258.81">
+      <note default-x="77.87" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9311,13 +8819,12 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="3" type="stop" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="127.1" default-y="-293.81">
+      <note default-x="127.1" default-y="-293.81">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -9326,14 +8833,13 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-44.925612" bezier-y="34.458644" number="5" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="176.33" default-y="-258.81">
+      <note default-x="176.33" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9342,11 +8848,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="225.55" default-y="-263.81">
+      <note default-x="225.55" default-y="-263.81">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -9356,11 +8861,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <note color="#FF0000" default-x="274.78" default-y="-263.81">
+      <note default-x="274.78" default-y="-263.81">
         <pitch>
           <step>F</step>
           <alter>0</alter>
@@ -9371,11 +8875,10 @@
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF0000" default-x="324.01" default-y="-258.81">
+      <note default-x="324.01" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9384,11 +8887,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="373.23" default-y="-263.81">
+      <note default-x="373.23" default-y="-263.81">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -9397,11 +8899,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="422.46" default-y="-258.81">
+      <note default-x="422.46" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9410,7 +8911,6 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -9493,13 +8993,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-268.81">
+      <note default-x="12.5" default-y="-268.81">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -9508,14 +9002,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-23.916912" bezier-y="34.414903" number="1" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="61.73" default-y="-258.81">
+      <note default-x="61.73" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9524,11 +9017,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="110.95" default-y="-233.81">
+      <note default-x="110.95" default-y="-233.81">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -9537,11 +9029,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="160.18" default-y="-258.81">
+      <note default-x="160.18" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9550,14 +9041,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
           <slur number="1" type="stop" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="209.41" default-y="-268.81">
+      <note default-x="209.41" default-y="-268.81">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -9566,14 +9056,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-32.133886" bezier-y="17.916493" number="2" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="258.63" default-y="-258.81">
+      <note default-x="258.63" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9582,11 +9071,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="307.86" default-y="-268.81">
+      <note default-x="307.86" default-y="-268.81">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -9595,11 +9083,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="357.09" default-y="-258.81">
+      <note default-x="357.09" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9608,7 +9095,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -9753,13 +9239,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-273.81">
+      <note default-x="12.5" default-y="-273.81">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -9768,14 +9248,13 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-53.919919" bezier-y="30.201332" number="3" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="61.73" default-y="-258.81">
+      <note default-x="61.73" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9784,11 +9263,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="110.95" default-y="-278.81">
+      <note default-x="110.95" default-y="-278.81">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -9797,11 +9275,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="160.18" default-y="-258.81">
+      <note default-x="160.18" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9810,11 +9287,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <note color="#FF0000" default-x="209.41" default-y="-273.81">
+      <note default-x="209.41" default-y="-273.81">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -9823,11 +9299,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF0000" default-x="258.63" default-y="-258.81">
+      <note default-x="258.63" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9836,11 +9311,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="307.86" default-y="-283.81">
+      <note default-x="307.86" default-y="-283.81">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -9849,11 +9323,10 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="357.09" default-y="-258.81">
+      <note default-x="357.09" default-y="-258.81">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -9862,7 +9335,6 @@
         <voice>3</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -9993,13 +9465,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="79.49" default-y="-280.39">
+      <note default-x="79.49" default-y="-280.39">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -10009,10 +9475,9 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="372.96" default-y="-245.39">
+      <note default-x="372.96" default-y="-245.39">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -10021,7 +9486,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -10135,13 +9599,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="17.48" default-y="-280.39">
+      <note default-x="17.48" default-y="-280.39">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -10150,7 +9608,6 @@
         <tie type="start" />
         <voice>2</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <tied orientation="under" placement="below" type="start" />
@@ -10248,12 +9705,6 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <direction placement="above">
         <direction-type>
           <dynamics default-x="3.1" default-y="22.8" relative-y="10">
@@ -10264,14 +9715,14 @@
         <staff>2</staff>
         <sound dynamics="31" />
       </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-250.39" print-object="no" print-spacing="yes">
+      <note default-x="12.5" default-y="-250.39" print-object="no" print-spacing="yes">
         <rest />
         <duration>20160</duration>
         <voice>6</voice>
         <type>half</type>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="208.15" default-y="-245.39">
+      <note default-x="208.15" default-y="-245.39">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -10280,13 +9731,12 @@
         <voice>6</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <backup>
         <duration>40320</duration>
       </backup>
-      <note color="#FF0000" default-x="12.5" default-y="-280.39">
+      <note default-x="12.5" default-y="-280.39">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -10296,13 +9746,12 @@
         <voice>7</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <tied type="stop" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="208.15" default-y="-255.39">
+      <note default-x="208.15" default-y="-255.39">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -10311,7 +9760,6 @@
         <voice>7</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -10405,13 +9853,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="79.49" default-y="-245.39">
+      <note default-x="79.49" default-y="-245.39">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -10420,10 +9862,9 @@
         <voice>6</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="180.73" default-y="-245.39">
+      <note default-x="180.73" default-y="-245.39">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -10432,13 +9873,12 @@
         <voice>6</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <backup>
         <duration>40320</duration>
       </backup>
-      <note color="#FF0000" default-x="79.49" default-y="-255.39">
+      <note default-x="79.49" default-y="-255.39">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -10449,10 +9889,9 @@
         <type>half</type>
         <accidental>flat</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="180.73" default-y="-260.39">
+      <note default-x="180.73" default-y="-260.39">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -10461,7 +9900,6 @@
         <voice>7</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -10542,13 +9980,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="18.76" default-y="-245.39">
+      <note default-x="18.76" default-y="-245.39">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -10557,10 +9989,9 @@
         <voice>6</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="119.99" default-y="-245.39">
+      <note default-x="119.99" default-y="-245.39">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -10569,13 +10000,12 @@
         <voice>6</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <backup>
         <duration>40320</duration>
       </backup>
-      <note color="#FF0000" default-x="18.76" default-y="-265.39">
+      <note default-x="18.76" default-y="-265.39">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -10586,10 +10016,9 @@
         <type>half</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="119.99" default-y="-260.39">
+      <note default-x="119.99" default-y="-260.39">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -10598,7 +10027,6 @@
         <voice>7</voice>
         <type>half</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -10655,13 +10083,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-265.39">
+      <note default-x="12.5" default-y="-265.39">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -10669,10 +10091,9 @@
         <duration>40320</duration>
         <voice>3</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="12.5" default-y="-245.39">
+      <note default-x="12.5" default-y="-245.39">
         <chord />
         <pitch>
           <step>G</step>
@@ -10681,7 +10102,6 @@
         <duration>40320</duration>
         <voice>3</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -10732,13 +10152,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-270.39">
+      <note default-x="12.5" default-y="-270.39">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -10747,10 +10161,9 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="12.5" default-y="-245.39">
+      <note default-x="12.5" default-y="-245.39">
         <chord />
         <pitch>
           <step>G</step>
@@ -10760,10 +10173,9 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="57.49" default-y="-260.39">
+      <note default-x="57.49" default-y="-260.39">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -10772,14 +10184,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-34.861144" bezier-y="39.190631" number="6" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="102.48" default-y="-235.39">
+      <note default-x="102.48" default-y="-235.39">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -10788,11 +10199,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="147.48" default-y="-245.39">
+      <note default-x="147.48" default-y="-245.39">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -10801,11 +10211,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <note color="#FF0000" default-x="192.47" default-y="-255.39">
+      <note default-x="192.47" default-y="-255.39">
         <pitch>
           <step>E</step>
           <octave>3</octave>
@@ -10814,11 +10223,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF0000" default-x="237.46" default-y="-260.39">
+      <note default-x="237.46" default-y="-260.39">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -10827,11 +10235,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="282.45" default-y="-270.39">
+      <note default-x="282.45" default-y="-270.39">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -10840,11 +10247,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="327.44" default-y="-280.39">
+      <note default-x="327.44" default-y="-280.39">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -10853,7 +10259,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -10937,13 +10342,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="77.87" default-y="-295.39">
+      <note default-x="77.87" default-y="-295.39">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -10953,13 +10352,12 @@
         <voice>2</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <tied orientation="under" placement="below" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="274.67" default-y="-295.39">
+      <note default-x="274.67" default-y="-295.39">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -10969,13 +10367,12 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <tied type="stop" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="323.87" default-y="-270.39">
+      <note default-x="323.87" default-y="-270.39">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -10984,14 +10381,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-23.978573" bezier-y="-18.907983" number="2" placement="below" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="373.07" default-y="-265.39">
+      <note default-x="373.07" default-y="-265.39">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -11000,11 +10396,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="422.27" default-y="-260.39">
+      <note default-x="422.27" default-y="-260.39">
         <pitch>
           <step>D</step>
           <octave>3</octave>
@@ -11013,7 +10408,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -11088,13 +10482,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="12.5" default-y="-295.39">
+      <note default-x="12.5" default-y="-295.39">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -11104,13 +10492,12 @@
         <voice>2</voice>
         <type>half</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <tied orientation="under" placement="below" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="209.3" default-y="-295.39">
+      <note default-x="209.3" default-y="-295.39">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -11120,13 +10507,12 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <tied type="stop" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="258.5" default-y="-270.39">
+      <note default-x="258.5" default-y="-270.39">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -11137,13 +10523,18 @@
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-23.978573" bezier-y="-18.907983" number="4" placement="below" type="start" />
         </notations>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">deleted dot</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
       <note color="#FF0000" default-x="307.7" default-y="-265.39">
         <pitch>
           <step>C</step>
@@ -11157,6 +10548,12 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000">inserted Note</words>
+        </direction-type>
+        <staff>2</staff>
+      </direction>
       <note color="#FF0000" default-x="356.89" default-y="-260.39">
         <pitch>
           <step>D</step>
@@ -11311,13 +10708,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted measure</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="20.39" default-y="-295.39">
+      <note default-x="20.39" default-y="-295.39">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -11325,10 +10716,9 @@
         <duration>40320</duration>
         <voice>2</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="20.39" default-y="-260.39">
+      <note default-x="20.39" default-y="-260.39">
         <chord />
         <pitch>
           <step>D</step>
@@ -11337,7 +10727,6 @@
         <duration>40320</duration>
         <voice>2</voice>
         <type>whole</type>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -11484,13 +10873,7 @@
       <attributes>
         <staff-details print-object="yes" />
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="82.09" default-y="-280.39">
+      <note default-x="82.09" default-y="-280.39">
         <pitch>
           <step>G</step>
           <octave>2</octave>
@@ -11499,7 +10882,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <note default-x="124.04" default-y="-260.39">
@@ -11523,13 +10905,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="291.8" default-y="-235.39">
+      <note default-x="291.8" default-y="-235.39">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -11540,20 +10916,13 @@
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-19.982139" bezier-y="16.217101" number="2" placement="above" type="start" />
         </notations>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="333.74" default-y="-225.39">
+      <note default-x="333.74" default-y="-225.39">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -11562,17 +10931,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="375.68" default-y="-220.39">
+      <note default-x="375.68" default-y="-220.39">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -11583,7 +10945,6 @@
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
@@ -11666,7 +11027,7 @@
       </backup>
       <direction>
         <direction-type>
-          <words color="#FF0000">inserted measure</words>
+          <words color="#FF0000">changed accidental</words>
         </direction-type>
         <staff>2</staff>
       </direction>
@@ -11679,7 +11040,7 @@
         <duration>5040</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <accidental>natural</accidental>
+        <accidental color="#FF0000">natural</accidental>
         <stem>down</stem>
         <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
@@ -11688,7 +11049,7 @@
           <slur bezier-x="-29.995599" bezier-y="24.68324" number="3" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="58.78" default-y="-240.39">
+      <note default-x="58.78" default-y="-240.39">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -11697,11 +11058,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="100.72" default-y="-230.39">
+      <note default-x="100.72" default-y="-230.39">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -11710,11 +11070,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="142.66" default-y="-220.39">
+      <note default-x="142.66" default-y="-220.39">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -11725,11 +11084,10 @@
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <note color="#FF0000" default-x="184.6" default-y="-225.39">
+      <note default-x="184.6" default-y="-225.39">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -11738,13 +11096,12 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="3" type="stop" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="226.54" default-y="-235.39">
+      <note default-x="226.54" default-y="-235.39">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -11755,14 +11112,13 @@
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
           <slur bezier-x="-20.060892" bezier-y="17.643096" number="4" placement="above" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="226.54" default-y="-225.39">
+      <note default-x="226.54" default-y="-225.39">
         <chord />
         <pitch>
           <step>D</step>
@@ -11772,10 +11128,9 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="268.49" default-y="-240.39">
+      <note default-x="268.49" default-y="-240.39">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -11784,11 +11139,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">continue</beam>
       </note>
-      <note color="#FF0000" default-x="268.49" default-y="-230.39">
+      <note default-x="268.49" default-y="-230.39">
         <chord />
         <pitch>
           <step>C</step>
@@ -11798,10 +11152,9 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="310.43" default-y="-245.39">
+      <note default-x="310.43" default-y="-245.39">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -11810,14 +11163,13 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
           <slur number="4" type="stop" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="310.43" default-y="-235.39">
+      <note default-x="310.43" default-y="-235.39">
         <chord />
         <pitch>
           <step>B</step>
@@ -11828,7 +11180,6 @@
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -11941,19 +11292,7 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="75.41" default-y="-300.39">
+      <note default-x="75.41" default-y="-300.39">
         <pitch>
           <step>C</step>
           <octave>2</octave>
@@ -11962,13 +11301,12 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-34.532286" bezier-y="-21.503507" number="5" placement="below" type="start" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="75.41" default-y="-265.39">
+      <note default-x="75.41" default-y="-265.39">
         <chord />
         <pitch>
           <step>C</step>
@@ -11978,7 +11316,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <note default-x="138.32" default-y="-260.39">
@@ -11988,19 +11325,7 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="201.24" default-y="-295.39">
+      <note default-x="201.24" default-y="-295.39">
         <pitch>
           <step>D</step>
           <octave>2</octave>
@@ -12009,10 +11334,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
-      <note color="#FF0000" default-x="201.24" default-y="-260.39">
+      <note default-x="201.24" default-y="-260.39">
         <chord />
         <pitch>
           <step>D</step>
@@ -12022,7 +11346,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
     </measure>
@@ -12097,19 +11420,7 @@
       <backup>
         <duration>40320</duration>
       </backup>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted Note</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
-      <note color="#FF0000" default-x="19.72" default-y="-315.39">
+      <note default-x="19.72" default-y="-315.39">
         <pitch>
           <step>G</step>
           <octave>1</octave>
@@ -12118,13 +11429,12 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
         <notations>
           <slur number="5" type="stop" />
         </notations>
       </note>
-      <note color="#FF0000" default-x="19.72" default-y="-280.39">
+      <note default-x="19.72" default-y="-280.39">
         <chord />
         <pitch>
           <step>G</step>
@@ -12134,7 +11444,6 @@
         <voice>2</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notehead color="#FF0000" parentheses="no">normal</notehead>
         <staff>2</staff>
       </note>
       <note default-x="82.63" default-y="-260.39">
