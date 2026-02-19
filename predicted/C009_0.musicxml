@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-17</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -23,11 +23,11 @@
     <score-part id="part2">
       <part-name>part2</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="Ib67810ca6174ddb893b04250f164c1d7">
+      <score-instrument id="Ic7535b533e2e69e8bafb7f915dd93b48">
         <instrument-name>part2</instrument-name>
         <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ib67810ca6174ddb893b04250f164c1d7">
+      <midi-instrument id="Ic7535b533e2e69e8bafb7f915dd93b48">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -35,11 +35,11 @@
     <score-part id="part1">
       <part-name>PIANO-</part-name>
       <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="I59f36e4279cd6542c1336e89af04f9ae">
+      <score-instrument id="I11f78a1ed03d05d0949bfa7785cc2970">
         <instrument-name>PIANO-</instrument-name>
         <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I59f36e4279cd6542c1336e89af04f9ae">
+      <midi-instrument id="I11f78a1ed03d05d0949bfa7785cc2970">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -51,16 +51,16 @@
     <measure id="m1-part2" implicit="no" number="1">
       <attributes>
         <divisions>10080</divisions>
-        <key id="default_ks_part2_1">
+        <key id="initial_ks_part2_1">
           <fifths>2</fifths>
         </key>
-        <time id="default_ts_part2_1">
+        <time id="default_ts--default_ts">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
-        <clef id="clef67">
-          <sign>G</sign>
-          <line>2</line>
+        <clef id="clef_671_2219">
+          <sign>F</sign>
+          <line>4</line>
         </clef>
       </attributes>
       <note id="F5part1M122V2E2">
@@ -106,15 +106,6 @@
     <!--========================= Measure 7 ==========================-->
     <measure id="m7-part2" implicit="no" number="7">
       <print new-system="yes"/>
-      <attributes>
-        <key id="ks_766_2220">
-          <fifths>2</fifths>
-        </key>
-        <clef id="clef_671_2219">
-          <sign>F</sign>
-          <line>4</line>
-        </clef>
-      </attributes>
       <note color="#13819E" id="rest_1034_2252">
         <rest measure="yes"/>
         <duration>30240</duration>
@@ -4003,7 +3994,7 @@
         <key id="ks_1023_1508--ks_1026_1834">
           <fifths>2</fifths>
         </key>
-        <time id="ts_1131_1541--ts_1130_1836">
+        <time id="default_ts--default_ts">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
@@ -16322,15 +16313,15 @@
         <voice>2</voice>
         <staff>2</staff>
       </note>
+     </measure>
+    <!--========================= Measure 73 =========================-->
+    <measure id="m73-part1-0" implicit="no" number="73">
       <attributes>
         <clef id="clef_2178_1612" number="2">
           <sign>G</sign>
           <line>2</line>
         </clef>
       </attributes>
-    </measure>
-    <!--========================= Measure 73 =========================-->
-    <measure id="m73-part1-0" implicit="no" number="73">
       <note color="#13819E" id="v1_nh_2343_1236">
         <pitch>
           <step>C</step>
@@ -16496,12 +16487,6 @@
         <duration>30240</duration>
         <staff>2</staff>
       </forward>
-      <attributes>
-        <clef id="clef_2869_1625" number="2">
-          <sign>F</sign>
-          <line>4</line>
-        </clef>
-      </attributes>
       <backup>
         <duration>30240</duration>
       </backup>
@@ -16577,6 +16562,12 @@
     </measure>
     <!--========================= Measure 75 =========================-->
     <measure id="m75-part1-0" implicit="no" number="75">
+      <attributes>
+        <clef id="clef_2869_1625" number="2">
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
       <note color="#13819E" id="v1_nh_3044_1393">
         <pitch>
           <step>F</step>
@@ -21263,16 +21254,16 @@
         <voice>2</voice>
         <staff>2</staff>
       </note>
+   </measure>
+    <!--======================== Measure 107 =========================-->
+    <measure id="m107-part1-0" implicit="no" number="107">
       <attributes>
         <clef id="clef_2666_2885" number="2">
           <sign>G</sign>
           <line>2</line>
         </clef>
       </attributes>
-    </measure>
-    <!--======================== Measure 107 =========================-->
-    <measure id="m107-part1-0" implicit="no" number="107">
-      <note color="#13819E" id="v1_nh_2888_2425">
+       <note color="#13819E" id="v1_nh_2888_2425">
         <pitch>
           <step>D</step>
           <alter>1</alter>
