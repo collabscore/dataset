@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-12</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -23,11 +23,11 @@
     <score-part id="part2">
       <part-name>CHANT</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="I81b6b4b9a283117c7a6a72aeb7dc9b27">
+      <score-instrument id="I0b2d957be92d86f96f3b6b618742059b">
         <instrument-name>CHANT</instrument-name>
         <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I81b6b4b9a283117c7a6a72aeb7dc9b27">
+      <midi-instrument id="I0b2d957be92d86f96f3b6b618742059b">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -35,11 +35,11 @@
     <score-part id="part1">
       <part-name>PIANO</part-name>
       <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="Iaf456ec54c9004ea90740cb37b895a70">
+      <score-instrument id="I512b67b83ee2b7faaa46bd5da300fe67">
         <instrument-name>PIANO</instrument-name>
         <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Iaf456ec54c9004ea90740cb37b895a70">
+      <midi-instrument id="I512b67b83ee2b7faaa46bd5da300fe67">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -54,7 +54,7 @@
         <key id="ks_1322_1636">
           <fifths>7</fifths>
         </key>
-        <time id="ts_1513_1711" symbol="common">
+        <time id="default_ts--default_ts" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -3088,7 +3088,7 @@
         <key id="ks_1321_2028--ks_1328_2389">
           <fifths>7</fifths>
         </key>
-        <time id="ts_1515_2100--ts_1520_2433" symbol="common">
+        <time id="default_ts--default_ts" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>

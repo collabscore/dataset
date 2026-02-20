@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-12</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -23,11 +23,11 @@
     <score-part id="part2">
       <part-name>CHANT.</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="Iea7bb910a23b01e25776e512dd897df8">
+      <score-instrument id="I3a80393ff27da5cc06009603d75a2374">
         <instrument-name>CHANT.</instrument-name>
         <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Iea7bb910a23b01e25776e512dd897df8">
+      <midi-instrument id="I3a80393ff27da5cc06009603d75a2374">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -35,11 +35,11 @@
     <score-part id="part1">
       <part-name>PIANO.</part-name>
       <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="Ifded72d06ff6113cd33fd778f62841d7">
+      <score-instrument id="I85d011d3c10d1233046b2d63b5b28a4d">
         <instrument-name>PIANO.</instrument-name>
         <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ifded72d06ff6113cd33fd778f62841d7">
+      <midi-instrument id="I85d011d3c10d1233046b2d63b5b28a4d">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -54,7 +54,7 @@
         <key id="ks_1269_1318">
           <fifths>4</fifths>
         </key>
-        <time id="ts_1389_1389" symbol="common">
+        <time id="default_ts--default_ts" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -2064,7 +2064,7 @@
     <!--========================= Measure 36 =========================-->
     <measure id="m36-part2" implicit="no" number="36">
       <attributes>
-        <time id="ts_1790_2480">
+        <time id="ts_1790_2480--ts_1790_2480">
           <beats>3</beats>
           <beat-type>2</beat-type>
         </time>
@@ -2173,7 +2173,7 @@
     <!--========================= Measure 37 =========================-->
     <measure id="m37-part2" implicit="no" number="37">
       <attributes>
-        <time id="ts_2534_2502" symbol="common">
+        <time id="ts_2534_2502--ts_2534_2502" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -2907,7 +2907,7 @@
         <key id="ks_1273_1677--ks_1274_1969">
           <fifths>4</fifths>
         </key>
-        <time id="ts_1389_1756--ts_1392_2017" symbol="common">
+        <time id="default_ts--default_ts" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -7014,7 +7014,7 @@
     <!--========================= Measure 36 =========================-->
     <measure id="m36-part1-0" implicit="no" number="36">
       <attributes>
-        <time id="ts_1797_2805--ts_1801_3063">
+        <time id="ts_1790_2480--ts_1790_2480">
           <beats>3</beats>
           <beat-type>2</beat-type>
         </time>
@@ -7098,7 +7098,7 @@
     <!--========================= Measure 37 =========================-->
     <measure id="m37-part1-0" implicit="no" number="37">
       <attributes>
-        <time id="ts_2535_2830--ts_2539_3084" symbol="common">
+        <time id="ts_2534_2502--ts_2534_2502" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>

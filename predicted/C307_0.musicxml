@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-12</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -23,11 +23,11 @@
     <score-part id="part5">
       <part-name>SOPRANOS</part-name>
       <part-abbreviation>part5</part-abbreviation>
-      <score-instrument id="Ibe879587a0a483d023ebd64bd61b6ae8">
+      <score-instrument id="I5a73987385254a5cd2438b722d13937a">
         <instrument-name>SOPRANOS</instrument-name>
         <instrument-abbreviation>part5</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ibe879587a0a483d023ebd64bd61b6ae8">
+      <midi-instrument id="I5a73987385254a5cd2438b722d13937a">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -35,11 +35,11 @@
     <score-part id="part4">
       <part-name>CONTRALTOS</part-name>
       <part-abbreviation>part4</part-abbreviation>
-      <score-instrument id="I66318a1a8bf66420a60c5797912178c7">
+      <score-instrument id="Id993cb0b89a79b152f5d0e45df5458c5">
         <instrument-name>CONTRALTOS</instrument-name>
         <instrument-abbreviation>part4</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I66318a1a8bf66420a60c5797912178c7">
+      <midi-instrument id="Id993cb0b89a79b152f5d0e45df5458c5">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -47,11 +47,11 @@
     <score-part id="part3">
       <part-name>T&#201;NORS</part-name>
       <part-abbreviation>part3</part-abbreviation>
-      <score-instrument id="I2249128776701b6a111fba2b9735c54d">
+      <score-instrument id="Ic60bd9b6f7e3ea955bb46aff2b9249bf">
         <instrument-name>T&#201;NORS</instrument-name>
         <instrument-abbreviation>part3</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I2249128776701b6a111fba2b9735c54d">
+      <midi-instrument id="Ic60bd9b6f7e3ea955bb46aff2b9249bf">
         <midi-channel>3</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -59,11 +59,11 @@
     <score-part id="part2">
       <part-name>BASSES</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="If913850b316280ac252ae6b2370bd94b">
+      <score-instrument id="I0aec23880b8b4e9be64b9cd9413bcb9d">
         <instrument-name>BASSES</instrument-name>
         <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="If913850b316280ac252ae6b2370bd94b">
+      <midi-instrument id="I0aec23880b8b4e9be64b9cd9413bcb9d">
         <midi-channel>4</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -71,11 +71,11 @@
     <score-part id="part1">
       <part-name>ORGUE</part-name>
       <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="I1222bc2f47f9e715622406d4ffd49632">
+      <score-instrument id="I67d2a01e6d498f088a22d3fbac1b62ab">
         <instrument-name>ORGUE</instrument-name>
         <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I1222bc2f47f9e715622406d4ffd49632">
+      <midi-instrument id="I67d2a01e6d498f088a22d3fbac1b62ab">
         <midi-channel>5</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -90,7 +90,7 @@
         <key id="ks_1221_1289">
           <fifths>4</fifths>
         </key>
-        <time id="ts_1348_1345">
+        <time id="default_ts--default_ts">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -3125,7 +3125,7 @@
         <key id="ks_1218_1550">
           <fifths>4</fifths>
         </key>
-        <time id="ts_1349_1604">
+        <time id="default_ts--default_ts">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -3894,11 +3894,6 @@
     </measure>
     <!--========================= Measure 23 =========================-->
     <measure id="m23-part4" implicit="no" number="23">
-      <attributes>
-        <key id="ks_729_954">
-          <fifths>1</fifths>
-        </key>
-      </attributes>
       <note color="#13819E" id="rest_1057_1022">
         <rest measure="yes"/>
         <duration>40320</duration>
@@ -5973,7 +5968,7 @@
         <key id="ks_1222_1815">
           <fifths>4</fifths>
         </key>
-        <time id="ts_1351_1870">
+        <time id="default_ts--default_ts">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -6707,11 +6702,6 @@
     </measure>
     <!--========================= Measure 23 =========================-->
     <measure id="m23-part3" implicit="no" number="23">
-      <attributes>
-        <key id="ks_728_1271">
-          <fifths>1</fifths>
-        </key>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <dynamics default-x="-36" default-y="-80">
@@ -8955,7 +8945,7 @@
         <key id="ks_1221_2103">
           <fifths>4</fifths>
         </key>
-        <time id="ts_1351_2131">
+        <time id="default_ts--default_ts">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -9697,11 +9687,6 @@
     </measure>
     <!--========================= Measure 23 =========================-->
     <measure id="m23-part2" implicit="no" number="23">
-      <attributes>
-        <key id="ks_730_1616">
-          <fifths>1</fifths>
-        </key>
-      </attributes>
       <note color="#13819E" id="rest_1057_1657">
         <rest measure="yes"/>
         <duration>40320</duration>
@@ -11838,7 +11823,7 @@
         <key id="ks_1220_2403--ks_1223_2709">
           <fifths>4</fifths>
         </key>
-        <time id="ts_1348_2459--ts_1350_2736">
+        <time id="default_ts--default_ts">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -14448,11 +14433,6 @@
     </measure>
     <!--========================= Measure 23 =========================-->
     <measure id="m23-part1-0" implicit="no" number="23">
-      <attributes>
-        <key id="ks_727_1966--ks_731_2342">
-          <fifths>1</fifths>
-        </key>
-      </attributes>
       <note color="#13819E" id="v1_nh_830_2019">
         <pitch>
           <step>D</step>

@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-17</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -21,25 +21,25 @@
   </defaults>
   <part-list>
     <score-part id="part2">
-      <part-name>Chantons</part-name>
-      <part-abbreviation>C.</part-abbreviation>
-      <score-instrument id="Ifeadb408ab8010ca9f9e5bb6104aa1f6">
-        <instrument-name>Chantons</instrument-name>
-        <instrument-abbreviation>C.</instrument-abbreviation>
+      <part-name>CHANT</part-name>
+      <part-abbreviation>part2</part-abbreviation>
+      <score-instrument id="I8185e1bc3fac28914ff6b8118928d4e8">
+        <instrument-name>CHANT</instrument-name>
+        <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ifeadb408ab8010ca9f9e5bb6104aa1f6">
+      <midi-instrument id="I8185e1bc3fac28914ff6b8118928d4e8">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
     <score-part id="part1">
-      <part-name>Pianotons</part-name>
-      <part-abbreviation>P.</part-abbreviation>
-      <score-instrument id="I9e15904c506de6f5e7ea1102f7d78bfa">
-        <instrument-name>Pianotons</instrument-name>
-        <instrument-abbreviation>P.</instrument-abbreviation>
+      <part-name>PIANO</part-name>
+      <part-abbreviation>part1</part-abbreviation>
+      <score-instrument id="Id6ec58ee42b865eeecf439f65aa8c20f">
+        <instrument-name>PIANO</instrument-name>
+        <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I9e15904c506de6f5e7ea1102f7d78bfa">
+      <midi-instrument id="Id6ec58ee42b865eeecf439f65aa8c20f">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -54,7 +54,7 @@
         <key id="ks_1307_1721">
           <fifths>-2</fifths>
         </key>
-        <time id="ts_1376_1779" symbol="common">
+        <time id="default_ts--default_ts" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -257,7 +257,7 @@
     <measure id="m4-part2" implicit="no" number="4">
       <print new-system="yes"/>
       <attributes>
-        <time id="ts_1062_2946">
+        <time id="ts_1062_2946--ts_1062_2946">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -296,7 +296,7 @@
     <!--========================= Measure 5 ==========================-->
     <measure id="m5-part2" implicit="no" number="5">
       <attributes>
-        <time id="ts_1673_2964" symbol="common">
+        <time id="ts_1673_2964--ts_1673_2964" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -476,7 +476,7 @@
     <measure id="m7-part2" implicit="no" number="7">
       <print new-system="yes"/>
       <attributes>
-        <time id="ts_1066_4140">
+        <time id="ts_1066_4140--ts_1066_4140">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -514,7 +514,7 @@
     <!--========================= Measure 8 ==========================-->
     <measure id="m8-part2" implicit="no" number="8">
       <attributes>
-        <time id="ts_1644_4159" symbol="common">
+        <time id="ts_1644_4159--ts_1644_4159" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -699,7 +699,7 @@
     <measure id="m10-part2" implicit="no" number="10">
       <print new-page="yes"/>
       <attributes>
-        <time id="ts_861_984">
+        <time id="ts_861_984--ts_861_984">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -742,7 +742,7 @@
     <!--========================= Measure 11 =========================-->
     <measure id="m11-part2" implicit="no" number="11">
       <attributes>
-        <time id="ts_1368_1011" symbol="common">
+        <time id="ts_1368_1011--ts_1368_1011" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -924,7 +924,7 @@
     <!--========================= Measure 13 =========================-->
     <measure id="m13-part2" implicit="no" number="13">
       <attributes>
-        <time id="ts_3310_979">
+        <time id="ts_3310_979--ts_3310_979">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -964,7 +964,7 @@
     <measure id="m14-part2" implicit="no" number="14">
       <print new-system="yes"/>
       <attributes>
-        <time id="ts_860_2140" symbol="common">
+        <time id="ts_860_2140--ts_860_2140" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -1152,7 +1152,7 @@
     <!--========================= Measure 16 =========================-->
     <measure id="m16-part2" implicit="no" number="16">
       <attributes>
-        <time id="ts_3083_2105">
+        <time id="ts_3083_2105--ts_3083_2105">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -1192,7 +1192,7 @@
     <measure id="m17-part2" implicit="no" number="17">
       <print new-system="yes"/>
       <attributes>
-        <time id="ts_858_3237" symbol="common">
+        <time id="ts_858_3237--ts_858_3237" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -1369,7 +1369,7 @@
     <!--========================= Measure 19 =========================-->
     <measure id="m19-part2" implicit="no" number="19">
       <attributes>
-        <time id="ts_2648_3207">
+        <time id="ts_2648_3207--ts_2648_3207">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -1408,7 +1408,7 @@
     <!--========================= Measure 20 =========================-->
     <measure id="m20-part2" implicit="no" number="20">
       <attributes>
-        <time id="ts_3089_3229" symbol="common">
+        <time id="ts_3089_3229--ts_3089_3229" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -1584,7 +1584,7 @@
     <!--========================= Measure 22 =========================-->
     <measure id="m22-part2" implicit="no" number="22">
       <attributes>
-        <time id="ts_2019_4305">
+        <time id="ts_2019_4305--ts_2019_4305">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -1622,7 +1622,7 @@
     <!--========================= Measure 23 =========================-->
     <measure id="m23-part2" implicit="no" number="23">
       <attributes>
-        <time id="ts_2620_4332" symbol="common">
+        <time id="ts_2620_4332--ts_2620_4332" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -3225,7 +3225,7 @@
         <key id="ks_1314_2117--ks_1319_2479">
           <fifths>-2</fifths>
         </key>
-        <time id="ts_1379_2172--ts_1381_2507" symbol="common">
+        <time id="default_ts--default_ts" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -3650,7 +3650,7 @@
     <!--========================= Measure 4 ==========================-->
     <measure id="m4-part1-0" implicit="no" number="4">
       <attributes>
-        <time id="ts_1062_3346--ts_1065_3674">
+        <time id="ts_1062_2946--ts_1062_2946">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -3739,7 +3739,7 @@
     <!--========================= Measure 5 ==========================-->
     <measure id="m5-part1-0" implicit="no" number="5">
       <attributes>
-        <time id="ts_1675_3360--ts_1675_3696" symbol="common">
+        <time id="ts_1673_2964--ts_1673_2964" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -4037,7 +4037,7 @@
     <!--========================= Measure 7 ==========================-->
     <measure id="m7-part1-0" implicit="no" number="7">
       <attributes>
-        <time id="ts_1062_4541--ts_1059_4875">
+        <time id="ts_1066_4140--ts_1066_4140">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -4153,7 +4153,7 @@
     <!--========================= Measure 8 ==========================-->
     <measure id="m8-part1-0" implicit="no" number="8">
       <attributes>
-        <time id="ts_1647_4555--ts_1651_4892" symbol="common">
+        <time id="ts_1644_4159--ts_1644_4159" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -4489,7 +4489,7 @@
     <!--========================= Measure 10 =========================-->
     <measure id="m10-part1-0" implicit="no" number="10">
       <attributes>
-        <time id="ts_862_1385--ts_864_1699">
+        <time id="ts_861_984--ts_861_984">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -4621,7 +4621,7 @@
     <!--========================= Measure 11 =========================-->
     <measure id="m11-part1-0" implicit="no" number="11">
       <attributes>
-        <time id="ts_1373_1409--ts_1376_1722" symbol="common">
+        <time id="ts_1368_1011--ts_1368_1011" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -4634,7 +4634,7 @@
         <staff>1</staff>
       </note>
       <attributes>
-        <clef number="1" id="clef_1506_1385">
+        <clef number="1"  id="clef_1506_1385">
           <sign>G</sign>
           <line>2</line>
         </clef>
@@ -4942,7 +4942,7 @@
     <!--========================= Measure 13 =========================-->
     <measure id="m13-part1-0" implicit="no" number="13">
       <attributes>
-        <time id="ts_3314_1385--ts_3312_1692">
+        <time id="ts_3310_979--ts_3310_979">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -5085,7 +5085,7 @@
     <!--========================= Measure 14 =========================-->
     <measure id="m14-part1-0" implicit="no" number="14">
       <attributes>
-        <time id="ts_858_2503--ts_861_2818" symbol="common">
+        <time id="ts_860_2140--ts_860_2140" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -5417,7 +5417,7 @@
     <!--========================= Measure 16 =========================-->
     <measure id="m16-part1-0" implicit="no" number="16">
       <attributes>
-        <time id="ts_3087_2475--ts_3089_2782">
+        <time id="ts_3083_2105--ts_3083_2105">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -5512,7 +5512,7 @@
     <!--========================= Measure 17 =========================-->
     <measure id="m17-part1-0" implicit="no" number="17">
       <attributes>
-        <time id="ts_858_3608--ts_859_3917" symbol="common">
+        <time id="ts_858_3237--ts_858_3237" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -5811,7 +5811,7 @@
     <!--========================= Measure 19 =========================-->
     <measure id="m19-part1-0" implicit="no" number="19">
       <attributes>
-        <time id="ts_2654_3575--ts_2659_3885">
+        <time id="ts_2648_3207--ts_2648_3207">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -5930,7 +5930,7 @@
     <!--========================= Measure 20 =========================-->
     <measure id="m20-part1-0" implicit="no" number="20">
       <attributes>
-        <time id="ts_3092_3592--ts_3095_3909" symbol="common">
+        <time id="ts_3089_3229--ts_3089_3229" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -6266,7 +6266,7 @@
     <!--========================= Measure 22 =========================-->
     <measure id="m22-part1-0" implicit="no" number="22">
       <attributes>
-        <time id="ts_2025_4673--ts_2031_5017">
+        <time id="ts_2019_4305--ts_2019_4305">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -6385,7 +6385,7 @@
     <!--========================= Measure 23 =========================-->
     <measure id="m23-part1-0" implicit="no" number="23">
       <attributes>
-        <time id="ts_2624_4698--ts_2630_5041" symbol="common">
+        <time id="ts_2620_4332--ts_2620_4332" symbol="common">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>

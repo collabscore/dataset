@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-12</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -23,11 +23,11 @@
     <score-part id="part2">
       <part-name>part2</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="I40d906e38f20fd59d042043d840cec87">
+      <score-instrument id="I32cb7b0b9bf85999bb05bef8afaaede3">
         <instrument-name>part2</instrument-name>
         <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I40d906e38f20fd59d042043d840cec87">
+      <midi-instrument id="I32cb7b0b9bf85999bb05bef8afaaede3">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -35,11 +35,11 @@
     <score-part id="part1">
       <part-name>PIANO.</part-name>
       <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="I14c872024df4eb5fac8567ce0db25e23">
+      <score-instrument id="Ie0506b76091060d6d4dc09cf60e49e14">
         <instrument-name>PIANO.</instrument-name>
         <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I14c872024df4eb5fac8567ce0db25e23">
+      <midi-instrument id="Ie0506b76091060d6d4dc09cf60e49e14">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -51,47 +51,47 @@
     <measure id="m1-part2" implicit="no" number="1">
       <attributes>
         <divisions>10080</divisions>
-        <key id="default_ks_part2_1">
+        <key id="initial_ks_part2_1">
           <fifths>1</fifths>
         </key>
-        <time id="default_ts_part2_1">
+        <time id="default_ts--default_ts">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
-        <clef id="clef519">
+        <clef id="clef_853_2965">
           <sign>G</sign>
           <line>2</line>
         </clef>
       </attributes>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
     </measure>
     <!--========================= Measure 2 ==========================-->
     <measure id="m2-part2" implicit="no" number="2">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
     </measure>
     <!--========================= Measure 3 ==========================-->
     <measure id="m3-part2" implicit="no" number="3">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
     </measure>
     <!--========================= Measure 4 ==========================-->
     <measure id="m4-part2" implicit="no" number="4">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
     </measure>
     <!--========================= Measure 5 ==========================-->
     <measure id="m5-part2" implicit="no" number="5">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
@@ -99,42 +99,42 @@
     <!--========================= Measure 6 ==========================-->
     <measure id="m6-part2" implicit="no" number="6">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
     </measure>
     <!--========================= Measure 7 ==========================-->
     <measure id="m7-part2" implicit="no" number="7">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
     </measure>
     <!--========================= Measure 8 ==========================-->
     <measure id="m8-part2" implicit="no" number="8">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
     </measure>
     <!--========================= Measure 9 ==========================-->
     <measure id="m9-part2" implicit="no" number="9">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
     </measure>
     <!--========================= Measure 10 =========================-->
     <measure id="m10-part2" implicit="no" number="10">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
     </measure>
     <!--========================= Measure 11 =========================-->
     <measure id="m11-part2" implicit="no" number="11">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>20160</duration>
       </note>
@@ -146,10 +146,6 @@
         <key id="ks_942_2948">
           <fifths>1</fifths>
         </key>
-        <clef id="clef_853_2965">
-          <sign>G</sign>
-          <line>2</line>
-        </clef>
       </attributes>
       <note color="#13819E" id="rest_1237_3025">
         <rest measure="yes"/>
@@ -2652,7 +2648,7 @@
         <key id="ks_1295_1560--ks_1292_1881">
           <fifths>1</fifths>
         </key>
-        <time id="ts_1348_1602--ts_1341_1918">
+        <time id="default_ts--default_ts">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>

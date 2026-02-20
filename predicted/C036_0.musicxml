@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-12</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -23,11 +23,11 @@
     <score-part id="part3">
       <part-name>part3</part-name>
       <part-abbreviation>part3</part-abbreviation>
-      <score-instrument id="I947a88ed7cf9351a1896d70232a1b11a">
+      <score-instrument id="I5b40769572974d64e14920c0705e1bb5">
         <instrument-name>part3</instrument-name>
         <instrument-abbreviation>part3</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I947a88ed7cf9351a1896d70232a1b11a">
+      <midi-instrument id="I5b40769572974d64e14920c0705e1bb5">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -35,11 +35,11 @@
     <score-part id="part2">
       <part-name>-</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="Ibb0cf7f28a46ff5f57e556ecd56d48d5">
+      <score-instrument id="I776d4c1e6f96dff16cb2629a2ab02294">
         <instrument-name>-</instrument-name>
         <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ibb0cf7f28a46ff5f57e556ecd56d48d5">
+      <midi-instrument id="I776d4c1e6f96dff16cb2629a2ab02294">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -47,11 +47,11 @@
     <score-part id="part1">
       <part-name>PIANO</part-name>
       <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="I7b208fbc907c9dd54e853d92c52051f3">
+      <score-instrument id="I304e358acce2a41922c89302fbf7c928">
         <instrument-name>PIANO</instrument-name>
         <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I7b208fbc907c9dd54e853d92c52051f3">
+      <midi-instrument id="I304e358acce2a41922c89302fbf7c928">
         <midi-channel>3</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -63,26 +63,26 @@
     <measure id="m1-part3" implicit="no" number="1">
       <attributes>
         <divisions>10080</divisions>
-        <key id="default_ks_part3_1">
+        <key id="initial_ks_part3_1">
           <fifths>0</fifths>
         </key>
-        <time id="default_ts_part3_1">
+        <time id="default_ts--default_ts" symbol="single-number">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
-        <clef id="clef367">
+        <clef id="clef_332_2818">
           <sign>G</sign>
           <line>2</line>
         </clef>
       </attributes>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-3">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 2 ==========================-->
     <measure id="m2-part3" implicit="no" number="2">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-4">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -90,21 +90,21 @@
     <!--========================= Measure 3 ==========================-->
     <measure id="m3-part3" implicit="no" number="3">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-2">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 4 ==========================-->
     <measure id="m4-part3" implicit="no" number="4">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-2">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 5 ==========================-->
     <measure id="m5-part3" implicit="no" number="5">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -112,21 +112,21 @@
     <!--========================= Measure 6 ==========================-->
     <measure id="m6-part3" implicit="no" number="6">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-4">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 7 ==========================-->
     <measure id="m7-part3" implicit="no" number="7">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-3">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 8 ==========================-->
     <measure id="m8-part3" implicit="no" number="8">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-3">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -134,21 +134,21 @@
     <!--========================= Measure 9 ==========================-->
     <measure id="m9-part3" implicit="no" number="9">
       <print new-page="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-4">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 10 =========================-->
     <measure id="m10-part3" implicit="no" number="10">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-1">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 11 =========================-->
     <measure id="m11-part3" implicit="no" number="11">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -156,21 +156,21 @@
     <!--========================= Measure 12 =========================-->
     <measure id="m12-part3" implicit="no" number="12">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-2">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 13 =========================-->
     <measure id="m13-part3" implicit="no" number="13">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-3">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 14 =========================-->
     <measure id="m14-part3" implicit="no" number="14">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-7">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -178,21 +178,21 @@
     <!--========================= Measure 15 =========================-->
     <measure id="m15-part3" implicit="no" number="15">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-2">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 16 =========================-->
     <measure id="m16-part3" implicit="no" number="16">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 17 =========================-->
     <measure id="m17-part3" implicit="no" number="17">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-1">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -200,21 +200,21 @@
     <!--========================= Measure 18 =========================-->
     <measure id="m18-part3" implicit="no" number="18">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 19 =========================-->
     <measure id="m19-part3" implicit="no" number="19">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 20 =========================-->
     <measure id="m20-part3" implicit="no" number="20">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-2">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -222,28 +222,28 @@
     <!--========================= Measure 21 =========================-->
     <measure id="m21-part3" implicit="no" number="21">
       <print new-page="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-4">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 22 =========================-->
     <measure id="m22-part3" implicit="no" number="22">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 23 =========================-->
     <measure id="m23-part3" implicit="no" number="23">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 24 =========================-->
     <measure id="m24-part3" implicit="no" number="24">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -251,21 +251,21 @@
     <!--========================= Measure 25 =========================-->
     <measure id="m25-part3" implicit="no" number="25">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-22">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 26 =========================-->
     <measure id="m26-part3" implicit="no" number="26">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-22">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 27 =========================-->
     <measure id="m27-part3" implicit="no" number="27">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-22">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -273,21 +273,21 @@
     <!--========================= Measure 28 =========================-->
     <measure id="m28-part3" implicit="no" number="28">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-24">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 29 =========================-->
     <measure id="m29-part3" implicit="no" number="29">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-22">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 30 =========================-->
     <measure id="m30-part3" implicit="no" number="30">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-1">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -295,33 +295,28 @@
     <!--========================= Measure 31 =========================-->
     <measure id="m31-part3" implicit="no" number="31">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-2">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 32 =========================-->
     <measure id="m32-part3" implicit="no" number="32">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 33 =========================-->
     <measure id="m33-part3" implicit="no" number="33">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 34 =========================-->
     <measure id="m34-part3" implicit="no" number="34">
-      <attributes>
-        <key id="default_ks_part3_34">
-          <fifths>4</fifths>
-        </key>
-      </attributes>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -329,21 +324,21 @@
     <!--========================= Measure 35 =========================-->
     <measure id="m35-part3" implicit="no" number="35">
       <print new-page="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-1">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 36 =========================-->
     <measure id="m36-part3" implicit="no" number="36">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-1">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 37 =========================-->
     <measure id="m37-part3" implicit="no" number="37">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-5">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -351,26 +346,21 @@
     <!--========================= Measure 38 =========================-->
     <measure id="m38-part3" implicit="no" number="38">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 39 =========================-->
     <measure id="m39-part3" implicit="no" number="39">
-      <attributes>
-        <key id="default_ks_part3_39">
-          <fifths>0</fifths>
-        </key>
-      </attributes>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 40 =========================-->
     <measure id="m40-part3" implicit="no" number="40">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-10">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -378,21 +368,21 @@
     <!--========================= Measure 41 =========================-->
     <measure id="m41-part3" implicit="no" number="41">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 42 =========================-->
     <measure id="m42-part3" implicit="no" number="42">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 43 =========================-->
     <measure id="m43-part3" implicit="no" number="43">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -400,14 +390,14 @@
     <!--========================= Measure 44 =========================-->
     <measure id="m44-part3" implicit="no" number="44">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-1">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 45 =========================-->
     <measure id="m45-part3" implicit="no" number="45">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-20">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -415,26 +405,21 @@
     <!--========================= Measure 46 =========================-->
     <measure id="m46-part3" implicit="no" number="46">
       <print new-page="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 47 =========================-->
     <measure id="m47-part3" implicit="no" number="47">
-      <attributes>
-        <key id="default_ks_part3_47">
-          <fifths>3</fifths>
-        </key>
-      </attributes>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 48 =========================-->
     <measure id="m48-part3" implicit="no" number="48">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-8">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -442,21 +427,21 @@
     <!--========================= Measure 49 =========================-->
     <measure id="m49-part3" implicit="no" number="49">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-10">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 50 =========================-->
     <measure id="m50-part3" implicit="no" number="50">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 51 =========================-->
     <measure id="m51-part3" implicit="no" number="51">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-2">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -464,21 +449,21 @@
     <!--========================= Measure 52 =========================-->
     <measure id="m52-part3" implicit="no" number="52">
       <print new-system="yes"/>
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 53 =========================-->
     <measure id="m53-part3" implicit="no" number="53">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
     </measure>
     <!--========================= Measure 54 =========================-->
     <measure id="m54-part3" implicit="no" number="54">
-      <note print-object="no" print-spacing="yes">
+      <note id="pause-0">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -490,10 +475,6 @@
         <key id="ks_393_2814">
           <fifths>3</fifths>
         </key>
-        <clef id="clef_332_2818">
-          <sign>G</sign>
-          <line>2</line>
-        </clef>
       </attributes>
       <note color="#13819E" id="v1_nh_522_2871">
         <pitch>
@@ -611,7 +592,7 @@
         <key id="ks_625_1081">
           <fifths>0</fifths>
         </key>
-        <time id="ts_644_1135" symbol="single-number">
+        <time id="default_ts--default_ts" symbol="single-number">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -5973,7 +5954,7 @@
         <key id="ks_624_1368--ks_624_1623">
           <fifths>0</fifths>
         </key>
-        <time id="ts_644_1417--ts_643_1644" symbol="single-number">
+        <time id="default_ts--default_ts" symbol="single-number">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
