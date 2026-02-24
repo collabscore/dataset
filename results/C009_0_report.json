@@ -2,14 +2,14 @@
   "score_ref": "C009_0.musicxml",
   "title": "",
   "iiif_link": "",
-  "global_cost": 641,
-  "nb_diffs": 221,
+  "global_cost": 630,
+  "nb_diffs": 212,
   "predicted_stats": {
-    "total_symbols": 1886,
+    "total_symbols": 1884,
     "nb_notes": 1675,
     "notes_nsize": 4229,
-    "nb_context": 27,
-    "context_nsize": 39,
+    "nb_context": 25,
+    "context_nsize": 36,
     "nb_lyrics": 184,
     "lyrics_nsize": 1015
   },
@@ -23,140 +23,6 @@
     "lyrics_nsize": 1051
   },
   "aggr_ops": {
-    "extrasymboledit": {
-      "label": "extrasymboledit",
-      "cost": 2,
-      "nb_diffs": 1,
-      "ops": [
-        {
-          "label": "extrasymboledit",
-          "first_annot_obj": "clef,symbol=G2,off=0.0",
-          "type1": "ReadingContext",
-          "id1": 4414638672,
-          "second_annot_obj": "clef,symbol=F4,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4447510480,
-          "cost": 2
-        }
-      ]
-    },
-    "extradel": {
-      "label": "extradel",
-      "cost": 13,
-      "nb_diffs": 11,
-      "ops": [
-        {
-          "label": "extradel",
-          "first_annot_obj": "clef,symbol=F4,off=0.0",
-          "type1": "ReadingContext",
-          "id1": 4427187264,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "keysig,off=0.0,info:,sharp0=F,sharp1=C",
-          "type1": "ReadingContext",
-          "id1": 4414643792,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 2
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "keysig,off=0.0,info:,sharp0=F",
-          "type1": "ReadingContext",
-          "id1": 4429562480,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "keysig,off=0.0,info:,sharp0=F,sharp1=C",
-          "type1": "ReadingContext",
-          "id1": 4414159952,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 2
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "clef,symbol=C1,off=1.0",
-          "type1": "ReadingContext",
-          "id1": 4427189952,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "clef,symbol=F4,off=2.0",
-          "type1": "ReadingContext",
-          "id1": 4429939728,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "keysig,off=0.0,info:,sharp0=F",
-          "type1": "ReadingContext",
-          "id1": 4427283184,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "clef,symbol=F4,off=3.0",
-          "type1": "ReadingContext",
-          "id1": 4431238576,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "clef,symbol=G2,off=3.0",
-          "type1": "ReadingContext",
-          "id1": 4431100544,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "clef,symbol=F4,off=3.0",
-          "type1": "ReadingContext",
-          "id1": 4447554608,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        },
-        {
-          "label": "extradel",
-          "first_annot_obj": "clef,symbol=G2,off=3.0",
-          "type1": "ReadingContext",
-          "id1": 4447502416,
-          "second_annot_obj": "None",
-          "type2": "<class 'NoneType'>",
-          "id2": "",
-          "cost": 1
-        }
-      ]
-    },
     "lyricdel": {
       "label": "lyricdel",
       "cost": 35,
@@ -847,7 +713,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-5]2",
           "type1": "Note",
-          "id1": 4427973904,
+          "id1": 4393927648,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -857,7 +723,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-8]4",
           "type1": "Note",
-          "id1": 4428901136,
+          "id1": 4394870960,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -867,7 +733,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-1]4Bpapa",
           "type1": "Note",
-          "id1": 4429207264,
+          "id1": 4395160704,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -877,7 +743,7 @@
           "label": "notedel",
           "first_annot_obj": "[N6]4Bpapa",
           "type1": "Note",
-          "id1": 4429207264,
+          "id1": 4395160704,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -887,7 +753,7 @@
           "label": "notedel",
           "first_annot_obj": "[N1]4",
           "type1": "Note",
-          "id1": 4429207568,
+          "id1": 4395161008,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -897,7 +763,7 @@
           "label": "notedel",
           "first_annot_obj": "[N2]4",
           "type1": "Note",
-          "id1": 4429207872,
+          "id1": 4395161312,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -907,7 +773,7 @@
           "label": "notedel",
           "first_annot_obj": "[N3]4",
           "type1": "Note",
-          "id1": 4429208176,
+          "id1": 4395161616,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -917,7 +783,7 @@
           "label": "notedel",
           "first_annot_obj": "[N4]4",
           "type1": "Note",
-          "id1": 4429208480,
+          "id1": 4395161920,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -927,7 +793,7 @@
           "label": "notedel",
           "first_annot_obj": "[N5]4",
           "type1": "Note",
-          "id1": 4429208784,
+          "id1": 4395162224,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -937,7 +803,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]4",
           "type1": "Note",
-          "id1": 4427998912,
+          "id1": 4393952960,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -947,7 +813,7 @@
           "label": "notedel",
           "first_annot_obj": "[N3]4Bpapapa",
           "type1": "Note",
-          "id1": 4429501264,
+          "id1": 4395471088,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -957,7 +823,7 @@
           "label": "notedel",
           "first_annot_obj": "[N4]4Bpapapa",
           "type1": "Note",
-          "id1": 4429501568,
+          "id1": 4395471392,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -967,7 +833,7 @@
           "label": "notedel",
           "first_annot_obj": "[N5]4Bpapapa",
           "type1": "Note",
-          "id1": 4429501872,
+          "id1": 4395471696,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -977,7 +843,7 @@
           "label": "notedel",
           "first_annot_obj": "[N6]4Bpapapa",
           "type1": "Note",
-          "id1": 4429502176,
+          "id1": 4395472000,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -987,7 +853,7 @@
           "label": "notedel",
           "first_annot_obj": "[N7]4Bpapapa",
           "type1": "Note",
-          "id1": 4429502480,
+          "id1": 4395472304,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -997,7 +863,7 @@
           "label": "notedel",
           "first_annot_obj": "[N8]4Bpapa",
           "type1": "Note",
-          "id1": 4429502784,
+          "id1": 4395472608,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1007,7 +873,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]4",
           "type1": "Note",
-          "id1": 4428002032,
+          "id1": 4393956080,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1017,7 +883,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]4",
           "type1": "Note",
-          "id1": 4428002272,
+          "id1": 4393956320,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1027,7 +893,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]2*",
           "type1": "Note",
-          "id1": 4430448112,
+          "id1": 4396385776,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1037,7 +903,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]2*",
           "type1": "Note",
-          "id1": 4430447632,
+          "id1": 4396385296,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1047,7 +913,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-9natural]4",
           "type1": "Note",
-          "id1": 4431338400,
+          "id1": 4397292144,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1057,7 +923,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-6]4",
           "type1": "Note",
-          "id1": 4431338400,
+          "id1": 4397292144,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1067,7 +933,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]4",
           "type1": "Note",
-          "id1": 4430453392,
+          "id1": 4396391056,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1077,7 +943,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]4Bpa",
           "type1": "Note",
-          "id1": 4431711584,
+          "id1": 4397665328,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1087,7 +953,7 @@
           "label": "notedel",
           "first_annot_obj": "[N2]4Bpa",
           "type1": "Note",
-          "id1": 4431605408,
+          "id1": 4397542768,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1097,7 +963,7 @@
           "label": "notedel",
           "first_annot_obj": "[N4]4Bpa",
           "type1": "Note",
-          "id1": 4431605408,
+          "id1": 4397542768,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1107,7 +973,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]4Bpa",
           "type1": "Note",
-          "id1": 4431832048,
+          "id1": 4397785792,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1117,7 +983,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]4Bpa",
           "type1": "Note",
-          "id1": 4431826880,
+          "id1": 4397780624,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1127,7 +993,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]4Bpa",
           "type1": "Note",
-          "id1": 4431723136,
+          "id1": 4397676880,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1137,7 +1003,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]2*",
           "type1": "Note",
-          "id1": 4430456272,
+          "id1": 4396393936,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1147,7 +1013,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]4",
           "type1": "Note",
-          "id1": 4432086592,
+          "id1": 4398040336,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1157,7 +1023,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-5]2*",
           "type1": "Note",
-          "id1": 4447561600,
+          "id1": 4398425984,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1167,7 +1033,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]4",
           "type1": "Note",
-          "id1": 4430462032,
+          "id1": 4396399696,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1177,7 +1043,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-2]4",
           "type1": "Note",
-          "id1": 4447557952,
+          "id1": 4398422336,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1187,7 +1053,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-5natural]2*",
           "type1": "Note",
-          "id1": 4447558256,
+          "id1": 4398422640,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1197,7 +1063,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-1]4Bpa",
           "type1": "Note",
-          "id1": 4429120784,
+          "id1": 4395074224,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1207,7 +1073,7 @@
           "label": "notedel",
           "first_annot_obj": "[N6]4Bpa",
           "type1": "Note",
-          "id1": 4429120784,
+          "id1": 4395074224,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1217,7 +1083,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-2]4Bpa",
           "type1": "Note",
-          "id1": 4429122000,
+          "id1": 4395075440,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1227,7 +1093,7 @@
           "label": "notedel",
           "first_annot_obj": "[N5]4Bpa",
           "type1": "Note",
-          "id1": 4429122000,
+          "id1": 4395075440,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1237,7 +1103,7 @@
           "label": "notedel",
           "first_annot_obj": "[N7]4",
           "type1": "Note",
-          "id1": 4430356576,
+          "id1": 4396310016,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1247,7 +1113,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-4]4Bpa",
           "type1": "Note",
-          "id1": 4430827152,
+          "id1": 4396780896,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1257,7 +1123,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]4Bpa",
           "type1": "Note",
-          "id1": 4430825632,
+          "id1": 4396779376,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1267,7 +1133,7 @@
           "label": "notedel",
           "first_annot_obj": "[N4]4Bpa",
           "type1": "Note",
-          "id1": 4430825936,
+          "id1": 4396779680,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1277,7 +1143,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]4Bpa",
           "type1": "Note",
-          "id1": 4430826240,
+          "id1": 4396779984,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1287,7 +1153,7 @@
           "label": "notedel",
           "first_annot_obj": "[N3]4Bpa",
           "type1": "Note",
-          "id1": 4430826544,
+          "id1": 4396780288,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1297,7 +1163,7 @@
           "label": "notedel",
           "first_annot_obj": "[N1]4Bpa",
           "type1": "Note",
-          "id1": 4430703984,
+          "id1": 4396657728,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1307,7 +1173,7 @@
           "label": "notedel",
           "first_annot_obj": "[N1]4Bpa",
           "type1": "Note",
-          "id1": 4430704288,
+          "id1": 4396658032,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1317,7 +1183,7 @@
           "label": "notedel",
           "first_annot_obj": "[N5]4Bpa",
           "type1": "Note",
-          "id1": 4430704592,
+          "id1": 4396658336,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1327,7 +1193,7 @@
           "label": "notedel",
           "first_annot_obj": "[N1]4Bpa",
           "type1": "Note",
-          "id1": 4430704896,
+          "id1": 4396658640,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1337,7 +1203,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]2*",
           "type1": "Note",
-          "id1": 4430705504,
+          "id1": 4396659248,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1347,7 +1213,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-3]2",
           "type1": "Note",
-          "id1": 4431240400,
+          "id1": 4397177760,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1357,7 +1223,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]2*",
           "type1": "Note",
-          "id1": 4430454832,
+          "id1": 4396392496,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1367,7 +1233,7 @@
           "label": "notedel",
           "first_annot_obj": "[R]2*",
           "type1": "Note",
-          "id1": 4430455072,
+          "id1": 4396392736,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1377,7 +1243,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-7sharp]4Bpa",
           "type1": "Note",
-          "id1": 4431830224,
+          "id1": 4397783968,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1387,7 +1253,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-6]4Bpa",
           "type1": "Note",
-          "id1": 4431825056,
+          "id1": 4397778800,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1397,7 +1263,7 @@
           "label": "notedel",
           "first_annot_obj": "[N-1sharp]2",
           "type1": "Note",
-          "id1": 4432312656,
+          "id1": 4398266704,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1407,7 +1273,7 @@
           "label": "notedel",
           "first_annot_obj": "[N7]2*",
           "type1": "Note",
-          "id1": 4447664464,
+          "id1": 4398545232,
           "second_annot_obj": "None",
           "type2": "<class 'NoneType'>",
           "id2": "",
@@ -1561,7 +1427,7 @@
           "id1": "",
           "second_annot_obj": "[N-7]4",
           "type2": "Note",
-          "id2": 4451348128,
+          "id2": 4416827040,
           "cost": 2
         },
         {
@@ -1571,7 +1437,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpapapa",
           "type2": "Note",
-          "id2": 4451706448,
+          "id2": 4417185360,
           "cost": 5
         },
         {
@@ -1581,7 +1447,7 @@
           "id1": "",
           "second_annot_obj": "[N2]4Bpapapa",
           "type2": "Note",
-          "id2": 4451706752,
+          "id2": 4417185664,
           "cost": 5
         },
         {
@@ -1591,7 +1457,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpapapa",
           "type2": "Note",
-          "id2": 4451707056,
+          "id2": 4417185968,
           "cost": 5
         },
         {
@@ -1601,7 +1467,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpapapa",
           "type2": "Note",
-          "id2": 4451707360,
+          "id2": 4417186272,
           "cost": 5
         },
         {
@@ -1611,7 +1477,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpapapa",
           "type2": "Note",
-          "id2": 4451707664,
+          "id2": 4417186576,
           "cost": 5
         },
         {
@@ -1621,7 +1487,7 @@
           "id1": "",
           "second_annot_obj": "[N-1]4Bpapa",
           "type2": "Note",
-          "id2": 4451708880,
+          "id2": 4417187792,
           "cost": 4
         },
         {
@@ -1631,7 +1497,7 @@
           "id1": "",
           "second_annot_obj": "[N6]4Bpapa",
           "type2": "Note",
-          "id2": 4451708880,
+          "id2": 4417187792,
           "cost": 4
         },
         {
@@ -1641,7 +1507,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": 4451502512,
+          "id2": 4416981424,
           "cost": 2
         },
         {
@@ -1651,7 +1517,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpapapa",
           "type2": "Note",
-          "id2": 4452123008,
+          "id2": 4417601920,
           "cost": 5
         },
         {
@@ -1661,7 +1527,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpapapa",
           "type2": "Note",
-          "id2": 4452123312,
+          "id2": 4417602224,
           "cost": 5
         },
         {
@@ -1671,7 +1537,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpapapa",
           "type2": "Note",
-          "id2": 4452123616,
+          "id2": 4417602528,
           "cost": 5
         },
         {
@@ -1681,7 +1547,7 @@
           "id1": "",
           "second_annot_obj": "[N6]4Bpapapa",
           "type2": "Note",
-          "id2": 4452123920,
+          "id2": 4417602832,
           "cost": 5
         },
         {
@@ -1691,7 +1557,7 @@
           "id1": "",
           "second_annot_obj": "[N7]4Bpapapa",
           "type2": "Note",
-          "id2": 4452124224,
+          "id2": 4417603136,
           "cost": 5
         },
         {
@@ -1701,7 +1567,7 @@
           "id1": "",
           "second_annot_obj": "[N8]4Bpapa",
           "type2": "Note",
-          "id2": 4452124528,
+          "id2": 4417603440,
           "cost": 4
         },
         {
@@ -1711,7 +1577,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": 4451508032,
+          "id2": 4416986944,
           "cost": 2
         },
         {
@@ -1721,7 +1587,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": 4451508272,
+          "id2": 4416987184,
           "cost": 2
         },
         {
@@ -1731,7 +1597,7 @@
           "id1": "",
           "second_annot_obj": "[R]4",
           "type2": "Note",
-          "id2": 4453218688,
+          "id2": 4418697600,
           "cost": 2
         },
         {
@@ -1741,7 +1607,7 @@
           "id1": "",
           "second_annot_obj": "[N-9natural]4",
           "type2": "Note",
-          "id2": 4463237744,
+          "id2": 4419656304,
           "cost": 3
         },
         {
@@ -1751,7 +1617,7 @@
           "id1": "",
           "second_annot_obj": "[N-6]4",
           "type2": "Note",
-          "id2": 4463237744,
+          "id2": 4419656304,
           "cost": 2
         },
         {
@@ -1761,7 +1627,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": 4463614576,
+          "id2": 4420016752,
           "cost": 3
         },
         {
@@ -1771,7 +1637,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": 4463491104,
+          "id2": 4419909664,
           "cost": 3
         },
         {
@@ -1781,7 +1647,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpa",
           "type2": "Note",
-          "id2": 4463491104,
+          "id2": 4419909664,
           "cost": 3
         },
         {
@@ -1791,7 +1657,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": 4463754768,
+          "id2": 4420156944,
           "cost": 3
         },
         {
@@ -1801,7 +1667,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": 4463748688,
+          "id2": 4420150864,
           "cost": 3
         },
         {
@@ -1811,7 +1677,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": 4463742304,
+          "id2": 4420144480,
           "cost": 3
         },
         {
@@ -1821,7 +1687,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": 4463980192,
+          "id2": 4420398752,
           "cost": 3
         },
         {
@@ -1831,7 +1697,7 @@
           "id1": "",
           "second_annot_obj": "[N4]2",
           "type2": "Note",
-          "id2": 4464360976,
+          "id2": 4420779536,
           "cost": 2
         },
         {
@@ -1841,7 +1707,7 @@
           "id1": "",
           "second_annot_obj": "[N4]2*",
           "type2": "Note",
-          "id2": 4464356416,
+          "id2": 4420774976,
           "cost": 3
         },
         {
@@ -1851,7 +1717,7 @@
           "id1": "",
           "second_annot_obj": "[N-2sharp]4",
           "type2": "Note",
-          "id2": 4464531168,
+          "id2": 4420949728,
           "cost": 3
         },
         {
@@ -1861,7 +1727,7 @@
           "id1": "",
           "second_annot_obj": "[N-5natural]2*",
           "type2": "Note",
-          "id2": 4464531472,
+          "id2": 4420950032,
           "cost": 4
         },
         {
@@ -1871,7 +1737,7 @@
           "id1": "",
           "second_annot_obj": "[N-1]4Bpa",
           "type2": "Note",
-          "id2": 4451600544,
+          "id2": 4417079456,
           "cost": 3
         },
         {
@@ -1881,7 +1747,7 @@
           "id1": "",
           "second_annot_obj": "[N6]4Bpa",
           "type2": "Note",
-          "id2": 4451600544,
+          "id2": 4417079456,
           "cost": 3
         },
         {
@@ -1891,7 +1757,7 @@
           "id1": "",
           "second_annot_obj": "[N-2]4Bpa",
           "type2": "Note",
-          "id2": 4451601456,
+          "id2": 4417080368,
           "cost": 3
         },
         {
@@ -1901,7 +1767,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpa",
           "type2": "Note",
-          "id2": 4451601456,
+          "id2": 4417080368,
           "cost": 3
         },
         {
@@ -1911,7 +1777,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": 4451602672,
+          "id2": 4417081584,
           "cost": 3
         },
         {
@@ -1921,7 +1787,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpa",
           "type2": "Note",
-          "id2": 4451602672,
+          "id2": 4417081584,
           "cost": 3
         },
         {
@@ -1931,7 +1797,7 @@
           "id1": "",
           "second_annot_obj": "[N-5]4*",
           "type2": "Note",
-          "id2": 4451698848,
+          "id2": 4417177760,
           "cost": 3
         },
         {
@@ -1941,7 +1807,7 @@
           "id1": "",
           "second_annot_obj": "[N11]4",
           "type2": "Note",
-          "id2": 4452939200,
+          "id2": 4418401728,
           "cost": 2
         },
         {
@@ -1951,7 +1817,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": 4453511424,
+          "id2": 4418990336,
           "cost": 3
         },
         {
@@ -1961,7 +1827,7 @@
           "id1": "",
           "second_annot_obj": "[N4]4Bpa",
           "type2": "Note",
-          "id2": 4453511728,
+          "id2": 4418990640,
           "cost": 3
         },
         {
@@ -1971,7 +1837,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": 4453512032,
+          "id2": 4418990944,
           "cost": 3
         },
         {
@@ -1981,7 +1847,7 @@
           "id1": "",
           "second_annot_obj": "[N3]4Bpa",
           "type2": "Note",
-          "id2": 4453512336,
+          "id2": 4418991248,
           "cost": 3
         },
         {
@@ -1991,7 +1857,7 @@
           "id1": "",
           "second_annot_obj": "[N-4]4Bpa",
           "type2": "Note",
-          "id2": 4453512944,
+          "id2": 4418991856,
           "cost": 3
         },
         {
@@ -2001,7 +1867,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]4Bpa",
           "type2": "Note",
-          "id2": 4453502608,
+          "id2": 4418981520,
           "cost": 3
         },
         {
@@ -2011,7 +1877,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": 4453503216,
+          "id2": 4418982128,
           "cost": 3
         },
         {
@@ -2021,7 +1887,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": 4453503824,
+          "id2": 4418982736,
           "cost": 3
         },
         {
@@ -2031,7 +1897,7 @@
           "id1": "",
           "second_annot_obj": "[N5]4Bpa",
           "type2": "Note",
-          "id2": 4453504128,
+          "id2": 4418983040,
           "cost": 3
         },
         {
@@ -2041,7 +1907,7 @@
           "id1": "",
           "second_annot_obj": "[N1]4Bpa",
           "type2": "Note",
-          "id2": 4453504432,
+          "id2": 4418983344,
           "cost": 3
         },
         {
@@ -2051,7 +1917,7 @@
           "id1": "",
           "second_annot_obj": "[N-6sharp]4Bpa",
           "type2": "Note",
-          "id2": 4463752336,
+          "id2": 4420154512,
           "cost": 4
         },
         {
@@ -2061,7 +1927,7 @@
           "id1": "",
           "second_annot_obj": "[N-5]4Bpa",
           "type2": "Note",
-          "id2": 4463746256,
+          "id2": 4420148432,
           "cost": 3
         },
         {
@@ -2071,7 +1937,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]2",
           "type2": "Note",
-          "id2": 4464526608,
+          "id2": 4420945168,
           "cost": 2
         },
         {
@@ -2081,7 +1947,7 @@
           "id1": "",
           "second_annot_obj": "[N-3]2*",
           "type2": "Note",
-          "id2": 4464358544,
+          "id2": 4420777104,
           "cost": 3
         },
         {
@@ -2091,7 +1957,7 @@
           "id1": "",
           "second_annot_obj": "[N10]2*",
           "type2": "Note",
-          "id2": 4464687744,
+          "id2": 4421106304,
           "cost": 3
         }
       ]
@@ -2105,70 +1971,137 @@
           "label": "insbeam",
           "first_annot_obj": "[N0]4",
           "type1": "Note",
-          "id1": 4429206048,
+          "id1": 4395159488,
           "second_annot_obj": "[N0]4Bpapapa",
           "type2": "Note",
-          "id2": 4451706144,
+          "id2": 4417185056,
           "cost": 1
         },
         {
           "label": "insbeam",
           "first_annot_obj": "[N0]4",
           "type1": "Note",
-          "id1": 4429206048,
+          "id1": 4395159488,
           "second_annot_obj": "[N0]4Bpapapa",
           "type2": "Note",
-          "id2": 4451706144,
+          "id2": 4417185056,
           "cost": 1
         },
         {
           "label": "insbeam",
           "first_annot_obj": "[N0]4",
           "type1": "Note",
-          "id1": 4429206048,
+          "id1": 4395159488,
           "second_annot_obj": "[N0]4Bpapapa",
           "type2": "Note",
-          "id2": 4451706144,
+          "id2": 4417185056,
           "cost": 1
         },
         {
           "label": "insbeam",
           "first_annot_obj": "[N2]4Bpapa",
           "type1": "Note",
-          "id1": 4429500960,
+          "id1": 4395470784,
           "second_annot_obj": "[N2]4Bpapapa",
           "type2": "Note",
-          "id2": 4452122704,
+          "id2": 4417601616,
           "cost": 1
         },
         {
           "label": "insbeam",
           "first_annot_obj": "[N-1]4",
           "type1": "Note",
-          "id1": 4432086288,
+          "id1": 4398040032,
           "second_annot_obj": "[N-1]4Bpa",
           "type2": "Note",
-          "id2": 4463979584,
+          "id2": 4420398144,
           "cost": 1
         },
         {
           "label": "insbeam",
           "first_annot_obj": "[N0]4",
           "type1": "Note",
-          "id1": 4429119872,
+          "id1": 4394958352,
           "second_annot_obj": "[N0]4Bpa",
           "type2": "Note",
-          "id2": 4451599632,
+          "id2": 4417078544,
           "cost": 1
         },
         {
           "label": "insbeam",
           "first_annot_obj": "[N7]4",
           "type1": "Note",
-          "id1": 4429119872,
+          "id1": 4394958352,
           "second_annot_obj": "[N7]4Bpa",
           "type2": "Note",
-          "id2": 4451599632,
+          "id2": 4417078544,
+          "cost": 1
+        }
+      ]
+    },
+    "extradel": {
+      "label": "extradel",
+      "cost": 7,
+      "nb_diffs": 6,
+      "ops": [
+        {
+          "label": "extradel",
+          "first_annot_obj": "keysig,off=0.0,info:,sharp0=F",
+          "type1": "ReadingContext",
+          "id1": 4395499872,
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "extradel",
+          "first_annot_obj": "keysig,off=0.0,info:,sharp0=F,sharp1=C",
+          "type1": "ReadingContext",
+          "id1": 4395500144,
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 2
+        },
+        {
+          "label": "extradel",
+          "first_annot_obj": "clef,symbol=C1,off=1.0",
+          "type1": "ReadingContext",
+          "id1": 4393127616,
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "extradel",
+          "first_annot_obj": "clef,symbol=F4,off=2.0",
+          "type1": "ReadingContext",
+          "id1": 4395877392,
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "extradel",
+          "first_annot_obj": "keysig,off=0.0,info:,sharp0=F",
+          "type1": "ReadingContext",
+          "id1": 4398842896,
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
+          "cost": 1
+        },
+        {
+          "label": "extradel",
+          "first_annot_obj": "clef,symbol=F4,off=3.0",
+          "type1": "ReadingContext",
+          "id1": 4398418992,
+          "second_annot_obj": "None",
+          "type2": "<class 'NoneType'>",
+          "id2": "",
           "cost": 1
         }
       ]
@@ -2182,20 +2115,20 @@
           "label": "accidentins",
           "first_annot_obj": "[N-4]2",
           "type1": "Note",
-          "id1": 4431332624,
+          "id1": 4397286368,
           "second_annot_obj": "[N-4natural]2",
           "type2": "Note",
-          "id2": 4463231360,
+          "id2": 4419649920,
           "cost": 1
         },
         {
           "label": "accidentins",
           "first_annot_obj": "[N-5]2",
           "type1": "Note",
-          "id1": 4447560992,
+          "id1": 4398425376,
           "second_annot_obj": "[N-5flat]2*",
           "type2": "Note",
-          "id2": 4464534208,
+          "id2": 4420952768,
           "cost": 1
         }
       ]
@@ -2209,20 +2142,20 @@
           "label": "accidentdel",
           "first_annot_obj": "[N-2sharp]2*",
           "type1": "Note",
-          "id1": 4431607536,
+          "id1": 4397544896,
           "second_annot_obj": "[N-2]2*",
           "type2": "Note",
-          "id2": 4463608800,
+          "id2": 4420010976,
           "cost": 1
         },
         {
           "label": "accidentdel",
           "first_annot_obj": "[N5flat]4Bpa",
           "type1": "Note",
-          "id1": 4430706720,
+          "id1": 4396660464,
           "second_annot_obj": "[N5]4Bpa",
           "type2": "Note",
-          "id2": 4453510816,
+          "id2": 4418989728,
           "cost": 1
         }
       ]
@@ -2236,20 +2169,20 @@
           "label": "delbeam",
           "first_annot_obj": "[N-2sharp]4Bpa",
           "type1": "Note",
-          "id1": 4431970688,
+          "id1": 4397908048,
           "second_annot_obj": "[N-2sharp]4",
           "type2": "Note",
-          "id2": 4463861856,
+          "id2": 4420280416,
           "cost": 1
         },
         {
           "label": "delbeam",
           "first_annot_obj": "[N5sharp]4Bpa",
           "type1": "Note",
-          "id1": 4431970688,
+          "id1": 4397908048,
           "second_annot_obj": "[N5sharp]4",
           "type2": "Note",
-          "id2": 4463861856,
+          "id2": 4420280416,
           "cost": 1
         }
       ]
@@ -2263,20 +2196,20 @@
           "label": "dotins",
           "first_annot_obj": "[N-5]2",
           "type1": "Note",
-          "id1": 4447560992,
+          "id1": 4398425376,
           "second_annot_obj": "[N-5flat]2*",
           "type2": "Note",
-          "id2": 4464534208,
+          "id2": 4420952768,
           "cost": 1
         },
         {
           "label": "dotins",
           "first_annot_obj": "[N-4]2",
           "type1": "Note",
-          "id1": 4432312656,
+          "id1": 4398266704,
           "second_annot_obj": "[N-4]2*",
           "type2": "Note",
-          "id2": 4464358544,
+          "id2": 4420777104,
           "cost": 1
         }
       ]
@@ -2290,18 +2223,18 @@
           "label": "accidentedit",
           "first_annot_obj": "[N-1sharp]2*",
           "type1": "Note",
-          "id1": 4447555824,
+          "id1": 4398420208,
           "second_annot_obj": "[N-1natural]2*",
           "type2": "Note",
-          "id2": 4464528432,
+          "id2": 4420946992,
           "cost": 2
         }
       ]
     },
     "extrains": {
       "label": "extrains",
-      "cost": 4,
-      "nb_diffs": 4,
+      "cost": 1,
+      "nb_diffs": 1,
       "ops": [
         {
           "label": "extrains",
@@ -2310,37 +2243,7 @@
           "id1": "",
           "second_annot_obj": "clef,symbol=F4,off=0.0",
           "type2": "ReadingContext",
-          "id2": 4429567648,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "clef,symbol=G2,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4414774608,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "clef,symbol=F4,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4414776144,
-          "cost": 1
-        },
-        {
-          "label": "extrains",
-          "first_annot_obj": "None",
-          "type1": "<class 'NoneType'>",
-          "id1": "",
-          "second_annot_obj": "clef,symbol=G2,off=0.0",
-          "type2": "ReadingContext",
-          "id2": 4463458208,
+          "id2": 4382352208,
           "cost": 1
         }
       ]

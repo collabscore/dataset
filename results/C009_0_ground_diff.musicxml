@@ -5,7 +5,7 @@
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2026-02-17</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>MuseScore Studio 4.6.3</software>
       <supports attribute="new-system" element="print" type="yes" value="yes" />
@@ -62,13 +62,13 @@
   <part-list>
     <score-part id="P1">
       <part-name print-object="no">MusicXML Part</part-name>
-      <score-instrument id="Ife5cc85f9b4525908ffb602ee14b1447">
+      <score-instrument id="I25dfd4de0c20bb5441633b0d0b725427">
         <instrument-name>MusicXML Part</instrument-name>
       </score-instrument>
     </score-part>
     <score-part id="P2">
       <part-name>MusicXML Part</part-name>
-      <score-instrument id="I9dbce24a9be16d83d6968bc980daf679">
+      <score-instrument id="Ic0d8c0a310547b7edd84b95a6db3e4c3">
         <instrument-name>MusicXML Part</instrument-name>
       </score-instrument>
     </score-part>
@@ -101,11 +101,6 @@
           <line>4</line>
         </clef>
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed BassClef symbol</words>
-        </direction-type>
-      </direction>
       <direction>
         <direction-type>
           <words />
@@ -17532,6 +17527,12 @@
         <voice>2</voice>
         <staff>2</staff>
       </note>
+      <attributes>
+        <clef number="2">
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
     </measure>
     <!--========================= Measure 73 =========================-->
     <measure implicit="no" number="73" width="90.76">
@@ -17602,18 +17603,6 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <attributes>
-        <clef number="2">
-          <sign>G</sign>
-          <line>2</line>
-        </clef>
-      </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted TrebleClef</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <note default-x="19.36" default-y="-273.06">
         <pitch>
           <step>C</step>
@@ -17732,6 +17721,19 @@
       <backup>
         <duration>20160</duration>
       </backup>
+      <forward>
+        <duration>30240</duration>
+        <staff>2</staff>
+      </forward>
+      <attributes>
+        <clef number="2">
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
+      <backup>
+        <duration>30240</duration>
+      </backup>
       <note default-x="12.5" default-y="-278.06">
         <pitch>
           <step>B</step>
@@ -17831,18 +17833,6 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <attributes>
-        <clef number="2">
-          <sign>F</sign>
-          <line>4</line>
-        </clef>
-      </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted BassClef</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <direction placement="above">
         <direction-type>
           <dynamics default-x="3.09" default-y="12.94" relative-y="10">
@@ -22857,6 +22847,12 @@
         <voice>2</voice>
         <staff>2</staff>
       </note>
+      <attributes>
+        <clef number="2">
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
     </measure>
     <!--======================== Measure 107 =========================-->
     <measure implicit="no" number="107" width="116.55">
@@ -22944,18 +22940,6 @@
       <backup>
         <duration>30240</duration>
       </backup>
-      <attributes>
-        <clef number="2">
-          <sign>G</sign>
-          <line>2</line>
-        </clef>
-      </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">inserted TrebleClef</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <note default-x="43.17" default-y="-296.21">
         <pitch>
           <step>D</step>

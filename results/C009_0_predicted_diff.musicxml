@@ -6,7 +6,7 @@
     <creator type="composer" />
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-17</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -21,7 +21,7 @@
     <score-part id="part2">
       <part-name>part2</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="I9a37d32a7ad9e58d76ce37e28a153f22">
+      <score-instrument id="If9e74d6b4ff14cec87cce106689fd550">
         <instrument-name>part2</instrument-name>
         <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
@@ -29,11 +29,11 @@
     <score-part id="part1">
       <part-name>PIANO-</part-name>
       <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="Ib2e58540c473e18dabeab793f82ebe24">
+      <score-instrument id="Ieb5db6333795827369008ddeb7906a02">
         <instrument-name>PIANO-</instrument-name>
         <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ib2e58540c473e18dabeab793f82ebe24">
+      <midi-instrument id="Ieb5db6333795827369008ddeb7906a02">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -53,15 +53,10 @@
           <beat-type>4</beat-type>
         </time>
         <clef>
-          <sign>G</sign>
-          <line>2</line>
+          <sign>F</sign>
+          <line>4</line>
         </clef>
       </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">changed TrebleClef symbol</words>
-        </direction-type>
-      </direction>
       <note>
         <rest measure="yes" />
         <duration>30240</duration>
@@ -105,25 +100,6 @@
     <!--========================= Measure 7 ==========================-->
     <measure implicit="no" number="7">
       <print new-system="yes" />
-      <attributes>
-        <key>
-          <fifths>2</fifths>
-        </key>
-        <clef>
-          <sign>F</sign>
-          <line>4</line>
-        </clef>
-      </attributes>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">deleted BassClef</words>
-        </direction-type>
-      </direction>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">deleted KeySignature</words>
-        </direction-type>
-      </direction>
       <note color="#13819E">
         <rest measure="yes" />
         <duration>30240</duration>
@@ -17220,12 +17196,6 @@
         <voice>2</voice>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">deleted TrebleClef</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <attributes>
         <clef number="2">
           <sign>G</sign>
@@ -17400,12 +17370,6 @@
         <duration>30240</duration>
         <staff>2</staff>
       </forward>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">deleted BassClef</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <attributes>
         <clef number="2">
           <sign>F</sign>
@@ -22416,12 +22380,6 @@
         <voice>2</voice>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <words color="#FF0000">deleted TrebleClef</words>
-        </direction-type>
-        <staff>2</staff>
-      </direction>
       <attributes>
         <clef number="2">
           <sign>G</sign>
