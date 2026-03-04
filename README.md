@@ -94,11 +94,6 @@ reports.
 python3 csd_utils.py -a report
 ```
 
-
-## Documentation 
-
-For details, please refere to the [documentation](https://collabscore.github.io/dataset).
-
 ## Licence
 
 The dataset is made available under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0) license.
