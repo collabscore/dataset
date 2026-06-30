@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-19</encoding-date>
+      <encoding-date>2026-02-12</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -22,24 +22,24 @@
   <part-list>
     <score-part id="part2">
       <part-name>CHANT</part-name>
-      <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="I09c9f4ea0525648882cf636b4b1b3af7">
+      <part-abbreviation>C.</part-abbreviation>
+      <score-instrument id="I286d2a120547331b5b1ac208807bfd0a">
         <instrument-name>CHANT</instrument-name>
-        <instrument-abbreviation>part2</instrument-abbreviation>
+        <instrument-abbreviation>C.</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I09c9f4ea0525648882cf636b4b1b3af7">
+      <midi-instrument id="I286d2a120547331b5b1ac208807bfd0a">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
     <score-part id="part1">
       <part-name>PIANO</part-name>
-      <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="Ica21e4eb893ab902165dc547aee98d7c">
+      <part-abbreviation>P.</part-abbreviation>
+      <score-instrument id="I0f56a08c81735f32d3b24da00cf0819e">
         <instrument-name>PIANO</instrument-name>
-        <instrument-abbreviation>part1</instrument-abbreviation>
+        <instrument-abbreviation>P.</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ica21e4eb893ab902165dc547aee98d7c">
+      <midi-instrument id="I0f56a08c81735f32d3b24da00cf0819e">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -54,7 +54,7 @@
         <key id="ks_664_1054">
           <fifths>3</fifths>
         </key>
-        <time id="default_ts--default_ts">
+        <time id="ts_751_1095">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -3899,7 +3899,7 @@
         <key id="ks_663_1342--ks_670_1609">
           <fifths>3</fifths>
         </key>
-        <time id="default_ts--default_ts">
+        <time id="ts_750_1383--ts_750_1631">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -10534,11 +10534,6 @@
       <backup>
         <duration>20160</duration>
       </backup>
-      <attributes>
-        <key id="ks_578_1845">
-          <fifths>1</fifths>
-        </key>
-      </attributes>
       <note color="#A637B0" id="v2_nh_631_1832">
         <pitch>
           <step>F</step>

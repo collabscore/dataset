@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-19</encoding-date>
+      <encoding-date>2026-02-12</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -23,11 +23,11 @@
     <score-part id="part7">
       <part-name>2FLUTES</part-name>
       <part-abbreviation>part7</part-abbreviation>
-      <score-instrument id="Iafaa8a2a1cb62d03c6ee2c8d9e4d0d42">
+      <score-instrument id="Iaddcffd126e61050849325a877620f1f">
         <instrument-name>2FLUTES</instrument-name>
         <instrument-abbreviation>part7</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Iafaa8a2a1cb62d03c6ee2c8d9e4d0d42">
+      <midi-instrument id="Iaddcffd126e61050849325a877620f1f">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -35,11 +35,11 @@
     <score-part id="part6">
       <part-name>2HAUTBOIS</part-name>
       <part-abbreviation>part6</part-abbreviation>
-      <score-instrument id="Ia1874ae754d0f894f4b06f47c9c78f8b">
+      <score-instrument id="I79e4fd1dd37af3fca1f38eb0a21dba2b">
         <instrument-name>2HAUTBOIS</instrument-name>
         <instrument-abbreviation>part6</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ia1874ae754d0f894f4b06f47c9c78f8b">
+      <midi-instrument id="I79e4fd1dd37af3fca1f38eb0a21dba2b">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -47,11 +47,11 @@
     <score-part id="part5">
       <part-name>2BASSONS</part-name>
       <part-abbreviation>part5</part-abbreviation>
-      <score-instrument id="Iddb6f9b68253cbc3965d94260f8a00c4">
+      <score-instrument id="I6cc50b9530d1a7345fafa0a13b64efb8">
         <instrument-name>2BASSONS</instrument-name>
         <instrument-abbreviation>part5</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Iddb6f9b68253cbc3965d94260f8a00c4">
+      <midi-instrument id="I6cc50b9530d1a7345fafa0a13b64efb8">
         <midi-channel>3</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -59,11 +59,11 @@
     <score-part id="part4">
       <part-name>part4</part-name>
       <part-abbreviation>part4</part-abbreviation>
-      <score-instrument id="I704f26f62cf007578d9a85abc758f1a3">
+      <score-instrument id="Ia14ed2d74c4d338d6520105ab02df7bb">
         <instrument-name>part4</instrument-name>
         <instrument-abbreviation>part4</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I704f26f62cf007578d9a85abc758f1a3">
+      <midi-instrument id="Ia14ed2d74c4d338d6520105ab02df7bb">
         <midi-channel>4</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -71,11 +71,11 @@
     <score-part id="part3">
       <part-name>part3</part-name>
       <part-abbreviation>part3</part-abbreviation>
-      <score-instrument id="I3bff0fbaa022748ee1c2de023741af58">
+      <score-instrument id="I97d1ac9496c6e85ec0746d69b0ca50e4">
         <instrument-name>part3</instrument-name>
         <instrument-abbreviation>part3</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I3bff0fbaa022748ee1c2de023741af58">
+      <midi-instrument id="I97d1ac9496c6e85ec0746d69b0ca50e4">
         <midi-channel>5</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -83,11 +83,11 @@
     <score-part id="part2">
       <part-name>ALTOS</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="I44c3b0fc739aa4f3bf056548601390f6">
+      <score-instrument id="I43cb64ad6958826d431943c0bd5634d0">
         <instrument-name>ALTOS</instrument-name>
         <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I44c3b0fc739aa4f3bf056548601390f6">
+      <midi-instrument id="I43cb64ad6958826d431943c0bd5634d0">
         <midi-channel>6</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -95,11 +95,11 @@
     <score-part id="part1">
       <part-name>O</part-name>
       <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="I516e9c78c0cd8462cf118f5ede8af8fd">
+      <score-instrument id="I2b124de5794bff212eb699a7d6fac4c6">
         <instrument-name>O</instrument-name>
         <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I516e9c78c0cd8462cf118f5ede8af8fd">
+      <midi-instrument id="I2b124de5794bff212eb699a7d6fac4c6">
         <midi-channel>7</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -114,7 +114,7 @@
         <key id="ks_729_925">
           <fifths>2</fifths>
         </key>
-        <time id="default_ts" symbol="cut">
+        <time id="pseudo_sign9">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -372,7 +372,7 @@
     <!--========================= Measure 10 =========================-->
     <measure id="m10-part7" implicit="no" number="10">
       <attributes>
-        <time id="ts_1248_3524" symbol="single-number">
+        <time id="pseudo_sign10">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
@@ -5782,7 +5782,7 @@
         <key id="ks_735_1192">
           <fifths>2</fifths>
         </key>
-        <time id="default_ts" symbol="cut">
+        <time id="ts_777_1220" symbol="cut">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -6356,7 +6356,7 @@
     <!--========================= Measure 10 =========================-->
     <measure id="m10-part6" implicit="no" number="10">
       <attributes>
-        <time id="ts_1248_3524" symbol="single-number">
+        <time id="pseudo_sign10">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
@@ -8276,7 +8276,7 @@
         <key id="ks_740_1474">
           <fifths>2</fifths>
         </key>
-        <time id="default_ts" symbol="cut">
+        <time id="ts_789_1481" symbol="cut">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -8564,7 +8564,7 @@
     <!--========================= Measure 10 =========================-->
     <measure id="m10-part5" implicit="no" number="10">
       <attributes>
-        <time id="ts_1248_3524" symbol="single-number">
+        <time id="pseudo_sign10">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
@@ -9436,12 +9436,12 @@
         <duration>10080</duration>
         <type>quarter</type>
       </note>
-    <note id="v1_nh_1835_1151" color="#a637b0"><pitch><step>C</step><octave>4</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type></note></measure>
+    <note id="v1_nh_1835_1151" color="#a637b0"><pitch><step>G</step><octave>4</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type></note></measure>
     <!--========================= Measure 32 =========================-->
     <measure id="m32-part5" implicit="no" number="32">
       <note color="#13819E" id="v1_nh_1957_1149">
         <pitch>
-          <step>E</step>
+          <step>B</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -9452,7 +9452,7 @@
         </note>
       <note color="#13819E" id="v1_nh_1996_1140">
         <pitch>
-          <step>D</step>
+          <step>A</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -9463,8 +9463,9 @@
       </note>
       <note color="#13819E" id="v1_nh_2035_1166">
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9474,8 +9475,7 @@
       </note>
       <note color="#13819E" id="v1_nh_2080_1153">
         <pitch>
-          <step>C</step>
-          <alter>1</alter>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -9486,8 +9486,7 @@
       </note>
       <note color="#13819E" id="v1_nh_2121_1163">
         <pitch>
-          <step>C</step>
-          <alter>1</alter>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
         <duration>10080</duration>
@@ -9495,28 +9494,24 @@
         <stem>down</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
       </note>
-    <note id="v1_nh_2202_1165" color="#a637b0"><pitch><step>B</step><octave>3</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type><tie type="start"/></note></measure>
+    <note id="v1_nh_2202_1165" color="#a637b0"><pitch><step>F</step><octave>4</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type></note></measure>
     <!--========================= Measure 33 =========================-->
     <measure id="m33-part5" implicit="no" number="33">
       <note color="#13819E" id="v1_nh_2322_1164">
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
-        <tie type="stop"/>
         <type>eighth</type>
         <stem>down</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <beam number="1">begin</beam>
-        <notations>
-          <tied type="stop"/>
-        </notations>
-      </note>
+        </note>
       <note color="#13819E" id="v1_nh_2363_1154">
         <pitch>
-          <step>C</step>
-          <alter>1</alter>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -9527,8 +9522,8 @@
       </note>
       <note color="#13819E" id="v1_nh_2405_1174">
         <pitch>
-          <step>A</step>
-          <octave>3</octave>
+          <step>E</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9538,8 +9533,9 @@
       </note>
       <note color="#13819E" id="v1_nh_2450_1165">
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9549,27 +9545,21 @@
       </note>
       <note color="#13819E" id="v1_nh_2487_1176">
         <pitch>
-          <step>A</step>
-          <octave>3</octave>
+          <step>E</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
         <stem>down</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
       </note>
-    <note id="v1_nh_2553_1174" color="#a637b0"><pitch><step>A</step><octave>3</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type><tie type="start"/></note></measure>
+    <note id="v1_nh_2553_1174" color="#a637b0"><pitch><step>E</step><octave>4</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type><tie type="start"/></note></measure>
     <!--========================= Measure 34 =========================-->
     <measure id="m34-part5" implicit="no" number="34">
-      <attributes>
-        <clef id="clef_327_3186">
-          <sign>C</sign>
-          <line>4</line>
-        </clef>
-      </attributes>
       <note color="#13819E" id="v1_nh_455_3195">
         <pitch>
-          <step>A</step>
-          <octave>3</octave>
+          <step>E</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <tie type="stop"/>
@@ -9583,8 +9573,9 @@
       </note>
       <note color="#13819E" id="v1_nh_492_3185">
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9594,8 +9585,8 @@
       </note>
       <note color="#13819E" id="v1_nh_532_3203">
         <pitch>
-          <step>G</step>
-          <octave>3</octave>
+          <step>D</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9618,13 +9609,13 @@
         <duration>5040</duration>
         <type>eighth</type>
       </note>
-    <note id="v1_nh_704_3199" color="#a637b0"><pitch><step>G</step><octave>3</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type><tie type="start"/></note></measure>
+    <note id="v1_nh_704_3199" color="#a637b0"><pitch><step>D</step><octave>4</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type><tie type="start"/></note></measure>
     <!--========================= Measure 35 =========================-->
     <measure id="m35-part5" implicit="no" number="35">
       <note color="#13819E" id="v1_nh_839_3194">
         <pitch>
-          <step>G</step>
-          <octave>3</octave>
+          <step>D</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <tie type="stop"/>
@@ -9638,8 +9629,8 @@
       </note>
       <note color="#13819E" id="v1_nh_882_3185">
         <pitch>
-          <step>A</step>
-          <octave>3</octave>
+          <step>E</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9649,9 +9640,9 @@
       </note>
       <note color="#13819E" id="v1_nh_923_3203">
         <pitch>
-          <step>F</step>
+          <step>C</step>
           <alter>1</alter>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9661,8 +9652,8 @@
       </note>
       <note color="#13819E" id="v1_nh_967_3192">
         <pitch>
-          <step>G</step>
-          <octave>3</octave>
+          <step>D</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9672,59 +9663,54 @@
       </note>
       <note color="#13819E" id="v1_nh_1008_3202">
         <pitch>
-          <step>F</step>
+          <step>C</step>
           <alter>1</alter>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
         <stem>down</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
       </note>
-    <note id="v1_nh_1093_3172" color="#a637b0"><pitch><step>B</step><octave>3</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type><tie type="start"/></note></measure>
+    <note id="v1_nh_1093_3172" color="#a637b0"><pitch><step>F</step><octave>4</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type></note></measure>
     <!--========================= Measure 36 =========================-->
     <measure id="m36-part5" implicit="no" number="36">
       <note color="#13819E" id="v1_nh_1225_3170">
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
-        <tie type="stop"/>
         <type>quarter</type>
         <stem>down</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
-        <notations>
-          <tied type="stop"/>
-        </notations>
-      </note>
+        </note>
       <note color="#13819E" id="v1_nh_1309_3169">
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
         </pitch>
         <duration>20160</duration>
         <type>half</type>
         <stem>down</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
       </note>
-    <note id="v1_nh_1473_3167" color="#a637b0"><pitch><step>B</step><octave>3</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type><tie type="start"/></note></measure>
+    <note id="v1_nh_1473_3167" color="#a637b0"><pitch><step>F</step><octave>4</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>down</stem><type>quarter</type></note></measure>
     <!--========================= Measure 37 =========================-->
     <measure id="m37-part5" implicit="no" number="37">
       <note color="#13819E" id="v1_nh_1603_3168">
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
-        <tie type="stop"/>
         <type>quarter</type>
         <stem>down</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
-        <notations>
-          <tied type="stop"/>
-        </notations>
-      </note>
+        </note>
       <note color="#13819E" id="v1_nh_1688_3238">
         <pitch>
           <step>A</step>
@@ -9747,12 +9733,12 @@
         <stem>up</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
       </note>
-    <note id="v1_nh_1853_3219" color="#a637b0"><pitch><step>G</step><octave>3</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>up</stem><type>quarter</type></note></measure>
+    <note id="v1_nh_1853_3219" color="#a637b0"><pitch><step>C</step><octave>3</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>up</stem><type>quarter</type></note></measure>
     <!--========================= Measure 38 =========================-->
     <measure id="m38-part5" implicit="no" number="38">
       <note color="#13819E" id="v1_nh_1985_3211">
         <pitch>
-          <step>A</step>
+          <step>D</step>
           <octave>3</octave>
         </pitch>
         <duration>10080</duration>
@@ -9762,9 +9748,8 @@
         </note>
       <note color="#13819E" id="v1_nh_2067_3226">
         <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
+          <step>B</step>
+          <octave>2</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -9773,23 +9758,22 @@
       </note>
       <note color="#13819E" id="v1_nh_2148_3193">
         <pitch>
-          <step>C</step>
+          <step>F</step>
           <alter>1</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
         <stem>down</stem>
         <notehead color="#13819E" parentheses="no">normal</notehead>
       </note>
-    <note id="v1_nh_2208_3252" color="#a637b0"><pitch><step>C</step><octave>3</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>up</stem><type>quarter</type></note></measure>
+    <note id="v1_nh_2208_3252" color="#a637b0"><pitch><step>F</step><octave>2</octave></pitch><voice>1</voice><duration>10080</duration><staff>1</staff><stem>up</stem><type>quarter</type></note></measure>
     <!--========================= Measure 39 =========================-->
     <measure id="m39-part5" implicit="no" number="39">
       <note color="#13819E" id="v1_nh_2308_3223">
         <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
+          <step>B</step>
+          <octave>2</octave>
         </pitch>
         <duration>20160</duration>
         <type>half</type>
@@ -9806,9 +9790,9 @@
     <measure id="m40-part5" implicit="no" number="40">
       <note color="#13819E" id="v1_nh_2477_3195">
         <pitch>
-          <step>C</step>
+          <step>F</step>
           <alter>1</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -9819,8 +9803,8 @@
         </note>
       <note color="#13819E" id="v1_nh_2517_3186">
         <pitch>
-          <step>D</step>
-          <octave>4</octave>
+          <step>G</step>
+          <octave>3</octave>
         </pitch>
         <duration>5040</duration>
         <voice>1</voice>
@@ -9831,7 +9815,7 @@
       </note>
       <note color="#13819E" id="v1_nh_2554_3204">
         <pitch>
-          <step>B</step>
+          <step>E</step>
           <octave>3</octave>
         </pitch>
         <duration>5040</duration>
@@ -9865,9 +9849,9 @@
       </note>
       <note color="#A637B0" id="v2_nh_2570_3257">
         <pitch>
-          <step>C</step>
+          <step>F</step>
           <alter>1</alter>
-          <octave>3</octave>
+          <octave>2</octave>
         </pitch>
         <duration>10080</duration>
         <voice>2</voice>
@@ -9884,16 +9868,10 @@
     </measure>
     <!--========================= Measure 41 =========================-->
     <measure id="m41-part5" implicit="no" number="41">
-      <attributes>
-        <clef id="clef_575_1219">
-          <sign>F</sign>
-          <line>4</line>
-        </clef>
-      </attributes>
       <note color="#13819E" id="v1_nh_716_1216">
         <pitch>
-          <step>D</step>
-          <octave>4</octave>
+          <step>G</step>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <type>half</type>
@@ -9902,7 +9880,7 @@
         </note>
       <note color="#13819E" id="v1_nh_795_1235">
         <pitch>
-          <step>B</step>
+          <step>E</step>
           <octave>3</octave>
         </pitch>
         <duration>5040</duration>
@@ -9918,9 +9896,9 @@
       </note>
       <note color="#13819E" id="v1_nh_833_1227">
         <pitch>
-          <step>C</step>
+          <step>F</step>
           <alter>1</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9928,14 +9906,14 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <beam number="1">continue</beam>
       </note>
-    <note id="v1_nh_885_1245" color="#a637b0"><pitch><step>A</step><octave>3</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">continue</beam></note><note id="v1_nh_924_1235" color="#a637b0"><pitch><step>B</step><octave>3</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">end</beam></note></measure>
+    <note id="v1_nh_885_1245" color="#a637b0"><pitch><step>D</step><octave>3</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">continue</beam></note><note id="v1_nh_924_1235" color="#a637b0"><pitch><step>E</step><octave>3</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">end</beam></note></measure>
     <!--========================= Measure 42 =========================-->
     <measure id="m42-part5" implicit="no" number="42">
       <note color="#13819E" id="v1_nh_1015_1211">
         <pitch>
-          <step>E</step>
+          <step>A</step>
           <alter>1</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -9945,7 +9923,8 @@
         </note>
       <note color="#13819E" id="v1_nh_1048_1199">
         <pitch>
-          <step>G</step>
+          <step>C</step>
+          <alter>1</alter>
           <octave>4</octave>
         </pitch>
         <duration>5040</duration>
@@ -9956,9 +9935,9 @@
       </note>
       <note color="#13819E" id="v1_nh_1092_1219">
         <pitch>
-          <step>D</step>
+          <step>G</step>
           <alter>1</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9969,9 +9948,9 @@
       </note>
       <note color="#13819E" id="v1_nh_1129_1211">
         <pitch>
-          <step>E</step>
+          <step>A</step>
           <alter>1</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9981,9 +9960,8 @@
       </note>
       <note color="#13819E" id="v1_nh_1172_1199">
         <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>4</octave>
+          <step>B</step>
+          <octave>3</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -9991,14 +9969,14 @@
         <notehead color="#13819E" parentheses="no">normal</notehead>
         <beam number="1">begin</beam>
       </note>
-    <note id="v1_nh_1212_1186" color="#a637b0"><pitch><step>G</step><octave>4</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">continue</beam></note><note id="v1_nh_1248_1211" color="#a637b0"><pitch><step>E</step><octave>4</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">continue</beam></note><note id="v1_nh_1294_1199" color="#a637b0"><pitch><step>F</step><octave>4</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">end</beam></note></measure>
+    <note id="v1_nh_1212_1186" color="#a637b0"><pitch><step>C</step><octave>4</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">continue</beam></note><note id="v1_nh_1248_1211" color="#a637b0"><pitch><step>A</step><octave>3</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">continue</beam></note><note id="v1_nh_1294_1199" color="#a637b0"><pitch><step>B</step><octave>3</octave></pitch><voice>1</voice><duration>5040</duration><staff>1</staff><stem>down</stem><type>eighth</type><beam number="1">end</beam></note></measure>
     <!--========================= Measure 43 =========================-->
     <measure id="m43-part5" implicit="no" number="43">
       <note color="#13819E" id="v1_nh_1379_1226">
         <pitch>
-          <step>C</step>
+          <step>F</step>
           <alter>1</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>20160</duration>
         <type>half</type>
@@ -10007,9 +9985,9 @@
         </note>
       <note color="#13819E" id="v1_nh_1465_1284">
         <pitch>
-          <step>C</step>
+          <step>F</step>
           <alter>1</alter>
-          <octave>3</octave>
+          <octave>2</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -10021,9 +9999,8 @@
     <measure id="m44-part5" implicit="no" number="44">
       <note color="#13819E" id="v1_nh_1608_1260">
         <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
+          <step>B</step>
+          <octave>2</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -10381,7 +10358,7 @@
         <key id="ks_749_1690">
           <fifths>2</fifths>
         </key>
-        <time id="default_ts" symbol="cut">
+        <time id="ts_792_1715" symbol="cut">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -12132,21 +12109,21 @@
     </measure>
     <!--========================= Measure 49 =========================-->
     <measure id="m49-part4" implicit="no" number="49">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
     </measure>
     <!--========================= Measure 50 =========================-->
     <measure id="m50-part4" implicit="no" number="50">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
     </measure>
     <!--========================= Measure 51 =========================-->
     <measure id="m51-part4" implicit="no" number="51">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
@@ -12167,28 +12144,28 @@
     </measure>
     <!--========================= Measure 53 =========================-->
     <measure id="m53-part4" implicit="no" number="53">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
     </measure>
     <!--========================= Measure 54 =========================-->
     <measure id="m54-part4" implicit="no" number="54">
-      <note id="pause-2">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
     </measure>
     <!--========================= Measure 55 =========================-->
     <measure id="m55-part4" implicit="no" number="55">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
     </measure>
     <!--========================= Measure 56 =========================-->
     <measure id="m56-part4" implicit="no" number="56">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
@@ -12291,28 +12268,28 @@
     </measure>
     <!--========================= Measure 64 =========================-->
     <measure id="m64-part4" implicit="no" number="64">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
     </measure>
     <!--========================= Measure 65 =========================-->
     <measure id="m65-part4" implicit="no" number="65">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
     </measure>
     <!--========================= Measure 66 =========================-->
     <measure id="m66-part4" implicit="no" number="66">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
     </measure>
     <!--========================= Measure 67 =========================-->
     <measure id="m67-part4" implicit="no" number="67">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
@@ -12333,7 +12310,7 @@
     </measure>
     <!--========================= Measure 69 =========================-->
     <measure id="m69-part4" implicit="no" number="69">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>30240</duration>
       </note>
@@ -12596,7 +12573,7 @@
         <key id="ks_754_1922">
           <fifths>2</fifths>
         </key>
-        <time id="default_ts" symbol="cut">
+        <time id="ts_791_1952" symbol="cut">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -12967,7 +12944,7 @@
     <!--========================= Measure 10 =========================-->
     <measure id="m10-part3" implicit="no" number="10">
       <attributes>
-        <time id="ts_1248_3524" symbol="single-number">
+        <time id="pseudo_sign10">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
@@ -14864,7 +14841,7 @@
         <key id="ks_756_2168">
           <fifths>2</fifths>
         </key>
-        <time id="default_ts" symbol="cut">
+        <time id="ts_798_2192" symbol="cut">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -15114,7 +15091,7 @@
     <!--========================= Measure 10 =========================-->
     <measure id="m10-part2" implicit="no" number="10">
       <attributes>
-        <time id="ts_1248_3524" symbol="single-number">
+        <time id="pseudo_sign10">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
@@ -16687,7 +16664,7 @@
         <key id="ks_763_2419">
           <fifths>2</fifths>
         </key>
-        <time id="default_ts" symbol="cut">
+        <time id="ts_805_2427" symbol="cut">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -16878,7 +16855,7 @@
     <!--========================= Measure 10 =========================-->
     <measure id="m10-part1" implicit="no" number="10">
       <attributes>
-        <time id="ts_1248_3524" symbol="single-number">
+        <time id="pseudo_sign10">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>

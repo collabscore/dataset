@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead xml:id="mbq7r5u">
+      <fileDesc xml:id="f1wm639h">
+         <titleStmt xml:id="tg2d1lm">
+            <title></title>
+            <respStmt>
+               <persName role="composer"></persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt xml:id="p1nzyq7m">
+            <date isodate="2026-02-18" type="encoding-date">2026-02-18</date>
+            <availability>
+               <distributor>CollabScore project</distributor>
+            </availability>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e32a2mh">
+         <appInfo xml:id="ayki7he">
+            <application xml:id="a8jc806" isodate="2026-02-18T21:59:30" version="5.1.0-8c3069d">
+               <name xml:id="nlqhxj0">Verovio</name>
+               <p xml:id="p1niu37f">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m18tvkha">
+            <score xml:id="sbcx7tf">
+               <scoreDef xml:id="s1v71xtp">
+                  <staffGrp xml:id="s1d1hhsu">
+                     <staffDef xml:id="part2" n="1" lines="5" ppq="10080">
+                        <label xml:id="l19ur8jo">Chantons</label>
+                        <labelAbbr xml:id="l1tmdqxt">C.</labelAbbr>
+                        <instrDef xml:id="ijie4a4" midi.channel="0" midi.instrnum="0" />
+                        <clef xml:id="clef_1223_1710" shape="G" line="2" />
+                        <keySig xml:id="ks_1307_1721" sig="2f" />
+                        <meterSig xml:id="default_ts--default_ts" count="4" sym="common" unit="4" />
+                     </staffDef>
+                     <staffGrp xml:id="part1" bar.thru="true">
+                        <grpSym xml:id="glsktro" symbol="brace" />
+                        <label xml:id="l3i43kb">Pianotons</label>
+                        <labelAbbr xml:id="l1p4hic5">P.</labelAbbr>
+                        <instrDef xml:id="iu1uggy" midi.channel="1" midi.instrnum="0" />
+                        <staffDef xml:id="s1qe5ilh" n="2" lines="5" ppq="10080">
+                           <clef xml:id="clef_1225_2106" shape="G" line="2" />
+                           <keySig xml:id="kd8e8in" sig="2f" />
+                           <meterSig xml:id="m15ouzhz" count="4" sym="common" unit="4" />
+                        </staffDef>
+                        <staffDef xml:id="s1p1pj7h" n="3" lines="5" ppq="10080">
+                           <clef xml:id="cxg3n3w" shape="F" line="4" />
+                           <keySig xml:id="k1i0r6yp" sig="2f" />
+                           <meterSig xml:id="m6yi7l8" count="4" sym="common" unit="4" />
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s4ydykd">
+                  <pb xml:id="p6lsj4w" />
+                  <measure xml:id="m1-part2" n="1">
+                     <staff xml:id="s19zz07d" n="1">
+                        <layer xml:id="lbnfxpa" n="1">
+                           <mRest xml:id="rest_1657_1777" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="sey0swk" n="2">
+                        <layer xml:id="l1mfm4zq" n="1">
+                           <chord xml:id="c1qpfsxl" dur.ppq="20160" dur="2" stem.dir="up">
+                              <note xml:id="v1_nh_1489_2213" oct="4" pname="g" color="#13819E" head.color="#13819E" />
+                              <note xml:id="v1_nh_1490_2245" oct="4" pname="e" color="#13819E" head.color="#13819E" accid.ges="f" />
+                              <note xml:id="v1_nh_1489_2276" oct="4" pname="c" color="#13819E" head.color="#13819E" />
+                           </chord>
+                           <chord xml:id="c11rsnwg" dur.ppq="20160" dur="2" stem.dir="up">
+                              <note xml:id="v1_nh_1697_2229" oct="4" pname="f" color="#13819E" head.color="#13819E">
+                                 <accid xml:id="aukpobr" accid="s" />
+                              </note>
+                              <note xml:id="v1_nh_1697_2258" oct="4" pname="d" color="#13819E" head.color="#13819E" />
+                              <note xml:id="v1_nh_1696_2305" oct="3" pname="a" color="#13819E" head.color="#13819E" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sh6xbwm" n="3">
+                        <layer xml:id="l17t0hth" n="2">
+                           <note xml:id="v2_nh_1490_2536" dur.ppq="20160" dur="2" oct="3" pname="c" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                           <note xml:id="v2_nh_1699_2517" dur.ppq="20160" dur="2" oct="3" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="dpzuqfv" place="above" staff="3" tstamp="1" val="40" vgrp="800">p</dynam>
+                  </measure>
+                  <measure xml:id="m2-part2" n="2">
+                     <staff xml:id="s77a0lw" n="1">
+                        <layer xml:id="l10y0h0l" n="1">
+                           <rest xml:id="rest_1956_1775" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_2055_1815" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vzzma2o" label="1" n="1">
+                                 <syl xml:id="s75o30p" con="s" wordpos="s">Dans</syl>
+                              </verse>
+                              <verse xml:id="v1vlxw8" label="2" n="2">
+                                 <syl xml:id="s1h5z1zi" con="s" wordpos="s">lento</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2187_1802" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vjquovw" label="1" n="1">
+                                 <syl xml:id="s19g0ewg" con="s" wordpos="s">les</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2338_1784" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="v1ny470k" label="1" n="1">
+                                 <syl xml:id="s1wa9ka0" con="s" wordpos="s">coins</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2487_1799" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1p56j59" label="1" n="1">
+                                 <syl xml:id="s1bzcdh1" con="s" wordpos="s">bleus</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2641_1810" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vcp1ra0" label="1" n="1">
+                                 <syl xml:id="s1k7ev3i" con="d" wordpos="i">par</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2755_1783" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="v1he9q10" label="1" n="1">
+                                 <syl xml:id="sm8tlcx" con="d" wordpos="m">se</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2871_1767" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v1i7ug2n" label="1" n="1">
+                                 <syl xml:id="szfn7f" con="s" wordpos="t">més</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s13crz14" n="2">
+                        <layer xml:id="l2cnwty" n="1">
+                           <rest xml:id="rest_1964_2176" dur.ppq="5040" dur="8" color="#13819E" />
+                           <beam xml:id="b13xaztw">
+                              <note xml:id="v1_nh_2062_2290" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_2191_2273" dur.ppq="5040" dur="8" oct="4" pname="c" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2344_2254" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <beam xml:id="b10hz3dv">
+                              <note xml:id="v1_nh_2492_2271" dur.ppq="5040" dur="8" oct="4" pname="c" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2646_2284" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_2761_2252" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2872_2235" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1hd1r6b" n="3">
+                        <layer xml:id="lj9jodx" n="2">
+                           <note xml:id="v2_nh_1961_2576" dur.ppq="10080" dur="4" oct="2" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                           <rest xml:id="rest_2197_2505" dur.ppq="10080" dur="4" color="#A637B0" />
+                           <rest xml:id="rest_2499_2517" dur.ppq="20160" dur="2" color="#A637B0" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="ds64t1n" place="above" staff="1" tstamp="1.5" val="40" vgrp="800">p</dynam>
+                  </measure>
+                  <measure xml:id="m3-part2" n="3">
+                     <staff xml:id="s10bg2hb" n="1">
+                        <layer xml:id="lkdqhfn" n="1">
+                           <note xml:id="v1_nh_3035_1749" dur.ppq="20160" dur="2" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v1le5n0f" label="1" n="1">
+                                 <syl xml:id="s1150rxw" con="s" wordpos="s">d'or</syl>
+                              </verse>
+                           </note>
+                           <rest xml:id="rest_3443_1774" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_3543_1806" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vzzvyuo" label="1" n="1">
+                                 <syl xml:id="s1bbsdco" con="s" wordpos="s">(Sans</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3685_1793" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1kqjmgn" label="1" n="1">
+                                 <syl xml:id="s7el0p0" con="s" wordpos="s">trop</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3816_1778" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="vb07kqb" label="1" n="1">
+                                 <syl xml:id="sfmfjp1" con="s" wordpos="s">le</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s7h9ozd" n="2">
+                        <layer xml:id="lac056s" n="1">
+                           <note xml:id="v1_nh_3041_2481" dur.ppq="5040" dur="8" staff="3" oct="3" pname="f" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <accid xml:id="a1dti7c8" accid="s" />
+                           </note>
+                           <note xml:id="v1_nh_3138_2450" dur.ppq="5040" dur="8" staff="3" oct="3" pname="a" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <note xml:id="v1_nh_3243_2261" dur.ppq="5040" dur="8" oct="4" pname="c" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <note xml:id="v1_nh_3341_2229" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           <note xml:id="v1_nh_3445_2246" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <beam xml:id="bhrf40w">
+                              <chord xml:id="c7zkcai" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <note xml:id="v1_nh_3548_2279" oct="3" pname="b" color="#13819E" head.color="#13819E" accid.ges="f" />
+                                 <note xml:id="v1_nh_3548_2245" oct="4" pname="d" color="#13819E" head.color="#13819E" />
+                              </chord>
+                              <chord xml:id="c1s7vcjs" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <note xml:id="v1_nh_3690_2258" oct="4" pname="c" color="#13819E" head.color="#13819E" />
+                                 <note xml:id="v1_nh_3689_2291" oct="3" pname="a" color="#13819E" head.color="#13819E" />
+                              </chord>
+                              <chord xml:id="cjukibs" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <note xml:id="v1_nh_3822_2273" oct="3" pname="b" color="#13819E" head.color="#13819E" accid.ges="f" />
+                                 <note xml:id="v1_nh_3822_2311" oct="3" pname="g" color="#13819E" head.color="#13819E" />
+                              </chord>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1sv8olh" n="3">
+                        <layer xml:id="l1467kl2" n="2">
+                           <mRest xml:id="rest_3442_2495" />
+                        </layer>
+                     </staff>
+                     <beamSpan xml:id="b8l3qpu" startid="#v1_nh_3041_2481" endid="#v1_nh_3341_2229" />
+                  </measure>
+                  <sb xml:id="s1iqgwe2" />
+                  <scoreDef xml:id="s1bumq90">
+                     <meterSig xml:id="ts_1062_2946--ts_1062_2946" count="2" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m4-part2" n="4">
+                     <staff xml:id="sjztcw6" n="1">
+                        <layer xml:id="l5v43fe" n="1">
+                           <note xml:id="v1_nh_1173_3013" dur.ppq="10080" dur="4" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1m6hrst" label="1" n="1">
+                                 <syl xml:id="s10r2v8v" con="d" wordpos="i">di</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1397_3024" dur.ppq="10080" dur="4" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <accid xml:id="a11nh6az" accid="s" />
+                              <verse xml:id="voaqiya" label="1" n="1">
+                                 <syl xml:id="s18e3ryy" con="s" wordpos="t">re)</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sts17t0" n="2">
+                        <layer xml:id="l4f8ekp" n="1">
+                           <beam xml:id="b173shst">
+                              <note xml:id="v1_nh_1178_3486" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_1289_3453" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_1399_3496" dur.ppq="5040" dur="8" oct="3" pname="a" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_1516_3450" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s6bsf6k" n="3">
+                        <layer xml:id="lcgvp6q" n="2">
+                           <note xml:id="v2_nh_1179_3713" dur.ppq="10080" dur="4" oct="3" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                           <note xml:id="v2_nh_1400_3813" dur.ppq="10080" dur="4" oct="2" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <scoreDef xml:id="s1kebzzg">
+                     <meterSig xml:id="ts_1673_2964--ts_1673_2964" count="4" sym="common" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m5-part2" n="5">
+                     <staff xml:id="s1paq4nk" n="1">
+                        <layer xml:id="l6n0e0r" n="1">
+                           <rest xml:id="rest_1781_2974" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_1889_3005" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vlkvfpp" label="1" n="1">
+                                 <syl xml:id="sdzowbe" con="s" wordpos="s">Il</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2022_2992" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1ag6qe2" label="1" n="1">
+                                 <syl xml:id="ssv7akc" con="s" wordpos="s">faut</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2176_2976" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="vu2ny4t" label="1" n="1">
+                                 <syl xml:id="swj9u5w" con="s" wordpos="s">qu'on</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2325_2990" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vrpsp2g" label="1" n="1">
+                                 <syl xml:id="sq5zx22" con="s" wordpos="s">cache</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2483_3003" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vsc8kxa" label="1" n="1">
+                                 <syl xml:id="sh5smze" con="s" wordpos="s">âme</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2634_2974" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="vrqp67e" label="1" n="1">
+                                 <syl xml:id="s8wzx1w" con="s" wordpos="s">et</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2777_2943" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v5mafoc" label="1" n="1">
+                                 <syl xml:id="s64z6to" con="d" wordpos="i">tré</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1fz0pkq" n="2">
+                        <layer xml:id="l1rv6iji" n="1">
+                           <rest xml:id="rest_1785_3369" dur.ppq="5040" dur="8" color="#13819E" />
+                           <beam xml:id="bt3a4wc">
+                              <note xml:id="v1_nh_1896_3477" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_2027_3444" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2181_3397" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <beam xml:id="b4ekfa3">
+                              <note xml:id="v1_nh_2334_3412" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2488_3425" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_2640_3441" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2784_3470" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1nxgm1c" n="3">
+                        <layer xml:id="lb5y1m1" n="2">
+                           <note xml:id="v2_nh_1783_3767" dur.ppq="10080" dur="4" oct="2" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                           <rest xml:id="rest_2030_3695" dur.ppq="10080" dur="4" color="#A637B0" />
+                           <rest xml:id="rest_2336_3704" dur.ppq="20160" dur="2" color="#A637B0" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m6-part2" n="6">
+                     <staff xml:id="s19ilw70" n="1">
+                        <layer xml:id="lnuzr67" n="1">
+                           <note xml:id="v1_nh_2960_2907" dur.ppq="20160" dur="2" oct="5" pname="f" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v11pacla" label="1" n="1">
+                                 <syl xml:id="s38hbw4" con="s" wordpos="t">sor,</syl>
+                              </verse>
+                           </note>
+                           <rest xml:id="rest_3435_2963" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_3552_2966" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="v1cr5kyh" label="1" n="1">
+                                 <syl xml:id="s13nutqr" con="s" wordpos="s">Et</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3670_2951" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vhjo2i4" label="1" n="1">
+                                 <syl xml:id="s5zt49u" con="s" wordpos="s">doux</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3808_2934" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v15dgdhb" label="1" n="1">
+                                 <syl xml:id="sng8p9a" con="d" wordpos="i">mar</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1vso8e4" n="2">
+                        <layer xml:id="l147v7al" n="1">
+                           <beam xml:id="b1jqiyon">
+                              <note xml:id="v1_nh_2969_3483" dur.ppq="5040" dur="8" oct="3" pname="a" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3087_3468" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_3207_3454" dur.ppq="5040" dur="8" oct="4" pname="c" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3319_3438" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <beam xml:id="b1p7p2d0">
+                              <note xml:id="v1_nh_3437_3421" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <chord xml:id="c1cj1s9y" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <note xml:id="v1_nh_3556_3406" oct="4" pname="f" color="#13819E" head.color="#13819E" />
+                                 <note xml:id="v1_nh_3557_3438" oct="4" pname="d" color="#13819E" head.color="#13819E" />
+                              </chord>
+                              <chord xml:id="cho5s72" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <note xml:id="v1_nh_3676_3420" oct="4" pname="e" color="#13819E" head.color="#13819E" accid.ges="f" />
+                                 <note xml:id="v1_nh_3675_3453" oct="4" pname="c" color="#13819E" head.color="#13819E" />
+                              </chord>
+                              <chord xml:id="c1fa8ji8" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <note xml:id="v1_nh_3814_3469" oct="3" pname="b" color="#13819E" head.color="#13819E" accid.ges="f" />
+                                 <note xml:id="v1_nh_3813_3435" oct="4" pname="d" color="#13819E" head.color="#13819E" />
+                              </chord>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1i519pi" n="3">
+                        <layer xml:id="l8le383" n="2">
+                           <mRest xml:id="rest_3415_3680" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb xml:id="scu81lo" />
+                  <scoreDef xml:id="s13s792k">
+                     <meterSig xml:id="ts_1066_4140--ts_1066_4140" count="2" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m7-part2" n="7">
+                     <staff xml:id="sx3qaos" n="1">
+                        <layer xml:id="lsfdv8" n="1">
+                           <note xml:id="v1_nh_1177_4192" dur.ppq="10080" dur="4" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vtirlzn" label="1" n="1">
+                                 <syl xml:id="su3o3vo" con="d" wordpos="m">ty</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1405_4176" dur.ppq="10080" dur="4" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="v1x0kie8" label="1" n="1">
+                                 <syl xml:id="sv69h5d" con="s" wordpos="s">re.</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="svaga1b" n="2">
+                        <layer xml:id="l1jztpy2" n="1">
+                           <beam xml:id="b6yd7mz">
+                              <chord xml:id="czxza07" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <note xml:id="v1_nh_1177_4652" oct="4" pname="d" color="#13819E" head.color="#13819E" />
+                                 <note xml:id="v1_nh_1177_4621" oct="4" pname="f" color="#13819E" head.color="#13819E" />
+                              </chord>
+                              <chord xml:id="c1cer303" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <note xml:id="v1_nh_1291_4635" oct="4" pname="e" color="#13819E" head.color="#13819E" accid.ges="f" />
+                                 <note xml:id="v1_nh_1291_4668" oct="4" pname="c" color="#13819E" head.color="#13819E" />
+                              </chord>
+                           </beam>
+                           <chord xml:id="cws9lfv" dur.ppq="10080" dur="4" stem.dir="up">
+                              <note xml:id="v1_nh_1406_4651" oct="4" pname="d" color="#13819E" head.color="#13819E" />
+                              <note xml:id="v1_nh_1407_4687" oct="3" pname="b" color="#13819E" head.color="#13819E" accid.ges="f" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s14rtzio" n="3">
+                        <layer xml:id="l15r9g7g" n="2">
+                           <note xml:id="v2_nh_1173_4883" dur.ppq="10080" dur="4" oct="3" pname="f" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                           <note xml:id="v2_nh_1407_4940" dur.ppq="10080" dur="4" oct="2" pname="b" color="#A637B0" head.color="#A637B0" stem.dir="up" accid.ges="f" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <scoreDef xml:id="s1ss835j">
+                     <meterSig xml:id="ts_1644_4159--ts_1644_4159" count="4" sym="common" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m8-part2" n="8">
+                     <staff xml:id="s1xl5977" n="1">
+                        <layer xml:id="l7ki97e" n="1">
+                           <rest xml:id="rest_1772_4170" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_1894_4187" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <accid xml:id="axx89rh" accid="f" />
+                              <verse xml:id="v13va4az" label="1" n="1">
+                                 <syl xml:id="s1ofxqfa" con="s" wordpos="s">Quand</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2052_4171" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="v12sxzqt" label="1" n="1">
+                                 <syl xml:id="s1vhc199" con="s" wordpos="s">tout</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2185_4156" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v13usf4x" label="1" n="1">
+                                 <syl xml:id="s1jrx7ix" con="d" wordpos="i">dé</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2311_4123" dur.ppq="5040" dur="8" oct="5" pname="e" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="v1g9wbv5" label="1" n="1">
+                                 <syl xml:id="svnlp0f" con="s" wordpos="t">borde</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2458_4154" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v1rvpxab" label="1" n="1">
+                                 <syl xml:id="s1q7nih8" con="s" wordpos="s">en</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2590_4183" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="vz1d9cl" label="1" n="1">
+                                 <syl xml:id="s1gnde6d" con="d" wordpos="i">l'u</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2715_4195" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vl3b60o" label="1" n="1">
+                                 <syl xml:id="s1fvy95z" con="d" wordpos="m">ni</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sfcz0dt" n="2">
+                        <layer xml:id="l1qpsqln" n="1">
+                           <rest xml:id="rest_1776_4568" dur.ppq="5040" dur="8" color="#13819E" />
+                           <beam xml:id="br6meof">
+                              <note xml:id="v1_nh_1896_4662" dur.ppq="5040" dur="8" oct="4" pname="c" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2056_4628" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_2188_4658" dur.ppq="5040" dur="8" oct="4" pname="c" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <beam xml:id="b1wruoj1">
+                              <note xml:id="v1_nh_2314_4705" dur.ppq="5040" dur="8" oct="3" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2462_4686" dur.ppq="5040" dur="8" oct="3" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                                 <accid xml:id="afqgrxc" accid="f" />
+                              </note>
+                              <note xml:id="v1_nh_2595_4657" dur.ppq="5040" dur="8" oct="4" pname="c" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2716_4625" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1p3a9ki" n="3">
+                        <layer xml:id="li4xta1" n="2">
+                           <chord xml:id="cxr7p5y" dur.ppq="20160" dur="2" stem.dir="up">
+                              <note xml:id="v2_nh_1774_4920" oct="3" pname="c" color="#A637B0" head.color="#A637B0" />
+                              <note xml:id="v2_nh_1773_5024" oct="2" pname="c" color="#A637B0" head.color="#A637B0" />
+                           </chord>
+                           <rest xml:id="rest_2317_4906" dur.ppq="20160" dur="2" color="#A637B0" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m9-part2" n="9">
+                     <staff xml:id="s1yyd3et" n="1">
+                        <layer xml:id="lrq57xq" n="1">
+                           <note xml:id="v1_nh_2907_4209" dur.ppq="20160" dur="2" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <accid xml:id="aoern2w" accid="s" />
+                              <verse xml:id="v1eha1jk" label="1" n="1">
+                                 <syl xml:id="s1s6tb57" con="s" wordpos="t">vers,</syl>
+                              </verse>
+                           </note>
+                           <rest xml:id="rest_3400_4158" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_3520_4190" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1oxpvek" label="1" n="1">
+                                 <syl xml:id="sezzcnp" con="s" wordpos="s">Quand</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3668_4204" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="s">
+                              <verse xml:id="v17os191" label="1" n="1">
+                                 <syl xml:id="sw7vvo8" con="s" wordpos="s">nul</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3799_4188" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1um54aa" label="1" n="1">
+                                 <syl xml:id="s19gh9g6" con="s" wordpos="s">n'a</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1pjk3kw" n="2">
+                        <layer xml:id="la4ha64" n="1">
+                           <note xml:id="v1_nh_2915_4638" dur.ppq="20160" dur="2" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <note xml:id="v1_nh_3403_4636" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <beam xml:id="b63xpuu">
+                              <note xml:id="v1_nh_3525_4633" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3675_4651" dur.ppq="5040" dur="8" oct="4" pname="c" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3797_4665" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <clef xml:id="clef_3861_4518" shape="F" line="4" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1wr7jca" n="3">
+                        <layer xml:id="l1x0muxp" n="2">
+                           <rest xml:id="rest_2920_4895" dur.ppq="5040" dur="8" color="#A637B0" />
+                           <beam xml:id="b1jqozwk">
+                              <note xml:id="v2_nh_3040_4940" dur.ppq="5040" dur="8" oct="2" pname="a" color="#A637B0" head.color="#A637B0" stem.dir="up">
+                                 <accid xml:id="a8tz2xt" accid="n" />
+                              </note>
+                              <note xml:id="v2_nh_3158_4897" dur.ppq="5040" dur="8" oct="3" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                              <note xml:id="v2_nh_3284_4910" dur.ppq="5040" dur="8" oct="3" pname="c" color="#A637B0" head.color="#A637B0" stem.dir="up">
+                                 <accid xml:id="a1kms2oe" accid="s" />
+                              </note>
+                           </beam>
+                           <beam xml:id="b1s4u2pi">
+                              <note xml:id="v2_nh_3404_4909" dur.ppq="5040" dur="8" oct="3" pname="c" color="#A637B0" head.color="#A637B0" stem.dir="up">
+                                 <accid xml:id="ajh1ate" accid="n" />
+                              </note>
+                              <note xml:id="v2_nh_3527_4922" dur.ppq="5040" dur="8" oct="2" pname="b" color="#A637B0" head.color="#A637B0" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v2_nh_3678_4937" dur.ppq="5040" dur="8" oct="2" pname="a" color="#A637B0" head.color="#A637B0" stem.dir="up" accid.ges="n" />
+                              <note xml:id="v2_nh_3800_4953" dur.ppq="5040" dur="8" oct="2" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <tie xml:id="t1i7jxss" startid="#v1_nh_2915_4638" endid="#v1_nh_3403_4636" />
+                  </measure>
+                  <pb xml:id="p142mde4" />
+                  <scoreDef xml:id="s15ni5mu">
+                     <meterSig xml:id="ts_861_984--ts_861_984" count="2" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m10-part2" n="10">
+                     <staff xml:id="s1vbhmcp" n="1">
+                        <layer xml:id="l1ke9p8s" n="1">
+                           <note xml:id="v1_nh_967_1026" dur.ppq="10080" dur="4" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="voinpcd" label="1" n="1">
+                                 <syl xml:id="s77rzle" con="d" wordpos="i">hon</syl>
+                              </verse>
+                              <artic xml:id="ag3k1n8" artic="acc" place="above" />
+                           </note>
+                           <note xml:id="v1_nh_1141_1040" dur.ppq="10080" dur="4" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1r1i7du" label="1" n="1">
+                                 <syl xml:id="sey2nvz" con="s" wordpos="t">te ;</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sv4snsc" n="2">
+                        <layer xml:id="l1vg0qwi" n="1">
+                           <note xml:id="v1_nh_970_1337" dur.ppq="10080" dur="4" oct="4" pname="c" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <accid xml:id="a1sagcdn" accid="s" />
+                              <artic xml:id="a1qpzgpp" artic="acc" place="above" />
+                           </note>
+                           <note xml:id="v1_nh_1142_1320" dur.ppq="10080" dur="4" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                        </layer>
+                        <layer xml:id="l1i7w2v3" n="3">
+                           <beam xml:id="bg1wfrj">
+                              <note xml:id="v3_nh_971_1413" dur.ppq="5040" dur="8" oct="3" pname="e" color="#5034D4" head.color="#5034D4" stem.dir="down">
+                                 <accid xml:id="ajmqn8q" accid="n" />
+                              </note>
+                              <note xml:id="v3_nh_1059_1381" dur.ppq="5040" dur="8" oct="3" pname="g" color="#5034D4" head.color="#5034D4" stem.dir="down" />
+                              <note xml:id="v3_nh_1145_1397" dur.ppq="5040" dur="8" oct="3" pname="f" color="#5034D4" head.color="#5034D4" stem.dir="down">
+                                 <accid xml:id="a9ieoiw" accid="s" />
+                              </note>
+                              <note xml:id="v3_nh_1238_1366" dur.ppq="5040" dur="8" oct="3" pname="a" color="#5034D4" head.color="#5034D4" stem.dir="down" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sqxo7st" n="3">
+                        <layer xml:id="lzs139w" n="4">
+                           <chord xml:id="c19vxq7s" dur.ppq="20160" dur="2" stem.dir="up">
+                              <artic xml:id="a1o25032" artic="acc" place="above" />
+                              <note xml:id="v2_nh_972_1735" oct="3" pname="d" color="#A637B0" head.color="#A637B0" />
+                              <note xml:id="v2_nh_971_1840" oct="2" pname="d" color="#A637B0" head.color="#A637B0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <scoreDef xml:id="skcnweg">
+                     <meterSig xml:id="ts_1368_1011--ts_1368_1011" count="4" sym="common" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m11-part2" n="11">
+                     <staff xml:id="s1szv8w" n="1">
+                        <layer xml:id="l1y3i2ti" n="1">
+                           <rest xml:id="rest_1462_1021" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_1585_1055" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vf5iazd" label="1" n="1">
+                                 <syl xml:id="s177h9pg" con="s" wordpos="s">Quand</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1709_1026" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <accid xml:id="a1dkir83" accid="n" />
+                              <verse xml:id="v1rqyvuy" label="1" n="1">
+                                 <syl xml:id="s19bd1c" con="s" wordpos="s">la</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1811_996" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v264d6e" label="1" n="1">
+                                 <syl xml:id="spclka8" con="d" wordpos="i">ru</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1935_964" dur.ppq="5040" dur="8" oct="5" pname="f" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vgvbety" label="1" n="1">
+                                 <syl xml:id="slojgja" con="s" wordpos="t">meur</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2059_979" dur.ppq="5040" dur="8" oct="5" pname="e" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="vgo78zz" label="1" n="1">
+                                 <syl xml:id="s1h30nsf" con="s" wordpos="s">sur</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2185_995" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v1yjgtjo" label="1" n="1">
+                                 <syl xml:id="sm3e5b5" con="s" wordpos="s">tous</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2320_1009" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v7v55r1" label="1" n="1">
+                                 <syl xml:id="s1jrbbi0" con="d" wordpos="i">con</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s14optsa" n="2">
+                        <layer xml:id="l1dwq8wk" n="1">
+                           <rest xml:id="rest_1466_1420" dur.ppq="5040" dur="8" color="#13819E" />
+                           <clef xml:id="clef_1506_1385" shape="G" line="2" />
+                           <beam xml:id="b1nc6a52">
+                              <note xml:id="v1_nh_1586_1530" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up">
+                                 <accid xml:id="a1uobzgf" accid="n" />
+                              </note>
+                              <note xml:id="v1_nh_1716_1499" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_1819_1469" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <beam xml:id="b1yxs0ld">
+                              <note xml:id="v1_nh_1942_1440" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                                 <accid xml:id="a1o8jbo7" accid="f" />
+                              </note>
+                              <note xml:id="v1_nh_2061_1454" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2190_1468" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2325_1438" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sj7se9m" n="3">
+                        <layer xml:id="l1hm8m00" n="2">
+                           <note xml:id="v2_nh_1465_1792" dur.ppq="20160" dur="2" oct="2" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                           <rest xml:id="rest_1946_1740" dur.ppq="20160" dur="2" color="#A637B0" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m12-part2" n="12">
+                     <staff xml:id="s17wefb6" n="1">
+                        <layer xml:id="l157soxq" n="1">
+                           <note xml:id="v1_nh_2475_1020" dur.ppq="20160" dur="2" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <accid xml:id="aqnvqmt" accid="n" />
+                              <verse xml:id="vvumqi9" label="1" n="1">
+                                 <syl xml:id="s5s64i8" con="s" wordpos="t">certs</syl>
+                              </verse>
+                           </note>
+                           <rest xml:id="rest_2831_1019" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_2920_1009" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v1f52gy1" label="1" n="1">
+                                 <syl xml:id="s1w0zeav" con="d" wordpos="i">E</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3023_1022" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="n">
+                              <verse xml:id="v1rqdklr" label="1" n="1">
+                                 <syl xml:id="s12el40v" con="s" wordpos="t">touffe</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3146_1008" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v46xfm8" label="1" n="1">
+                                 <syl xml:id="s14m3jok" con="s" wordpos="s">et</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="snclmmf" n="2">
+                        <layer xml:id="l18m4100" n="1">
+                           <note xml:id="v1_nh_2480_1446" dur.ppq="20160" dur="2" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <note xml:id="v1_nh_2831_1450" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <beam xml:id="b19b7ewu">
+                              <note xml:id="v1_nh_2921_1450" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3027_1466" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3149_1481" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="se8ofe9" n="3">
+                        <layer xml:id="l1b2o49s" n="2">
+                           <rest xml:id="rest_2486_1727" dur.ppq="5040" dur="8" color="#A637B0" />
+                           <beam xml:id="bbg4il9">
+                              <note xml:id="v2_nh_2566_1732" dur.ppq="5040" dur="8" oct="3" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                              <note xml:id="v2_nh_2659_1686" dur.ppq="5040" dur="8" oct="3" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                              <note xml:id="v2_nh_2746_1701" dur.ppq="5040" dur="8" oct="3" pname="f" color="#A637B0" head.color="#A637B0" stem.dir="down">
+                                 <accid xml:id="a6rp599" accid="s" />
+                              </note>
+                           </beam>
+                           <beam xml:id="b1gv4c05">
+                              <note xml:id="v2_nh_2833_1700" dur.ppq="5040" dur="8" oct="3" pname="f" color="#A637B0" head.color="#A637B0" stem.dir="down">
+                                 <accid xml:id="a14bt8yx" accid="n" />
+                              </note>
+                              <note xml:id="v2_nh_2924_1716" dur.ppq="5040" dur="8" oct="3" pname="e" color="#A637B0" head.color="#A637B0" stem.dir="down" accid.ges="f" />
+                              <note xml:id="v2_nh_3025_1731" dur.ppq="5040" dur="8" oct="3" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                              <note xml:id="v2_nh_3152_1747" dur.ppq="5040" dur="8" oct="3" pname="c" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <tie xml:id="t13ar8ct" startid="#v1_nh_2480_1446" endid="#v1_nh_2831_1450" />
+                  </measure>
+                  <scoreDef xml:id="s6cxam0">
+                     <meterSig xml:id="ts_3310_979--ts_3310_979" count="2" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m13-part2" n="13">
+                     <staff xml:id="s1ifggo6" n="1">
+                        <layer xml:id="l1aucpd1" n="1">
+                           <note xml:id="v1_nh_3395_1007" dur.ppq="10080" dur="4" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <accid xml:id="a1fypw1l" accid="s" />
+                              <verse xml:id="vfuu2yy" label="1" n="1">
+                                 <syl xml:id="s17rdx90" con="d" wordpos="i">mon</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3566_993" dur.ppq="10080" dur="4" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v1wxfz52" label="1" n="1">
+                                 <syl xml:id="s1w182tb" con="s" wordpos="t">te,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s19x7vv7" n="2">
+                        <layer xml:id="l1h64q5e" n="1">
+                           <beam xml:id="b1puywv2">
+                              <chord xml:id="cevjixk" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <artic xml:id="a1979wor" artic="acc" place="above" />
+                                 <note xml:id="v1_nh_3400_1466" oct="4" pname="f" color="#13819E" head.color="#13819E">
+                                    <accid xml:id="azq7w7r" accid="s" />
+                                 </note>
+                                 <note xml:id="v1_nh_3401_1435" oct="4" pname="a" color="#13819E" head.color="#13819E" />
+                              </chord>
+                              <chord xml:id="cz1ju8z" dur.ppq="5040" dur="8" stem.dir="up">
+                                 <note xml:id="v1_nh_3490_1448" oct="4" pname="g" color="#13819E" head.color="#13819E" />
+                                 <note xml:id="v1_nh_3491_1482" oct="4" pname="e" color="#13819E" head.color="#13819E">
+                                    <accid xml:id="a1nuishv" accid="n" />
+                                 </note>
+                              </chord>
+                           </beam>
+                           <chord xml:id="c9mql7r" dur.ppq="10080" dur="4" stem.dir="up">
+                              <note xml:id="v1_nh_3573_1495" oct="4" pname="d" color="#13819E" head.color="#13819E">
+                                 <accid xml:id="a1gf3unm" accid="n" />
+                              </note>
+                              <note xml:id="v1_nh_3574_1464" oct="4" pname="f" color="#13819E" head.color="#13819E" accid.ges="s" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1qgcxt3" n="3">
+                        <layer xml:id="l1121swb" n="2">
+                           <chord xml:id="cxd2vac" dur.ppq="10080" dur="4" stem.dir="down">
+                              <artic xml:id="ahrm6rp" artic="acc" place="above" />
+                              <note xml:id="v2_nh_3402_1776" oct="2" pname="a" color="#A637B0" head.color="#A637B0" />
+                              <note xml:id="v2_nh_3400_1673" oct="3" pname="a" color="#A637B0" head.color="#A637B0" />
+                           </chord>
+                           <note xml:id="v2_nh_3573_1732" dur.ppq="10080" dur="4" oct="3" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb xml:id="s16v991m" />
+                  <scoreDef xml:id="s1em4gto">
+                     <meterSig xml:id="ts_860_2140--ts_860_2140" count="4" sym="common" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m14-part2" n="14">
+                     <staff xml:id="s1kg7yny" n="1">
+                        <layer xml:id="l1uhjerr" n="1">
+                           <rest xml:id="rest_974_2151" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_1086_2125" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vox509d" label="1" n="1">
+                                 <syl xml:id="s1xpjkkf" con="s" wordpos="s">Quand</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1237_2139" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vkrc1yz" label="1" n="1">
+                                 <syl xml:id="smgv9q0" con="s" wordpos="s">c'est</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1371_2152" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="vjmzry3" label="1" n="1">
+                                 <syl xml:id="s1myun60" con="s" wordpos="s">le</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1492_2107" dots="1" dur.ppq="15120" dur="4" oct="5" pname="e" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="v1sopu7y" label="1" n="1">
+                                 <syl xml:id="sx60fel" con="d" wordpos="i">rè</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1855_2122" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v1q8nt9o" label="1" n="1">
+                                 <syl xml:id="sbkfzte" con="s" wordpos="t">gne</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sdr5o0n" n="2">
+                        <layer xml:id="l1az9ebl" n="1">
+                           <rest xml:id="rest_974_2515" dur.ppq="5040" dur="8" color="#13819E" />
+                           <beam xml:id="b8cz7im">
+                              <note xml:id="v1_nh_1092_2624" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_1243_2574" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_1377_2591" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <beam xml:id="bhfiyr9">
+                              <note xml:id="v1_nh_1498_2544" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                                 <accid xml:id="a1wa7b2j" accid="f" />
+                              </note>
+                              <note xml:id="v1_nh_1614_2624" dur.ppq="5040" dur="8" oct="3" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_1744_2543" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_1858_2558" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sasmc7k" n="3">
+                        <layer xml:id="l1jzleio" n="2">
+                           <chord xml:id="c1m18nfw" dur.ppq="40320" dur="1" stem.dir="up">
+                              <note xml:id="v2_nh_970_2970" oct="1" pname="b" color="#A637B0" head.color="#A637B0" accid.ges="f" />
+                              <note xml:id="v2_nh_969_2860" oct="2" pname="b" color="#A637B0" head.color="#A637B0" accid.ges="f" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <dynam xml:id="dqhltw6" place="above" staff="1" tstamp="1.5" val="79" vgrp="800">f</dynam>
+                     <dynam xml:id="d13mb4e4" place="above" staff="3" tstamp="1" val="79" vgrp="800">f</dynam>
+                  </measure>
+                  <measure xml:id="m15-part2" n="15">
+                     <staff xml:id="s1nzlcee" n="1">
+                        <layer xml:id="l1ed1mbs" n="1">
+                           <note xml:id="v1_nh_2038_2122" dots="1" dur.ppq="15120" dur="4" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vmxiw4a" label="1" n="1">
+                                 <syl xml:id="s4mdv3n" con="s" wordpos="s">du</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2399_2136" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vmlcphn" label="1" n="1">
+                                 <syl xml:id="s1tu8moj" con="d" wordpos="i">mé</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2531_2149" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="v17f9vzf" label="1" n="1">
+                                 <syl xml:id="sn9sztu" con="s" wordpos="t">chant</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2654_2192" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1yuhamu" label="1" n="1">
+                                 <syl xml:id="s1vyjxw6" con="s" wordpos="s">Ou</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2778_2163" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <accid xml:id="a1a2sv6w" accid="f" />
+                              <verse xml:id="v1u98fsl" label="1" n="1">
+                                 <syl xml:id="s12non37" con="s" wordpos="s">du</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2898_2176" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <accid xml:id="aebi1m6" accid="f" />
+                              <verse xml:id="v1ts55w6" label="1" n="1">
+                                 <syl xml:id="sgb3mvg" con="d" wordpos="i">cu</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s13230oo" n="2">
+                        <layer xml:id="l1j6we6v" n="1">
+                           <note xml:id="v1_nh_2043_2559" dots="1" dur.ppq="15120" dur="4" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <note xml:id="v1_nh_2404_2572" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           <note xml:id="v1_nh_2536_2588" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <beam xml:id="bs0qiiv">
+                              <note xml:id="v1_nh_2658_2587" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2780_2557" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2902_2572" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sdqww4n" n="3">
+                        <layer xml:id="l1l67ayi" n="2">
+                           <rest xml:id="rest_2047_2822" dur.ppq="5040" dur="8" color="#A637B0" />
+                           <beam xml:id="btnnolu">
+                              <note xml:id="v2_nh_2165_2797" dur.ppq="5040" dur="8" oct="3" pname="f" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                              <note xml:id="v2_nh_2285_2780" dur.ppq="5040" dur="8" oct="3" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="down">
+                                 <accid xml:id="a16p1vhh" accid="n" />
+                              </note>
+                              <note xml:id="v2_nh_2404_2763" dur.ppq="5040" dur="8" oct="3" pname="a" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                           </beam>
+                           <beam xml:id="b1h11uti">
+                              <note xml:id="v2_nh_2538_2748" dur.ppq="5040" dur="8" oct="3" pname="b" color="#A637B0" head.color="#A637B0" stem.dir="down" accid.ges="f" />
+                              <note xml:id="v2_nh_2662_2853" dur.ppq="5040" dur="8" oct="2" pname="b" color="#A637B0" head.color="#A637B0" stem.dir="down" accid.ges="f" />
+                           </beam>
+                           <rest xml:id="rest_2787_2819" dur.ppq="5040" dur="8" color="#A637B0" />
+                           <note xml:id="v2_nh_2907_2914" dur.ppq="5040" dur="8" oct="2" pname="e" color="#A637B0" head.color="#A637B0" stem.dir="up" accid.ges="f" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <scoreDef xml:id="st5enhx">
+                     <meterSig xml:id="ts_3083_2105--ts_3083_2105" count="2" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m16-part2" n="16">
+                     <staff xml:id="slwoenq" n="1">
+                        <layer xml:id="l1fh2fkf" n="1">
+                           <note xml:id="v1_nh_3196_2176" dur.ppq="10080" dur="4" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <accid xml:id="a10rylin" accid="f" />
+                              <verse xml:id="v11e9g4s" label="1" n="1">
+                                 <syl xml:id="s1fq0or4" con="d" wordpos="m">pi</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3448_2191" dur.ppq="10080" dur="4" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v7lm9ps" label="1" n="1">
+                                 <syl xml:id="s9zb2wk" con="s" wordpos="t">de</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sa9dyed" n="2">
+                        <layer xml:id="lliiou9" n="1">
+                           <note xml:id="v1_nh_3202_2573" dur.ppq="10080" dur="4" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           <note xml:id="v1_nh_3448_2588" dur.ppq="10080" dur="4" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="syglwwb" n="3">
+                        <layer xml:id="l1bbeioa" n="2">
+                           <beam xml:id="by7a1kx">
+                              <note xml:id="v2_nh_3205_2880" dur.ppq="5040" dur="8" oct="2" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="up">
+                                 <accid xml:id="auz5m5k" accid="f" />
+                              </note>
+                              <note xml:id="v2_nh_3331_2914" dur.ppq="5040" dur="8" oct="2" pname="e" color="#A637B0" head.color="#A637B0" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v2_nh_3454_2851" dur.ppq="5040" dur="8" oct="2" pname="b" color="#A637B0" head.color="#A637B0" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v2_nh_3574_2867" dur.ppq="5040" dur="8" oct="2" pname="a" color="#A637B0" head.color="#A637B0" stem.dir="up">
+                                 <accid xml:id="a1njuuhw" accid="f" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb xml:id="scpl077" />
+                  <scoreDef xml:id="s8h8qos">
+                     <meterSig xml:id="ts_858_3237--ts_858_3237" count="4" sym="common" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m17-part2" n="17">
+                     <staff xml:id="s1xf4y4r" n="1">
+                        <layer xml:id="ldgye5i" n="1">
+                           <rest xml:id="rest_974_3243" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_1042_3220" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v309mdd" label="1" n="1">
+                                 <syl xml:id="syx31kq" con="s" wordpos="s">Ou</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1128_3235" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v10lmu0n" label="1" n="1">
+                                 <syl xml:id="s13b6hzg" con="s" wordpos="s">du</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1251_3248" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <accid xml:id="ajk4oam" accid="n" />
+                              <verse xml:id="v1gcfpbe" label="1" n="1">
+                                 <syl xml:id="s19o4koc" con="s" wordpos="s">coeur</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1368_3188" dots="1" dur.ppq="15120" dur="4" oct="5" pname="f" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vvnyluv" label="1" n="1">
+                                 <syl xml:id="si1004p" con="s" wordpos="s">sourd</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1613_3204" dur.ppq="5040" dur="8" oct="5" pname="e" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="v2owljx" label="1" n="1">
+                                 <syl xml:id="schu540" con="s" wordpos="s">pour</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s8sgyq0" n="2">
+                        <layer xml:id="lh6il4n" n="1">
+                           <rest xml:id="rest_972_3618" dur.ppq="5040" dur="8" color="#13819E" />
+                           <beam xml:id="b17kvc1f">
+                              <note xml:id="v1_nh_1050_3666" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_1132_3679" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_1256_3695" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <beam xml:id="b1y3hc0t">
+                              <note xml:id="v1_nh_1376_3636" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                                 <accid xml:id="airzrl" accid="f" />
+                              </note>
+                              <note xml:id="v1_nh_1455_3695" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_1540_3635" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_1622_3648" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sm0rdxv" n="3">
+                        <layer xml:id="l1s7n6d8" n="2">
+                           <chord xml:id="c4cw9l3" dur.ppq="40320" dur="1" stem.dir="up">
+                              <note xml:id="v2_nh_973_4095" oct="1" pname="g" color="#A637B0" head.color="#A637B0" />
+                              <note xml:id="v2_nh_971_3989" oct="2" pname="g" color="#A637B0" head.color="#A637B0" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m18-part2" n="18">
+                     <staff xml:id="s1fth444" n="1">
+                        <layer xml:id="l1xk67eq" n="1">
+                           <note xml:id="v1_nh_1750_3205" dots="1" dur.ppq="15120" dur="4" oct="5" pname="e" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="v1wuxd00" label="1" n="1">
+                                 <syl xml:id="smi0ejx" con="s" wordpos="s">qui</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1988_3220" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vru0hab" label="1" n="1">
+                                 <syl xml:id="sjkhg2r" con="s" wordpos="s">le</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2108_3219" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v3759bq" label="1" n="1">
+                                 <syl xml:id="s1i85wqm" con="s" wordpos="s">chant</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2254_3276" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v15e5162" label="1" n="1">
+                                 <syl xml:id="s9n0vpq" con="s" wordpos="s">Nest</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2397_3217" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vxkxdgd" label="1" n="1">
+                                 <syl xml:id="s1o027i4" con="s" wordpos="s">qu'un</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2518_3233" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v1aqixpc" label="1" n="1">
+                                 <syl xml:id="s1mskzpv" con="s" wordpos="s">son</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1832a8q" n="2">
+                        <layer xml:id="lqgii92" n="1">
+                           <note xml:id="v1_nh_1756_3648" dots="1" dur.ppq="15120" dur="4" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <note xml:id="v1_nh_1994_3662" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <note xml:id="v1_nh_2110_3662" dots="1" dur.ppq="15120" dur="4" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           <note xml:id="v1_nh_2523_3671" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="slgbqda" n="3">
+                        <layer xml:id="l8vvimf" n="2">
+                           <rest xml:id="rest_1761_3925" dur.ppq="5040" dur="8" color="#A637B0" />
+                           <beam xml:id="bc6wy3a">
+                              <note xml:id="v2_nh_1839_3987" dur.ppq="5040" dur="8" oct="2" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                              <note xml:id="v2_nh_1917_3970" dur.ppq="5040" dur="8" oct="2" pname="a" color="#A637B0" head.color="#A637B0" stem.dir="up">
+                                 <accid xml:id="az1swh1" accid="n" />
+                              </note>
+                              <note xml:id="v2_nh_1997_3955" dur.ppq="5040" dur="8" oct="2" pname="b" color="#A637B0" head.color="#A637B0" stem.dir="up">
+                                 <accid xml:id="a3c0mpt" accid="n" />
+                              </note>
+                           </beam>
+                           <beam xml:id="bca039m">
+                              <note xml:id="v2_nh_2113_3941" dur.ppq="5040" dur="8" oct="3" pname="c" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                              <note xml:id="v2_nh_2259_3925" dur.ppq="5040" dur="8" oct="3" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                              <note xml:id="v2_nh_2397_3910" dur.ppq="5040" dur="8" oct="3" pname="e" color="#A637B0" head.color="#A637B0" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v2_nh_2524_3893" dur.ppq="5040" dur="8" oct="3" pname="f" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <scoreDef xml:id="s437x2">
+                     <meterSig xml:id="ts_2648_3207--ts_2648_3207" count="2" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m19-part2" n="19">
+                     <staff xml:id="s1qdpigb" n="1">
+                        <layer xml:id="liajeuc" n="1">
+                           <note xml:id="v1_nh_2724_3231" dur.ppq="10080" dur="4" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="vy0v527" label="1" n="1">
+                                 <syl xml:id="s5fiy4b" con="d" wordpos="i">vi</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2881_3245" dur.ppq="10080" dur="4" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <accid xml:id="a15p30v6" accid="n" />
+                              <verse xml:id="vn9jvf2" label="1" n="1">
+                                 <syl xml:id="sqltoer" con="s" wordpos="t">de</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1cwk5wd" n="2">
+                        <layer xml:id="loepvwz" n="1">
+                           <beam xml:id="b1lshmnl">
+                              <note xml:id="v1_nh_2729_3668" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                              <note xml:id="v1_nh_2810_3653" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_2888_3651" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up">
+                                 <accid xml:id="aw6d7m4" accid="s" />
+                              </note>
+                              <note xml:id="v1_nh_2965_3637" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                        </layer>
+                        <layer xml:id="lvu16oh" n="3">
+                           <note xml:id="v3_nh_2729_3668" dur.ppq="10080" dur="4" oct="4" pname="e" color="#5034D4" head.color="#5034D4" stem.dir="down" accid.ges="f" />
+                           <note xml:id="v3_nh_2888_3684" dur.ppq="10080" dur="4" oct="4" pname="d" color="#5034D4" head.color="#5034D4" stem.dir="down" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="slatior" n="3">
+                        <layer xml:id="ll9m705" n="4">
+                           <note xml:id="v2_nh_2732_3877" dur.ppq="10080" dur="4" oct="3" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                           <note xml:id="v2_nh_2892_3982" dur.ppq="10080" dur="4" oct="2" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <scoreDef xml:id="s15mf1in">
+                     <meterSig xml:id="ts_3089_3229--ts_3089_3229" count="4" sym="common" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m20-part2" n="20">
+                     <staff xml:id="s1w1tztk" n="1">
+                        <layer xml:id="l8oxoc0" n="1">
+                           <note xml:id="v1_nh_3165_3199" dur.ppq="10080" dur="4" oct="5" pname="e" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="vbtd1y3" label="1" n="1">
+                                 <syl xml:id="s55r1td" con="s" wordpos="s">Oh !</syl>
+                              </verse>
+                              <artic xml:id="a1qev71o" artic="acc" place="above" />
+                           </note>
+                           <note xml:id="v1_nh_3312_3213" dur.ppq="5040" dur="8" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v6n2b0l" label="1" n="1">
+                                 <syl xml:id="sm5jybh" con="s" wordpos="s">s'il</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3406_3229" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v1kcz7kc" label="1" n="1">
+                                 <syl xml:id="sqy3jyi" con="s" wordpos="s">se</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3509_3211" dur.ppq="20160" dur="2" oct="5" pname="d" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v19rxxs4" label="1" n="1">
+                                 <syl xml:id="sn9f1rk" con="s" wordpos="s">peut,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1disx1v" n="2">
+                        <layer xml:id="l1pdsqth" n="1">
+                           <rest xml:id="rest_3171_3604" dur.ppq="5040" dur="8" color="#13819E" />
+                           <beam xml:id="b1jhs0rq">
+                              <note xml:id="v1_nh_3242_3638" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3322_3624" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3414_3653" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <beam xml:id="b1nj6enu">
+                              <note xml:id="v1_nh_3516_3654" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3592_3655" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3670_3687" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_3747_3613" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1i81rp8" n="3">
+                        <layer xml:id="lkfvm36" n="2">
+                           <note xml:id="v2_nh_3176_3939" dur.ppq="10080" dur="4" oct="3" pname="c" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                           <note xml:id="v2_nh_3324_3895" dur.ppq="10080" dur="4" oct="3" pname="f" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                           <note xml:id="v2_nh_3517_3848" dur.ppq="20160" dur="2" oct="3" pname="b" color="#A637B0" head.color="#A637B0" stem.dir="down" accid.ges="f" />
+                        </layer>
+                     </staff>
+                     <tie xml:id="tpwmehl" startid="#v1_nh_3414_3653" endid="#v1_nh_3516_3654" />
+                  </measure>
+                  <sb xml:id="s1pywksx" />
+                  <measure xml:id="m21-part2" n="21">
+                     <staff xml:id="sfggqej" n="1">
+                        <layer xml:id="lbpnh0f" n="1">
+                           <note xml:id="v1_nh_928_4341" dur.ppq="10080" dur="4" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v169clgm" label="1" n="1">
+                                 <syl xml:id="sp6mhh" con="s" wordpos="s">s'il</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1172_4352" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="vhd3a43" label="1" n="1">
+                                 <syl xml:id="s1wboryf" con="s" wordpos="s">est</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1295_4364" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="ve4dodo" label="1" n="1">
+                                 <syl xml:id="soac6u1" con="d" wordpos="i">en</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1418_4348" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="v147xko3" label="1" n="1">
+                                 <syl xml:id="s6nya74" con="s" wordpos="t">cor</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1559_4345" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="voo9de5" label="1" n="1">
+                                 <syl xml:id="s1ys9l8a" con="s" wordpos="s">Lieux</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1714_4361" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1wl4i32" label="1" n="1">
+                                 <syl xml:id="s1ys9x1w" con="s" wordpos="s">où</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_1831_4374" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1finqrl" label="1" n="1">
+                                 <syl xml:id="s1sl8cr7" con="s" wordpos="s">l'on</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1n3kk1a" n="2">
+                        <layer xml:id="l1mgv7yv" n="1">
+                           <rest xml:id="rest_936_4721" dur.ppq="5040" dur="8" color="#13819E" />
+                           <beam xml:id="b1bq3qyl">
+                              <note xml:id="v1_nh_1055_4782" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up">
+                                 <accid xml:id="a1dznfgm" accid="n" />
+                              </note>
+                              <note xml:id="v1_nh_1175_4765" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up">
+                                 <accid xml:id="a1cf8jfb" accid="s" />
+                              </note>
+                              <note xml:id="v1_nh_1299_4795" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <beam xml:id="bo5s0vk">
+                              <note xml:id="v1_nh_1419_4793" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_1563_4792" dur.ppq="5040" dur="8" oct="4" pname="d" color="#13819E" head.color="#13819E" stem.dir="up" />
+                              <note xml:id="v1_nh_1716_4759" dur.ppq="5040" dur="8" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="s" />
+                              <note xml:id="v1_nh_1834_4742" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s15hzjon" n="3">
+                        <layer xml:id="l1wgrf3t" n="2">
+                           <note xml:id="v2_nh_934_5009" dur.ppq="10080" dur="4" oct="3" pname="a" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                           <note xml:id="v2_nh_1180_5068" dur.ppq="10080" dur="4" oct="3" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                           <note xml:id="v2_nh_1424_5019" dur.ppq="10080" dur="4" oct="3" pname="g" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                           <beam xml:id="b1tnj7n7">
+                              <note xml:id="v2_nh_1719_4966" dur.ppq="5040" dur="8" oct="4" pname="c" color="#A637B0" head.color="#A637B0" stem.dir="down" />
+                              <note xml:id="v2_nh_1838_4983" dur.ppq="5040" dur="8" oct="3" pname="b" color="#A637B0" head.color="#A637B0" stem.dir="down" accid.ges="f" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <tie xml:id="t1oyl4sz" startid="#v1_nh_1299_4795" endid="#v1_nh_1419_4793" />
+                  </measure>
+                  <scoreDef xml:id="sg5cgls">
+                     <meterSig xml:id="ts_2019_4305--ts_2019_4305" count="2" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m22-part2" n="22">
+                     <staff xml:id="s12cdujh" n="1">
+                        <layer xml:id="l6qfc0v" n="1">
+                           <note xml:id="v1_nh_2142_4344" dur.ppq="10080" dur="4" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="vu2msam" label="1" n="1">
+                                 <syl xml:id="s1j6k5jm" con="d" wordpos="i">fui</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_2387_4360" dur.ppq="10080" dur="4" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vkadoa8" label="1" n="1">
+                                 <syl xml:id="s10jloj8" con="s" wordpos="t">e,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="si4e8be" n="2">
+                        <layer xml:id="lj0fd31" n="1">
+                           <beam xml:id="be9zf1f">
+                              <note xml:id="v1_nh_2147_4773" dur.ppq="5040" dur="8" oct="4" pname="e" color="#13819E" head.color="#13819E" stem.dir="up">
+                                 <accid xml:id="a1mt7cfv" accid="n" />
+                              </note>
+                              <note xml:id="v1_nh_2269_4742" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up" />
+                           </beam>
+                           <note xml:id="v1_nh_2391_4757" dur.ppq="10080" dur="4" oct="4" pname="f" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <accid xml:id="a1k4f7ae" accid="s" />
+                           </note>
+                        </layer>
+                        <layer xml:id="l1tuxlpf" n="3">
+                           <note xml:id="v3_nh_2147_4773" dur.ppq="10080" dur="4" oct="4" pname="e" color="#5034D4" head.color="#5034D4" stem.dir="down">
+                              <accid xml:id="a1a49lp8" accid="n" />
+                           </note>
+                           <space xml:id="s1f81ham" dur.ppq="10080" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1bdbfyh" n="3">
+                        <layer xml:id="lhzvjjd" n="2">
+                           <note xml:id="v2_nh_2150_4963" dur.ppq="10080" dur="4" oct="4" pname="c" color="#A637B0" head.color="#A637B0" stem.dir="up">
+                              <accid xml:id="ap9tf29" accid="s" />
+                           </note>
+                           <note xml:id="v2_nh_2392_4951" dur.ppq="10080" dur="4" oct="4" pname="d" color="#A637B0" head.color="#A637B0" stem.dir="up" />
+                        </layer>
+                        <layer xml:id="lcpxfxy" n="4">
+                           <note xml:id="v4_nh_2152_5055" dur.ppq="20160" dur="2" oct="3" pname="d" color="#0A6206" head.color="#0A6206" stem.dir="down" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <scoreDef xml:id="stcupv0">
+                     <meterSig xml:id="ts_2620_4332--ts_2620_4332" count="4" sym="common" unit="4" />
+                  </scoreDef>
+                  <measure xml:id="m23-part2" n="23">
+                     <staff xml:id="salmpx9" n="1">
+                        <layer xml:id="ljtahqw" n="1">
+                           <rest xml:id="rest_2745_4342" dur.ppq="5040" dur="8" color="#13819E" />
+                           <note xml:id="v1_nh_2861_4373" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="vwlfq4" label="1" n="1">
+                                 <syl xml:id="s17fqurx" con="s" wordpos="s">Dans</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3003_4362" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1t1bqas" label="1" n="1">
+                                 <syl xml:id="s13d6vfc" con="s" wordpos="s">les</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3153_4347" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="up" accid.ges="f">
+                              <verse xml:id="v8qw6bt" label="1" n="1">
+                                 <syl xml:id="smbcf5d" con="s" wordpos="s">coins</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3310_4363" dur.ppq="5040" dur="8" oct="4" pname="a" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1cefkwl" label="1" n="1">
+                                 <syl xml:id="s1xf8kpz" con="s" wordpos="s">bleus</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3469_4378" dur.ppq="5040" dur="8" oct="4" pname="g" color="#13819E" head.color="#13819E" stem.dir="up">
+                              <verse xml:id="v1xukw83" label="1" n="1">
+                                 <syl xml:id="s2b8gk3" con="d" wordpos="i">par</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3584_4349" dur.ppq="5040" dur="8" oct="4" pname="b" color="#13819E" head.color="#13819E" stem.dir="down" accid.ges="f">
+                              <verse xml:id="vu1mprh" label="1" n="1">
+                                 <syl xml:id="s1shgxfu" con="d" wordpos="m">se</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="v1_nh_3705_4335" dur.ppq="5040" dur="8" oct="5" pname="c" color="#13819E" head.color="#13819E" stem.dir="down">
+                              <verse xml:id="v19ko70r" label="1" n="1">
+                                 <syl xml:id="s1dga1u6" con="s" wordpos="t">més</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s11xuy4x" n="2">
+                        <layer xml:id="lv93y3u" n="1">
+                           <rest xml:id="rest_2746_4715" dur.ppq="20160" dur="2" color="#13819E" />
+                           <chord xml:id="c7xa5o6" dur.ppq="20160" dur="2" stem.dir="up">
+                              <note xml:id="v1_nh_3318_4742" oct="4" pname="g" color="#13819E" head.color="#13819E" />
+                              <note xml:id="v1_nh_3318_4772" oct="4" pname="e" color="#13819E" head.color="#13819E" accid.ges="f" />
+                              <note xml:id="v1_nh_3317_4820" oct="3" pname="b" color="#13819E" head.color="#13819E" accid.ges="f" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1m40b04" n="3">
+                        <layer xml:id="l9psq5a" n="2">
+                           <rest xml:id="rest_2751_5058" dur.ppq="20160" dur="2" color="#A637B0" />
+                           <note xml:id="v2_nh_3319_5041" dur.ppq="20160" dur="2" oct="3" pname="e" color="#A637B0" head.color="#A637B0" stem.dir="down" accid.ges="f" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="dd828e2" place="above" staff="1" tstamp="1.5" val="40" vgrp="800">p</dynam>
+                     <dynam xml:id="d1e2atwh" place="above" staff="3" tstamp="3" val="40" vgrp="800">p</dynam>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

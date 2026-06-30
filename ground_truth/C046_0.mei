@@ -1,26 +1,25 @@
-<?xml version='1.0' encoding='UTF-16'?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="m-1" meiversion="4.0.1">
   <meiHead xml:id="m-2">
     <altId>C046_0</altId>
     <fileDesc xml:id="m-3">
       <titleStmt xml:id="m-4">
-        <title xml:id="m-14">L'Amant malheureux. Poésie de Ronsard. Chant et piano (ténor)</title>
+        <title xml:id="m-14">L'Amant malheureux. Po&#233;sie de Ronsard. Chant et piano (t&#233;nor)</title>
         <title type="subtitle">: an electronic transcription</title>
         <respStmt xml:id="m-15">
           <persName xml:id="m-16"/>
           <resp xml:id="ABChatignon">Encoded by:</resp>
-          <name>Balland Chatignon, Aurélien</name>
+          <name>Balland Chatignon, Aur&#233;lien</name>
           <resp target="#ABChatignon">Engraved by:</resp>
-          <name>Balland Chatignon, Aurélien</name>
+          <name>Balland Chatignon, Aur&#233;lien</name>
           <persName role="Auteur du texte">Ronsard, Pierre de</persName>
         </respStmt>
-        <composer>Saint-Saëns, Camille</composer>
+        <composer>Saint-Sa&#235;ns, Camille</composer>
         <lyricist>Ronsard, Pierre de</lyricist>
         <editionStmt>
           <respStmt>
-            <persName role="Editor">Durand et C.ie, éditeurs (Paris)</persName>
+            <persName role="Editor">Durand et C.ie, &#233;diteurs (Paris)</persName>
           </respStmt>
-          <edition>Durand et C.ie, éditeurs (Paris)<date>1921</date></edition>
+          <edition>Durand et C.ie, &#233;diteurs (Paris)<date>1921</date></edition>
         </editionStmt>
         <extent unit="pages">12</extent>
       </titleStmt>
@@ -31,7 +30,7 @@
       </pubStmt>
       <sourceDesc>
         <source auth.uri="https://gallica.bnf.fr/ark:/12148/bpt6k382117c">
-          <bibl>Bibliothèque nationale de France, département Musique, FOL-VM7-16583 (5)</bibl>
+          <bibl>Biblioth&#232;que nationale de France, d&#233;partement Musique, FOL-VM7-16583 (5)</bibl>
         </source>
       </sourceDesc>
     </fileDesc>
@@ -53,13 +52,13 @@
           <p>Engraving by Optical Music Recognition</p>
         </application>
       </appInfo>
-      <projectDesc>ANR CollabScore (https://anr.fr/Projet-ANR-20-CE27-0014) - IReMus UMR 8223  Aurélien Balland Chatignon, Thomas Bottini, Christophe Guillotel-Nothmann, Fabien Guilloux, Simon Raguet.</projectDesc>
+      <projectDesc>ANR CollabScore (https://anr.fr/Projet-ANR-20-CE27-0014) - IReMus UMR 8223  Aur&#233;lien Balland Chatignon, Thomas Bottini, Christophe Guillotel-Nothmann, Fabien Guilloux, Simon Raguet.</projectDesc>
     </encodingDesc>
     <workList xml:id="m-11">
       <work xml:id="m-12">
         <title xml:id="m-13"/>
-        <title>L'Amant malheureux. Poésie de Ronsard. Chant et piano (ténor)</title>
-        <composer>Saint-Saëns, Camille</composer>
+        <title>L'Amant malheureux. Po&#233;sie de Ronsard. Chant et piano (t&#233;nor)</title>
+        <composer>Saint-Sa&#235;ns, Camille</composer>
         <lyricist>Ronsard, Pierre de</lyricist>
         <creation>
           <date>1921</date>
@@ -71,16 +70,16 @@
         <physDesc>
           <extent unit="pages">12</extent>
         </physDesc>
-        <seriesStmt type="Music Genre">mélodie</seriesStmt>
+        <seriesStmt type="Music Genre">m&#233;lodie</seriesStmt>
         <editionStmt>
-          <title>L'Amant malheureux. Poésie de Ronsard. Chant et piano (ténor)</title>
-          <composer>Saint-Saëns, Camille</composer>
+          <title>L'Amant malheureux. Po&#233;sie de Ronsard. Chant et piano (t&#233;nor)</title>
+          <composer>Saint-Sa&#235;ns, Camille</composer>
           <lyricist>Ronsard, Pierre de</lyricist>
         </editionStmt>
         <itemList>
           <item>
             <physLoc>
-              <repository>Bibliothèque nationale de France, département Musique, FOL-VM7-16583 (5)</repository>
+              <repository>Biblioth&#232;que nationale de France, d&#233;partement Musique, FOL-VM7-16583 (5)</repository>
             </physLoc>
             <relationList>
               <relation>This MEI file C046_0 is an electronic transcription of this item</relation>
@@ -92,8 +91,8 @@
     <revisionDesc>
       <change n="2">
         <p>Music Correction</p>
-        <date isodate="2023-09-25" />
-        <resp target="#ABChatignon">Balland Chatignon, Aurélien</resp>
+        <date isodate="2023-09-25"/>
+        <resp target="#ABChatignon">Balland Chatignon, Aur&#233;lien</resp>
       </change>
       <change n="1">
         <p>Creation of metadata by extraction from Gallica</p>
@@ -131,9 +130,9 @@
                     </staffGrp>
                 </scoreDef>
                 <section xml:id="m-44">
-                    <pb xml:id="m-20"/>
-                    <sb xml:id="m-46"/>
-                    <measure xml:id="m-45" n="1">
+                    <pb xml:id="p1"/>
+                    <sb xml:id="p1-s2"/>
+                    <measure xml:id="m1" n="1">
                         <staff xml:id="m-47" n="1">
                             <layer xml:id="m-48" n="1">
                                 <mRest xml:id="m-49" tstamp.real="00:00:00"/>
@@ -171,7 +170,7 @@
                             </title>
                         </anchoredText>
                     </measure>
-                    <measure xml:id="m-71" n="2">
+                    <measure xml:id="m2" n="2">
                         <staff xml:id="m-72" n="1">
                             <layer xml:id="m-73" n="1">
                                 <mRest xml:id="m-74" tstamp.real="00:00:00.9"/>
@@ -200,7 +199,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-90" n="3">
+                    <measure xml:id="m3" n="3">
                         <staff xml:id="m-91" n="1">
                             <layer xml:id="m-92" n="1">
                                 <mRest xml:id="m-93" tstamp.real="00:00:01.8"/>
@@ -228,7 +227,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-108" n="4">
+                    <measure xml:id="m4" n="4">
                         <staff xml:id="m-109" n="1">
                             <layer xml:id="m-110" n="1">
                                 <mRest xml:id="m-111" tstamp.real="00:00:02.7"/>
@@ -257,7 +256,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-127" n="5">
+                    <measure xml:id="m5" n="5">
                         <staff xml:id="m-128" n="1">
                             <layer xml:id="m-129" n="1">
                                 <mRest xml:id="m-130" tstamp.real="00:00:03.6"/>
@@ -295,8 +294,8 @@
                             <rend xml:id="m-151" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">dim.</rend>
                         </dir>
                     </measure>
-                    <sb xml:id="m-153"/>
-                    <measure xml:id="m-152" n="6">
+                    <sb xml:id="p1-s3"/>
+                    <measure xml:id="m6" n="6">
                         <staff xml:id="m-154" n="1">
                             <layer xml:id="m-155" n="1">
                                 <note xml:id="m-156" dur="8" dur.ppq="128" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:04.5" vel="0">
@@ -345,7 +344,7 @@
                         </dir>
                         <dynam xml:id="m-184" layer="1" staff="3" tstamp="1">p</dynam>
                     </measure>
-                    <measure xml:id="m-185" n="7">
+                    <measure xml:id="m7" n="7">
                         <staff xml:id="m-186" n="1">
                             <layer xml:id="m-187" n="1">
                                 <note xml:id="m-188" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:05.4" vel="0"/>
@@ -410,7 +409,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-227" n="8">
+                    <measure xml:id="m8" n="8">
                         <staff xml:id="m-228" n="1">
                             <layer xml:id="m-229" n="1">
                                 <note xml:id="m-230" dur="4" dur.ppq="256" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:06.3" vel="0">
@@ -445,7 +444,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-251" n="9">
+                    <measure xml:id="m9" n="9">
                         <staff xml:id="m-252" n="1">
                             <layer xml:id="m-253" n="1">
                                 <note xml:id="m-254" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:07.2" vel="0">
@@ -500,7 +499,7 @@
                         <tie xml:id="m-280" endid="#m-307" startid="#m-279"/>
                         <slur xml:id="m-281" endid="#m-273" layer="1" staff="2" startid="#m-269" tstamp="1" tstamp2="0m+2"/>
                     </measure>
-                    <measure xml:id="m-287" n="10">
+                    <measure xml:id="m10" n="10">
                         <staff xml:id="m-288" n="1">
                             <layer xml:id="m-289" n="1">
                                 <note xml:id="m-290" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:08.1" vel="0"/>
@@ -552,13 +551,13 @@
                             </layer>
                         </staff>
                     </measure>
-                    <sb xml:id="m-317"/>
-                    <measure xml:id="m-316" n="11">
+                    <sb xml:id="p1-s4"/>
+                    <measure xml:id="m11" n="11">
                         <staff xml:id="m-318" n="1">
                             <layer xml:id="m-319" n="1">
                                 <note xml:id="m-320" dur="4" dur.ppq="256" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:09" vel="0">
                                     <verse xml:id="m-326" n="1">
-                                        <syl xml:id="m-327" wordpos="t">té,</syl>
+                                        <syl xml:id="m-327" wordpos="t">t&#233;,</syl>
                                     </verse>
                                 </note>
                                 <rest xml:id="m-321" dur="8" dur.ppq="128" tstamp.real="00:00:09.6"/>
@@ -595,7 +594,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-349" n="12">
+                    <measure xml:id="m12" n="12">
                         <staff xml:id="m-350" n="1">
                             <layer xml:id="m-351" n="1">
                                 <note xml:id="m-352" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:09.9" vel="0">
@@ -647,7 +646,7 @@
                         </staff>
                         <tie xml:id="m-356" endid="#m-385" startid="#m-355"/>
                     </measure>
-                    <measure xml:id="m-382" n="13">
+                    <measure xml:id="m13" n="13">
                         <staff xml:id="m-383" n="1">
                             <layer xml:id="m-384" n="1">
                                 <note xml:id="m-385" dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:10.8" vel="0"/>
@@ -659,7 +658,7 @@
                                 </note>
                                 <note xml:id="m-388" dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:11.1" vel="0">
                                     <verse xml:id="m-395" n="1">
-                                        <syl xml:id="m-396" con="d" wordpos="m">bé</syl>
+                                        <syl xml:id="m-396" con="d" wordpos="m">b&#233;</syl>
                                     </verse>
                                 </note>
                                 <note xml:id="m-389" dur="16" dur.ppq="64" oct="5" pname="c" pnum="73" stem.dir="down" tstamp.real="00:00:11.25" vel="0">
@@ -706,7 +705,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-419" n="14">
+                    <measure xml:id="m14" n="14">
                         <staff xml:id="m-420" n="1">
                             <layer xml:id="m-421" n="1">
                                 <note xml:id="m-422" dur="4" dur.ppq="256" oct="5" pname="f" pnum="77" stem.dir="down" tstamp.real="00:00:11.7" vel="0">
@@ -743,7 +742,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-444" n="15">
+                    <measure xml:id="m15" n="15">
                         <staff xml:id="m-445" n="1">
                             <layer xml:id="m-446" n="1">
                                 <note xml:id="m-447" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:12.6" vel="0">
@@ -798,9 +797,9 @@
                         <tie xml:id="m-451" endid="#m-483" startid="#m-450"/>
                         <tie xml:id="m-468" endid="#m-491" startid="#m-467"/>
                     </measure>
-                    <pb xml:id="m-480" n="2"/>
-                    <sb xml:id="m-479"/>
-                    <measure xml:id="m-478" n="16">
+                    <pb xml:id="p2" n="2"/>
+                    <sb xml:id="p2-s2"/>
+                    <measure xml:id="m16" n="16">
                         <staff xml:id="m-481" n="1">
                             <layer xml:id="m-482" n="1">
                                 <note xml:id="m-483" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:13.5" vel="0"/>
@@ -835,7 +834,7 @@
                         </staff>
                         <tie xml:id="m-486" endid="#m-503" startid="#m-485"/>
                     </measure>
-                    <measure xml:id="m-500" n="17">
+                    <measure xml:id="m17" n="17">
                         <staff xml:id="m-501" n="1">
                             <layer xml:id="m-502" n="1">
                                 <note xml:id="m-503" dur="8" dur.ppq="128" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:14.4" vel="0">
@@ -855,7 +854,7 @@
                                 </note>
                                 <note xml:id="m-506" dur="16" dur.ppq="64" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:15.15" vel="0">
                                     <verse xml:id="m-515" n="1">
-                                        <syl xml:id="m-516" wordpos="t">té?</syl>
+                                        <syl xml:id="m-516" wordpos="t">t&#233;?</syl>
                                     </verse>
                                 </note>
                             </layer>
@@ -879,7 +878,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-529" n="18">
+                    <measure xml:id="m18" n="18">
                         <staff xml:id="m-530" n="1">
                             <layer xml:id="m-531" n="1">
                                 <note xml:id="m-532" dur="4" dur.ppq="256" oct="4" pname="g" pnum="68" stem.dir="up" tstamp.real="00:00:15.3" vel="0">
@@ -914,7 +913,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-552" n="19">
+                    <measure xml:id="m19" n="19">
                         <staff xml:id="m-553" n="1">
                             <layer xml:id="m-554" n="1">
                                 <note xml:id="m-555" dur="8" dur.ppq="128" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:16.2" vel="0">
@@ -968,7 +967,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-586" n="20">
+                    <measure xml:id="m20" n="20">
                         <staff xml:id="m-587" n="1">
                             <layer xml:id="m-588" n="1">
                                 <rest xml:id="m-589" dur="16" dur.ppq="64" tstamp.real="00:00:17.1"/>
@@ -1011,8 +1010,8 @@
                             <rend xml:id="m-593" fontfam="Times New Roman" fontsize="4vu" fontstyle="italic">cresc.</rend>
                         </dir>
                     </measure>
-                    <sb xml:id="m-615"/>
-                    <measure xml:id="m-614" n="21">
+                    <sb xml:id="p2-s3"/>
+                    <measure xml:id="m21" n="21">
                         <staff xml:id="m-616" n="1">
                             <layer xml:id="m-617" n="1">
                                 <rest xml:id="m-618" dur="16" dur.ppq="64" tstamp.real="00:00:18"/>
@@ -1061,7 +1060,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-645" n="22">
+                    <measure xml:id="m22" n="22">
                         <staff xml:id="m-646" n="1">
                             <layer xml:id="m-647" n="1">
                                 <rest xml:id="m-648" dur="16" dur.ppq="64" tstamp.real="00:00:18.9"/>
@@ -1111,7 +1110,7 @@
                             <rend xml:id="m-667" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">cresc.</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-677" n="23">
+                    <measure xml:id="m23" n="23">
                         <staff xml:id="m-678" n="1">
                             <layer xml:id="m-679" n="1">
                                 <rest xml:id="m-680" dur="16" dur.ppq="64" tstamp.real="00:00:19.8"/>
@@ -1148,7 +1147,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-701" n="24">
+                    <measure xml:id="m24" n="24">
                         <staff xml:id="m-702" n="1">
                             <layer xml:id="m-703" n="1">
                                 <rest xml:id="m-704" dur="8" dur.ppq="128" tstamp.real="00:00:20.7"/>
@@ -1179,7 +1178,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-719" n="25">
+                    <measure xml:id="m25" n="25">
                         <staff xml:id="m-720" n="1">
                             <layer xml:id="m-721" n="1">
                                 <note xml:id="m-722" artic="acc" dur="4" dur.ppq="256" oct="5" pname="f" pnum="77" stem.dir="down" tstamp.real="00:00:21.6" vel="0">
@@ -1228,8 +1227,8 @@
                         </staff>
                         <dynam xml:id="m-745" layer="1" staff="3" tstamp="1" vo="8.9985mm">f</dynam>
                     </measure>
-                    <sb xml:id="m-747"/>
-                    <measure xml:id="m-746" n="26">
+                    <sb xml:id="p2-s4"/>
+                    <measure xml:id="m26" n="26">
                         <staff xml:id="m-748" n="1">
                             <layer xml:id="m-749" n="1">
                                 <note xml:id="m-750" artic="acc" dots="1" dur="4" dur.ppq="384" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:22.5" vel="0">
@@ -1273,7 +1272,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-778" n="27">
+                    <measure xml:id="m27" n="27">
                         <staff xml:id="m-779" n="1">
                             <layer xml:id="m-780" n="1">
                                 <rest xml:id="m-781" dur="8" dur.ppq="128" tstamp.real="00:00:23.4"/>
@@ -1314,7 +1313,7 @@
                             <rend xml:id="m-797" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Poco rit.</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-805" n="28">
+                    <measure xml:id="m28" n="28">
                         <staff xml:id="m-806" n="1">
                             <layer xml:id="m-807" n="1">
                                 <note xml:id="m-808" dur="4" dur.ppq="256" oct="4" pname="b" pnum="70" stem.dir="down" tstamp.real="00:00:24.3" vel="0">
@@ -1362,7 +1361,7 @@
                         </staff>
                         <dynam xml:id="m-831" layer="1" staff="3" tstamp="1" vo="11.864mm">p</dynam>
                     </measure>
-                    <measure xml:id="m-832" n="29">
+                    <measure xml:id="m29" n="29">
                         <staff xml:id="m-833" n="1">
                             <layer xml:id="m-834" n="1">
                                 <note xml:id="m-835" dur="4" dur.ppq="256" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:25.2" vel="0">
@@ -1404,7 +1403,7 @@
                             <rend xml:id="m-857" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">cresc.</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-864" n="30">
+                    <measure xml:id="m30" n="30">
                         <staff xml:id="m-865" n="1">
                             <layer xml:id="m-866" n="1">
                                 <mRest xml:id="m-867" tstamp.real="00:00:26.1"/>
@@ -1439,8 +1438,8 @@
                         </staff>
                         <dynam xml:id="m-886" layer="1" staff="3" tstamp="1" vo="10.6072mm">f</dynam>
                     </measure>
-                    <sb xml:id="m-888"/>
-                    <measure xml:id="m-887" n="31">
+                    <sb xml:id="p2-s5"/>
+                    <measure xml:id="m31" n="31">
                         <staff xml:id="m-889" n="1">
                             <layer xml:id="m-890" n="1">
                                 <mRest xml:id="m-891" tstamp.real="00:00:27"/>
@@ -1469,7 +1468,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-907" n="32">
+                    <measure xml:id="m32" n="32">
                         <staff xml:id="m-908" n="1">
                             <layer xml:id="m-909" n="1">
                                 <mRest xml:id="m-910" tstamp.real="00:00:27.9"/>
@@ -1507,7 +1506,7 @@
                             <rend xml:id="m-931" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">dim.</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-932" n="33">
+                    <measure xml:id="m33" n="33">
                         <staff xml:id="m-933" n="1">
                             <layer xml:id="m-934" n="1">
                                 <note xml:id="m-935" dur="16" dur.ppq="64" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:28.8" vel="0">
@@ -1527,7 +1526,7 @@
                                 </note>
                                 <note xml:id="m-938" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:29.4" vel="0">
                                     <verse xml:id="m-945" n="1">
-                                        <syl xml:id="m-946" wordpos="t">sé,</syl>
+                                        <syl xml:id="m-946" wordpos="t">s&#233;,</syl>
                                     </verse>
                                 </note>
                             </layer>
@@ -1552,7 +1551,7 @@
                         </staff>
                         <dynam xml:id="m-960" layer="1" staff="3" tstamp="1" vo="8.4958mm">p</dynam>
                     </measure>
-                    <measure xml:id="m-961" n="34">
+                    <measure xml:id="m34" n="34">
                         <staff xml:id="m-962" n="1">
                             <layer xml:id="m-963" n="1">
                                 <note xml:id="m-964" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:29.7" vel="0">
@@ -1616,7 +1615,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1002" n="35">
+                    <measure xml:id="m35" n="35">
                         <staff xml:id="m-1003" n="1">
                             <layer xml:id="m-1004" n="1">
                                 <note xml:id="m-1005" dur="4" dur.ppq="256" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:30.6" vel="0">
@@ -1652,9 +1651,9 @@
                             </layer>
                         </staff>
                     </measure>
-                    <pb xml:id="m-1029" n="3"/>
-                    <sb xml:id="m-1028"/>
-                    <measure xml:id="m-1027" n="36">
+                    <pb xml:id="p3" n="3"/>
+                    <sb xml:id="p3-s2"/>
+                    <measure xml:id="m36" n="36">
                         <staff xml:id="m-1030" n="1">
                             <layer xml:id="m-1031" n="1">
                                 <note xml:id="m-1032" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:31.5" vel="0">
@@ -1705,7 +1704,7 @@
                         <tie xml:id="m-1053" endid="#m-1079" startid="#m-1052"/>
                         <tie xml:id="m-1055" endid="#m-1080" startid="#m-1054"/>
                     </measure>
-                    <measure xml:id="m-1061" n="37">
+                    <measure xml:id="m37" n="37">
                         <staff xml:id="m-1062" n="1">
                             <layer xml:id="m-1063" n="1">
                                 <note xml:id="m-1064" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:32.4" vel="0"/>
@@ -1726,7 +1725,7 @@
                                 </note>
                                 <note xml:id="m-1068" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:33" vel="0">
                                     <verse xml:id="m-1093" n="1">
-                                        <syl xml:id="m-1094" con="d" wordpos="i">é</syl>
+                                        <syl xml:id="m-1094" con="d" wordpos="i">&#233;</syl>
                                     </verse>
                                 </note>
                                 <note xml:id="m-1069" dur="16" dur.ppq="64" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:33.15" vel="0">
@@ -1755,7 +1754,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1088" n="38">
+                    <measure xml:id="m38" n="38">
                         <staff xml:id="m-1089" n="1">
                             <layer xml:id="m-1090" n="1">
                                 <note xml:id="m-1091" dur="4" dur.ppq="256" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:33.3" vel="0">
@@ -1803,7 +1802,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1123" n="39">
+                    <measure xml:id="m39" n="39">
                         <staff xml:id="m-1124" n="1">
                             <layer xml:id="m-1125" n="1">
                                 <note xml:id="m-1126" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:34.2" vel="0">
@@ -1855,8 +1854,8 @@
                             </layer>
                         </staff>
                     </measure>
-                    <sb xml:id="m-1156"/>
-                    <measure xml:id="m-1155" n="40">
+                    <sb xml:id="p3-s3"/>
+                    <measure xml:id="m40" n="40">
                         <staff xml:id="m-1157" n="1">
                             <layer xml:id="m-1158" n="1">
                                 <note xml:id="m-1159" dur="16" dur.ppq="64" oct="5" pname="c" pnum="73" stem.dir="down" tstamp.real="00:00:35.1" vel="0">
@@ -1873,7 +1872,7 @@
                                 <note xml:id="m-1162" dur="8" dur.ppq="128" oct="5" pname="c" pnum="73" stem.dir="down" tstamp.real="00:00:35.4" vel="0">
                                     <accid xml:id="m-1163" accid.ges="s"/>
                                     <verse xml:id="m-1170" n="1">
-                                        <syl xml:id="m-1171" con="d" wordpos="m">ël</syl>
+                                        <syl xml:id="m-1171" con="d" wordpos="m">&#235;l</syl>
                                     </verse>
                                 </note>
                                 <note xml:id="m-1164" dur="16" dur.ppq="64" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:35.7" vel="0">
@@ -1914,7 +1913,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1190" n="41">
+                    <measure xml:id="m41" n="41">
                         <staff xml:id="m-1191" n="1">
                             <layer xml:id="m-1192" n="1">
                                 <note xml:id="m-1193" dur="4" dur.ppq="256" oct="5" pname="f" pnum="77" stem.dir="down" tstamp.real="00:00:36" vel="0">
@@ -1955,7 +1954,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1220" n="42">
+                    <measure xml:id="m42" n="42">
                         <staff xml:id="m-1221" n="1">
                             <layer xml:id="m-1222" n="1">
                                 <note xml:id="m-1223" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:36.9" vel="0">
@@ -2009,18 +2008,18 @@
                         </staff>
                         <tie xml:id="m-1227" endid="#m-1256" startid="#m-1226"/>
                     </measure>
-                    <measure xml:id="m-1253" n="43">
+                    <measure xml:id="m43" n="43">
                         <staff xml:id="m-1254" n="1">
                             <layer xml:id="m-1255" n="1">
                                 <note xml:id="m-1256" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:37.8" vel="0"/>
                                 <note xml:id="m-1257" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:38.1" vel="0">
                                     <verse xml:id="m-1260" n="1">
-                                        <syl xml:id="m-1261" con="d" wordpos="i">dé</syl>
+                                        <syl xml:id="m-1261" con="d" wordpos="i">d&#233;</syl>
                                     </verse>
                                 </note>
                                 <note xml:id="m-1258" dur="8" dur.ppq="128" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:38.4" vel="0">
                                     <verse xml:id="m-1262" n="1">
-                                        <syl xml:id="m-1263" wordpos="t">jà</syl>
+                                        <syl xml:id="m-1263" wordpos="t">j&#224;</syl>
                                     </verse>
                                 </note>
                             </layer>
@@ -2044,7 +2043,7 @@
                         </staff>
                         <tie xml:id="m-1259" endid="#m-1278" startid="#m-1258"/>
                     </measure>
-                    <measure xml:id="m-1275" n="44">
+                    <measure xml:id="m44" n="44">
                         <staff xml:id="m-1276" n="1">
                             <layer xml:id="m-1277" n="1">
                                 <note xml:id="m-1278" dur="8" dur.ppq="128" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:38.7" vel="0"/>
@@ -2088,8 +2087,8 @@
                             <rend xml:id="m-1296" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Poco rit.</rend>
                         </dir>
                     </measure>
-                    <sb xml:id="m-1302"/>
-                    <measure xml:id="m-1301" n="45">
+                    <sb xml:id="p3-s4"/>
+                    <measure xml:id="m45" n="45">
                         <staff xml:id="m-1303" n="1">
                             <layer xml:id="m-1304" n="1">
                                 <note xml:id="m-1305" dur="4" dur.ppq="256" oct="4" pname="g" pnum="68" stem.dir="up" tstamp.real="00:00:39.6" vel="0">
@@ -2143,7 +2142,7 @@
                             <rend xml:id="m-1328" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">a Tempo</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-1340" n="46">
+                    <measure xml:id="m46" n="46">
                         <staff xml:id="m-1341" n="1">
                             <layer xml:id="m-1342" n="1">
                                 <note xml:id="m-1343" dur="8" dur.ppq="128" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:40.5" vel="0">
@@ -2194,7 +2193,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1372" n="47">
+                    <measure xml:id="m47" n="47">
                         <staff xml:id="m-1373" n="1">
                             <layer xml:id="m-1374" n="1">
                                 <rest xml:id="m-1375" dur="16" dur.ppq="64" tstamp.real="00:00:41.4"/>
@@ -2238,7 +2237,7 @@
                             <rend xml:id="m-1379" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">cresc.</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-1401" n="48">
+                    <measure xml:id="m48" n="48">
                         <staff xml:id="m-1402" n="1">
                             <layer xml:id="m-1403" n="1">
                                 <rest xml:id="m-1404" dur="16" dur.ppq="64" tstamp.real="00:00:42.3"/>
@@ -2288,14 +2287,14 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1432" n="49">
+                    <measure xml:id="m49" n="49">
                         <staff xml:id="m-1433" n="1">
                             <layer xml:id="m-1434" n="1">
                                 <rest xml:id="m-1435" dur="16" dur.ppq="64" tstamp.real="00:00:43.2"/>
                                 <note xml:id="m-1436" dur="16" dur.ppq="64" oct="5" pname="c" pnum="73" stem.dir="down" tstamp.real="00:00:43.35" vel="0">
                                     <accid xml:id="m-1437" accid="s"/>
                                     <verse xml:id="m-1440" n="1">
-                                        <syl xml:id="m-1441" con="d" wordpos="i">L&apos;é</syl>
+                                        <syl xml:id="m-1441" con="d" wordpos="i">L'&#233;</syl>
                                     </verse>
                                 </note>
                                 <note xml:id="m-1438" artic="acc" dur="4" dur.ppq="256" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:43.5" vel="0">
@@ -2344,8 +2343,8 @@
                             <rend xml:id="m-1458" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">cresc.</rend>
                         </dir>
                     </measure>
-                    <sb xml:id="m-1469"/>
-                    <measure xml:id="m-1468" n="50">
+                    <sb xml:id="p3-s5"/>
+                    <measure xml:id="m50" n="50">
                         <staff xml:id="m-1470" n="1">
                             <layer xml:id="m-1471" n="1">
                                 <rest xml:id="m-1472" dur="16" dur.ppq="64" tstamp.real="00:00:44.1"/>
@@ -2386,7 +2385,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1496" n="51">
+                    <measure xml:id="m51" n="51">
                         <staff xml:id="m-1497" n="1">
                             <layer xml:id="m-1498" n="1">
                                 <rest xml:id="m-1499" dur="8" dur.ppq="128" tstamp.real="00:00:45"/>
@@ -2397,7 +2396,7 @@
                                 </note>
                                 <note xml:id="m-1501" artic="acc" dur="8" dur.ppq="128" oct="5" pname="g" pnum="79" stem.dir="down" tstamp.real="00:00:45.6" vel="0">
                                     <verse xml:id="m-1547" n="1">
-                                        <syl xml:id="m-1548" con="d" wordpos="i">brû</syl>
+                                        <syl xml:id="m-1548" con="d" wordpos="i">br&#251;</syl>
                                     </verse>
                                 </note>
                             </layer>
@@ -2459,7 +2458,7 @@
                         <tie xml:id="m-1502" endid="#m-1543" startid="#m-1501"/>
                         <dynam xml:id="m-1539" layer="1" staff="3" tstamp="2.5" vo="8.0434mm">f</dynam>
                     </measure>
-                    <measure xml:id="m-1540" n="52">
+                    <measure xml:id="m52" n="52">
                         <staff xml:id="m-1541" n="1">
                             <layer xml:id="m-1542" n="1">
                                 <note xml:id="m-1543" dur="8" dur.ppq="128" oct="5" pname="g" pnum="79" stem.dir="down" tstamp.real="00:00:45.9" vel="0"/>
@@ -2475,7 +2474,7 @@
                                 </note>
                                 <note xml:id="m-1546" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:46.65" vel="0">
                                     <verse xml:id="m-1553" n="1">
-                                        <syl xml:id="m-1554">à</syl>
+                                        <syl xml:id="m-1554">&#224;</syl>
                                     </verse>
                                 </note>
                             </layer>
@@ -2508,7 +2507,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1573" n="53">
+                    <measure xml:id="m53" n="53">
                         <staff xml:id="m-1574" n="1">
                             <layer xml:id="m-1575" n="1">
                                 <note xml:id="m-1576" artic="acc" dots="1" dur="4" dur.ppq="384" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:46.8" vel="0">
@@ -2552,7 +2551,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1600" n="54">
+                    <measure xml:id="m54" n="54">
                         <staff xml:id="m-1601" n="1">
                             <layer xml:id="m-1602" n="1">
                                 <rest xml:id="m-1603" dur="8" dur.ppq="128" tstamp.real="00:00:47.7"/>
@@ -2563,7 +2562,7 @@
                                 </note>
                                 <note xml:id="m-1605" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:48.3" vel="0">
                                     <verse xml:id="m-1637" n="1">
-                                        <syl xml:id="m-1638" con="d" wordpos="i">brû</syl>
+                                        <syl xml:id="m-1638" con="d" wordpos="i">br&#251;</syl>
                                     </verse>
                                 </note>
                             </layer>
@@ -2594,9 +2593,9 @@
                             <rend xml:id="m-1618" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Poco rit.</rend>
                         </dir>
                     </measure>
-                    <pb xml:id="m-1628" n="4"/>
-                    <sb xml:id="m-1627"/>
-                    <measure xml:id="m-1626" n="55">
+                    <pb xml:id="p4" n="4"/>
+                    <sb xml:id="p4-s2"/>
+                    <measure xml:id="m55" n="55">
                         <staff xml:id="m-1629" n="1">
                             <layer xml:id="m-1630" n="1">
                                 <note xml:id="m-1631" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:48.6" vel="0"/>
@@ -2614,7 +2613,7 @@
                                 <note xml:id="m-1635" dur="16" dur.ppq="64" oct="4" pname="g" pnum="68" stem.dir="up" tstamp.real="00:00:49.35" vel="0">
                                     <accid xml:id="m-1636" accid="s"/>
                                     <verse xml:id="m-1643" n="1">
-                                        <syl xml:id="m-1644">à</syl>
+                                        <syl xml:id="m-1644">&#224;</syl>
                                     </verse>
                                 </note>
                             </layer>
@@ -2645,7 +2644,7 @@
                         </staff>
                         <dynam xml:id="m-1661" layer="1" staff="3" tstamp="1" vo="10.6072mm">p</dynam>
                     </measure>
-                    <measure xml:id="m-1662" n="56">
+                    <measure xml:id="m56" n="56">
                         <staff xml:id="m-1663" n="1">
                             <layer xml:id="m-1664" n="1">
                                 <note xml:id="m-1665" dots="1" dur="4" dur.ppq="384" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:49.5" vel="0">
@@ -2689,7 +2688,7 @@
                             <rend xml:id="m-1680" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">a Tempo</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-1691" n="57">
+                    <measure xml:id="m57" n="57">
                         <staff xml:id="m-1692" n="1">
                             <layer xml:id="m-1693" n="1">
                                 <mRest xml:id="m-1694" tstamp.real="00:00:50.4"/>
@@ -2723,7 +2722,7 @@
                             <rend xml:id="m-1706" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">cresc.</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-1714" n="58">
+                    <measure xml:id="m58" n="58">
                         <staff xml:id="m-1715" n="1">
                             <layer xml:id="m-1716" n="1">
                                 <mRest xml:id="m-1717" tstamp.real="00:00:51.3"/>
@@ -2754,8 +2753,8 @@
                         </staff>
                         <dynam xml:id="m-1734" layer="1" staff="3" tstamp="1" vo="9.451mm">f</dynam>
                     </measure>
-                    <sb xml:id="m-1736"/>
-                    <measure xml:id="m-1735" n="59">
+                    <sb xml:id="p4-s3"/>
+                    <measure xml:id="m59" n="59">
                         <staff xml:id="m-1737" n="1">
                             <layer xml:id="m-1738" n="1">
                                 <mRest xml:id="m-1739" tstamp.real="00:00:52.2"/>
@@ -2796,7 +2795,7 @@
                             <rend xml:id="m-1762" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">dim.</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-1763" n="60">
+                    <measure xml:id="m60" n="60">
                         <staff xml:id="m-1764" n="1">
                             <layer xml:id="m-1765" n="1">
                                 <note xml:id="m-1766" dur="8" dur.ppq="128" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:53.1" vel="0">
@@ -2841,13 +2840,13 @@
                         </staff>
                         <tie xml:id="m-1770" endid="#m-1799" startid="#m-1769"/>
                         <dir xml:id="m-1771" label="technique" layer="1" staff="1" startid="#m-1766" tstamp="1" vo="10.6072mm">
-                            <rend xml:id="m-1772" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Poco più moderato</rend>
+                            <rend xml:id="m-1772" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Poco pi&#249; moderato</rend>
                         </dir>
                         <dir xml:id="m-1789" label="technique" layer="1" staff="2" startid="#m-1783" tstamp="1" vo="12.2159mm">
-                            <rend xml:id="m-1790" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Poco più moderato</rend>
+                            <rend xml:id="m-1790" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Poco pi&#249; moderato</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-1796" n="61">
+                    <measure xml:id="m61" n="61">
                         <staff xml:id="m-1797" n="1">
                             <layer xml:id="m-1798" n="1">
                                 <note xml:id="m-1799" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:54" vel="0"/>
@@ -2900,7 +2899,7 @@
                         <slur xml:id="m-1825" endid="#m-1839" layer="1" staff="2" startid="#m-1818" tstamp="1" tstamp2="1m+1"/>
                         <slur xml:id="m-1826" endid="#m-1823" layer="2" staff="2" startid="#m-1823" tstamp="2" tstamp2="0m+2"/>
                     </measure>
-                    <measure xml:id="m-1830" n="62">
+                    <measure xml:id="m62" n="62">
                         <staff xml:id="m-1831" n="1">
                             <layer xml:id="m-1832" n="1">
                                 <note xml:id="m-1833" dur="4" dur.ppq="256" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:00:54.9" vel="0">
@@ -2932,8 +2931,8 @@
                         </staff>
                         <slur xml:id="m-1842" endid="#m-1839" layer="1" staff="2" startid="#m-1839" tstamp="1" tstamp2="0m+3.5"/>
                     </measure>
-                    <sb xml:id="m-1853"/>
-                    <measure xml:id="m-1852" n="63">
+                    <sb xml:id="p4-s4"/>
+                    <measure xml:id="m63" n="63">
                         <staff xml:id="m-1854" n="1">
                             <layer xml:id="m-1855" n="1">
                                 <note xml:id="m-1856" dur="8" dur.ppq="128" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:55.8" vel="0">
@@ -2983,7 +2982,7 @@
                         <tie xml:id="m-1877" endid="#m-1903" startid="#m-1876"/>
                         <tie xml:id="m-1879" endid="#m-1904" startid="#m-1878"/>
                     </measure>
-                    <measure xml:id="m-1885" n="64">
+                    <measure xml:id="m64" n="64">
                         <staff xml:id="m-1886" n="1">
                             <layer xml:id="m-1887" n="1">
                                 <note xml:id="m-1888" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:56.7" vel="0">
@@ -3036,12 +3035,12 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-1914" n="65">
+                    <measure xml:id="m65" n="65">
                         <staff xml:id="m-1915" n="1">
                             <layer xml:id="m-1916" n="1">
                                 <note xml:id="m-1917" dur="4" dur.ppq="256" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:57.6" vel="0">
                                     <verse xml:id="m-1923" n="1">
-                                        <syl xml:id="m-1924" wordpos="t">tié,</syl>
+                                        <syl xml:id="m-1924" wordpos="t">ti&#233;,</syl>
                                     </verse>
                                 </note>
                                 <rest xml:id="m-1918" dur="8" dur.ppq="128" tstamp.real="00:00:58.2"/>
@@ -3075,7 +3074,7 @@
                         </staff>
                         <slur xml:id="m-1938" endid="#m-1937" layer="1" staff="2" startid="#m-1927" tstamp="1" tstamp2="0m+3.5"/>
                     </measure>
-                    <measure xml:id="m-1944" n="66">
+                    <measure xml:id="m66" n="66">
                         <staff xml:id="m-1945" n="1">
                             <layer xml:id="m-1946" n="1">
                                 <note xml:id="m-1947" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:58.5" vel="0">
@@ -3129,8 +3128,8 @@
                         <slur xml:id="m-1969" endid="#m-1968" layer="1" staff="2" startid="#m-1960" tstamp="1" tstamp2="0m+3.5"/>
                         <slur xml:id="m-1976" endid="#m-1975" layer="1" staff="3" startid="#m-1972" tstamp="1" tstamp2="0m+3"/>
                     </measure>
-                    <sb xml:id="m-1978"/>
-                    <measure xml:id="m-1977" n="67">
+                    <sb xml:id="p4-s5"/>
+                    <measure xml:id="m67" n="67">
                         <staff xml:id="m-1979" n="1">
                             <layer xml:id="m-1980" n="1">
                                 <note xml:id="m-1981" dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:59.4" vel="0"/>
@@ -3190,7 +3189,7 @@
                         </staff>
                         <slur xml:id="m-2015" endid="#m-2014" layer="1" staff="3" startid="#m-2011" tstamp="1" tstamp2="0m+3"/>
                     </measure>
-                    <measure xml:id="m-2016" n="68">
+                    <measure xml:id="m68" n="68">
                         <staff xml:id="m-2017" n="1">
                             <layer xml:id="m-2018" n="1">
                                 <note xml:id="m-2019" dur="4" dur.ppq="256" oct="5" pname="f" pnum="77" stem.dir="down" tstamp.real="00:01:00.3" vel="0">
@@ -3235,7 +3234,7 @@
                         <slur xml:id="m-2041" endid="#m-2040" layer="1" staff="2" startid="#m-2027" tstamp="1" tstamp2="0m+3.5"/>
                         <slur xml:id="m-2048" endid="#m-2047" layer="1" staff="3" startid="#m-2044" tstamp="1" tstamp2="0m+3"/>
                     </measure>
-                    <measure xml:id="m-2049" n="69">
+                    <measure xml:id="m69" n="69">
                         <staff xml:id="m-2050" n="1">
                             <layer xml:id="m-2051" n="1">
                                 <note xml:id="m-2052" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:01:01.2" vel="0">
@@ -3292,7 +3291,7 @@
                         <slur xml:id="m-2074" endid="#m-2072" layer="1" staff="2" startid="#m-2067" tstamp="1" tstamp2="0m+3"/>
                         <slur xml:id="m-2084" endid="#m-2082" layer="1" staff="3" startid="#m-2077" tstamp="1" tstamp2="0m+3"/>
                     </measure>
-                    <measure xml:id="m-2085" n="70">
+                    <measure xml:id="m70" n="70">
                         <staff xml:id="m-2086" n="1">
                             <layer xml:id="m-2087" n="1">
                                 <note xml:id="m-2088" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:01:02.1" vel="0"/>
@@ -3327,9 +3326,9 @@
                         </staff>
                         <slur xml:id="m-2099" endid="#m-2098" layer="1" staff="2" startid="#m-2093" tstamp="1" tstamp2="0m+3"/>
                     </measure>
-                    <pb xml:id="m-2105" n="5"/>
-                    <sb xml:id="m-2104"/>
-                    <measure xml:id="m-2103" n="71">
+                    <pb xml:id="p5" n="5"/>
+                    <sb xml:id="p5-s2"/>
+                    <measure xml:id="m71" n="71">
                         <staff xml:id="m-2106" n="1">
                             <layer xml:id="m-2107" n="1">
                                 <note xml:id="m-2108" dur="4" dur.ppq="256" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:01:03" vel="0">
@@ -3339,7 +3338,7 @@
                                 </note>
                                 <note xml:id="m-2109" dur="16" dur.ppq="64" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:01:03.6" vel="0">
                                     <verse xml:id="m-2117" n="1">
-                                        <syl xml:id="m-2118">à</syl>
+                                        <syl xml:id="m-2118">&#224;</syl>
                                     </verse>
                                 </note>
                                 <note xml:id="m-2110" dur="16" dur.ppq="64" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:01:03.75" vel="0">
@@ -3371,13 +3370,13 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-2133" n="72">
+                    <measure xml:id="m72" n="72">
                         <staff xml:id="m-2134" n="1">
                             <layer xml:id="m-2135" n="1">
                                 <note xml:id="m-2136" artic="stacc" dur="4" dur.ppq="256" oct="4" pname="g" pnum="68" stem.dir="up" tstamp.real="00:01:03.9" vel="0">
                                     <accid xml:id="m-2137" accid="s"/>
                                     <verse xml:id="m-2141" n="1">
-                                        <syl xml:id="m-2142" wordpos="t">tié.</syl>
+                                        <syl xml:id="m-2142" wordpos="t">ti&#233;.</syl>
                                     </verse>
                                 </note>
                                 <rest xml:id="m-2138" dur="8" dur.ppq="128" tstamp.real="00:01:04.5"/>
@@ -3418,7 +3417,7 @@
                         <slur xml:id="m-2154" endid="#m-2153" layer="1" staff="2" startid="#m-2145" tstamp="1" tstamp2="0m+3.5"/>
                         <slur xml:id="m-2166" endid="#m-2165" layer="1" staff="3" startid="#m-2157" tstamp="1" tstamp2="0m+3.5"/>
                     </measure>
-                    <measure xml:id="m-2167" n="73">
+                    <measure xml:id="m73" n="73">
                         <staff xml:id="m-2168" n="1">
                             <layer xml:id="m-2169" n="1">
                                 <note xml:id="m-2170" dur="8" dur.ppq="128" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:01:04.8" vel="0">
@@ -3476,25 +3475,25 @@
                             </layer>
                         </staff>
                         <dir xml:id="m-2176" label="technique" layer="1" staff="1" startid="#m-2170" tstamp="1" vo="6.4347mm">
-                            <rend xml:id="m-2177" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Tempo 1°</rend>
+                            <rend xml:id="m-2177" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Tempo 1&#176;</rend>
                         </dir>
                         <dir xml:id="m-2178" label="technique" layer="1" staff="1" startid="#m-2170" tstamp="1" vo="6.4347mm">
-                            <rend xml:id="m-2179" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Tempo 1°</rend>
+                            <rend xml:id="m-2179" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Tempo 1&#176;</rend>
                         </dir>
                         <dir xml:id="m-2180" label="technique" layer="1" staff="1" startid="#m-2171" tstamp="2" vo="5.1277mm">
                             <rend xml:id="m-2181" fontfam="Times New Roman" fontsize="4vu" fontstyle="italic">cresc.</rend>
                         </dir>
                         <dir xml:id="m-2201" label="technique" layer="1" staff="2" startid="#m-2192" tstamp="1" vo="5.7812mm">
-                            <rend xml:id="m-2202" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Tempo 1°</rend>
+                            <rend xml:id="m-2202" fontfam="Palatino" fontsize="5.25vu" fontweight="bold">Tempo 1&#176;</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-2211" n="74">
+                    <measure xml:id="m74" n="74">
                         <staff xml:id="m-2212" n="1">
                             <layer xml:id="m-2213" n="1">
                                 <rest xml:id="m-2214" dur="16" dur.ppq="64" tstamp.real="00:01:05.7"/>
                                 <note xml:id="m-2215" dur="16" dur.ppq="64" oct="4" pname="a" pnum="69" stem.dir="up" tstamp.real="00:01:05.85" vel="0">
                                     <verse xml:id="m-2217" n="1">
-                                        <syl xml:id="m-2218">Très</syl>
+                                        <syl xml:id="m-2218">Tr&#232;s</syl>
                                     </verse>
                                 </note>
                                 <note xml:id="m-2216" artic="acc" dur="4" dur.ppq="256" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:01:06" vel="0">
@@ -3529,8 +3528,8 @@
                             </layer>
                         </staff>
                     </measure>
-                    <sb xml:id="m-2239"/>
-                    <measure xml:id="m-2238" n="75">
+                    <sb xml:id="p5-s3"/>
+                    <measure xml:id="m75" n="75">
                         <staff xml:id="m-2240" n="1">
                             <layer xml:id="m-2241" n="1">
                                 <rest xml:id="m-2242" dur="16" dur.ppq="64" tstamp.real="00:01:06.6"/>
@@ -3589,7 +3588,7 @@
                             <rend xml:id="m-2262" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">cresc.</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-2276" n="76">
+                    <measure xml:id="m76" n="76">
                         <staff xml:id="m-2277" n="1">
                             <layer xml:id="m-2278" n="1">
                                 <rest xml:id="m-2279" dur="16" dur.ppq="64" tstamp.real="00:01:07.5"/>
@@ -3654,7 +3653,7 @@
                         <dynam xml:id="m-2284" layer="1" staff="1" tstamp="1.5" vo="7.239mm">f</dynam>
                         <dynam xml:id="m-2317" layer="1" staff="3" tstamp="2.5" vo="10.4564mm">f</dynam>
                     </measure>
-                    <measure xml:id="m-2318" n="77">
+                    <measure xml:id="m77" n="77">
                         <staff xml:id="m-2319" n="1">
                             <layer xml:id="m-2320" n="1">
                                 <note xml:id="m-2321" dots="1" dur="4" dur.ppq="384" oct="5" pname="f" pnum="77" stem.dir="down" tstamp.real="00:01:08.4" vel="0">
@@ -3689,7 +3688,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-2342" n="78">
+                    <measure xml:id="m78" n="78">
                         <staff xml:id="m-2343" n="1">
                             <layer xml:id="m-2344" n="1">
                                 <rest xml:id="m-2345" dur="8" dur.ppq="128" tstamp.real="00:01:09.3"/>
@@ -3739,8 +3738,8 @@
                             </layer>
                         </staff>
                     </measure>
-                    <sb xml:id="m-2372"/>
-                    <measure xml:id="m-2371" n="79">
+                    <sb xml:id="p5-s4"/>
+                    <measure xml:id="m79" n="79">
                         <staff xml:id="m-2373" n="1">
                             <layer xml:id="m-2374" n="1">
                                 <note xml:id="m-2375" artic="acc" dur="4" dur.ppq="256" oct="5" pname="f" pnum="77" stem.dir="down" tstamp.real="00:01:10.2" vel="0">
@@ -3755,7 +3754,7 @@
                                 </note>
                                 <note xml:id="m-2377" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:01:10.95" vel="0">
                                     <verse xml:id="m-2406" n="1">
-                                        <syl xml:id="m-2407" con="d" wordpos="i">tré</syl>
+                                        <syl xml:id="m-2407" con="d" wordpos="i">tr&#233;</syl>
                                     </verse>
                                 </note>
                             </layer>
@@ -3788,7 +3787,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-2402" n="80">
+                    <measure xml:id="m80" n="80">
                         <staff xml:id="m-2403" n="1">
                             <layer xml:id="m-2404" n="1">
                                 <note xml:id="m-2405" artic="acc" dots="1" dur="4" dur.ppq="384" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:01:11.1" vel="0">
@@ -3837,7 +3836,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-2435" n="81">
+                    <measure xml:id="m81" n="81">
                         <staff xml:id="m-2436" n="1">
                             <layer xml:id="m-2437" n="1">
                                 <rest xml:id="m-2438" dur="8" dur.ppq="128" tstamp.real="00:01:12"/>
@@ -3882,7 +3881,7 @@
                             <rend xml:id="m-2455" fontfam="Palatino" fontsize="4.8125vu" fontstyle="italic">suives</rend>
                         </dir>
                     </measure>
-                    <measure xml:id="m-2463" n="82">
+                    <measure xml:id="m82" n="82">
                         <staff xml:id="m-2464" n="1">
                             <layer xml:id="m-2465" n="1">
                                 <note xml:id="m-2466" dur="8" dur.ppq="128" oct="5" pname="f" pnum="77" stem.dir="down" tstamp.real="00:01:12.9" vel="0">
@@ -3897,7 +3896,7 @@
                                 </note>
                                 <note xml:id="m-2468" dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:01:13.65" vel="0">
                                     <verse xml:id="m-2510" n="1">
-                                        <syl xml:id="m-2511" con="d" wordpos="i">tré</syl>
+                                        <syl xml:id="m-2511" con="d" wordpos="i">tr&#233;</syl>
                                     </verse>
                                 </note>
                             </layer>
@@ -3939,8 +3938,8 @@
                             </layer>
                         </staff>
                     </measure>
-                    <sb xml:id="m-2503"/>
-                    <measure xml:id="m-2502" n="83">
+                    <sb xml:id="p5-s5"/>
+                    <measure xml:id="m83" n="83">
                         <staff xml:id="m-2504" n="1">
                             <layer xml:id="m-2505" n="1">
                                 <note xml:id="m-2506" dots="1" dur="4" dur.ppq="384" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:01:13.8" vel="0">
@@ -3983,7 +3982,7 @@
                         </dir>
                         <dynam xml:id="m-2534" layer="1" staff="3" tstamp="1" vo="8.345mm">ff</dynam>
                     </measure>
-                    <measure xml:id="m-2535" n="84">
+                    <measure xml:id="m84" n="84">
                         <staff xml:id="m-2536" n="1">
                             <layer xml:id="m-2537" n="1">
                                 <note xml:id="m-2538" dots="1" dur="4" dur.ppq="384" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:01:14.7" vel="0"/>
@@ -4019,7 +4018,7 @@
                         </staff>
                         <tie xml:id="m-2539" endid="#m-2563" startid="#m-2538"/>
                     </measure>
-                    <measure xml:id="m-2560" n="85">
+                    <measure xml:id="m85" n="85">
                         <staff xml:id="m-2561" n="1">
                             <layer xml:id="m-2562" n="1">
                                 <note xml:id="m-2563" dots="1" dur="4" dur.ppq="384" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:01:15.6" vel="0"/>
@@ -4049,7 +4048,7 @@
                         </staff>
                         <tie xml:id="m-2564" endid="#m-2584" startid="#m-2563"/>
                     </measure>
-                    <measure xml:id="m-2581" n="86">
+                    <measure xml:id="m86" n="86">
                         <staff xml:id="m-2582" n="1">
                             <layer xml:id="m-2583" n="1">
                                 <note xml:id="m-2584" dur="8" dur.ppq="128" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:01:16.5" vel="0"/>
@@ -4085,7 +4084,7 @@
                             </layer>
                         </staff>
                     </measure>
-                    <measure xml:id="m-2605" n="87" right="end">
+                    <measure xml:id="m87" n="87" right="end">
                         <staff xml:id="m-2606" n="1">
                             <layer xml:id="m-2607" n="1">
                                 <mRest xml:id="m-2608" tstamp.real="00:01:17.4"/>

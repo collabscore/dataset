@@ -8,7 +8,7 @@
     <creator type="composer"/>
     <rights>CollabScore project</rights>
     <encoding>
-      <encoding-date>2026-02-19</encoding-date>
+      <encoding-date>2026-02-12</encoding-date>
       <software>music21 v.9.9.1</software>
       <software>DMOS/Collabscore OMR</software>
     </encoding>
@@ -23,11 +23,11 @@
     <score-part id="part4">
       <part-name>&#9758;</part-name>
       <part-abbreviation>part4</part-abbreviation>
-      <score-instrument id="Iac8b2fb32e259307ac0467b7204c41d7">
+      <score-instrument id="I39636c830de49dc3d8ddd3bf6460aa4e">
         <instrument-name>&#9758;</instrument-name>
         <instrument-abbreviation>part4</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Iac8b2fb32e259307ac0467b7204c41d7">
+      <midi-instrument id="I39636c830de49dc3d8ddd3bf6460aa4e">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -35,11 +35,11 @@
     <score-part id="part3">
       <part-name>2dST&#201;NORS</part-name>
       <part-abbreviation>part3</part-abbreviation>
-      <score-instrument id="Ia7a3a7b1816de2592049a996146a0cce">
+      <score-instrument id="I6c825b213cb78fc1011eef5676f36037">
         <instrument-name>2dST&#201;NORS</instrument-name>
         <instrument-abbreviation>part3</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ia7a3a7b1816de2592049a996146a0cce">
+      <midi-instrument id="I6c825b213cb78fc1011eef5676f36037">
         <midi-channel>2</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -47,11 +47,11 @@
     <score-part id="part2">
       <part-name>BARYTONS</part-name>
       <part-abbreviation>part2</part-abbreviation>
-      <score-instrument id="Iff0af500399262ffe62976b1093ee24a">
+      <score-instrument id="I6d2485f7bdf0a78ab8ea74adc740d0de">
         <instrument-name>BARYTONS</instrument-name>
         <instrument-abbreviation>part2</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Iff0af500399262ffe62976b1093ee24a">
+      <midi-instrument id="I6d2485f7bdf0a78ab8ea74adc740d0de">
         <midi-channel>3</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -59,11 +59,11 @@
     <score-part id="part1">
       <part-name>BASSES</part-name>
       <part-abbreviation>part1</part-abbreviation>
-      <score-instrument id="I3d6f5ef1983d1235803a38506aba7e16">
+      <score-instrument id="I8db828ac4ec4154ce5c46aac564935ca">
         <instrument-name>BASSES</instrument-name>
         <instrument-abbreviation>part1</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I3d6f5ef1983d1235803a38506aba7e16">
+      <midi-instrument id="I8db828ac4ec4154ce5c46aac564935ca">
         <midi-channel>4</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
@@ -78,7 +78,7 @@
         <key id="ks_772_1156">
           <fifths>-3</fifths>
         </key>
-        <time id="default_ts">
+        <time id="ts_848_1190">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -3972,7 +3972,7 @@
     <!--========================= Measure 95 =========================-->
     <measure id="m95-part4" implicit="no" number="95">
       <print new-system="yes"/>
-      <note id="pause-0">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -11300,7 +11300,7 @@
         <key id="ks_770_1403">
           <fifths>-3</fifths>
         </key>
-        <time id="default_ts">
+        <time id="ts_845_1438">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -13005,7 +13005,7 @@
         <key id="ks_407_772">
           <fifths>-1</fifths>
         </key>
-        <time id="ts_449_535">
+        <time id="ts_450_769">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -15767,7 +15767,7 @@
         <key id="ks_651_829">
           <fifths>-1</fifths>
         </key>
-        <time id="ts_695_594">
+        <time id="ts_696_828">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
@@ -16477,6 +16477,11 @@
     </measure>
     <!--======================== Measure 125 =========================-->
     <measure id="m125-part3" implicit="no" number="125">
+      <attributes>
+        <key id="ks_710_3846">
+          <fifths>-1</fifths>
+        </key>
+      </attributes>
       <note color="#13819E" id="v1_nh_813_3872">
         <pitch>
           <step>B</step>
@@ -16625,6 +16630,11 @@
     </measure>
     <!--======================== Measure 131 =========================-->
     <measure id="m131-part3" implicit="no" number="131">
+      <attributes>
+        <key id="ks_298_782">
+          <fifths>-1</fifths>
+        </key>
+      </attributes>
       <direction placement="above">
         <direction-type>
           <dynamics default-x="-36" default-y="-80">
@@ -18826,7 +18836,7 @@
         <key id="ks_2066_1751">
           <fifths>-2</fifths>
         </key>
-        <time id="ts_2146_1548">
+        <time id="ts_2145_1783">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -21553,7 +21563,7 @@
     <!--======================== Measure 234 =========================-->
     <measure id="m234-part3" implicit="no" number="234">
       <attributes>
-        <time id="ts_1654_3564">
+        <time id="ts_1657_3804">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -22770,7 +22780,7 @@
         <key id="ks_764_1677">
           <fifths>-3</fifths>
         </key>
-        <time id="default_ts">
+        <time id="ts_844_1689">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -24542,7 +24552,7 @@
         <key id="ks_404_1027">
           <fifths>-1</fifths>
         </key>
-        <time id="ts_449_535">
+        <time id="ts_451_1002">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -27234,7 +27244,7 @@
     </measure>
     <!--========================= Measure 95 =========================-->
     <measure id="m95-part2" implicit="no" number="95">
-      <note id="pause-1">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -27694,7 +27704,7 @@
         <key id="ks_654_1084">
           <fifths>-1</fifths>
         </key>
-        <time id="ts_695_594">
+        <time id="ts_698_1059">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
@@ -28383,6 +28393,11 @@
     </measure>
     <!--======================== Measure 125 =========================-->
     <measure id="m125-part2" implicit="no" number="125">
+      <attributes>
+        <key id="ks_710_4105">
+          <fifths>-1</fifths>
+        </key>
+      </attributes>
       <note color="#13819E" id="v1_nh_817_4077">
         <pitch>
           <step>G</step>
@@ -28530,6 +28545,11 @@
     </measure>
     <!--======================== Measure 131 =========================-->
     <measure id="m131-part2" implicit="no" number="131">
+      <attributes>
+        <key id="ks_303_1037">
+          <fifths>-1</fifths>
+        </key>
+      </attributes>
       <direction placement="above">
         <direction-type>
           <dynamics default-x="-36" default-y="-80">
@@ -30299,7 +30319,7 @@
         <key id="ks_2069_2011">
           <fifths>-2</fifths>
         </key>
-        <time id="ts_2146_1548">
+        <time id="ts_2142_2018">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -33077,7 +33097,7 @@
     <!--======================== Measure 234 =========================-->
     <measure id="m234-part2" implicit="no" number="234">
       <attributes>
-        <time id="ts_1654_3564">
+        <time id="ts_1659_4036">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -34189,7 +34209,7 @@
     </measure>
     <!--======================== Measure 253 =========================-->
     <measure id="m253-part2" implicit="no" number="253">
-      <note id="pause-0">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -34312,7 +34332,7 @@
     </measure>
     <!--======================== Measure 257 =========================-->
     <measure id="m257-part2" implicit="no" number="257">
-      <note id="pause-0">
+      <note print-object="no" print-spacing="yes">
         <rest measure="yes"/>
         <duration>40320</duration>
       </note>
@@ -34327,7 +34347,7 @@
         <key id="ks_760_1924">
           <fifths>-3</fifths>
         </key>
-        <time id="default_ts">
+        <time id="ts_839_1936">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -36221,7 +36241,7 @@
         <key id="ks_403_1267">
           <fifths>-1</fifths>
         </key>
-        <time id="ts_449_535">
+        <time id="ts_448_1241">
           <beats>2</beats>
           <beat-type>2</beat-type>
         </time>
@@ -39192,7 +39212,7 @@
         <key id="ks_658_1323">
           <fifths>-1</fifths>
         </key>
-        <time id="ts_695_594">
+        <time id="ts_703_1298">
           <beats>3</beats>
           <beat-type>4</beat-type>
         </time>
@@ -39877,6 +39897,11 @@
     </measure>
     <!--======================== Measure 125 =========================-->
     <measure id="m125-part1" implicit="no" number="125">
+      <attributes>
+        <key id="ks_714_4348">
+          <fifths>-1</fifths>
+        </key>
+      </attributes>
       <note color="#13819E" id="v1_nh_820_4353">
         <pitch>
           <step>D</step>
@@ -40061,6 +40086,11 @@
     </measure>
     <!--======================== Measure 131 =========================-->
     <measure id="m131-part1" implicit="no" number="131">
+      <attributes>
+        <key id="ks_307_1274">
+          <fifths>-1</fifths>
+        </key>
+      </attributes>
       <note color="#13819E" id="v1_nh_397_1278">
         <pitch>
           <step>D</step>
@@ -41644,7 +41674,7 @@
         <key id="ks_2068_2246">
           <fifths>-2</fifths>
         </key>
-        <time id="ts_2146_1548">
+        <time id="ts_2144_2256">
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
@@ -43270,10 +43300,16 @@
           <text>pe</text>
         </lyric>
       </note>
+      <attributes>
+        <clef id="clef_901_2308">
+          <sign>C</sign>
+          <line>1</line>
+        </clef>
+      </attributes>
       <note color="#13819E" id="v1_nh_944_2322">
         <pitch>
-          <step>B</step>
-          <octave>2</octave>
+          <step>E</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -43286,9 +43322,9 @@
       </note>
       <note color="#13819E" id="v1_nh_1031_2298">
         <pitch>
-          <step>D</step>
+          <step>G</step>
           <alter>1</alter>
-          <octave>3</octave>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -43303,8 +43339,8 @@
       </note>
       <note color="#13819E" id="v1_nh_1100_2286">
         <pitch>
-          <step>E</step>
-          <octave>3</octave>
+          <step>A</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -43317,8 +43353,8 @@
     <measure id="m218-part1" implicit="no" number="218">
       <note color="#13819E" id="v1_nh_1235_2275">
         <pitch>
-          <step>F</step>
-          <octave>3</octave>
+          <step>B</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -43332,8 +43368,8 @@
       </note>
       <note color="#13819E" id="v1_nh_1320_2296">
         <pitch>
-          <step>D</step>
-          <octave>3</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -43347,9 +43383,9 @@
       </note>
       <note color="#13819E" id="v1_nh_1398_2239">
         <pitch>
-          <step>B</step>
+          <step>E</step>
           <alter>-1</alter>
-          <octave>3</octave>
+          <octave>5</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -43363,8 +43399,8 @@
       </note>
       <note color="#13819E" id="v1_nh_1483_2251">
         <pitch>
-          <step>A</step>
-          <octave>3</octave>
+          <step>D</step>
+          <octave>5</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -43380,9 +43416,9 @@
     <measure id="m219-part1" implicit="no" number="219">
       <note color="#13819E" id="v1_nh_1643_2264">
         <pitch>
-          <step>G</step>
+          <step>C</step>
           <alter>1</alter>
-          <octave>3</octave>
+          <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -43396,8 +43432,8 @@
       </note>
       <note color="#13819E" id="v1_nh_1783_2285">
         <pitch>
-          <step>E</step>
-          <octave>3</octave>
+          <step>A</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -43410,8 +43446,8 @@
       </note>
       <note color="#13819E" id="v1_nh_1866_2285">
         <pitch>
-          <step>E</step>
-          <octave>3</octave>
+          <step>A</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -43427,8 +43463,8 @@
     <measure id="m220-part1" implicit="no" number="220">
       <note color="#13819E" id="v1_nh_1998_2236">
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>E</step>
+          <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -43441,9 +43477,9 @@
       </note>
       <note color="#13819E" id="v1_nh_2142_2261">
         <pitch>
-          <step>G</step>
+          <step>C</step>
           <alter>1</alter>
-          <octave>3</octave>
+          <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -43460,8 +43496,8 @@
     <measure id="m221-part1" implicit="no" number="221">
       <note color="#13819E" id="v1_nh_2353_2260">
         <pitch>
-          <step>G</step>
-          <octave>3</octave>
+          <step>C</step>
+          <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -43474,8 +43510,8 @@
       </note>
       <note color="#13819E" id="v1_nh_2498_2282">
         <pitch>
-          <step>E</step>
-          <octave>3</octave>
+          <step>A</step>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -43489,6 +43525,12 @@
     </measure>
     <!--======================== Measure 222 =========================-->
     <measure id="m222-part1" implicit="no" number="222">
+      <attributes>
+        <clef id="clef_256_3281">
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
       <note color="#13819E" id="v1_nh_416_3243">
         <pitch>
           <step>C</step>
@@ -44085,7 +44127,7 @@
     <!--======================== Measure 234 =========================-->
     <measure id="m234-part1" implicit="no" number="234">
       <attributes>
-        <time id="ts_1654_3564">
+        <time id="ts_1659_4281">
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>

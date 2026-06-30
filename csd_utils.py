@@ -12,6 +12,8 @@ import argparse
 import json
 from pathlib import Path
 
+# for XML editions
+from lxml import etree
 
 # Music analysis modules
 import converter21
@@ -34,16 +36,19 @@ OUT_DIR="results"
 PREDICTED_DIR="predicted"
 GROUND_TRUTH_DIR="ground_truth"
 
+# Actions 
 SINGLE_SCORE_ACTION="single"
 ALL_SCORES_ACTION="all" 
 BUILD_FULL_REPORT="report" 
 CONVERT_GT_XML="convert_gt" 
+EXTRACT_FRAGMENT="extract_fragment" 
 ACTIONS = [SINGLE_SCORE_ACTION,ALL_SCORES_ACTION,
-				BUILD_FULL_REPORT, CONVERT_GT_XML]
+				BUILD_FULL_REPORT, CONVERT_GT_XML, EXTRACT_FRAGMENT]
 
 def main(argv=None):
 	"""
-	Slightly adapted from the musicdiff code by Francesco Foscarion / Greg Chapman 
+	Slightly adapted from the musicdiff code 
+	by Francesco Foscarin / Greg Chapman 
 	"""
 
 	# Use the converted 21 MEI 
@@ -56,6 +61,8 @@ def main(argv=None):
 	parser = argparse.ArgumentParser(description='Diff utility')
 	parser.add_argument('-s', '--score', dest='score',
 				   help='Name of the score file')
+	parser.add_argument('-f', '--fragment', dest='fragment_id',
+				   help='Id of the score fragment')
 	parser.add_argument('-a', '--action', 
 			dest='action', choices=ACTIONS,
 			default=SINGLE_SCORE_ACTION,
@@ -140,6 +147,11 @@ def main(argv=None):
 		build_full_report ()
 	elif args.action == CONVERT_GT_XML:
 		convert_gt_xml_to_mei ()
+	elif args.action == EXTRACT_FRAGMENT:
+		# Produce a MEI file reduced to a fragment of the score
+		# It can be a page ('p3'), a system in a page ('p3-s2')
+		# or a measure ('m13')
+		extract_fragment (args.score, args.fragment_id)
 	else:
 		print (f"Unknown action {args.action}")
 
@@ -267,7 +279,6 @@ def build_full_report():
 		latex_complete_file = open(latex_complete_name, "w")
 		latex_complete_file.write (MdiffScoreReport.table_complete_header("latex"))
 
-
 		latex_items_name =f"results/latex_items.tex"
 		latex_items_file = open(latex_items_name, "w")
 		latex_items_file.write (MdiffScoreReport.table_header("latex"))
@@ -386,40 +397,51 @@ def convert_gt_xml_to_mei():
 
 	return
 	
-def old_decomposed_code():
-		
-	# scan each score, producing an annotated wrapper
-	annotated_score1: AnnScore = AnnScore(score1, detail)
-	annotated_score2: AnnScore = AnnScore(score2, detail)
+def extract_fragment (score,fragment_id):
+	print (f"Extracting fragment {fragment_id} from score {score}")
 	
-	diff_list, _cost = Comparison.annotated_scores_diff(annotated_score1, 
-														annotated_score2)
-
-	Visualization.mark_diffs(score1, score2, diff_list)
-
-
-	# Generate and store the MusicXML file and PDF file
-	outpath = os.path.join (OUT_DIR, f"{scpath.stem}_diff.xml")
-	score1.write ("musicxml", outpath)
-	outpdf = os.path.join (OUT_DIR, f"{scpath.stem}_diff.pdf")
-	score1.write("musicxml.pdf", makeNotation=False, fp=outpdf)
-
-	#outpath2 = os.path.join (OUT_DIR, f"{scpath2.stem}_diff.xml")
-	#score2.write ("musicxml", outpath2)
-	#outpdf2 = os.path.join (OUT_DIR, f"{scpath2.stem}_diff.pdf")
-	#score2.write("musicxml.pdf", makeNotation=False, fp=outpdf2)
-
-	oplist = []
-	for diff in diff_list:
-		oplist.append({"op": diff[0], "cost": diff[3]})
-	report = {"cost": _cost, "nb_diffs": len(diff_list), "operations": oplist}
-
-	outrep = os.path.join (OUT_DIR, f"{scpath.stem}_report.json")
-	with open(outrep, "w")  as rep:		
-		json.dump (report, rep, indent=2 )
-		
-	print (f"See files ({outpath}, {outpdf})")
-	print (f"Indicators and operations list is in {outrep}")
+	# Open the annotation file
+	annot_file = f"iiif/{score}_annot.json"
+	mei_file = f"ground_truth/{score}.mei"
+	with open(annot_file) as json_annot:
+		annotations = json.load (json_annot)
+		# Search the annotation of the fragment
+		found = False
+		for annot in annotations:
+			if annot['id'] == fragment_id:
+				found = True
+				print (f"Found annotation {fragment_id}.")
+				image_url = annot['body']['resource']['source']
+				frag_measures = annot['target']['resource']['selector']['value']
+				print (f"Found annotation {fragment_id}. Fragment {image_url} corresponds to measures {frag_measures}")
+			
+				# Open MEI file and extract measures
+				mei_root = etree.parse(mei_file)
+				# Record the list of namespaces
+				prefix_map = {"mei": "http://www.music-encoding.org/ns/mei",
+						"xml": "http://www.w3.org/XML/1998/namespace"}			
+				measures = mei_root.findall(".//mei:measure", prefix_map)
+				for measure in measures:			
+					id_qname = etree.QName('http://www.w3.org/XML/1998/namespace', 'id')
+					if measure.get(id_qname) in frag_measures:
+						print (f"Measure {measure.get(id_qname)} is part of the fragment")
+					else:
+						# Remove the measure from the document
+						measure.getparent().remove (measure)
+				# Clear page and system breaks
+				for pb in mei_root.findall(".//mei:pb", prefix_map):	
+					pb.getparent().remove (pb)
+				for sb in mei_root.findall(".//mei:sb", prefix_map):	
+					sb.getparent().remove(sb)
+				
+				# Write the MEI fragment
+				extract_path = f"results/{score}_{fragment_id}.mei"
+				mei_root.write (extract_path)
+				print (f"Extracted MEI file has been written to {extract_path}")
+		if not found:
+			print (f"Unable to find annotation {fragment_id}. Check the reference")
+			return
+	return
 		
 if __name__ == "__main__":
 	main()
