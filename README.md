@@ -40,6 +40,19 @@ the scores, each associated to the respective link for images, refrence score an
 
 <img width="1141" height="867" alt="ListOpus" src="https://github.com/user-attachments/assets/9b8d8314-384b-4ee5-b4c8-eec4e8e6f38f" />
 
+## Extract a fragment
+
+The dataset comes with a annotations that associate fragments of each reference score with the corresponding regions
+in an image. "Fragment" means either a page, or a system, or a measure. We provide a way to extract a sub-score that 
+represents the region. The following command for instance extract the sub-score for page 1 and system 3 of 
+score C006_0.
+
+```bash
+csd_utils.py -a extract_fragment -f p1_s3 -s C006_0
+```
+
+Annotations files are stored in the ```iiif```directory.
+
 ## Running an evaluation
 
 We mostly rely on [MusicDiff](https://github.com/gregchapman-dev/musicdiff), a Python
