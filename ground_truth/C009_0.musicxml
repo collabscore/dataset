@@ -1474,8 +1474,11 @@
           <slur type="stop" number="1" bezier-x="-29.866092" bezier-y="31.171353"/>
           </notations>
         <lyric number="1" default-x="6.5" default-y="-44.75" relative-y="-30">
+          <syllabic>end</syllabic>
+          <text>vre</text>
+          <elision> </elision>
           <syllabic>single</syllabic>
-          <text>vre aux</text>
+          <text>aux</text>
           </lyric>
         </note>
       </measure>
@@ -1754,7 +1757,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <lyric number="1" default-x="13.16" default-y="-52.51" relative-y="-30">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>de !</text>
           </lyric>
         </note>
@@ -2771,7 +2774,7 @@
           <slur type="stop" number="1" bezier-x="-34.444084" bezier-y="23.375926"/>
           </notations>
         <lyric number="1" default-y="-45.54" relative-y="-30">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>té !</text>
           <extend/>
           </lyric>
@@ -3000,7 +3003,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <lyric number="1" default-x="12.97" default-y="-47.65" relative-y="-30">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>té !</text>
           </lyric>
         </note>
@@ -3437,8 +3440,11 @@
         <type>quarter</type>
         <stem>down</stem>
         <lyric number="1" default-x="6.5" default-y="-40" relative-y="-30">
+          <syllabic>end</syllabic>
+          <text>me</text>
+          <elision> </elision>
           <syllabic>begin</syllabic>
-          <text>me ex</text>
+          <text>ex</text>
           </lyric>
         </note>
       </measure>
@@ -4195,7 +4201,7 @@
           <slur type="stop" number="1" bezier-x="-29.061408" bezier-y="25.606047"/>
           </notations>
         <lyric number="1" default-y="-57.9" relative-y="-30">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>té !</text>
           <extend/>
           </lyric>
@@ -4461,7 +4467,7 @@
           <tied type="start" orientation="over" placement="above"/>
           </notations>
         <lyric number="1" default-y="-40.23" relative-y="-30">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>té !</text>
           <extend/>
           </lyric>
@@ -15446,11 +15452,13 @@
       <note default-x="27.25" default-y="-268.27">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <accidental>flat</accidental>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>

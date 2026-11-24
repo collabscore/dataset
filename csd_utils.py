@@ -9,6 +9,7 @@
 
 import sys, os
 import argparse
+import re
 import json
 from pathlib import Path
 
@@ -22,7 +23,7 @@ import musicdiff as mdif
 
 import verovio
 
-from musicdiff.m21utils import DetailLevel
+from musicdiff import DetailLevel
 from musicdiff.annotation import AnnScore, AnnNote, AnnMeasure
 from musicdiff.comparison import Comparison
 from musicdiff.visualization import Visualization
@@ -76,7 +77,8 @@ def main(argv=None):
 			"notesandrests", "beams", "tremolos", "ornaments",
 			"articulations", "ties", "slurs", "signatures",
 			"directions", "barlines", "staffdetails",
-			"chordsymbols", "ottavas", "arpeggios", "lyrics"],
+			"chordsymbols", "ottavas", "arpeggios", "lyrics",
+			"lyricidentifiers"],
 		help="included details (can include multiple details)"
 		)
 
@@ -136,6 +138,8 @@ def main(argv=None):
 				detail |= DetailLevel.Arpeggios
 			elif det == "lyrics":
 				detail |= DetailLevel.Lyrics
+			elif det == "lyricidentifiers":
+				detail |= DetailLevel.LyricIdentifiers
 
 	if args.action == SINGLE_SCORE_ACTION:
 		if args.score is None:
@@ -156,6 +160,29 @@ def main(argv=None):
 		print (f"Unknown action {args.action}")
 
 	return
+
+# Typographic variants of the same lyric text (apostrophe forms, dash forms,
+# space forms, spacing before punctuation) are typesetting choices, not
+# recognition differences: normalize them away, on both scores, before the diff.
+LYRIC_TEXT_EQUIVALENCES = str.maketrans({
+	"’": "'",   # right single quotation mark
+	"‘": "'",   # left single quotation mark
+	"ʼ": "'",   # modifier letter apostrophe
+	"—": "-",   # em dash
+	"–": "-",   # en dash
+	"\u00a0": " ",  # no-break space
+	"\u202f": " ",  # narrow no-break space
+	"\u2009": " ",  # thin space
+})
+
+def normalize_lyrics_typography(score):
+	for note in score.recurse().notesAndRests:
+		for lyric in note.lyrics:
+			if lyric.text:
+				text = lyric.text.translate(LYRIC_TEXT_EQUIVALENCES)
+				text = re.sub(r" +([!?;:,.])", r"\1", text)
+				text = re.sub(r"  +", " ", text).strip()
+				lyric.text = text
 
 def compare_single_score(score_name, detail):
 	"""
@@ -183,6 +210,8 @@ def compare_single_score(score_name, detail):
 
 	predicted_score = m21.converter.parse(predicted_path, forceSource=True)
 	ground_score = m21.converter.parse(ground_truth_path, forceSource=True)
+	normalize_lyrics_typography(predicted_score)
+	normalize_lyrics_typography(ground_score)
 
 
 	# scan each score, producing an annotated wrapper
@@ -209,7 +238,7 @@ def compare_single_score(score_name, detail):
 		#print(summ, file=results)
 
 	for diff in diff_list:
-		op = MdiffOp (diff[0], diff[1], diff[2], diff[3])
+		op = MdiffOp (diff.name, diff.obj1, diff.obj2, diff.edit_distance)
 		score_report.add (op)
 
 	outrep = os.path.join (OUT_DIR, f"{scpath.stem}_report.json")
